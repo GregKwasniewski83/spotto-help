@@ -1,5 +1,6 @@
-import { Search, Menu } from 'lucide-react';
+import { Menu, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SearchBar from '../search/SearchBar';
 
 interface HeaderProps {
   onMenuClick: () => void;
@@ -34,20 +35,19 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
             </Link>
           </div>
 
-          {/* Right: Search and language selector (placeholder) */}
-          <div className="flex items-center gap-4">
-            <div className="relative hidden md:block">
-              <input
-                type="text"
-                placeholder="Szukaj w pomocy..."
-                className="w-64 pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-              />
-              <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+          {/* Right: Search and Dashboard */}
+          <div className="flex items-center gap-4 flex-1 justify-end">
+            <div className="flex-1 max-w-md">
+              <SearchBar className="hidden md:block" />
             </div>
-
-            <button className="md:hidden p-2 rounded-md hover:bg-gray-100 transition-colors">
-              <Search size={20} className="text-gray-700" />
-            </button>
+            <Link
+              to="/dashboard"
+              className="hidden lg:flex items-center gap-2 px-4 py-2 bg-primary-50 hover:bg-primary-100 text-primary-700 rounded-lg transition-colors"
+              title="Panel pokrycia dokumentacji"
+            >
+              <BarChart3 size={18} />
+              <span className="font-medium">Dashboard</span>
+            </Link>
           </div>
         </div>
       </div>
