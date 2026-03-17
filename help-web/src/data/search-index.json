@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "slug": "home",
+      "title": "Home Screen - Pomoc",
+      "screen": "home",
+      "content": "Home Screen - Pomoc Ekran główny aplikacji Spotto Przegląd Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz: - Wyszukiwać obiekty sportowe - Przeglądać kategorie sportów - Zarządzać ulubionymi obiektami - Wyświetlać obiekty na mapie - Szybko rezerwować wybrane obiekty Główne funkcje Wyszukiwanie obiektów Znajdź obiekt sportowy wpisując miasto, wybierając datę i typ obiektu. - Jak wyszukać obiekt (do utworzenia) Przeglądanie kategorii Przejrzyj dostępne obiekty według sportu (Strzelectwo, Squash, Siłownia, itp.) - Jak przeglądać kategorie (do utworzenia) Ulubione obiekty Zapisz swoje ulubione obiekty dla szybkiego dostępu. - Jak zarządzać ulubionymi (do utworzenia) Widok mapy Wyświetl obiekty w pobliżu na mapie. - Jak korzystać z mapy (do utworzenia) Rezerwacja Zarezerwuj obiekt bezpośrednio z wyników wyszukiwania. - Jak zarezerwować obiekt (do utworzenia) Szczegółowe funkcje - Wyszukiwarka (do utworzenia) - Kategorie sportowe (do utworzenia) - System ulubionych (do utwor",
+      "excerpt": "Ekran główny aplikacji Spotto\r \r \r \r Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r - Wyszukiwać obiekty sportowe\r - Przeglądać kategorie sportów\r - Zarządzać ulubionymi obiektami\r ..."
+    },
+    {
+      "slug": "home/features",
+      "title": "Home Screen Features",
+      "screen": "home",
+      "content": "Home Screen Features This directory contains detailed explanations of Home screen features. Available Guides - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be created) --- Last Updated: 2026-03-17",
+      "excerpt": "This directory contains detailed explanations of Home screen features. - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be cr..."
+    },
+    {
+      "slug": "README",
+      "title": "Spotto Help Documentation",
+      "screen": "README.md",
+      "content": "Spotto Help Documentation Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen. Quick Navigation Main Screens - Home - Search facilities, browse categories, view favorites - Reservations - View and manage your bookings - Shop - Browse and purchase products - Business - Manage your business profile and facilities - Trainer - Create and manage trainings - Profile - Account settings and privacy Additional Resources - Common Topics - Getting started, navigation, glossary - Troubleshooting - Solutions to common problems --- For Content Creators Creating New Content 1. Choose the right screen directory 2. Use the appropriate template: - how-to-*.md for step-by-step guides - features/*.md for feature explanations - faq.md for quick Q&A 3. Follow the Content Guidelines 4. Add screenshots to assets/images/{screen}/ 5. Validate before committing: npm test Directory Structure Each screen directory contains: ` {screen}/ ├── ",
+      "excerpt": "Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r \r \r \r \r \r - Home - Search facilities, browse categories, view favorites..."
+    }
+  ],
+  "stats": {
+    "totalItems": 3,
+    "lastBuilt": "2026-03-17T19:23:04.518Z"
+  }
+}

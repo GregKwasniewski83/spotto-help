@@ -1,0 +1,214 @@
+{
+  "articles": [
+    {
+      "slug": "home",
+      "title": "Home Screen - Pomoc",
+      "screen": "home",
+      "content": "# Home Screen - Pomoc\r\n\r\n**Ekran główny aplikacji Spotto**\r\n\r\n## Przegląd\r\n\r\nEkran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r\n- Wyszukiwać obiekty sportowe\r\n- Przeglądać kategorie sportów\r\n- Zarządzać ulubionymi obiektami\r\n- Wyświetlać obiekty na mapie\r\n- Szybko rezerwować wybrane obiekty\r\n\r\n## Główne funkcje\r\n\r\n### Wyszukiwanie obiektów\r\nZnajdź obiekt sportowy wpisując miasto, wybierając datę i typ obiektu.\r\n- [Jak wyszukać obiekt](./how-to-search-facilities.md) *(do utworzenia)*\r\n\r\n### Przeglądanie kategorii\r\nPrzejrzyj dostępne obiekty według sportu (Strzelectwo, Squash, Siłownia, itp.)\r\n- [Jak przeglądać kategorie](./how-to-browse-categories.md) *(do utworzenia)*\r\n\r\n### Ulubione obiekty\r\nZapisz swoje ulubione obiekty dla szybkiego dostępu.\r\n- [Jak zarządzać ulubionymi](./how-to-manage-favorites.md) *(do utworzenia)*\r\n\r\n### Widok mapy\r\nWyświetl obiekty w pobliżu na mapie.\r\n- [Jak korzystać z mapy](./how-to-use-map.md) *(do utworzenia)*\r\n\r\n### Rezerwacja\r\nZarezerwuj obiekt bezpośrednio z wyników wyszukiwania.\r\n- [Jak zarezerwować obiekt](./how-to-book-facility.md) *(do utworzenia)*\r\n\r\n## Szczegółowe funkcje\r\n\r\n- [Wyszukiwarka](./features/search.md) *(do utworzenia)*\r\n- [Kategorie sportowe](./features/categories.md) *(do utworzenia)*\r\n- [System ulubionych](./features/favorites.md) *(do utworzenia)*\r\n- [Widok mapy](./features/map-view.md) *(do utworzenia)*\r\n\r\n## Najczęściej zadawane pytania\r\n\r\nZobacz [FAQ](./faq.md) *(do utworzenia)*\r\n\r\n## Rozwiązywanie problemów\r\n\r\n- [Brak wyników wyszukiwania](../troubleshooting/search/no-results.md) *(do utworzenia)*\r\n- [Nie działa lokalizacja](../troubleshooting/search/location-permission.md) *(do utworzenia)*\r\n- [Miejsce niedostępne](../troubleshooting/bookings/time-slot-unavailable.md) *(do utworzenia)*\r\n\r\n## Powiązane tematy\r\n\r\n- [Jak anulować rezerwację](../reservations/how-to-cancel-booking.md) *(do utworzenia)*\r\n- [Jak kupić karnet](../shop/how-to-buy-pass.md) *(do utworzenia)*\r\n\r\n---\r\n\r\n**Status**: 🔴 Nie rozpoczęto - Brak treści\r\n\r\n**Ostatnia aktualizacja**: 2026-03-17\r\n",
+      "metadata": {
+        "screen": "home",
+        "status": "🔴",
+        "lastUpdated": "2026-03-17T19:23:03.103Z",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Home Screen - Pomoc",
+          "id": "home-screen-pomoc"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Główne funkcje",
+          "id": "główne-funkcje"
+        },
+        {
+          "level": 3,
+          "text": "Wyszukiwanie obiektów",
+          "id": "wyszukiwanie-obiektów"
+        },
+        {
+          "level": 3,
+          "text": "Przeglądanie kategorii",
+          "id": "przeglądanie-kategorii"
+        },
+        {
+          "level": 3,
+          "text": "Ulubione obiekty",
+          "id": "ulubione-obiekty"
+        },
+        {
+          "level": 3,
+          "text": "Widok mapy",
+          "id": "widok-mapy"
+        },
+        {
+          "level": 3,
+          "text": "Rezerwacja",
+          "id": "rezerwacja"
+        },
+        {
+          "level": 2,
+          "text": "Szczegółowe funkcje",
+          "id": "szczegółowe-funkcje"
+        },
+        {
+          "level": 2,
+          "text": "Najczęściej zadawane pytania",
+          "id": "najczęściej-zadawane-pytania"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran główny aplikacji Spotto\r \r \r \r Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r - Wyszukiwać obiekty sportowe\r - Przeglądać kategorie sportów\r - Zarządzać ulubionymi obiektami\r ..."
+    },
+    {
+      "slug": "home/features",
+      "title": "Home Screen Features",
+      "screen": "home",
+      "content": "# Home Screen Features\n\nThis directory contains detailed explanations of Home screen features.\n\n## Available Guides\n\n- [Search functionality](./search.md) *(to be created)*\n- [Sport categories](./categories.md) *(to be created)*\n- [Favorites system](./favorites.md) *(to be created)*\n- [Map view](./map-view.md) *(to be created)*\n\n---\n\n**Last Updated**: 2026-03-17\n",
+      "metadata": {
+        "screen": "home",
+        "status": "🔴",
+        "lastUpdated": "2026-03-17T19:23:03.106Z",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Home Screen Features",
+          "id": "home-screen-features"
+        },
+        {
+          "level": 2,
+          "text": "Available Guides",
+          "id": "available-guides"
+        }
+      ],
+      "excerpt": "This directory contains detailed explanations of Home screen features. - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be cr..."
+    },
+    {
+      "slug": "README",
+      "title": "Spotto Help Documentation",
+      "screen": "README.md",
+      "content": "# Spotto Help Documentation\r\n\r\nWelcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r\n\r\n## Quick Navigation\r\n\r\n### Main Screens\r\n\r\n- **[Home](./home/)** - Search facilities, browse categories, view favorites\r\n- **[Reservations](./reservations/)** - View and manage your bookings\r\n- **[Shop](./shop/)** - Browse and purchase products\r\n- **[Business](./business/)** - Manage your business profile and facilities\r\n- **[Trainer](./trainer/)** - Create and manage trainings\r\n- **[Profile](./profile/)** - Account settings and privacy\r\n\r\n### Additional Resources\r\n\r\n- **[Common Topics](./common/)** - Getting started, navigation, glossary\r\n- **[Troubleshooting](./troubleshooting/)** - Solutions to common problems\r\n\r\n---\r\n\r\n## For Content Creators\r\n\r\n### Creating New Content\r\n\r\n1. **Choose the right screen directory**\r\n2. **Use the appropriate template**:\r\n   - `how-to-*.md` for step-by-step guides\r\n   - `features/*.md` for feature explanations\r\n   - `faq.md` for quick Q&A\r\n3. **Follow the [Content Guidelines](../CONTENT_GUIDELINES.md)**\r\n4. **Add screenshots** to `assets/images/{screen}/`\r\n5. **Validate** before committing: `npm test`\r\n\r\n### Directory Structure\r\n\r\nEach screen directory contains:\r\n```\r\n{screen}/\r\n├── README.md          # Screen overview\r\n├── how-to-*.md       # Action guides\r\n├── features/         # Feature explanations\r\n│   └── *.md\r\n└── faq.md            # Quick answers\r\n```\r\n\r\n### Templates\r\n\r\nSee [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:\r\n- How-to guide template\r\n- Feature explanation template\r\n- Troubleshooting template\r\n- FAQ template\r\n\r\n---\r\n\r\n## Status\r\n\r\n### Coverage Progress\r\n\r\n| Screen | Guides | Features | FAQ | Status |\r\n|--------|--------|----------|-----|--------|\r\n| Home | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Reservations | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Shop | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Business | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Trainer | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Profile | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Common | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Troubleshooting | 0 | 0 | ❌ | 🔴 Not Started |\r\n\r\n**Legend**:\r\n- 🔴 Not Started - No content yet\r\n- 🟡 In Progress - Some content exists\r\n- 🟢 Complete - All core content done\r\n\r\n---\r\n\r\n## Quick Links\r\n\r\n### Most Needed Content (Priority)\r\n\r\n1. **Home Screen**:\r\n   - How to search for facilities\r\n   - How to browse categories\r\n   - How to book from search results\r\n\r\n2. **Business Screen**:\r\n   - How to create business profile\r\n   - How to add facilities\r\n   - How to set up TPay\r\n   - How to manage schedule\r\n\r\n3. **Reservations Screen**:\r\n   - How to view bookings\r\n   - How to cancel reservation\r\n   - Understanding booking status\r\n\r\n### Next Priority\r\n\r\n4. **Shop Screen**: Product types, purchasing\r\n5. **Trainer Screen**: Creating trainings, associations\r\n6. **Profile Screen**: Settings, privacy\r\n\r\n---\r\n\r\n## Contributing\r\n\r\nRead the [Contributing Guide](../CONTRIBUTING.md) for:\r\n- Development workflow\r\n- Content standards\r\n- Pull request process\r\n- Code review guidelines\r\n\r\n---\r\n\r\n**Last Updated**: 2026-03-17\r\n**Maintainer**: Spotto Development Team\r\n",
+      "metadata": {
+        "screen": "README.md",
+        "status": "🔴",
+        "lastUpdated": "2026-03-17T19:23:03.100Z",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Spotto Help Documentation",
+          "id": "spotto-help-documentation"
+        },
+        {
+          "level": 2,
+          "text": "Quick Navigation",
+          "id": "quick-navigation"
+        },
+        {
+          "level": 3,
+          "text": "Main Screens",
+          "id": "main-screens"
+        },
+        {
+          "level": 3,
+          "text": "Additional Resources",
+          "id": "additional-resources"
+        },
+        {
+          "level": 2,
+          "text": "For Content Creators",
+          "id": "for-content-creators"
+        },
+        {
+          "level": 3,
+          "text": "Creating New Content",
+          "id": "creating-new-content"
+        },
+        {
+          "level": 3,
+          "text": "Directory Structure",
+          "id": "directory-structure"
+        },
+        {
+          "level": 3,
+          "text": "Templates",
+          "id": "templates"
+        },
+        {
+          "level": 2,
+          "text": "Status",
+          "id": "status"
+        },
+        {
+          "level": 3,
+          "text": "Coverage Progress",
+          "id": "coverage-progress"
+        },
+        {
+          "level": 2,
+          "text": "Quick Links",
+          "id": "quick-links"
+        },
+        {
+          "level": 3,
+          "text": "Most Needed Content (Priority)",
+          "id": "most-needed-content-priority"
+        },
+        {
+          "level": 3,
+          "text": "Next Priority",
+          "id": "next-priority"
+        },
+        {
+          "level": 2,
+          "text": "Contributing",
+          "id": "contributing"
+        }
+      ],
+      "excerpt": "Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r \r \r \r \r \r - Home - Search facilities, browse categories, view favorites..."
+    }
+  ],
+  "screens": [
+    {
+      "screen": "README.md",
+      "articleCount": 1,
+      "statuses": {
+        "completed": 0,
+        "inProgress": 0,
+        "notStarted": 1
+      }
+    },
+    {
+      "screen": "home",
+      "articleCount": 2,
+      "statuses": {
+        "completed": 0,
+        "inProgress": 0,
+        "notStarted": 2
+      }
+    }
+  ],
+  "stats": {
+    "totalArticles": 3,
+    "totalScreens": 2,
+    "lastBuilt": "2026-03-17T19:23:03.112Z"
+  }
+}
