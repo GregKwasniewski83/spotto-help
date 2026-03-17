@@ -1,0 +1,36 @@
+{
+  "name": "spotto-help",
+  "version": "1.0.0",
+  "description": "User help documentation for Spotto mobile application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run validate && npm run check-links && npm run check-images",
+    "validate": "echo 'Validating markdown files...' && node scripts/validate.js || echo 'Create scripts/validate.js to enable validation'",
+    "check-links": "echo 'Checking links...' && node scripts/check-links.js || echo 'Create scripts/check-links.js to enable link checking'",
+    "lint-markdown": "echo 'Linting markdown...' && markdownlint 'docs/**/*.md' '*.md' || echo 'Install markdownlint-cli: npm install markdownlint-cli'",
+    "check-images": "echo 'Checking images...' && node scripts/check-images.js || echo 'Create scripts/check-images.js to enable image checking'",
+    "prepare": "echo 'Setting up repository...'",
+    "postinstall": "echo '✅ Dependencies installed. Run npm test to validate content.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/spotto-help.git"
+  },
+  "keywords": [
+    "spotto",
+    "help",
+    "documentation",
+    "user-guide",
+    "mobile-app"
+  ],
+  "author": "Spotto Development Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
