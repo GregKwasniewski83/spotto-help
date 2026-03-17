@@ -1,0 +1,74 @@
+name: Deploy Help Web
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'help-web/**'
+      - 'assets/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'help-web/**'
+      - 'assets/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: help-web/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd help-web
+          npm ci
+
+      - name: Build content and search index
+        run: |
+          cd help-web
+          npm run build:content
+          npm run build:search
+
+      - name: Build production bundle
+        run: |
+          cd help-web
+          npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: help-web-dist
+          path: help-web/dist/
+          retention-days: 7
+
+      - name: Deploy to Vercel (Production)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: help-web
+          vercel-args: '--prod'
+
+      - name: Deploy to Vercel (Preview)
+        if: github.event_name == 'pull_request'
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: help-web
