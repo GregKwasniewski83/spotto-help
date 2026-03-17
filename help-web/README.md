@@ -141,21 +141,18 @@ Your markdown content here...
 
 ## Deployment
 
-### Vercel (Recommended)
+### OVH Server (Production)
 
-1. **Connect Repository** to Vercel
-2. **Set Root Directory** to `help-web/`
-3. **Add Environment Secrets**:
-   - (No secrets required for static build)
+The app automatically deploys to your OVH server via FTP when pushing to `main` branch.
 
-4. **Build Settings** (auto-detected via `vercel.json`):
-   - Framework: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
+**Required GitHub Secrets:**
+- `FTP_SERVER` - Your OVH server hostname
+- `FTP_USERNAME` - FTP username
+- `FTP_PASSWORD` - FTP password
 
-5. **Deploy**:
-   - Production: Push to `main` branch
-   - Preview: Create pull request
+**Deployment Location:** `/spotto-help/` on your server
+
+**URL:** Configure your web server (nginx/apache) to serve from this directory
 
 ### Manual Deployment
 
@@ -163,7 +160,8 @@ Your markdown content here...
 # Build for production
 npm run build
 
-# Upload dist/ folder to your hosting provider
+# Upload dist/ folder via FTP/SFTP to your server
+scp -r help-web/dist/* user@server:/path/to/spotto-help/
 ```
 
 ## CI/CD
@@ -175,7 +173,8 @@ GitHub Actions workflow (`.github/workflows/deploy-help-web.yml`):
   1. Install dependencies
   2. Build content and search index
   3. Build production bundle
-  4. Deploy to Vercel (production or preview)
+  4. Upload artifacts (for review)
+  5. Deploy to OVH server via FTP (on push to main)
 
 ## Performance
 
