@@ -8,7 +8,7 @@
       "metadata": {
         "screen": "home",
         "status": "🔴",
-        "lastUpdated": "2026-03-17T19:36:59.850Z",
+        "lastUpdated": "2026-03-17T19:40:21.160Z",
         "prerequisites": []
       },
       "headings": [
@@ -83,7 +83,7 @@
       "metadata": {
         "screen": "home",
         "status": "🔴",
-        "lastUpdated": "2026-03-17T19:36:59.853Z",
+        "lastUpdated": "2026-03-17T19:40:21.162Z",
         "prerequisites": []
       },
       "headings": [
@@ -108,7 +108,7 @@
       "metadata": {
         "screen": "README.md",
         "status": "🔴",
-        "lastUpdated": "2026-03-17T19:36:59.847Z",
+        "lastUpdated": "2026-03-17T19:40:21.157Z",
         "prerequisites": []
       },
       "headings": [
@@ -209,6 +209,6 @@
   "stats": {
     "totalArticles": 3,
     "totalScreens": 2,
-    "lastBuilt": "2026-03-17T19:36:59.860Z"
+    "lastBuilt": "2026-03-17T19:40:21.168Z"
   }
 }
