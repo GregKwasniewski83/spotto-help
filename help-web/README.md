@@ -242,3 +242,4 @@ For issues or questions:
 - Check existing documentation in `../docs/`
 - Contact: support@spotto.pl
 # Test deployment
+<!-- Deployment test: Wed Mar 18 14:52:54 CET 2026 -->
