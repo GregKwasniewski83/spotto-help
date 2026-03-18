@@ -1,0 +1,52 @@
+#!/usr/bin/expect -f
+# Expect script to configure both servers automatically
+
+set timeout 300
+set password "SOlid123$%"
+
+# Configure Development Server (51.38.98.84)
+puts "\n========================================="
+puts "Configuring Development Server (51.38.98.84)"
+puts "=========================================\n"
+
+spawn bash -c "cat setup-dev-server.sh | ssh debian@51.38.98.84 'cat > /tmp/setup.sh && chmod +x /tmp/setup.sh && /tmp/setup.sh'"
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "yes/no" {
+        send "yes\r"
+        exp_continue
+    }
+    eof
+}
+
+puts "\n"
+
+# Configure Production Server (217.182.77.52)
+puts "\n========================================="
+puts "Configuring Production Server (217.182.77.52)"
+puts "=========================================\n"
+
+spawn bash -c "cat setup-prod-server.sh | ssh debian@217.182.77.52 'cat > /tmp/setup.sh && chmod +x /tmp/setup.sh && /tmp/setup.sh'"
+expect {
+    "password:" {
+        send "$password\r"
+        exp_continue
+    }
+    "yes/no" {
+        send "yes\r"
+        exp_continue
+    }
+    eof
+}
+
+puts "\n========================================="
+puts "✓ Both servers configured successfully!"
+puts "========================================="
+puts ""
+puts "URLs:"
+puts "  • Development: http://help.dev.spotto.pl"
+puts "  • Production:  http://help.spotto.pl"
+puts ""
