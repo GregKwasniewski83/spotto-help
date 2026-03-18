@@ -1,11 +1,11 @@
-# Nginx configuration for Spotto Help Portal - PRODUCTION
-# Server: 217.182.77.52
-# Domain: help.spotto.pl
-# Deploy path: /spotto-help/
+# Nginx configuration for Spotto Help Portal - DEVELOPMENT
+# Server: 51.38.98.84
+# Domain: help.dev.spotto.pl
+# Deploy path: /spotto-help-dev/
 #
 # Installation:
-# 1. Copy to /etc/nginx/sites-available/spotto-help
-# 2. sudo ln -s /etc/nginx/sites-available/spotto-help /etc/nginx/sites-enabled/
+# 1. Copy to /etc/nginx/sites-available/spotto-help-dev
+# 2. sudo ln -s /etc/nginx/sites-available/spotto-help-dev /etc/nginx/sites-enabled/
 # 3. sudo nginx -t
 # 4. sudo systemctl reload nginx
 
@@ -13,10 +13,10 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name help.spotto.pl;
+    server_name help.dev.spotto.pl;
 
     # Root directory where help-web/dist/ is deployed via FTP
-    root /spotto-help;
+    root /spotto-help-dev;
     index index.html;
 
     # Enable gzip compression
@@ -30,10 +30,13 @@ server {
     add_header X-Content-Type-Options "nosniff" always;
     add_header X-XSS-Protection "1; mode=block" always;
 
-    # Cache static assets (js, css, images)
+    # Dev environment indicator (optional)
+    add_header X-Environment "development" always;
+
+    # Cache static assets (shorter cache for dev)
     location /assets/ {
-        expires 1y;
-        add_header Cache-Control "public, immutable";
+        expires 1d;
+        add_header Cache-Control "public";
     }
 
     # SPA routing - always serve index.html for non-asset requests
@@ -43,31 +46,29 @@ server {
 
     # Assets optimization
     location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
-        expires 1y;
-        access_log off;
-        add_header Cache-Control "public, immutable";
+        expires 1d;
+        add_header Cache-Control "public";
     }
 
     # Access logs
-    access_log /var/log/nginx/spotto-help.access.log;
-    error_log /var/log/nginx/spotto-help.error.log;
+    access_log /var/log/nginx/spotto-help-dev.access.log;
+    error_log /var/log/nginx/spotto-help-dev.error.log;
 }
 
-# Optional: HTTPS configuration (recommended)
-# Uncomment and configure after setting up SSL certificate (e.g., Let's Encrypt)
+# Optional: HTTPS configuration (recommended for production, optional for dev)
+# Uncomment after setting up SSL certificate with certbot:
+# sudo certbot --nginx -d help.dev.spotto.pl
 #
 # server {
 #     listen 443 ssl http2;
 #     listen [::]:443 ssl http2;
 #
-#     server_name help.spotto.pl;
+#     server_name help.dev.spotto.pl;
 #
-#     # SSL certificate paths (use certbot for Let's Encrypt)
-#     ssl_certificate /etc/letsencrypt/live/help.spotto.pl/fullchain.pem;
-#     ssl_certificate_key /etc/letsencrypt/live/help.spotto.pl/privkey.pem;
+#     ssl_certificate /etc/letsencrypt/live/help.dev.spotto.pl/fullchain.pem;
+#     ssl_certificate_key /etc/letsencrypt/live/help.dev.spotto.pl/privkey.pem;
 #
-#     # Same configuration as above
-#     root /var/www/spotto-help;
+#     root /spotto-help-dev;
 #     index index.html;
 #
 #     # ... (copy remaining config from HTTP block)
@@ -77,6 +78,6 @@ server {
 # server {
 #     listen 80;
 #     listen [::]:80;
-#     server_name help.spotto.pl;
+#     server_name help.dev.spotto.pl;
 #     return 301 https://$server_name$request_uri;
 # }

@@ -2,13 +2,13 @@ name: Deploy Help Web
 
 on:
   push:
-    branches: [main]
+    branches: [main, dev]
     paths:
       - 'docs/**'
       - 'help-web/**'
       - 'assets/**'
   pull_request:
-    branches: [main]
+    branches: [main, dev]
     paths:
       - 'docs/**'
       - 'help-web/**'
@@ -54,13 +54,24 @@ jobs:
           path: help-web/dist/
           retention-days: 7
 
-      - name: Deploy to OVH Server
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      - name: Deploy to OVH Development Server
+        if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./help-web/dist/
+          server-dir: /spotto-help-dev/
+          dangerous-clean-slate: false
+
+      - name: Deploy to OVH Production Server
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER_PROD }}
+          username: ${{ secrets.FTP_USERNAME_PROD }}
+          password: ${{ secrets.FTP_PASSWORD_PROD }}
           local-dir: ./help-web/dist/
           server-dir: /spotto-help/
           dangerous-clean-slate: false
