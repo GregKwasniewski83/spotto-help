@@ -241,3 +241,4 @@ Proprietary - Spotto Space
 For issues or questions:
 - Check existing documentation in `../docs/`
 - Contact: support@spotto.pl
+# Test deployment
