@@ -56,22 +56,22 @@ jobs:
 
       - name: Deploy to OVH Development Server
         if: github.ref == 'refs/heads/dev' && github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./help-web/dist/
-          server-dir: /spotto-help-dev/
-          dangerous-clean-slate: false
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.FTP_SERVER }}
+          REMOTE_USER: ${{ secrets.FTP_USERNAME }}
+          SOURCE: "help-web/dist/"
+          TARGET: "/spotto-help-dev/"
+          EXCLUDE: "/node_modules/"
 
       - name: Deploy to OVH Production Server
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
-          server: ${{ secrets.FTP_SERVER_PROD }}
-          username: ${{ secrets.FTP_USERNAME_PROD }}
-          password: ${{ secrets.FTP_PASSWORD_PROD }}
-          local-dir: ./help-web/dist/
-          server-dir: /spotto-help/
-          dangerous-clean-slate: false
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY_PROD }}
+          REMOTE_HOST: ${{ secrets.FTP_SERVER_PROD }}
+          REMOTE_USER: ${{ secrets.FTP_USERNAME_PROD }}
+          SOURCE: "help-web/dist/"
+          TARGET: "/spotto-help/"
+          EXCLUDE: "/node_modules/"
