@@ -6,8 +6,8 @@ This guide explains how to deploy the help portal to both development and produc
 
 | Environment | Domain | Server | Deploy Path | Branch |
 |-------------|--------|--------|-------------|--------|
-| **Development** | help.dev.spotto.pl | 51.38.98.84 | /spotto-help-dev/ | `dev` |
-| **Production** | help.spotto.pl | 217.182.77.52 | /spotto-help/ | `main` |
+| **Development** | https://help.dev.spotto.pl | 51.38.98.84 | /spotto-help-dev/ | `dev` |
+| **Production** | https://help.spotto.pl | 217.182.77.52 | /spotto-help/ | `main` |
 
 ## GitHub Secrets (Already Configured)
 
@@ -89,31 +89,51 @@ sudo systemctl reload nginx
 sudo systemctl status nginx
 ```
 
-## SSL Certificates (Recommended)
+## SSL Certificates (✅ Already Configured)
 
-### Install Certbot
+Both environments have SSL certificates from Let's Encrypt:
+
+**Development (help.dev.spotto.pl):**
+- Certificate expires: June 16, 2026
+- Auto-renewal: Enabled (runs twice daily)
+- Certificate type: ECDSA
+- Path: `/etc/letsencrypt/live/help.dev.spotto.pl/`
+
+**Production (help.spotto.pl):**
+- Certificate expires: June 16, 2026
+- Auto-renewal: Enabled (runs twice daily)
+- Certificate type: ECDSA
+- Path: `/etc/letsencrypt/live/help.spotto.pl/`
+
+### Manual SSL Setup (if needed on new domain)
 
 ```bash
-# On both servers
+# Install certbot (already installed on both servers)
 sudo apt install certbot python3-certbot-nginx -y
+
+# Obtain certificate and configure nginx automatically
+sudo certbot --nginx -d your-domain.com --non-interactive --agree-tos --email your-email@example.com --redirect
 ```
 
-### Development Server
+### Check Certificate Status
 
 ```bash
-sudo certbot --nginx -d help.dev.spotto.pl
+# View certificate details
+sudo certbot certificates
+
+# Test auto-renewal
+sudo certbot renew --dry-run
+
+# Check renewal timer
+sudo systemctl status certbot.timer
 ```
 
-### Production Server
-
-```bash
-sudo certbot --nginx -d help.spotto.pl
-```
-
-Certbot will automatically:
-- Obtain SSL certificate
-- Configure nginx for HTTPS
-- Set up auto-renewal
+Certbot automatically:
+- Obtains SSL certificate from Let's Encrypt
+- Configures nginx for HTTPS (port 443)
+- Sets up HTTP to HTTPS redirect (301)
+- Schedules auto-renewal twice daily
+- Renews certificates 30 days before expiry
 
 ## Deployment Workflow
 
@@ -130,7 +150,7 @@ git push origin dev
 # GitHub Actions will automatically:
 # 1. Build the app
 # 2. Deploy to 51.38.98.84:/spotto-help-dev/
-# 3. Accessible at: http://help.dev.spotto.pl
+# 3. Accessible at: https://help.dev.spotto.pl
 ```
 
 **Production (main branch):**
@@ -143,7 +163,7 @@ git push origin main
 # GitHub Actions will automatically:
 # 1. Build the app
 # 2. Deploy to 217.182.77.52:/spotto-help/
-# 3. Accessible at: http://help.spotto.pl
+# 3. Accessible at: https://help.spotto.pl
 ```
 
 ### Manual Deployment
@@ -166,20 +186,26 @@ scp -r dist/* debian@217.182.77.52:/spotto-help/
 
 ### Development
 ```bash
-# Check if site is accessible
-curl -I http://help.dev.spotto.pl
+# Check HTTPS access
+curl -I https://help.dev.spotto.pl
+
+# Verify HTTP redirects to HTTPS
+curl -I http://help.dev.spotto.pl  # Should return 301 redirect
 
 # Or visit in browser:
-# http://help.dev.spotto.pl
+# https://help.dev.spotto.pl
 ```
 
 ### Production
 ```bash
-# Check if site is accessible
-curl -I http://help.spotto.pl
+# Check HTTPS access
+curl -I https://help.spotto.pl
+
+# Verify HTTP redirects to HTTPS
+curl -I http://help.spotto.pl  # Should return 301 redirect
 
 # Or visit in browser:
-# http://help.spotto.pl
+# https://help.spotto.pl
 ```
 
 ## Troubleshooting
@@ -261,13 +287,17 @@ sudo tail -f /var/log/nginx/spotto-help.access.log      # Prod
 ### Performance monitoring
 
 ```bash
-# Check nginx status
-curl -I http://help.dev.spotto.pl
-curl -I http://help.spotto.pl
+# Check nginx status (HTTPS)
+curl -I https://help.dev.spotto.pl
+curl -I https://help.spotto.pl
 
 # Check response time
-time curl -s http://help.dev.spotto.pl > /dev/null
-time curl -s http://help.spotto.pl > /dev/null
+time curl -s https://help.dev.spotto.pl > /dev/null
+time curl -s https://help.spotto.pl > /dev/null
+
+# Verify SSL certificate
+openssl s_client -connect help.dev.spotto.pl:443 -servername help.dev.spotto.pl < /dev/null 2>/dev/null | openssl x509 -noout -dates
+openssl s_client -connect help.spotto.pl:443 -servername help.spotto.pl < /dev/null 2>/dev/null | openssl x509 -noout -dates
 ```
 
 ## Rollback
