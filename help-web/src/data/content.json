@@ -1105,21 +1105,81 @@
         "prerequisites": []
       },
       "headings": [
-        { "level": 1, "text": "Jak dołączyć do treningu", "id": "jak-dołączyć-do-treningu" },
-        { "level": 2, "text": "Przegląd", "id": "przegląd" },
-        { "level": 2, "text": "Zanim zaczniesz", "id": "zanim-zaczniesz" },
-        { "level": 2, "text": "Kroki", "id": "kroki" },
-        { "level": 3, "text": "Krok 1: Przełącz wyszukiwarkę na tryb Treningi", "id": "krok-1-przełącz-wyszukiwarkę-na-tryb-treningi" },
-        { "level": 3, "text": "Krok 2: Ustaw filtry wyszukiwania", "id": "krok-2-ustaw-filtry-wyszukiwania" },
-        { "level": 3, "text": "Krok 3: Przeglądaj wyniki", "id": "krok-3-przeglądaj-wyniki" },
-        { "level": 3, "text": "Krok 4: Dotknij karty treningu", "id": "krok-4-dotknij-karty-treningu" },
-        { "level": 3, "text": "Krok 5: Dołącz do treningu", "id": "krok-5-dołącz-do-treningu" },
-        { "level": 2, "text": "Weryfikacja", "id": "weryfikacja" },
-        { "level": 2, "text": "Rozwiązywanie problemów", "id": "rozwiązywanie-problemów" },
-        { "level": 3, "text": "Problem: Trening jest pełny", "id": "problem-trening-jest-pełny" },
-        { "level": 3, "text": "Problem: Nie widzę żadnych treningów", "id": "problem-nie-widzę-żadnych-treningów" },
-        { "level": 3, "text": "Problem: Płatność za trening nie powiodła się", "id": "problem-płatność-za-trening-nie-powiodła-się" },
-        { "level": 2, "text": "Powiązane tematy", "id": "powiązane-tematy" }
+        {
+          "level": 1,
+          "text": "Jak dołączyć do treningu",
+          "id": "jak-dołączyć-do-treningu"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Zanim zaczniesz",
+          "id": "zanim-zaczniesz"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Przełącz wyszukiwarkę na tryb Treningi",
+          "id": "krok-1-przełącz-wyszukiwarkę-na-tryb-treningi"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Ustaw filtry wyszukiwania",
+          "id": "krok-2-ustaw-filtry-wyszukiwania"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Przeglądaj wyniki",
+          "id": "krok-3-przeglądaj-wyniki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Dotknij karty treningu",
+          "id": "krok-4-dotknij-karty-treningu"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Dołącz do treningu",
+          "id": "krok-5-dołącz-do-treningu"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Trening jest pełny",
+          "id": "problem-trening-jest-pełny"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie widzę żadnych treningów",
+          "id": "problem-nie-widzę-żadnych-treningów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Płatność za trening nie powiodła się",
+          "id": "problem-płatność-za-trening-nie-powiodła-się"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
       ],
       "excerpt": "Z ekranu Home możesz wyszukać treningi prowadzone przez trenerów zarejestrowanych w Spotto i dołączyć do wybranego zajęcia. To prosty sposób, by znaleźć trening dopasowany do Twojego poziomu, lokaliz..."
     },
@@ -1137,15 +1197,51 @@
         "prerequisites": []
       },
       "headings": [
-        { "level": 1, "text": "Wyszukiwanie treningów", "id": "wyszukiwanie-treningów" },
-        { "level": 2, "text": "Opis", "id": "opis" },
-        { "level": 2, "text": "Jak przełączyć na treningi", "id": "jak-przełączyć-na-treningi" },
-        { "level": 2, "text": "Filtry wyszukiwania", "id": "filtry-wyszukiwania" },
-        { "level": 2, "text": "Karta wyniku treningu", "id": "karta-wyniku-treningu" },
-        { "level": 2, "text": "Co się dzieje po dotknięciu karty", "id": "co-się-dzieje-po-dotknięciu-karty" },
-        { "level": 2, "text": "Brak wyników", "id": "brak-wyników" },
-        { "level": 2, "text": "Różnice: Obiekty vs Treningi", "id": "różnice-obiekty-vs-treningi" },
-        { "level": 2, "text": "Powiązane", "id": "powiązane" }
+        {
+          "level": 1,
+          "text": "Wyszukiwanie treningów",
+          "id": "wyszukiwanie-treningów"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Jak przełączyć na treningi",
+          "id": "jak-przełączyć-na-treningi"
+        },
+        {
+          "level": 2,
+          "text": "Filtry wyszukiwania",
+          "id": "filtry-wyszukiwania"
+        },
+        {
+          "level": 2,
+          "text": "Karta wyniku treningu",
+          "id": "karta-wyniku-treningu"
+        },
+        {
+          "level": 2,
+          "text": "Co się dzieje po dotknięciu karty",
+          "id": "co-się-dzieje-po-dotknięciu-karty"
+        },
+        {
+          "level": 2,
+          "text": "Brak wyników",
+          "id": "brak-wyników"
+        },
+        {
+          "level": 2,
+          "text": "Różnice: Obiekty vs Treningi",
+          "id": "różnice-obiekty-vs-treningi"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
       ],
       "excerpt": "Wyszukiwarka na ekranie Home posiada dwie zakładki: Obiekty i Treningi. Zakładka Treningi pozwala znaleźć sesje treningowe prowadzone przez certyfikowanych trenerów w Spotto. Każdy wynik wyświetla się..."
     },
@@ -1163,24 +1259,978 @@
         "prerequisites": []
       },
       "headings": [
-        { "level": 1, "text": "Oczekujące płatności", "id": "oczekujące-płatności" },
-        { "level": 2, "text": "Opis", "id": "opis" },
-        { "level": 2, "text": "Kiedy się pojawia", "id": "kiedy-się-pojawia" },
-        { "level": 2, "text": "Elementy sekcji", "id": "elementy-sekcji" },
-        { "level": 2, "text": "Karta płatności", "id": "karta-płatności" },
-        { "level": 2, "text": "Dostępne akcje", "id": "dostępne-akcje" },
-        { "level": 3, "text": "Przycisk „Płatność\"", "id": "przycisk-płatność" },
-        { "level": 3, "text": "Przycisk „Anuluj\"", "id": "przycisk-anuluj" },
-        { "level": 2, "text": "Ważne informacje", "id": "ważne-informacje" },
-        { "level": 2, "text": "Powiązane", "id": "powiązane" }
+        {
+          "level": 1,
+          "text": "Oczekujące płatności",
+          "id": "oczekujące-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Kiedy się pojawia",
+          "id": "kiedy-się-pojawia"
+        },
+        {
+          "level": 2,
+          "text": "Elementy sekcji",
+          "id": "elementy-sekcji"
+        },
+        {
+          "level": 2,
+          "text": "Karta płatności",
+          "id": "karta-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Dostępne akcje",
+          "id": "dostępne-akcje"
+        },
+        {
+          "level": 3,
+          "text": "Przycisk „Płatność\"",
+          "id": "przycisk-płatność"
+        },
+        {
+          "level": 3,
+          "text": "Przycisk „Anuluj\"",
+          "id": "przycisk-anuluj"
+        },
+        {
+          "level": 2,
+          "text": "Ważne informacje",
+          "id": "ważne-informacje"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
       ],
       "excerpt": "Sekcja Oczekujące płatności pojawia się na ekranie Home, gdy masz niedokończone transakcje. To ważne powiadomienie — niedokończona płatność oznacza, że Twoja rezerwacja nie jest jeszcze potwierdzona..."
+    },
+    {
+      "slug": "reservations",
+      "title": "Ekran Rezerwacje - Pomoc",
+      "screen": "reservations",
+      "content": "\n# Ekran Rezerwacje\n\n**Twoje centrum zarządzania rezerwacjami** — przeglądaj nadchodzące wizyty, zarządzaj płatnościami i anuluj rezerwacje w jednym miejscu.\n\n## Przegląd ekranu\n\nEkran Rezerwacje wyświetla się po dotknięciu ikony kalendarza na dolnym pasku nawigacji. Znajdziesz tu kompletny przegląd swoich aktywności sportowych.\n\n![IMG_RES_001 — Przegląd ekranu Rezerwacje](/assets/images/reservations/reservations-overview.png)\n\n### Co znajdziesz na ekranie Rezerwacje\n\n| Sekcja | Opis | Więcej |\n|--------|------|--------|\n| Nadchodzące wydarzenia | Lista rezerwacji i treningów posortowana wg daty | [Szczegóły](./features/reservation-details.md) |\n| Oczekujące płatności | Niedokończone transakcje wymagające uwagi | [Jak dokończyć](./how-to-pay-pending.md) |\n| Statusy rezerwacji | Kolorowe oznaczenia stanu rezerwacji | [Szczegóły](./features/booking-status.md) |\n| Anulowanie | Pełne lub częściowe anulowanie z możliwością zwrotu | [Polityka zwrotów](./features/refund-policy.md) |\n\n---\n\n## Przewodniki krok po kroku\n\n### Przeglądanie\n\n- [Jak przeglądać rezerwacje](./how-to-view-bookings.md) — znajdź nadchodzące i przeszłe rezerwacje\n\n### Zarządzanie\n\n- [Jak anulować rezerwację](./how-to-cancel-booking.md) — pełne anulowanie ze zwrotem środków\n- [Jak anulować częściowo](./how-to-partial-cancel.md) — anuluj wybrane godziny, zachowaj resztę\n- [Jak dokończyć płatność](./how-to-pay-pending.md) — opłać oczekującą rezerwację\n\n---\n\n## Szczegółowe opisy funkcji\n\n- [Szczegóły rezerwacji](./features/reservation-details.md) — co zawiera widok szczegółów\n- [Statusy rezerwacji](./features/booking-status.md) — znaczenie kolorów i statusów\n- [Polityka anulowania i zwrotów](./features/refund-policy.md) — zasada 48h, opłata 5%, terminy\n- [Częściowe anulowanie](./features/partial-cancellation.md) — jak działa anulowanie wybranych slotów\n\n---\n\n## Najczęściej zadawane pytania\n\nZobacz [FAQ ekranu Rezerwacje](./faq.md) — odpowiedzi na pytania o anulowanie, zwroty, statusy i płatności.\n\n---\n\n## Rozwiązywanie problemów\n\nMasz problem? Zobacz [Troubleshooting](./troubleshooting.md) — rozwiązania najczęstszych problemów:\n\n- Rezerwacja nie pojawia się po płatności\n- Nie mogę anulować rezerwacji\n- Zwrot nie dotarł na konto\n- Błąd przy płatności\n\n---\n\n## Powiązane tematy\n\n- [Jak zarezerwować obiekt (ekran Home)](../home/how-to-book-facility.md)\n- [Jak dołączyć do treningu](../home/how-to-join-training.md)\n- [Problemy z płatnościami](../troubleshooting/payments/payment-failed.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ekran Rezerwacje",
+          "id": "ekran-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd ekranu",
+          "id": "przegląd-ekranu"
+        },
+        {
+          "level": 3,
+          "text": "Co znajdziesz na ekranie Rezerwacje",
+          "id": "co-znajdziesz-na-ekranie-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Przewodniki krok po kroku",
+          "id": "przewodniki-krok-po-kroku"
+        },
+        {
+          "level": 3,
+          "text": "Przeglądanie",
+          "id": "przeglądanie"
+        },
+        {
+          "level": 3,
+          "text": "Zarządzanie",
+          "id": "zarządzanie"
+        },
+        {
+          "level": 2,
+          "text": "Szczegółowe opisy funkcji",
+          "id": "szczegółowe-opisy-funkcji"
+        },
+        {
+          "level": 2,
+          "text": "Najczęściej zadawane pytania",
+          "id": "najczęściej-zadawane-pytania"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Twoje centrum zarządzania rezerwacjami — przeglądaj nadchodzące wizyty, zarządzaj płatnościami i anuluj rezerwacje w jednym miejscu. Ekran Rezerwacje wyświetla się po dotknięciu ikony kalendarza..."
+    },
+    {
+      "slug": "reservations/how-to-view-bookings",
+      "title": "Jak przeglądać rezerwacje",
+      "screen": "reservations",
+      "content": "\n# Jak przeglądać rezerwacje\n\n**Ekran**: Rezerwacje\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nEkran Rezerwacje pokazuje wszystkie Twoje nadchodzące rezerwacje obiektów sportowych oraz treningi, posortowane od najbliższych. Możesz szybko sprawdzić szczegóły każdej wizyty.\n\n---\n\n## Kroki\n\n### Krok 1: Otwórz ekran Rezerwacje\n\nDotknij ikony **kalendarza** na dolnym pasku nawigacji aplikacji.\n\n![IMG_RES_002 — Pasek nawigacji z zaznaczonym przyciskiem Rezerwacje](/assets/images/reservations/nav-bar-reservations.png)\n\n### Krok 2: Przeglądaj nadchodzące wydarzenia\n\nNa ekranie zobaczysz listę nadchodzących wydarzeń. Każda karta zawiera:\n\n- **Zdjęcie** — avatar obiektu lub ikona trenera\n- **Tytuł** — nazwa obiektu lub treningu\n- **Data i godzina** — sformatowana jako „Dziś\", „Jutro\" lub pełna data\n- **Lokalizacja** — adres obiektu\n- **Czas trwania** — liczba zarezerwowanych godzin\n- **Cena** — łączny koszt\n- **Typ** — plakietka „Rezerwacja\" lub „Trening\"\n\n![IMG_RES_003 — Lista nadchodzących rezerwacji](/assets/images/reservations/upcoming-list.png)\n\n> 💡 **Wskazówka**: Nowo utworzona rezerwacja pojawi się z niebieskim obramowaniem i pulsującą animacją, abyś łatwo ją znalazł/a.\n\n### Krok 3: Zobacz wszystkie rezerwacje\n\nJeśli masz więcej rezerwacji niż widać na ekranie, dotknij przycisku **Zobacz wszystkie** u góry sekcji.\n\n![IMG_RES_004 — Przycisk Zobacz wszystkie](/assets/images/reservations/see-all-button.png)\n\nOtworzy się pełnoekranowa lista ze wszystkimi nadchodzącymi wydarzeniami.\n\n### Krok 4: Otwórz szczegóły rezerwacji\n\nDotknij dowolnej karty, aby zobaczyć pełne szczegóły:\n\n- Informacje o obiekcie (nazwa, adres, kontakt)\n- Zarezerwowane godziny (sloty czasowe)\n- Dane trenera (jeśli wynajęty)\n- Rozbicie ceny\n- Status płatności\n- Numer rezerwacji\n- Przyciski akcji (płatność, anulowanie)\n\n![IMG_RES_005 — Widok szczegółów rezerwacji](/assets/images/reservations/reservation-details.png)\n\n---\n\n## Typy wydarzeń\n\nNa liście zobaczysz dwa typy wydarzeń:\n\n| Typ | Plakietka | Opis |\n|-----|-----------|------|\n| **Rezerwacja** | Niebieska | Zarezerwowany obiekt sportowy (kort, sala, strzelnica) |\n| **Trening** | Zielona | Trening z trenerem, na który się zapisałeś/aś |\n\n---\n\n## Weryfikacja\n\nPrzeglądanie działa poprawnie, jeśli:\n- Widzisz listę swoich nadchodzących rezerwacji\n- Karty zawierają daty, nazwy i ceny\n- Możesz dotknąć kartę, aby zobaczyć szczegóły\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Lista jest pusta\n**Rozwiązanie**: Jeśli nie masz nadchodzących rezerwacji, zobaczysz komunikat zachęcający do dokonania pierwszej rezerwacji. Przejdź do [ekranu Home](../home/README.md), aby zarezerwować obiekt.\n\n### Problem: Nowa rezerwacja nie pojawia się\n**Rozwiązanie**: Poczekaj kilka sekund — aplikacja synchronizuje nowe rezerwacje z serwisem (do 5 prób). Jeśli nadal nie widać, pociągnij ekran w dół, aby odświeżyć.\n\n---\n\n## Powiązane tematy\n\n- [Jak anulować rezerwację](./how-to-cancel-booking.md)\n- [Jak dokończyć płatność](./how-to-pay-pending.md)\n- [Statusy rezerwacji](./features/booking-status.md)\n- [Szczegóły rezerwacji](./features/reservation-details.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak przeglądać rezerwacje",
+          "id": "jak-przeglądać-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Otwórz ekran Rezerwacje",
+          "id": "krok-1-otwórz-ekran-rezerwacje"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Przeglądaj nadchodzące wydarzenia",
+          "id": "krok-2-przeglądaj-nadchodzące-wydarzenia"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Zobacz wszystkie rezerwacje",
+          "id": "krok-3-zobacz-wszystkie-rezerwacje"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Otwórz szczegóły rezerwacji",
+          "id": "krok-4-otwórz-szczegóły-rezerwacji"
+        },
+        {
+          "level": 2,
+          "text": "Typy wydarzeń",
+          "id": "typy-wydarzeń"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Lista jest pusta",
+          "id": "problem-lista-jest-pusta"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nowa rezerwacja nie pojawia się",
+          "id": "problem-nowa-rezerwacja-nie-pojawia-się"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran Rezerwacje pokazuje wszystkie Twoje nadchodzące rezerwacje obiektów sportowych oraz treningi, posortowane od najbliższych. Możesz szybko sprawdzić szczegóły każdej wizyty..."
+    },
+    {
+      "slug": "reservations/how-to-cancel-booking",
+      "title": "Jak anulować rezerwację",
+      "screen": "reservations",
+      "content": "\n# Jak anulować rezerwację\n\n**Ekran**: Rezerwacje\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nJeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot środków. Anulowanie jest dostępne dla rezerwacji z przyszłą datą, z uwzględnieniem zasady 48 godzin.\n\n---\n\n## Zanim zaczniesz\n\n- Rezerwacja musi mieć **przyszłą datę** (nie dziś i nie w przeszłości)\n- Do rozpoczęcia rezerwacji musi pozostać **więcej niż 48 godzin**\n- Rezerwacja nie może być opłacona voucherem/karnetem\n- Status rezerwacji musi być: potwierdzona, oczekująca, aktywna lub częściowo anulowana\n\n---\n\n## Kroki\n\n### Krok 1: Otwórz szczegóły rezerwacji\n\nNa ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz anulować.\n\n![IMG_RES_006 — Dotknij karty rezerwacji](/assets/images/reservations/tap-reservation-card.png)\n\n### Krok 2: Dotknij „Anuluj wszystko\"\n\nW widoku szczegółów przewiń na dół do sekcji akcji. Dotknij przycisku **Anuluj wszystko**.\n\n![IMG_RES_007 — Przycisk Anuluj wszystko](/assets/images/reservations/cancel-all-button.png)\n\n> ⚠️ **Ważne**: Jeśli przycisk jest nieaktywny (szary), oznacza to, że rezerwacja nie kwalifikuje się do anulowania — sprawdź warunki w sekcji „Zanim zaczniesz\".\n\n### Krok 3: Potwierdź anulowanie\n\nPojawi się okno potwierdzenia z pytaniem, czy na pewno chcesz anulować. Dotknij **Potwierdź anulowanie**.\n\n![IMG_RES_008 — Okno potwierdzenia anulowania](/assets/images/reservations/cancel-confirmation.png)\n\n### Krok 4: Poczekaj na przetworzenie\n\nAplikacja przetworzy anulowanie — zobaczysz wskaźnik ładowania. Po zakończeniu:\n\n- Pojawi się **potwierdzenie anulowania** ze szczegółami zwrotu\n- Kwota zwrotu = 95% ceny (5% opłata za anulowanie)\n- Zwrot trafi na konto w ciągu 3-5 dni roboczych\n\n![IMG_RES_009 — Potwierdzenie anulowania ze zwrotem](/assets/images/reservations/cancel-success.png)\n\n---\n\n## Zasady anulowania\n\n| Zasada | Opis |\n|--------|------|\n| **Termin** | Min. 48 godzin przed rozpoczęciem |\n| **Opłata** | 5% wartości rezerwacji |\n| **Zwrot** | 95% na konto w 3-5 dni roboczych |\n| **Karnety** | Rezerwacje opłacone karnetem/voucherem nie podlegają anulowaniu |\n| **Dziś/przeszłość** | Rezerwacje na dziś i z przeszłości nie mogą być anulowane |\n\n> 💡 **Wskazówka**: Jeśli chcesz anulować tylko niektóre godziny, użyj funkcji [częściowego anulowania](./how-to-partial-cancel.md).\n\n---\n\n## Weryfikacja\n\nAnulowanie zakończyło się sukcesem, jeśli:\n- Widzisz potwierdzenie z kwotą zwrotu\n- Status rezerwacji zmienił się na „Anulowana\"\n- Rezerwacja zniknęła z listy nadchodzących\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Przycisk anulowania jest nieaktywny\n**Rozwiązanie**: Sprawdź, czy:\n- Do rezerwacji pozostało więcej niż 48 godzin\n- Rezerwacja nie została opłacona karnetem\n- Rezerwacja nie jest już anulowana\n\n### Problem: Błąd „Nie można anulować w ciągu 48 godzin\"\n**Rozwiązanie**: Zasada 48h jest obligatoryjna. Jeśli do Twojej rezerwacji pozostało mniej niż 48 godzin, anulowanie nie jest możliwe. Skontaktuj się bezpośrednio z obiektem.\n\n### Problem: Zwrot nie dotarł po 5 dniach roboczych\n**Rozwiązanie**: Zwroty są przetwarzane przez system TPay. Jeśli środki nie dotarły po 5 dniach:\n1. Sprawdź historię transakcji w banku\n2. Skontaktuj się z obsługą Spotto, podając numer rezerwacji\n\n---\n\n## Powiązane tematy\n\n- [Jak anulować częściowo](./how-to-partial-cancel.md)\n- [Polityka anulowania i zwrotów](./features/refund-policy.md)\n- [Statusy rezerwacji](./features/booking-status.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": [
+          "reservations/how-to-view-bookings"
+        ]
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak anulować rezerwację",
+          "id": "jak-anulować-rezerwację"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Zanim zaczniesz",
+          "id": "zanim-zaczniesz"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Otwórz szczegóły rezerwacji",
+          "id": "krok-1-otwórz-szczegóły-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Dotknij Anuluj wszystko",
+          "id": "krok-2-dotknij-anuluj-wszystko"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Potwierdź anulowanie",
+          "id": "krok-3-potwierdź-anulowanie"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Poczekaj na przetworzenie",
+          "id": "krok-4-poczekaj-na-przetworzenie"
+        },
+        {
+          "level": 2,
+          "text": "Zasady anulowania",
+          "id": "zasady-anulowania"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Przycisk anulowania jest nieaktywny",
+          "id": "problem-przycisk-anulowania-jest-nieaktywny"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie można anulować w ciągu 48 godzin",
+          "id": "problem-nie-można-anulować-w-ciągu-48-godzin"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Zwrot nie dotarł po 5 dniach roboczych",
+          "id": "problem-zwrot-nie-dotarł-po-5-dniach-roboczych"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Jeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot środków. Anulowanie jest dostępne dla rezerwacji z przyszłą datą, z uwzględnieniem zasady 48 godzin..."
+    },
+    {
+      "slug": "reservations/how-to-partial-cancel",
+      "title": "Jak częściowo anulować rezerwację",
+      "screen": "reservations",
+      "content": "\n# Jak częściowo anulować rezerwację\n\n**Ekran**: Rezerwacje\n**Rola**: Gracz\n**Trudność**: Średnia\n\n## Przegląd\n\nJeśli zarezerwowałeś/aś obiekt na kilka godzin, ale chcesz zrezygnować z części z nich, możesz anulować wybrane sloty czasowe, zachowując resztę rezerwacji. Otrzymasz zwrot proporcjonalny do anulowanych godzin.\n\n---\n\n## Zanim zaczniesz\n\n- Rezerwacja musi mieć **więcej niż jeden slot czasowy**\n- Nie możesz anulować **wszystkich** slotów (użyj pełnego anulowania)\n- Obowiązują te same zasady co przy pełnym anulowaniu (48h, przyszła data)\n\n---\n\n## Kroki\n\n### Krok 1: Otwórz szczegóły rezerwacji\n\nNa ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz częściowo anulować.\n\n### Krok 2: Dotknij „Anuluj częściowo\"\n\nW widoku szczegółów dotknij przycisku **Anuluj częściowo**. Przycisk jest widoczny tylko dla rezerwacji z wieloma slotami.\n\n![IMG_RES_010 — Przycisk częściowego anulowania](/assets/images/reservations/partial-cancel-button.png)\n\n### Krok 3: Wybierz sloty do anulowania\n\nOtworzy się ekran z listą wszystkich zarezerwowanych godzin. Każdy slot pokazuje:\n\n- **Godzina** — np. „10:00\"\n- **Cena** — koszt danego slotu\n- **Status** — „Aktywny\" lub „Anulowany\" (jeśli już wcześniej anulowany)\n\nDotknij slotów, które chcesz anulować. Wybrane sloty podświetlą się niebieskim obramowaniem z ikoną zaznaczenia.\n\n![IMG_RES_011 — Wybór slotów do anulowania](/assets/images/reservations/select-slots.png)\n\n> ⚠️ **Ważne**: Sloty już anulowane (szare) nie mogą być ponownie wybrane. Musisz pozostawić przynajmniej jeden aktywny slot.\n\n### Krok 4: Sprawdź podsumowanie\n\nNa dole ekranu zobaczysz:\n- Liczbę wybranych slotów\n- Łączną cenę anulowanych slotów\n\nDotknij **Anuluj wybrane**.\n\n### Krok 5: Potwierdź w oknie potwierdzenia\n\nPojawi się nakładka z potwierdzeniem zawierająca:\n- Liczbę slotów do anulowania\n- **Szacowany zwrot** (95% wartości — po odliczeniu 5% opłaty)\n\n![IMG_RES_012 — Potwierdzenie częściowego anulowania](/assets/images/reservations/partial-cancel-confirm.png)\n\nDotknij **Potwierdź**, aby anulować wybrane sloty.\n\n### Krok 6: Zobacz podsumowanie\n\nPo przetworzeniu zobaczysz podsumowanie:\n\n| Informacja | Przykład |\n|------------|---------|\n| Anulowane sloty | 2 z 4 |\n| Oryginalna cena | 200 zł |\n| Pozostała cena | 100 zł |\n| Kwota zwrotu | 95 zł |\n| Opłata za anulowanie | 5% (5 zł) |\n\n![IMG_RES_013 — Podsumowanie częściowego anulowania](/assets/images/reservations/partial-cancel-summary.png)\n\n> 💡 Okno zamknie się automatycznie po 3 sekundach.\n\n---\n\n## Weryfikacja\n\nCzęściowe anulowanie zakończyło się sukcesem, jeśli:\n- Widzisz podsumowanie z kwotą zwrotu\n- Status rezerwacji zmienił się na „Częściowa\"\n- Anulowane sloty są oznaczone przekreśleniem w szczegółach\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Nie widzę przycisku „Anuluj częściowo\"\n**Rozwiązanie**: Przycisk pojawia się tylko, gdy rezerwacja ma więcej niż jeden slot czasowy. Jeśli masz rezerwację na jedną godzinę, użyj [pełnego anulowania](./how-to-cancel-booking.md).\n\n### Problem: Nie mogę wybrać slotu\n**Rozwiązanie**: Slot jest prawdopodobnie już anulowany (szary kolor). Możesz anulować tylko aktywne sloty.\n\n---\n\n## Powiązane tematy\n\n- [Jak anulować rezerwację (pełne)](./how-to-cancel-booking.md)\n- [Polityka anulowania i zwrotów](./features/refund-policy.md)\n- [Częściowe anulowanie — szczegóły](./features/partial-cancellation.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Średnia",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": [
+          "reservations/how-to-view-bookings"
+        ]
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak częściowo anulować rezerwację",
+          "id": "jak-częściowo-anulować-rezerwację"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Zanim zaczniesz",
+          "id": "zanim-zaczniesz"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Otwórz szczegóły rezerwacji",
+          "id": "krok-1-otwórz-szczegóły-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Dotknij Anuluj częściowo",
+          "id": "krok-2-dotknij-anuluj-częściowo"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Wybierz sloty do anulowania",
+          "id": "krok-3-wybierz-sloty-do-anulowania"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Sprawdź podsumowanie",
+          "id": "krok-4-sprawdź-podsumowanie"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Potwierdź w oknie potwierdzenia",
+          "id": "krok-5-potwierdź-w-oknie-potwierdzenia"
+        },
+        {
+          "level": 3,
+          "text": "Krok 6: Zobacz podsumowanie",
+          "id": "krok-6-zobacz-podsumowanie"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie widzę przycisku Anuluj częściowo",
+          "id": "problem-nie-widzę-przycisku-anuluj-częściowo"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie mogę wybrać slotu",
+          "id": "problem-nie-mogę-wybrać-slotu"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Jeśli zarezerwowałeś/aś obiekt na kilka godzin, ale chcesz zrezygnować z części z nich, możesz anulować wybrane sloty czasowe, zachowując resztę rezerwacji..."
+    },
+    {
+      "slug": "reservations/how-to-pay-pending",
+      "title": "Jak dokończyć oczekującą płatność",
+      "screen": "reservations",
+      "content": "\n# Jak dokończyć oczekującą płatność\n\n**Ekran**: Rezerwacje\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nJeśli nie dokończyłeś/aś płatności za rezerwację, pojawi się ona w sekcji **Oczekujące płatności** na ekranie Rezerwacje. Możesz dokończyć transakcję lub ją anulować.\n\n---\n\n## Kroki\n\n### Krok 1: Znajdź sekcję oczekujących płatności\n\nNa ekranie Rezerwacje u góry zobaczysz sekcję z ikoną alertu i nagłówkiem **Oczekujące płatności**.\n\n![IMG_RES_014 — Sekcja oczekujących płatności](/assets/images/reservations/pending-payments-section.png)\n\n> 💡 Sekcja wyświetla się tylko wtedy, gdy masz niedokończone transakcje. Jeśli jej nie widzisz — nie masz oczekujących płatności.\n\n### Krok 2: Sprawdź szczegóły płatności\n\nKażda karta oczekującej płatności zawiera:\n- **Opis** — nazwa obiektu lub treningu\n- **Kwota** — cena do zapłaty\n- **Czas** — kiedy została utworzona (np. „5 minut temu\")\n- **Status** — „Oczekuje płatności\"\n\n### Krok 3: Dotknij „Płatność\"\n\nDotknij niebieskiego przycisku **Płatność** na karcie.\n\n![IMG_RES_015 — Przycisk Płatność](/assets/images/reservations/pay-button.png)\n\n### Krok 4: Dokończ płatność w TPay\n\nOtworzy się przeglądarka z systemem płatności TPay. Wybierz metodę płatności:\n- **Karta płatnicza** (Visa, Mastercard)\n- **Szybki przelew** bankowy\n- **BLIK**\n\nDokończ transakcję zgodnie z instrukcjami na stronie TPay.\n\n### Krok 5: Wróć do aplikacji\n\nPo zakończeniu płatności wróć do aplikacji Spotto. Aplikacja automatycznie sprawdzi status płatności.\n\n- **Sukces** — zobaczysz zielone potwierdzenie, rezerwacja zostanie potwierdzona\n- **Timeout** — żółte ostrzeżenie, spróbuj ponownie za chwilę\n- **Błąd** — czerwony komunikat, spróbuj innej metody płatności\n\n![IMG_RES_016 — Potwierdzenie płatności](/assets/images/reservations/payment-success.png)\n\n---\n\n## Anulowanie oczekującej płatności\n\nJeśli nie chcesz kontynuować rezerwacji:\n\n1. Dotknij szarego przycisku **Anuluj** na karcie płatności\n2. W oknie potwierdzenia dotknij **Anuluj płatność**\n3. Rezerwacja zostanie anulowana, a karta zniknie z listy\n\n---\n\n## Ważne informacje\n\n- Oczekujące płatności mają **ograniczony czas ważności**\n- Jeśli nie zapłacisz w wyznaczonym terminie, rezerwacja zostanie automatycznie anulowana\n- Aplikacja sprawdza status płatności automatycznie (do 30 prób co 2 sekundy)\n\n---\n\n## Weryfikacja\n\nPłatność zakończyła się sukcesem, jeśli:\n- Widzisz zielone potwierdzenie\n- Karta zniknęła z sekcji oczekujących płatności\n- Rezerwacja pojawia się na liście nadchodzących z statusem „Potwierdzona\"\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Płatność nie przechodzi\n**Rozwiązanie**: Sprawdź stan konta bankowego, ważność karty, i spróbuj innej metody (np. BLIK zamiast karty).\n\n### Problem: Po płatności nadal widzę „Oczekujące\"\n**Rozwiązanie**: Poczekaj minutę i odśwież ekran. Jeśli problem się utrzymuje, sprawdź historię transakcji w banku — jeśli środki zostały pobrane, skontaktuj się z obsługą.\n\n---\n\n## Powiązane tematy\n\n- [Jak przeglądać rezerwacje](./how-to-view-bookings.md)\n- [Statusy rezerwacji](./features/booking-status.md)\n- [Rozwiązywanie problemów z płatnościami](./troubleshooting.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak dokończyć oczekującą płatność",
+          "id": "jak-dokończyć-oczekującą-płatność"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Znajdź sekcję oczekujących płatności",
+          "id": "krok-1-znajdź-sekcję-oczekujących-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Sprawdź szczegóły płatności",
+          "id": "krok-2-sprawdź-szczegóły-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Dotknij Płatność",
+          "id": "krok-3-dotknij-płatność"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Dokończ płatność w TPay",
+          "id": "krok-4-dokończ-płatność-w-tpay"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Wróć do aplikacji",
+          "id": "krok-5-wróć-do-aplikacji"
+        },
+        {
+          "level": 2,
+          "text": "Anulowanie oczekującej płatności",
+          "id": "anulowanie-oczekującej-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Ważne informacje",
+          "id": "ważne-informacje"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Płatność nie przechodzi",
+          "id": "problem-płatność-nie-przechodzi"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Po płatności nadal widzę Oczekujące",
+          "id": "problem-po-płatności-nadal-widzę-oczekujące"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Jeśli nie dokończyłeś/aś płatności za rezerwację, pojawi się ona w sekcji Oczekujące płatności na ekranie Rezerwacje. Możesz dokończyć transakcję lub ją anulować..."
+    },
+    {
+      "slug": "reservations/features",
+      "title": "Funkcje ekranu Rezerwacje",
+      "screen": "reservations",
+      "content": "\n# Funkcje ekranu Rezerwacje\n\nSzczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezerwacjami w Spotto.\n\n## Dostępne opisy\n\n- [Szczegóły rezerwacji](./reservation-details.md) — pełny widok informacji o rezerwacji\n- [Statusy rezerwacji](./booking-status.md) — znaczenie kolorów i stanów rezerwacji\n- [Polityka anulowania i zwrotów](./refund-policy.md) — zasada 48h, opłata 5%, terminy zwrotów\n- [Częściowe anulowanie](./partial-cancellation.md) — anulowanie wybranych godzin z rezerwacji\n\n## Zobacz też\n\n- [Przewodniki krok po kroku](../README.md) — jak przeglądać, anulować, płacić\n- [FAQ](../faq.md) — najczęstsze pytania\n- [Troubleshooting](../troubleshooting.md) — rozwiązywanie problemów\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Funkcje ekranu Rezerwacje",
+          "id": "funkcje-ekranu-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Dostępne opisy",
+          "id": "dostępne-opisy"
+        },
+        {
+          "level": 2,
+          "text": "Zobacz też",
+          "id": "zobacz-też"
+        }
+      ],
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezerwacjami w Spotto. Szczegóły rezerwacji, statusy, polityka zwrotów, częściowe anulowanie..."
+    },
+    {
+      "slug": "reservations/features/booking-status",
+      "title": "Statusy rezerwacji",
+      "screen": "reservations",
+      "content": "\n# Statusy rezerwacji\n\n## Opis\n\nKażda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie. Status wyświetla się jako kolorowa plakietka na karcie rezerwacji i w widoku szczegółów.\n\n## Lista statusów\n\n| Status | Kolor | Znaczenie | Można anulować? |\n|--------|-------|-----------|-----------------|\n| **Potwierdzona** | 🟢 Zielony | Rezerwacja opłacona i gotowa | Tak |\n| **Oczekująca** | 🟡 Żółty | Oczekuje na płatność lub potwierdzenie | Tak |\n| **Aktywna** | 🔵 Niebieski | Rezerwacja trwa właśnie teraz | Tak* |\n| **Częściowa** | 🟡 Żółty | Część slotów została anulowana | Tak |\n| **Częściowy zwrot** | 🟡 Żółty | Zwrot za anulowane sloty przetworzony | Tak |\n| **Zakończona** | ⚪ Szary | Rezerwacja zrealizowana — wizyta odbyta | Nie |\n| **Anulowana** | 🔴 Czerwony | Rezerwacja w pełni anulowana | Nie |\n\n*Aktywna rezerwacja może być anulowana tylko jeśli spełnia zasadę 48h.\n\n## Cykl życia rezerwacji\n\n```\nUtworzona → Oczekująca → Potwierdzona → Aktywna → Zakończona\n                ↓              ↓            ↓\n            Anulowana      Częściowa    Anulowana\n                           ↓\n                     Częściowy zwrot\n```\n\n## Gdzie widzisz status\n\n- **Lista rezerwacji** — kolorowa plakietka na karcie\n- **Szczegóły rezerwacji** — w sekcji „Informacje o rezerwacji\"\n- **Oczekujące płatności** — osobna sekcja dla statusu „Oczekująca\"\n\n## Co robić w zależności od statusu\n\n| Status | Zalecane działanie |\n|--------|-------------------|\n| Oczekująca | [Dokończ płatność](../how-to-pay-pending.md) |\n| Potwierdzona | Przygotuj się na wizytę |\n| Częściowa | Sprawdź, które godziny są nadal aktywne |\n| Anulowana | Możesz dokonać nowej rezerwacji |\n\n## Powiązane\n\n- [Jak przeglądać rezerwacje](../how-to-view-bookings.md)\n- [Szczegóły rezerwacji](./reservation-details.md)\n- [Polityka zwrotów](./refund-policy.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Statusy rezerwacji",
+          "id": "statusy-rezerwacji"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Lista statusów",
+          "id": "lista-statusów"
+        },
+        {
+          "level": 2,
+          "text": "Cykl życia rezerwacji",
+          "id": "cykl-życia-rezerwacji"
+        },
+        {
+          "level": 2,
+          "text": "Gdzie widzisz status",
+          "id": "gdzie-widzisz-status"
+        },
+        {
+          "level": 2,
+          "text": "Co robić w zależności od statusu",
+          "id": "co-robić-w-zależności-od-statusu"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie. Status wyświetla się jako kolorowa plakietka na karcie rezerwacji i w widoku szczegółów..."
+    },
+    {
+      "slug": "reservations/features/reservation-details",
+      "title": "Szczegóły rezerwacji",
+      "screen": "reservations",
+      "content": "\n# Szczegóły rezerwacji\n\n## Opis\n\nWidok szczegółów rezerwacji to pełnoekranowy modal, który otwiera się po dotknięciu karty rezerwacji. Zawiera kompletne informacje o Twojej rezerwacji.\n\n## Sekcje widoku\n\n### Informacje o obiekcie\n\n| Element | Opis |\n|---------|------|\n| **Zdjęcie** | Avatar lub zdjęcie obiektu |\n| **Nazwa obiektu** | Oficjalna nazwa |\n| **Lokalizacja** | Pełny adres z miastem |\n| **Kontakt** | Numer telefonu i e-mail z przyciskami szybkiego kontaktu |\n\n![IMG_RES_017 — Sekcja informacji o obiekcie](/assets/images/reservations/details-facility-info.png)\n\n### Szczegóły rezerwacji\n\n| Element | Opis |\n|---------|------|\n| **Data** | Pełna data w formacie polskim (np. „piątek, 28 marca 2026\") |\n| **Godziny** | Lista zarezerwowanych slotów (np. „10:00 - 11:00 ; 11:00 - 12:00\") |\n| **Czas trwania** | Łączna liczba godzin |\n| **Cena** | Łączny koszt rezerwacji |\n| **Liczba osób** | Widoczna przy rezerwacjach grupowych |\n\n### Sloty czasowe\n\nKażdy zarezerwowany slot wyświetla się jako osobny chip:\n- **Aktywny** — normalny wygląd z godziną\n- **Anulowany** — przekreślony tekst, szary kolor\n\n![IMG_RES_018 — Sloty czasowe w szczegółach](/assets/images/reservations/details-time-slots.png)\n\n### Informacje o trenerze (opcjonalnie)\n\nJeśli do rezerwacji przypisany jest trener:\n- Avatar trenera\n- Imię i nazwisko\n- Rola („Profesjonalny trener\")\n- Cena usługi trenera\n- Kontakt (telefon, e-mail)\n\n### Informacje o płatności\n\n| Element | Opis |\n|---------|------|\n| **Status płatności** | „Opłacona\" (zielony) lub „Oczekuje płatności\" (żółty) |\n| **Numer rezerwacji** | Pierwsze 7 znaków ID |\n| **Data utworzenia** | Kiedy dokonano rezerwacji |\n\n### Przyciski akcji\n\nW zależności od stanu rezerwacji zobaczysz:\n- **Zapłać teraz** — jeśli rezerwacja nieopłacona\n- **Anuluj częściowo** — jeśli rezerwacja ma wiele slotów\n- **Anuluj wszystko** — jeśli rezerwacja kwalifikuje się do anulowania\n\n## Powiązane\n\n- [Jak przeglądać rezerwacje](../how-to-view-bookings.md)\n- [Statusy rezerwacji](./booking-status.md)\n- [Jak anulować rezerwację](../how-to-cancel-booking.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Szczegóły rezerwacji",
+          "id": "szczegóły-rezerwacji"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Sekcje widoku",
+          "id": "sekcje-widoku"
+        },
+        {
+          "level": 3,
+          "text": "Informacje o obiekcie",
+          "id": "informacje-o-obiekcie"
+        },
+        {
+          "level": 3,
+          "text": "Szczegóły rezerwacji",
+          "id": "szczegóły-rezerwacji-1"
+        },
+        {
+          "level": 3,
+          "text": "Sloty czasowe",
+          "id": "sloty-czasowe"
+        },
+        {
+          "level": 3,
+          "text": "Informacje o trenerze (opcjonalnie)",
+          "id": "informacje-o-trenerze-opcjonalnie"
+        },
+        {
+          "level": 3,
+          "text": "Informacje o płatności",
+          "id": "informacje-o-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Przyciski akcji",
+          "id": "przyciski-akcji"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Widok szczegółów rezerwacji to pełnoekranowy modal z kompletnymi informacjami: obiekt, godziny, trener, cena, status płatności i przyciski akcji..."
+    },
+    {
+      "slug": "reservations/features/refund-policy",
+      "title": "Polityka anulowania i zwrotów",
+      "screen": "reservations",
+      "content": "\n# Polityka anulowania i zwrotów\n\n## Opis\n\nSpotto umożliwia anulowanie rezerwacji ze zwrotem środków, pod warunkiem spełnienia określonych zasad. Poniżej znajdziesz kompletne informacje o polityce anulowania.\n\n## Zasady anulowania\n\n### Zasada 48 godzin\n\nRezerwację można anulować **nie później niż 48 godzin** przed planowanym terminem wizyty.\n\n| Czas do rezerwacji | Czy można anulować? |\n|--------------------|---------------------|\n| > 48 godzin | Tak |\n| 24-48 godzin | Nie |\n| < 24 godziny | Nie |\n| Dziś | Nie |\n| Przeszłość | Nie |\n\n### Kto może anulować\n\n- Anulować może tylko osoba, która dokonała rezerwacji\n- Rezerwacje opłacone **karnetem lub voucherem** nie podlegają anulowaniu\n- Anulowanie dotyczy rezerwacji w statusie: Potwierdzona, Oczekująca, Aktywna, Częściowa\n\n## Opłata za anulowanie\n\nZa każde anulowanie (pełne lub częściowe) pobierana jest opłata:\n\n| Element | Wartość |\n|---------|---------|\n| **Opłata** | 5% wartości anulowanej części |\n| **Zwrot** | 95% wartości anulowanej części |\n\n**Przykład**: Anulowanie rezerwacji za 200 zł\n- Opłata: 10 zł (5%)\n- Zwrot: 190 zł (95%)\n\n## Termin zwrotu\n\n- Zwrot jest przetwarzany automatycznie przez system TPay\n- Środki wracają na konto w ciągu **3-5 dni roboczych**\n- Zwrot trafia na tę samą metodę płatności, którą dokonano rezerwacji\n\n## Częściowe anulowanie\n\nPrzy częściowym anulowaniu:\n- Opłata 5% naliczana jest **tylko od anulowanych slotów**\n- Pozostałe sloty są nadal aktywne\n- Status rezerwacji zmienia się na „Częściowa\"\n\n**Przykład**: Rezerwacja 4 slotów po 50 zł (200 zł łącznie), anulowanie 2 slotów:\n- Anulowana wartość: 100 zł\n- Opłata: 5 zł (5% ze 100 zł)\n- Zwrot: 95 zł\n- Pozostała aktywna wartość: 100 zł\n\n## Wyjątki od polityki\n\n| Sytuacja | Zasada |\n|----------|--------|\n| Karnet/voucher | Anulowanie niedostępne |\n| Obiekt odwołał rezerwację | Pełny zwrot 100% |\n| Awaria techniczna | Skontaktuj się z obsługą |\n\n## Powiązane\n\n- [Jak anulować rezerwację](../how-to-cancel-booking.md)\n- [Jak częściowo anulować](../how-to-partial-cancel.md)\n- [Statusy rezerwacji](./booking-status.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Polityka anulowania i zwrotów",
+          "id": "polityka-anulowania-i-zwrotów"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Zasady anulowania",
+          "id": "zasady-anulowania"
+        },
+        {
+          "level": 3,
+          "text": "Zasada 48 godzin",
+          "id": "zasada-48-godzin"
+        },
+        {
+          "level": 3,
+          "text": "Kto może anulować",
+          "id": "kto-może-anulować"
+        },
+        {
+          "level": 2,
+          "text": "Opłata za anulowanie",
+          "id": "opłata-za-anulowanie"
+        },
+        {
+          "level": 2,
+          "text": "Termin zwrotu",
+          "id": "termin-zwrotu"
+        },
+        {
+          "level": 2,
+          "text": "Częściowe anulowanie",
+          "id": "częściowe-anulowanie"
+        },
+        {
+          "level": 2,
+          "text": "Wyjątki od polityki",
+          "id": "wyjątki-od-polityki"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Spotto umożliwia anulowanie rezerwacji ze zwrotem środków. Zasada 48 godzin, opłata 5%, zwrot 95% w ciągu 3-5 dni roboczych. Częściowe anulowanie nalicza opłatę tylko od anulowanych slotów..."
+    },
+    {
+      "slug": "reservations/features/partial-cancellation",
+      "title": "Częściowe anulowanie",
+      "screen": "reservations",
+      "content": "\n# Częściowe anulowanie\n\n## Opis\n\nCzęściowe anulowanie pozwala anulować wybrane sloty czasowe z rezerwacji wielogodzinnej, zachowując pozostałe. To przydatne, gdy zmienisz plany, ale nadal chcesz skorzystać z części zarezerwowanego czasu.\n\n## Kiedy jest dostępne\n\nCzęściowe anulowanie jest dostępne, gdy:\n- Rezerwacja ma **więcej niż jeden slot czasowy**\n- Rezerwacja spełnia [zasady anulowania](./refund-policy.md) (48h, przyszła data)\n- Nie anulowano jeszcze wszystkich slotów oprócz jednego\n\n## Jak działa\n\n### Widok slotów\n\nPo otwarciu częściowego anulowania zobaczysz listę wszystkich slotów:\n\n| Element | Opis |\n|---------|------|\n| **Godzina** | Czas rozpoczęcia slotu (np. „10:00\") |\n| **Cena** | Koszt tego konkretnego slotu (łączna cena ÷ liczba slotów) |\n| **Status** | „Aktywny\" (można anulować) lub „Anulowany\" (szary, niedostępny) |\n| **Zaznaczenie** | Niebieskie obramowanie + ikona ✓ dla wybranych |\n\n### Ograniczenia\n\n- **Nie można anulować wszystkich slotów** — do tego służy pełne anulowanie\n- **Anulowane sloty nie mogą być przywrócone** — decyzja jest nieodwracalna\n- **Musi pozostać co najmniej 1 aktywny slot**\n\n### Odpowiedź systemu\n\nPo anulowaniu otrzymasz szczegółowe podsumowanie:\n\n| Pole | Przykład |\n|------|---------|\n| Anulowane sloty | 2 |\n| Oryginalna cena | 200 zł |\n| Pozostała cena | 100 zł |\n| Kwota zwrotu | 95 zł |\n| Opłata (5%) | 5 zł |\n| Nowy status | „Częściowa\" |\n\n## Status rezerwacji po częściowym anulowaniu\n\n- Status zmienia się na **„Częściowa\"** (partial)\n- W szczegółach rezerwacji anulowane sloty są **przekreślone**\n- Cena wyświetla się jako pozostała kwota\n\n## Powiązane\n\n- [Jak częściowo anulować — przewodnik](../how-to-partial-cancel.md)\n- [Jak anulować całą rezerwację](../how-to-cancel-booking.md)\n- [Polityka zwrotów](./refund-policy.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Średnia",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Częściowe anulowanie",
+          "id": "częściowe-anulowanie"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Kiedy jest dostępne",
+          "id": "kiedy-jest-dostępne"
+        },
+        {
+          "level": 2,
+          "text": "Jak działa",
+          "id": "jak-działa"
+        },
+        {
+          "level": 3,
+          "text": "Widok slotów",
+          "id": "widok-slotów"
+        },
+        {
+          "level": 3,
+          "text": "Ograniczenia",
+          "id": "ograniczenia"
+        },
+        {
+          "level": 3,
+          "text": "Odpowiedź systemu",
+          "id": "odpowiedź-systemu"
+        },
+        {
+          "level": 2,
+          "text": "Status rezerwacji po częściowym anulowaniu",
+          "id": "status-rezerwacji-po-częściowym-anulowaniu"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Częściowe anulowanie pozwala anulować wybrane sloty czasowe z rezerwacji wielogodzinnej, zachowując pozostałe. Zwrot 95% wartości anulowanych slotów w 3-5 dni roboczych..."
+    },
+    {
+      "slug": "reservations/faq",
+      "title": "FAQ — Ekran Rezerwacje",
+      "screen": "reservations",
+      "content": "\n# Najczęściej zadawane pytania — Ekran Rezerwacje\n\n## Przeglądanie rezerwacji\n\n### Jak sprawdzić moje nadchodzące rezerwacje?\nDotknij ikony kalendarza na dolnym pasku nawigacji. Zobaczysz listę nadchodzących rezerwacji i treningów posortowaną wg daty. [Pełny przewodnik](./how-to-view-bookings.md)\n\n### Czy widzę też treningi, na które się zapisałem/am?\nTak. Ekran Rezerwacje wyświetla zarówno rezerwacje obiektów, jak i treningi z trenerami. Każdy typ ma osobną kolorową plakietkę.\n\n### Dlaczego moja nowa rezerwacja nie pojawia się na liście?\nAplikacja synchronizuje nowe rezerwacje automatycznie (do 5 prób). Poczekaj kilka sekund — nowa rezerwacja pojawi się z niebieskim obramowaniem i pulsującą animacją.\n\n---\n\n## Anulowanie\n\n### Kiedy mogę anulować rezerwację?\nMożesz anulować rezerwację, jeśli do jej rozpoczęcia pozostało więcej niż 48 godzin. [Pełne zasady](./features/refund-policy.md)\n\n### Ile kosztuje anulowanie?\nOpłata za anulowanie wynosi 5% wartości anulowanej części. Otrzymasz zwrot 95% na konto.\n\n### Czy mogę anulować tylko jedną godzinę z rezerwacji na kilka godzin?\nTak — użyj funkcji [częściowego anulowania](./how-to-partial-cancel.md). Wybierz konkretne sloty do anulowania, a reszta pozostanie aktywna.\n\n### Czy mogę anulować rezerwację opłaconą karnetem?\nNie. Rezerwacje opłacone karnetem lub voucherem nie podlegają anulowaniu przez aplikację. Skontaktuj się bezpośrednio z obiektem.\n\n### Co się stanie, jeśli obiekt odwoła moją rezerwację?\nOtrzymasz pełny zwrot 100% (bez opłaty 5%). Powiadomienie pojawi się w aplikacji.\n\n---\n\n## Płatności i zwroty\n\n### Jak długo trwa zwrot pieniędzy?\nZwrot trafia na konto w ciągu **3-5 dni roboczych** od momentu anulowania.\n\n### Na jakie konto trafia zwrot?\nZwrot trafia na tę samą metodę płatności, którą dokonano rezerwacji (karta, konto bankowe).\n\n### Co to są „Oczekujące płatności\"?\nTo rezerwacje, za które nie dokończono płatności. Pojawią się u góry ekranu Rezerwacje. Możesz dokończyć płatność lub anulować rezerwację. [Jak dokończyć](./how-to-pay-pending.md)\n\n### Jakie metody płatności są dostępne?\nSpotto obsługuje płatności przez TPay: karty płatnicze (Visa, Mastercard), szybkie przelewy bankowe i BLIK.\n\n---\n\n## Statusy\n\n### Co oznaczają kolory statusów?\n- 🟢 **Zielony** — Potwierdzona (opłacona, gotowa)\n- 🟡 **Żółty** — Oczekująca / Częściowa\n- 🔵 **Niebieski** — Aktywna (trwa teraz)\n- 🔴 **Czerwony** — Anulowana\n- ⚪ **Szary** — Zakończona\n\n[Pełna lista statusów](./features/booking-status.md)\n\n### Co znaczy status „Częściowa\"?\nOznacza, że część godzin z rezerwacji została anulowana, ale pozostałe sloty są nadal aktywne.\n\n---\n\n## Powiązane tematy\n\n- [Ekran Rezerwacje — przegląd](./README.md)\n- [Troubleshooting](./troubleshooting.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Najczęściej zadawane pytania — Ekran Rezerwacje",
+          "id": "najczęściej-zadawane-pytania-ekran-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Przeglądanie rezerwacji",
+          "id": "przeglądanie-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Jak sprawdzić moje nadchodzące rezerwacje?",
+          "id": "jak-sprawdzić-moje-nadchodzące-rezerwacje"
+        },
+        {
+          "level": 3,
+          "text": "Czy widzę też treningi, na które się zapisałem/am?",
+          "id": "czy-widzę-też-treningi"
+        },
+        {
+          "level": 3,
+          "text": "Dlaczego moja nowa rezerwacja nie pojawia się na liście?",
+          "id": "dlaczego-moja-nowa-rezerwacja-nie-pojawia-się"
+        },
+        {
+          "level": 2,
+          "text": "Anulowanie",
+          "id": "anulowanie"
+        },
+        {
+          "level": 3,
+          "text": "Kiedy mogę anulować rezerwację?",
+          "id": "kiedy-mogę-anulować-rezerwację"
+        },
+        {
+          "level": 3,
+          "text": "Ile kosztuje anulowanie?",
+          "id": "ile-kosztuje-anulowanie"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę anulować tylko jedną godzinę?",
+          "id": "czy-mogę-anulować-tylko-jedną-godzinę"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę anulować rezerwację opłaconą karnetem?",
+          "id": "czy-mogę-anulować-rezerwację-opłaconą-karnetem"
+        },
+        {
+          "level": 3,
+          "text": "Co się stanie, jeśli obiekt odwoła moją rezerwację?",
+          "id": "co-się-stanie-jeśli-obiekt-odwoła"
+        },
+        {
+          "level": 2,
+          "text": "Płatności i zwroty",
+          "id": "płatności-i-zwroty"
+        },
+        {
+          "level": 3,
+          "text": "Jak długo trwa zwrot pieniędzy?",
+          "id": "jak-długo-trwa-zwrot-pieniędzy"
+        },
+        {
+          "level": 3,
+          "text": "Na jakie konto trafia zwrot?",
+          "id": "na-jakie-konto-trafia-zwrot"
+        },
+        {
+          "level": 3,
+          "text": "Co to są Oczekujące płatności?",
+          "id": "co-to-są-oczekujące-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Jakie metody płatności są dostępne?",
+          "id": "jakie-metody-płatności-są-dostępne"
+        },
+        {
+          "level": 2,
+          "text": "Statusy",
+          "id": "statusy"
+        },
+        {
+          "level": 3,
+          "text": "Co oznaczają kolory statusów?",
+          "id": "co-oznaczają-kolory-statusów"
+        },
+        {
+          "level": 3,
+          "text": "Co znaczy status Częściowa?",
+          "id": "co-znaczy-status-częściowa"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Odpowiedzi na najczęstsze pytania o rezerwacje: przeglądanie, anulowanie (zasada 48h, opłata 5%), częściowe anulowanie, oczekujące płatności, statusy i zwroty..."
+    },
+    {
+      "slug": "reservations/troubleshooting",
+      "title": "Rozwiązywanie problemów — Ekran Rezerwacje",
+      "screen": "reservations",
+      "content": "\n# Rozwiązywanie problemów — Ekran Rezerwacje\n\nPoniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwacjami w aplikacji Spotto.\n\n---\n\n## Przeglądanie rezerwacji\n\n### Rezerwacja nie pojawia się po płatności\n\n**Problem**: Zapłaciłem/am, ale rezerwacja nie widnieje na liście.\n\n**Przyczyny**:\n- Opóźnienie w synchronizacji (aplikacja próbuje do 5 razy)\n- Płatność jest jeszcze przetwarzana\n- Sesja wygasła podczas płatności\n\n**Rozwiązanie**:\n1. Poczekaj 10-15 sekund — aplikacja automatycznie synchronizuje nowe rezerwacje\n2. Pociągnij ekran w dół, aby odświeżyć\n3. Sprawdź sekcję „Oczekujące płatności\" — rezerwacja może czekać na dokończenie płatności\n4. Zamknij i otwórz ponownie aplikację\n5. Jeśli nie pojawi się po 15 minutach, skontaktuj się z obsługą z numerem transakcji\n\n---\n\n### Lista rezerwacji jest pusta\n\n**Problem**: Nie widzę żadnych rezerwacji, chociaż je mam.\n\n**Przyczyny**:\n- Brak połączenia z internetem\n- Wszystkie rezerwacje są w przeszłości (wyświetlane są tylko nadchodzące)\n- Problem z sesją użytkownika\n\n**Rozwiązanie**:\n1. Sprawdź połączenie z internetem\n2. Pamiętaj, że ekran pokazuje tylko **nadchodzące** rezerwacje\n3. Wyloguj się i zaloguj ponownie\n4. Zaktualizuj aplikację do najnowszej wersji\n\n---\n\n## Anulowanie\n\n### Nie mogę anulować rezerwacji\n\n**Problem**: Przycisk anulowania jest nieaktywny lub pojawia się błąd.\n\n**Przyczyny**:\n- Do rezerwacji pozostało mniej niż 48 godzin\n- Rezerwacja jest na dziś lub w przeszłości\n- Rezerwacja opłacona karnetem/voucherem\n- Rezerwacja jest już anulowana\n\n**Rozwiązanie**:\n1. Sprawdź datę rezerwacji — musi być > 48h w przyszłości\n2. Rezerwacje opłacone karnetem nie mogą być anulowane — skontaktuj się z obiektem\n3. Jeśli widzisz błąd „Nie można anulować\", przeczytaj komunikat — zawiera powód odmowy\n\n---\n\n### Błąd „Zasada 48 godzin\"\n\n**Problem**: Pojawia się komunikat o niemożności anulowania z powodu zasady 48 godzin.\n\n**Rozwiązanie**: Zasada jest obligatoryjna i nie można jej obejść. Opcje:\n1. Skontaktuj się bezpośrednio z obiektem (telefon lub e-mail z widoku szczegółów)\n2. Poproś obiekt o anulowanie po ich stronie\n3. W przypadku poważnych okoliczności skontaktuj się z obsługą Spotto\n\n---\n\n### Częściowe anulowanie nie działa\n\n**Problem**: Nie widzę opcji częściowego anulowania.\n\n**Przyczyny**:\n- Rezerwacja ma tylko 1 slot czasowy\n- Wszystkie sloty oprócz jednego zostały już anulowane\n\n**Rozwiązanie**: Częściowe anulowanie wymaga minimum 2 aktywnych slotów. Dla rezerwacji jednogodzinnych użyj pełnego anulowania.\n\n---\n\n## Płatności\n\n### Płatność nie powiodła się\n\n**Problem**: Próba płatności kończy się błędem.\n\n**Przyczyny**:\n- Niewystarczające środki\n- Wygasła karta\n- Problem z systemem TPay\n- Timeout połączenia\n\n**Rozwiązanie**:\n1. Sprawdź stan konta bankowego\n2. Spróbuj innej metody płatności (karta → BLIK → przelew)\n3. Poczekaj 5 minut i spróbuj ponownie\n4. Rezerwacja powinna nadal być w sekcji „Oczekujące płatności\"\n\n---\n\n### Zwrot nie dotarł na konto\n\n**Problem**: Anulowałem/am rezerwację, ale nie otrzymałem/am zwrotu.\n\n**Przyczyny**:\n- Zwrot jest w trakcie przetwarzania (3-5 dni roboczych)\n- Problem po stronie banku\n- Zwrot na kartę może trwać dłużej niż przelew\n\n**Rozwiązanie**:\n1. Poczekaj pełne 5 dni roboczych od momentu anulowania\n2. Sprawdź historię transakcji w banku (zwrot może być ukryty pod inną nazwą)\n3. Jeśli po 7 dniach brak zwrotu — skontaktuj się z obsługą Spotto, podając:\n   - Numer rezerwacji (widoczny w szczegółach)\n   - Datę anulowania\n   - Kwotę oczekiwanego zwrotu\n\n---\n\n### Oczekująca płatność wygasła\n\n**Problem**: Rezerwacja zniknęła z oczekujących, ale nie zapłaciłem/am.\n\n**Rozwiązanie**: Oczekujące płatności mają ograniczony czas ważności. Po jego upływie rezerwacja jest automatycznie anulowana. Dokonaj nowej rezerwacji na [ekranie Home](../home/how-to-book-facility.md).\n\n---\n\n## Ogólne\n\n### Ekran Rezerwacje się nie ładuje\n\n**Problem**: Ekran jest pusty lub wyświetla błąd.\n\n**Rozwiązanie**:\n1. Sprawdź połączenie z internetem\n2. Zamknij i otwórz aplikację\n3. Wyczyść pamięć podręczną:\n   - **Android**: Ustawienia → Aplikacje → Spotto → Pamięć → Wyczyść pamięć podręczną\n   - **iOS**: Usuń i zainstaluj aplikację ponownie\n4. Zaktualizuj do najnowszej wersji\n\n---\n\n## Nadal potrzebujesz pomocy?\n\nJeśli powyższe rozwiązania nie pomogły:\n- Sprawdź [FAQ ekranu Rezerwacje](./faq.md)\n- Skontaktuj się z zespołem wsparcia Spotto\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-28\n",
+      "metadata": {
+        "screen": "reservations",
+        "role": "Gracz",
+        "difficulty": "Średnia",
+        "status": "🟢",
+        "lastUpdated": "2026-03-28",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Rozwiązywanie problemów — Ekran Rezerwacje",
+          "id": "rozwiązywanie-problemów-ekran-rezerwacje"
+        },
+        {
+          "level": 2,
+          "text": "Przeglądanie rezerwacji",
+          "id": "przeglądanie-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Rezerwacja nie pojawia się po płatności",
+          "id": "rezerwacja-nie-pojawia-się-po-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Lista rezerwacji jest pusta",
+          "id": "lista-rezerwacji-jest-pusta"
+        },
+        {
+          "level": 2,
+          "text": "Anulowanie",
+          "id": "anulowanie"
+        },
+        {
+          "level": 3,
+          "text": "Nie mogę anulować rezerwacji",
+          "id": "nie-mogę-anulować-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Błąd Zasada 48 godzin",
+          "id": "błąd-zasada-48-godzin"
+        },
+        {
+          "level": 3,
+          "text": "Częściowe anulowanie nie działa",
+          "id": "częściowe-anulowanie-nie-działa"
+        },
+        {
+          "level": 2,
+          "text": "Płatności",
+          "id": "płatności"
+        },
+        {
+          "level": 3,
+          "text": "Płatność nie powiodła się",
+          "id": "płatność-nie-powiodła-się"
+        },
+        {
+          "level": 3,
+          "text": "Zwrot nie dotarł na konto",
+          "id": "zwrot-nie-dotarł-na-konto"
+        },
+        {
+          "level": 3,
+          "text": "Oczekująca płatność wygasła",
+          "id": "oczekująca-płatność-wygasła"
+        },
+        {
+          "level": 2,
+          "text": "Ogólne",
+          "id": "ogólne"
+        },
+        {
+          "level": 3,
+          "text": "Ekran Rezerwacje się nie ładuje",
+          "id": "ekran-rezerwacje-się-nie-ładuje"
+        },
+        {
+          "level": 2,
+          "text": "Nadal potrzebujesz pomocy?",
+          "id": "nadal-potrzebujesz-pomocy"
+        }
+      ],
+      "excerpt": "Rozwiązania najczęstszych problemów z rezerwacjami: brak rezerwacji po płatności, problemy z anulowaniem, zasada 48h, zwroty, oczekujące płatności..."
     },
     {
       "slug": "README",
       "title": "Spotto Help Documentation",
       "screen": "README.md",
-      "content": "# Spotto Help Documentation\r\n\r\nWelcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r\n\r\n## Quick Navigation\r\n\r\n### Main Screens\r\n\r\n- **[Home](./home/)** - Search facilities, browse categories, view favorites\r\n- **[Reservations](./reservations/)** - View and manage your bookings\r\n- **[Shop](./shop/)** - Browse and purchase products\r\n- **[Business](./business/)** - Manage your business profile and facilities\r\n- **[Trainer](./trainer/)** - Create and manage trainings\r\n- **[Profile](./profile/)** - Account settings and privacy\r\n\r\n### Additional Resources\r\n\r\n- **[Common Topics](./common/)** - Getting started, navigation, glossary\r\n- **[Troubleshooting](./troubleshooting/)** - Solutions to common problems\r\n\r\n---\r\n\r\n## For Content Creators\r\n\r\n### Creating New Content\r\n\r\n1. **Choose the right screen directory**\r\n2. **Use the appropriate template**:\r\n   - `how-to-*.md` for step-by-step guides\r\n   - `features/*.md` for feature explanations\r\n   - `faq.md` for quick Q&A\r\n3. **Follow the [Content Guidelines](../CONTENT_GUIDELINES.md)**\r\n4. **Add screenshots** to `assets/images/{screen}/`\r\n5. **Validate** before committing: `npm test`\r\n\r\n### Directory Structure\r\n\r\nEach screen directory contains:\r\n```\r\n{screen}/\r\n├── README.md          # Screen overview\r\n├── how-to-*.md       # Action guides\r\n├── features/         # Feature explanations\r\n│   └── *.md\r\n└── faq.md            # Quick answers\r\n```\r\n\r\n### Templates\r\n\r\nSee [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:\r\n- How-to guide template\r\n- Feature explanation template\r\n- Troubleshooting template\r\n- FAQ template\r\n\r\n---\r\n\r\n## Status\r\n\r\n### Coverage Progress\r\n\r\n| Screen | Guides | Features | FAQ | Status |\r\n|--------|--------|----------|-----|--------|\r\n| Home | 5 | 7 | ✅ | 🟢 Complete |\r\n| Reservations | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Shop | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Business | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Trainer | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Profile | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Common | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Troubleshooting | 0 | 0 | ❌ | 🔴 Not Started |\r\n\r\n**Legend**:\r\n- 🔴 Not Started - No content yet\r\n- 🟡 In Progress - Some content exists\r\n- 🟢 Complete - All core content done\r\n\r\n---\r\n\r\n## Quick Links\r\n\r\n### Most Needed Content (Priority)\r\n\r\n1. **Home Screen**:\r\n   - How to search for facilities\r\n   - How to browse categories\r\n   - How to book from search results\r\n\r\n2. **Business Screen**:\r\n   - How to create business profile\r\n   - How to add facilities\r\n   - How to set up TPay\r\n   - How to manage schedule\r\n\r\n3. **Reservations Screen**:\r\n   - How to view bookings\r\n   - How to cancel reservation\r\n   - Understanding booking status\r\n\r\n### Next Priority\r\n\r\n4. **Shop Screen**: Product types, purchasing\r\n5. **Trainer Screen**: Creating trainings, associations\r\n6. **Profile Screen**: Settings, privacy\r\n\r\n---\r\n\r\n## Contributing\r\n\r\nRead the [Contributing Guide](../CONTRIBUTING.md) for:\r\n- Development workflow\r\n- Content standards\r\n- Pull request process\r\n- Code review guidelines\r\n\r\n---\r\n\r\n**Last Updated**: 2026-03-17\r\n**Maintainer**: Spotto Development Team\r\n",
+      "content": "# Spotto Help Documentation\r\n\r\nWelcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r\n\r\n## Quick Navigation\r\n\r\n### Main Screens\r\n\r\n- **[Home](./home/)** - Search facilities, browse categories, view favorites\r\n- **[Reservations](./reservations/)** - View and manage your bookings\r\n- **[Shop](./shop/)** - Browse and purchase products\r\n- **[Business](./business/)** - Manage your business profile and facilities\r\n- **[Trainer](./trainer/)** - Create and manage trainings\r\n- **[Profile](./profile/)** - Account settings and privacy\r\n\r\n### Additional Resources\r\n\r\n- **[Common Topics](./common/)** - Getting started, navigation, glossary\r\n- **[Troubleshooting](./troubleshooting/)** - Solutions to common problems\r\n\r\n---\r\n\r\n## For Content Creators\r\n\r\n### Creating New Content\r\n\r\n1. **Choose the right screen directory**\r\n2. **Use the appropriate template**:\r\n   - `how-to-*.md` for step-by-step guides\r\n   - `features/*.md` for feature explanations\r\n   - `faq.md` for quick Q&A\r\n3. **Follow the [Content Guidelines](../CONTENT_GUIDELINES.md)**\r\n4. **Add screenshots** to `assets/images/{screen}/`\r\n5. **Validate** before committing: `npm test`\r\n\r\n### Directory Structure\r\n\r\nEach screen directory contains:\r\n```\r\n{screen}/\r\n├── README.md          # Screen overview\r\n├── how-to-*.md       # Action guides\r\n├── features/         # Feature explanations\r\n│   └── *.md\r\n└── faq.md            # Quick answers\r\n```\r\n\r\n### Templates\r\n\r\nSee [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:\r\n- How-to guide template\r\n- Feature explanation template\r\n- Troubleshooting template\r\n- FAQ template\r\n\r\n---\r\n\r\n## Status\r\n\r\n### Coverage Progress\r\n\r\n| Screen | Guides | Features | FAQ | Status |\r\n|--------|--------|----------|-----|--------|\r\n| Home | 5 | 7 | ✅ | 🟢 Complete |\r\n| Reservations | 4 | 4 | ✅ | 🟢 Complete |\r\n| Shop | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Business | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Trainer | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Profile | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Common | 0 | 0 | ❌ | 🔴 Not Started |\r\n| Troubleshooting | 0 | 0 | ❌ | 🔴 Not Started |\r\n\r\n**Legend**:\r\n- 🔴 Not Started - No content yet\r\n- 🟡 In Progress - Some content exists\r\n- 🟢 Complete - All core content done\r\n\r\n---\r\n\r\n## Quick Links\r\n\r\n### Most Needed Content (Priority)\r\n\r\n1. **Home Screen**:\r\n   - How to search for facilities\r\n   - How to browse categories\r\n   - How to book from search results\r\n\r\n2. **Business Screen**:\r\n   - How to create business profile\r\n   - How to add facilities\r\n   - How to set up TPay\r\n   - How to manage schedule\r\n\r\n3. **Reservations Screen**:\r\n   - How to view bookings\r\n   - How to cancel reservation\r\n   - Understanding booking status\r\n\r\n### Next Priority\r\n\r\n4. **Shop Screen**: Product types, purchasing\r\n5. **Trainer Screen**: Creating trainings, associations\r\n6. **Profile Screen**: Settings, privacy\r\n\r\n---\r\n\r\n## Contributing\r\n\r\nRead the [Contributing Guide](../CONTRIBUTING.md) for:\r\n- Development workflow\r\n- Content standards\r\n- Pull request process\r\n- Code review guidelines\r\n\r\n---\r\n\r\n**Last Updated**: 2026-03-17\r\n**Maintainer**: Spotto Development Team\r\n",
       "metadata": {
         "screen": "README.md",
         "status": "🔴",
@@ -1280,11 +2330,20 @@
         "inProgress": 0,
         "notStarted": 0
       }
+    },
+    {
+      "screen": "reservations",
+      "articleCount": 12,
+      "statuses": {
+        "completed": 12,
+        "inProgress": 0,
+        "notStarted": 0
+      }
     }
   ],
   "stats": {
-    "totalArticles": 18,
-    "totalScreens": 2,
-    "lastBuilt": "2026-03-28T22:00:00.000Z"
+    "totalArticles": 30,
+    "totalScreens": 3,
+    "lastBuilt": "2026-03-28T21:53:53.805Z"
   }
 }

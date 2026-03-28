@@ -14,7 +14,10 @@
       "Bash(curl -s http://localhost:3002/screen/home)",
       "Bash(curl -s http://localhost:3002/src/data/content.json)",
       "Bash(curl -s http://localhost:3002/article/home/faq)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/components -type d -name *reserv* -o -type d -name *booking*)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/types -type f -name *)",
+      "Bash(pkill -f vite)"
     ]
   }
 }
