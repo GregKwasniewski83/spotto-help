@@ -2,17 +2,125 @@
   "items": [
     {
       "slug": "home",
-      "title": "Home Screen - Pomoc",
+      "title": "Ekran Home - Pomoc",
       "screen": "home",
-      "content": "Home Screen - Pomoc Ekran główny aplikacji Spotto Przegląd Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz: - Wyszukiwać obiekty sportowe - Przeglądać kategorie sportów - Zarządzać ulubionymi obiektami - Wyświetlać obiekty na mapie - Szybko rezerwować wybrane obiekty Główne funkcje Wyszukiwanie obiektów Znajdź obiekt sportowy wpisując miasto, wybierając datę i typ obiektu. - Jak wyszukać obiekt (do utworzenia) Przeglądanie kategorii Przejrzyj dostępne obiekty według sportu (Strzelectwo, Squash, Siłownia, itp.) - Jak przeglądać kategorie (do utworzenia) Ulubione obiekty Zapisz swoje ulubione obiekty dla szybkiego dostępu. - Jak zarządzać ulubionymi (do utworzenia) Widok mapy Wyświetl obiekty w pobliżu na mapie. - Jak korzystać z mapy (do utworzenia) Rezerwacja Zarezerwuj obiekt bezpośrednio z wyników wyszukiwania. - Jak zarezerwować obiekt (do utworzenia) Szczegółowe funkcje - Wyszukiwarka (do utworzenia) - Kategorie sportowe (do utworzenia) - System ulubionych (do utwor",
-      "excerpt": "Ekran główny aplikacji Spotto\r \r \r \r Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r - Wyszukiwać obiekty sportowe\r - Przeglądać kategorie sportów\r - Zarządzać ulubionymi obiektami\r ..."
+      "content": "Ekran Home (Start) Ekran główny aplikacji Spotto — Twoje centrum wyszukiwania i rezerwacji obiektów sportowych. Przegląd ekranu Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia potrzebne do znalezienia i zarezerwowania idealnego obiektu sportowego. !Przegląd ekranu Home Co znajdziesz na ekranie Home | Sekcja | Opis | Więcej | |--------|------|--------| | Wyszukiwarka | Szukaj obiektów po mieście, dacie i typie | Szczegóły | | Kategorie sportów | Przeglądaj obiekty wg dyscypliny sportowej | Szczegóły | | Ulubione obiekty | Szybki dostęp do zapisanych obiektów | Szczegóły | | Mapa okolicy | Obiekty sportowe w Twojej okolicy | Szczegóły | | Nadchodzące rezerwacje | Podgląd najbliższych rezerwacji | Rezerwacje | | Oczekujące płatności | Powiadomienia o nieukończonych płatnościach | Jak zarezerwować | | Tablica społeczności | Posty i aktywność innych użytkowników | Szczegóły | --- Przewodniki krok po kroku Wyszukiwanie i rezerwacja - ",
+      "excerpt": "Ekran główny aplikacji Spotto — Twoje centrum wyszukiwania i rezerwacji obiektów sportowych. Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia p..."
+    },
+    {
+      "slug": "home/faq",
+      "title": "FAQ — Ekran Home",
+      "screen": "home",
+      "content": "Najczęściej zadawane pytania — Ekran Home Wyszukiwanie obiektów Jak mogę znaleźć obiekt sportowy w mojej okolicy? Masz dwa sposoby: 1. Wyszukiwarka — wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. Przewodnik krok po kroku 2. Mapa — otwórz widok mapy, który automatycznie pokaże obiekty w pobliżu Twojej lokalizacji. Jak korzystać z mapy Czy mogę szukać obiektów w innym mieście? Tak. Wpisz dowolne miasto w polu wyszukiwania — aplikacja nie ogranicza wyników do Twojej lokalizacji. Dlaczego wyszukiwarka nie pokazuje żadnych wyników? Najczęstsze przyczyny: - Nazwa miasta wpisana z błędem — sprawdź pisownię - Brak obiektów zarejestrowanych w Spotto w danym mieście - Wybrany zbyt wąski filtr typu obiektu — usuń filtr i spróbuj ponownie - Brak połączenia z internetem --- Kategorie sportów Jakie kategorie sportów są dostępne? Dostępne kategorie obejmują m.in.: Strzelectwo, Squash, Siłownia, Tenis, Padel, Piłka nożna, Basen, Badminton, Wspinaczka i inne. Lista jest d",
+      "excerpt": "Masz dwa sposoby: 1. Wyszukiwarka — wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. Przewodnik krok po kroku 2. Mapa — otwórz widok mapy, który automatycznie pokaże obiekt...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
     },
     {
       "slug": "home/features",
-      "title": "Home Screen Features",
+      "title": "Funkcje ekranu Home",
       "screen": "home",
-      "content": "Home Screen Features This directory contains detailed explanations of Home screen features. Available Guides - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be created) --- Last Updated: 2026-03-17",
-      "excerpt": "This directory contains detailed explanations of Home screen features. - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be cr..."
+      "content": "Funkcje ekranu Home Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto. Dostępne opisy - Wyszukiwarka — filtry, wyniki, podpowiedzi lokalizacji - Kategorie sportowe — karuzela dyscyplin, lista kategorii - System ulubionych — zapisywanie obiektów, szybki dostęp - Widok mapy — obiekty w pobliżu, markery, nawigacja - Tablica społeczności — posty użytkowników, interakcje Zobacz też - Przewodniki krok po kroku — jak korzystać z poszczególnych funkcji - FAQ — najczęstsze pytania - Troubleshooting — rozwiązywanie problemów --- Ostatnia aktualizacja: 2026-03-21",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto. - Wyszukiwarka — filtry, wyniki, podpowiedzi lokalizacji - Kategorie sportowe — karuzela dyscyplin, lista kategorii..."
+    },
+    {
+      "slug": "home/features/categories",
+      "title": "Kategorie sportowe",
+      "screen": "home",
+      "content": "Kategorie sportowe Opis Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. Dostępne kategorie | Kategoria | Ikona | Opis | |-----------|-------|------| | Strzelectwo | 🎯 | Strzelnice sportowe i rekreacyjne | | Squash | 🏸 | Korty squashowe | | Siłownia | 💪 | Sale siłowe i fitness | | Tenis | 🎾 | Korty tenisowe (hala i outdoor) | | Padel | 🏓 | Korty do padla | | Piłka nożna | ⚽ | Boiska (orliki, halowe, pełnowymiarowe) | | Basen | 🏊 | Pływalnie i aquaparki | | Badminton | 🏸 | Korty do badmintona | | Tenis stołowy | 🏓 | Stoły do tenisa stołowego | | Wspinaczka | 🧗 | Ścianki wspinaczkowe | > 💡 Uwaga: Lista kategorii jest dynamiczna i zależy od obiektów zarejestrowanych w systemie Spotto. Nowe kategorie pojawiają się automatycznie. Jak działa karuzela - Przewijanie — przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii - Wybór — dotknij kategorii, aby zobaczyć obiek",
+      "excerpt": "Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. | Kategoria | Ikona | Opis | |--------...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/community-wall",
+      "title": "Tablica społeczności",
+      "screen": "home",
+      "content": "Tablica społeczności Opis Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie sportu w Twojej okolicy. Co znajdziesz na tablicy - Posty użytkowników — informacje o wydarzeniach, treningach i aktywnościach - Aktywność społeczności — co inni użytkownicy rezerwują i polecają - Ogłoszenia — ważne informacje od obiektów sportowych Interakcje Z tablicy społeczności możesz: - Przeglądać posty — przewiń w dół, aby zobaczyć więcej treści - Reagować — polub lub skomentuj post - Udostępniać — podziel się interesującym postem - Tworzyć posty — dotknij przycisku tworzenia nowego posta Tworzenie posta 1. Dotknij przycisku Nowy post na tablicy społeczności 2. Wpisz treść posta 3. Opcjonalnie dodaj zdjęcie lub lokalizację 4. Dotknij Opublikuj > 💡 Wskazówka: Posty są widoczne dla innych użytkowników Spotto. Pamiętaj o kulturze wypowiedzi. Wymagania - Musis",
+      "excerpt": "Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie ...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/favorites",
+      "title": "System ulubionych",
+      "screen": "home",
+      "content": "System ulubionych Opis System ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji Ulubione na ekranie Home. Jak dodać do ulubionych Obiekt możesz dodać do ulubionych na dwa sposoby: 1. Z wyników wyszukiwania — dotknij ikony serca (♡) na karcie obiektu 2. Ze strony szczegółów — dotknij ikony serca w prawym górnym rogu Po dodaniu ikona zmienia się na wypełnione serce (♥). Sekcja ulubionych na ekranie Home Sekcja wyświetla się na ekranie Home po dodaniu przynajmniej jednego obiektu. Zawiera: - Karty obiektów — minikarty z nazwą, adresem i oceną - Przycisk Rezerwuj — szybka rezerwacja bez wchodzenia w szczegóły - Przewijanie — jeśli masz wiele ulubionych, przewiń listę w bok Zarządzanie ulubionymi - Usuwanie — dotknij wypełnionej ikony serca (♥), aby usunąć obiekt z ulubionych - Kolejność — obiekty wyświetlają się w kolejności dodania (najnowsze na początku) - Synchronizacja — ulubione są przypisane do konta i s",
+      "excerpt": "System ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji Ulubione na ekranie Home. Obiekt możesz dodać do ulubionych na...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/map-view",
+      "title": "Widok mapy",
+      "screen": "home",
+      "content": "Widok mapy Opis Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami. Elementy mapy | Element | Opis | |---------|------| | Niebieska kropka | Twoja aktualna lokalizacja | | Kolorowe markery | Obiekty sportowe (pinezki na mapie) | | Przycisk celownika | Centrowanie mapy na Twojej pozycji | | Przyciski +/- | Przybliżanie i oddalanie mapy | | Okienko informacyjne | Pojawia się po dotknięciu markera | Gesty nawigacji - Przesuwanie — przeciągnij palcem po mapie - Przybliżanie — szczypnij dwoma palcami (pinch-to-zoom) lub dotknij + - Oddalanie — rozsuń dwa palce lub dotknij - - Podwójne dotknięcie — szybkie przybliżenie Interakcja z markerami Po dotknięciu markera pojawia się okienko z: - Nazwą obiektu - Adresem - Odległością od Twojej lokalizacji - Oceną użytkowników - Przyciskami: Szczegóły i Rezerwuj Uprawnienia lokalizacji Mapa wymaga dostępu do lokaliz",
+      "excerpt": "Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami. | Element ...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/search",
+      "title": "Wyszukiwarka obiektów",
+      "screen": "home",
+      "content": "Wyszukiwarka obiektów Opis Wyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu. Dostępne filtry | Filtr | Opis | Wymagany | |-------|------|----------| | Miasto/lokalizacja | Nazwa miasta lub adres | Tak | | Data | Dzień rezerwacji (domyślnie: dziś) | Nie | | Typ obiektu | Rodzaj obiektu (kort, strzelnica, siłownia...) | Nie | Jak działa wyszukiwarka 1. Autouzupełnianie — wpisując nazwę miasta, zobaczysz podpowiedzi. Dotknij podpowiedzi, aby ją wybrać. 2. Wyszukiwanie — po wypełnieniu filtrów dotknij przycisku szukaj lub potwierdź klawiszem. 3. Wyniki — lista obiektów posortowanych wg trafności i odległości. Karta wyniku Każdy wynik wyszukiwania wyświetla się jako karta z informacjami: - Nazwa obiektu — oficjalna nazwa miejsca - Adres — ulica, numer, miasto - Typ — rodzaj obiektu (np. „Kort squashowy\") - Dostępność — wolne terminy na wybrany dzień - Cena — orientacyjna cena za godzin",
+      "excerpt": "Wyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu. | Filtr | Opis | Wymagany | |-------|------...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-book-facility",
+      "title": "Jak zarezerwować obiekt sportowy",
+      "screen": "home",
+      "content": "Jak zarezerwować obiekt sportowy Ekran: Home (Start) Rola: Gracz Trudność: Średnia Przegląd Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z widoku mapy. Ten przewodnik opisuje pełny proces rezerwacji krok po kroku. --- Zanim zaczniesz - Musisz mieć konto w aplikacji Spotto i być zalogowany/a - Potrzebujesz ważnej metody płatności (karta lub TPay) --- Kroki Krok 1: Znajdź obiekt Użyj jednej z metod, aby znaleźć obiekt: - Wyszukiwarka — wpisz miasto i datę - Kategorie — wybierz dyscyplinę sportową - Ulubione — wybierz z zapisanych obiektów - Mapa — znajdź na mapie Krok 2: Dotknij przycisku „Rezerwuj\" Na karcie obiektu (w wynikach wyszukiwania lub w szczegółach) dotknij przycisku Rezerwuj. !Przycisk rezerwacji > 💡 Wskazówka: Możesz też użyć funkcji Szybka rezerwacja (QuickBook), która pozwala zarezerwować wolny termin jednym dotknięciem bezpośrednio z wyników wyszukiwania. Krok 3: Wybierz term",
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Średnia Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z widoku...",
+      "role": "Gracz",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "home/how-to-browse-categories",
+      "title": "Jak przeglądać kategorie sportów",
+      "screen": "home",
+      "content": "Jak przeglądać kategorie sportów Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Przegląd Na ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesującą Cię dyscyplinę i zobaczyć wszystkie dostępne obiekty. --- Kroki Krok 1: Znajdź sekcję kategorii Przewiń ekran Home w dół, aż zobaczysz sekcję Popularne aktywności. Wyświetla się jako pozioma karuzela z ikonami sportów. !Karuzela kategorii Krok 2: Przeglądaj dostępne kategorie Przesuń palcem w lewo lub prawo po karuzeli, aby zobaczyć wszystkie dostępne kategorie. Przykładowe kategorie: | Kategoria | Opis | |-----------|------| | Strzelectwo | Strzelnice sportowe i rekreacyjne | | Squash | Korty squashowe | | Siłownia | Sale siłowe i fitness | | Tenis | Korty tenisowe | | Padel | Korty do padla | | Piłka nożna | Boiska piłkarskie (orlik, hala) | | Basen | Pływalnie i baseny | | Badminton | Korty do badmintona | > 💡 Wskazówka: Lista kategorii może się",
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Na ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesującą C...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-manage-favorites",
+      "title": "Jak zarządzać ulubionymi obiektami",
+      "screen": "home",
+      "content": "Jak zarządzać ulubionymi obiektami Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Przegląd System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca — masz je zawsze pod ręką na ekranie Home. --- Kroki Dodawanie obiektu do ulubionych Krok 1: Znajdź obiekt Wyszukaj obiekt sportowy za pomocą wyszukiwarki lub kategorii. Krok 2: Otwórz szczegóły obiektu Dotknij karty obiektu, aby otworzyć jego stronę szczegółów. Krok 3: Dodaj do ulubionych Na stronie szczegółów obiektu dotknij ikony serca (♡) w prawym górnym rogu. Ikona zmieni się na wypełnione serce (♥), potwierdzając dodanie do ulubionych. !Dodawanie do ulubionych > 💡 Wskazówka: Możesz też dodać obiekt do ulubionych bezpośrednio z karty wyników wyszukiwania, dotykając ikony serca. --- Przeglądanie ulubionych na ekranie Home Na ekranie Home znajdziesz sekcję Ulubione, która wyświetla Twoje zapisane obiekty jako karty szybkiego dostępu. !Sekcja ",
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca ...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-search-facilities",
+      "title": "Jak wyszukać obiekt sportowy",
+      "screen": "home",
+      "content": "Jak wyszukać obiekt sportowy Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Przegląd Wyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie obiektu (np. kort squashowy, strzelnica, siłownia). --- Kroki Krok 1: Otwórz wyszukiwarkę Na górze ekranu Home zobaczysz pasek wyszukiwania. Dotknij go, aby rozwinąć formularz wyszukiwania. !Pasek wyszukiwania Krok 2: Wpisz miasto lub lokalizację Wpisz nazwę miasta, w którym szukasz obiektu (np. „Warszawa\", „Kraków\", „Gdańsk\"). !Wpisywanie miasta > 💡 Wskazówka: Aplikacja podpowiada nazwy miast w trakcie wpisywania — wystarczy wybrać z listy. Krok 3: Wybierz datę Dotknij pola z datą, aby wybrać dzień, w którym chcesz zarezerwować obiekt. Domyślnie ustawiony jest dzisiejszy dzień. !Wybór daty Krok 4: Wybierz typ obiektu (opcjonalnie) Jeśli szukasz konkretnego typu obiektu, wybierz go z listy rozwijanej: - Kort squashowy - Strzelnica - Siłownia - Sala fitness -",
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Wyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie obiektu...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-use-map",
+      "title": "Jak korzystać z widoku mapy",
+      "screen": "home",
+      "content": "Jak korzystać z widoku mapy Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Przegląd Widok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy obiekt i zarezerwować go. --- Zanim zaczniesz - Upewnij się, że aplikacja ma dostęp do lokalizacji (GPS) - Sprawdź, czy lokalizacja jest włączona w ustawieniach telefonu --- Kroki Krok 1: Otwórz widok mapy Na ekranie Home znajdź sekcję Obiekty w pobliżu z mapą. Dotknij mapy, aby ją rozwinąć na pełny ekran. !Sekcja mapy Krok 2: Zezwól na dostęp do lokalizacji Przy pierwszym użyciu mapy aplikacja poprosi o dostęp do Twojej lokalizacji. Dotknij Zezwól, aby zobaczyć obiekty w pobliżu. !Uprawnienia lokalizacji > ⚠️ Ważne: Bez dostępu do lokalizacji mapa nie będzie mogła pokazać obiektów w Twojej okolicy. Możesz nadal przeglądać mapę ręcznie. Krok 3: Przeglądaj markery na mapie Na mapie zobaczysz kolorowe markery (pinezki) oznaczające obiekty sportowe. Każdy marke",
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Widok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy obiek...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/troubleshooting",
+      "title": "Rozwiązywanie problemów — Ekran Home",
+      "screen": "home",
+      "content": "Rozwiązywanie problemów — Ekran Home Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto. --- Wyszukiwanie Brak wyników wyszukiwania Problem: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów. Przyczyny: - Błąd w nazwie miasta - Brak obiektów Spotto w wybranym mieście - Zbyt restrykcyjne filtry - Brak połączenia z internetem Rozwiązanie: 1. Sprawdź pisownię nazwy miasta — skorzystaj z autouzupełniania 2. Usuń filtr typu obiektu i szukaj ponownie 3. Zmień datę na dzisiejszą, aby sprawdzić ogólną dostępność 4. Sprawdź połączenie z internetem (ikona Wi-Fi/danych mobilnych) 5. Zamknij i otwórz ponownie aplikację --- Wyszukiwarka nie reaguje na dotyk Problem: Pasek wyszukiwania nie rozwija się po dotknięciu. Przyczyny: - Aplikacja się zawiesiła - Problem z pamięcią urządzenia Rozwiązanie: 1. Zamknij aplikację i otwórz ją ponownie 2. Uruchom ponownie telefon 3. Upewnij się, że masz najnowszą wersję aplikacji --- Mapa Mapa się",
+      "excerpt": "Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto. --- Problem: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów. Przyczyny: - Błą...",
+      "role": "Gracz",
+      "difficulty": "Średnia"
     },
     {
       "slug": "README",
@@ -23,7 +131,7 @@
     }
   ],
   "stats": {
-    "totalItems": 3,
-    "lastBuilt": "2026-03-17T19:42:55.073Z"
+    "totalItems": 15,
+    "lastBuilt": "2026-03-21T20:48:03.661Z"
   }
 }

@@ -2,60 +2,50 @@
   "articles": [
     {
       "slug": "home",
-      "title": "Home Screen - Pomoc",
+      "title": "Ekran Home - Pomoc",
       "screen": "home",
-      "content": "# Home Screen - Pomoc\r\n\r\n**Ekran główny aplikacji Spotto**\r\n\r\n## Przegląd\r\n\r\nEkran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r\n- Wyszukiwać obiekty sportowe\r\n- Przeglądać kategorie sportów\r\n- Zarządzać ulubionymi obiektami\r\n- Wyświetlać obiekty na mapie\r\n- Szybko rezerwować wybrane obiekty\r\n\r\n## Główne funkcje\r\n\r\n### Wyszukiwanie obiektów\r\nZnajdź obiekt sportowy wpisując miasto, wybierając datę i typ obiektu.\r\n- [Jak wyszukać obiekt](./how-to-search-facilities.md) *(do utworzenia)*\r\n\r\n### Przeglądanie kategorii\r\nPrzejrzyj dostępne obiekty według sportu (Strzelectwo, Squash, Siłownia, itp.)\r\n- [Jak przeglądać kategorie](./how-to-browse-categories.md) *(do utworzenia)*\r\n\r\n### Ulubione obiekty\r\nZapisz swoje ulubione obiekty dla szybkiego dostępu.\r\n- [Jak zarządzać ulubionymi](./how-to-manage-favorites.md) *(do utworzenia)*\r\n\r\n### Widok mapy\r\nWyświetl obiekty w pobliżu na mapie.\r\n- [Jak korzystać z mapy](./how-to-use-map.md) *(do utworzenia)*\r\n\r\n### Rezerwacja\r\nZarezerwuj obiekt bezpośrednio z wyników wyszukiwania.\r\n- [Jak zarezerwować obiekt](./how-to-book-facility.md) *(do utworzenia)*\r\n\r\n## Szczegółowe funkcje\r\n\r\n- [Wyszukiwarka](./features/search.md) *(do utworzenia)*\r\n- [Kategorie sportowe](./features/categories.md) *(do utworzenia)*\r\n- [System ulubionych](./features/favorites.md) *(do utworzenia)*\r\n- [Widok mapy](./features/map-view.md) *(do utworzenia)*\r\n\r\n## Najczęściej zadawane pytania\r\n\r\nZobacz [FAQ](./faq.md) *(do utworzenia)*\r\n\r\n## Rozwiązywanie problemów\r\n\r\n- [Brak wyników wyszukiwania](../troubleshooting/search/no-results.md) *(do utworzenia)*\r\n- [Nie działa lokalizacja](../troubleshooting/search/location-permission.md) *(do utworzenia)*\r\n- [Miejsce niedostępne](../troubleshooting/bookings/time-slot-unavailable.md) *(do utworzenia)*\r\n\r\n## Powiązane tematy\r\n\r\n- [Jak anulować rezerwację](../reservations/how-to-cancel-booking.md) *(do utworzenia)*\r\n- [Jak kupić karnet](../shop/how-to-buy-pass.md) *(do utworzenia)*\r\n\r\n---\r\n\r\n**Status**: 🔴 Nie rozpoczęto - Brak treści\r\n\r\n**Ostatnia aktualizacja**: 2026-03-17\r\n",
+      "content": "\n# Ekran Home (Start)\n\n**Ekran główny aplikacji Spotto** — Twoje centrum wyszukiwania i rezerwacji obiektów sportowych.\n\n## Przegląd ekranu\n\nEkran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia potrzebne do znalezienia i zarezerwowania idealnego obiektu sportowego.\n\n![Przegląd ekranu Home](/assets/images/home/home-screen-overview.png)\n\n### Co znajdziesz na ekranie Home\n\n| Sekcja | Opis | Więcej |\n|--------|------|--------|\n| Wyszukiwarka | Szukaj obiektów po mieście, dacie i typie | [Szczegóły](./features/search.md) |\n| Kategorie sportów | Przeglądaj obiekty wg dyscypliny sportowej | [Szczegóły](./features/categories.md) |\n| Ulubione obiekty | Szybki dostęp do zapisanych obiektów | [Szczegóły](./features/favorites.md) |\n| Mapa okolicy | Obiekty sportowe w Twojej okolicy | [Szczegóły](./features/map-view.md) |\n| Nadchodzące rezerwacje | Podgląd najbliższych rezerwacji | [Rezerwacje](../reservations/README.md) |\n| Oczekujące płatności | Powiadomienia o nieukończonych płatnościach | [Jak zarezerwować](./how-to-book-facility.md) |\n| Tablica społeczności | Posty i aktywność innych użytkowników | [Szczegóły](./features/community-wall.md) |\n\n---\n\n## Przewodniki krok po kroku\n\n### Wyszukiwanie i rezerwacja\n\n- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md) — wpisz miasto, wybierz datę i znajdź idealny obiekt\n- [Jak przeglądać kategorie sportów](./how-to-browse-categories.md) — znajdź obiekty wg dyscypliny: Squash, Strzelectwo, Siłownia...\n- [Jak zarezerwować obiekt](./how-to-book-facility.md) — wybierz termin, potwierdź i zapłać\n\n### Personalizacja\n\n- [Jak zarządzać ulubionymi](./how-to-manage-favorites.md) — zapisz obiekty i rezerwuj jednym kliknięciem\n- [Jak korzystać z widoku mapy](./how-to-use-map.md) — znajdź obiekty w pobliżu na mapie\n\n---\n\n## Szczegółowe opisy funkcji\n\n- [Wyszukiwarka](./features/search.md) — filtry, wyniki, podpowiedzi\n- [Kategorie sportowe](./features/categories.md) — lista dostępnych dyscyplin\n- [System ulubionych](./features/favorites.md) — zapisywanie i zarządzanie\n- [Widok mapy](./features/map-view.md) — nawigacja i markery\n- [Tablica społeczności](./features/community-wall.md) — posty i interakcje\n\n---\n\n## Najczęściej zadawane pytania\n\nZobacz [FAQ ekranu Home](./faq.md) — odpowiedzi na najczęstsze pytania dotyczące wyszukiwania, kategorii, ulubionych i mapy.\n\n---\n\n## Rozwiązywanie problemów\n\nMasz problem z ekranem Home? Zobacz [Troubleshooting](./troubleshooting.md) — rozwiązania najczęstszych problemów:\n\n- Brak wyników wyszukiwania\n- Nie działa lokalizacja\n- Nie mogę zarezerwować obiektu\n- Mapa się nie ładuje\n\n---\n\n## Powiązane tematy\n\n- [Jak anulować rezerwację](../reservations/how-to-cancel-booking.md)\n- [Jak kupić karnet](../shop/how-to-buy-pass.md)\n- [Rozwiązywanie problemów z płatnościami](../troubleshooting/payments/payment-failed.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
       "metadata": {
         "screen": "home",
-        "status": "🔴",
-        "lastUpdated": "2026-03-17T19:46:31.872Z",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
         "prerequisites": []
       },
       "headings": [
         {
           "level": 1,
-          "text": "Home Screen - Pomoc",
-          "id": "home-screen-pomoc"
+          "text": "Ekran Home (Start)",
+          "id": "ekran-home-start"
         },
         {
           "level": 2,
-          "text": "Przegląd",
-          "id": "przegląd"
+          "text": "Przegląd ekranu",
+          "id": "przegląd-ekranu"
+        },
+        {
+          "level": 3,
+          "text": "Co znajdziesz na ekranie Home",
+          "id": "co-znajdziesz-na-ekranie-home"
         },
         {
           "level": 2,
-          "text": "Główne funkcje",
-          "id": "główne-funkcje"
+          "text": "Przewodniki krok po kroku",
+          "id": "przewodniki-krok-po-kroku"
         },
         {
           "level": 3,
-          "text": "Wyszukiwanie obiektów",
-          "id": "wyszukiwanie-obiektów"
+          "text": "Wyszukiwanie i rezerwacja",
+          "id": "wyszukiwanie-i-rezerwacja"
         },
         {
           "level": 3,
-          "text": "Przeglądanie kategorii",
-          "id": "przeglądanie-kategorii"
-        },
-        {
-          "level": 3,
-          "text": "Ulubione obiekty",
-          "id": "ulubione-obiekty"
-        },
-        {
-          "level": 3,
-          "text": "Widok mapy",
-          "id": "widok-mapy"
-        },
-        {
-          "level": 3,
-          "text": "Rezerwacja",
-          "id": "rezerwacja"
+          "text": "Personalizacja",
+          "id": "personalizacja"
         },
         {
           "level": 2,
-          "text": "Szczegółowe funkcje",
-          "id": "szczegółowe-funkcje"
+          "text": "Szczegółowe opisy funkcji",
+          "id": "szczegółowe-opisy-funkcji"
         },
         {
           "level": 2,
@@ -73,32 +63,1008 @@
           "id": "powiązane-tematy"
         }
       ],
-      "excerpt": "Ekran główny aplikacji Spotto\r \r \r \r Ekran Home (Start) jest głównym ekranem aplikacji, gdzie możesz:\r - Wyszukiwać obiekty sportowe\r - Przeglądać kategorie sportów\r - Zarządzać ulubionymi obiektami\r ..."
+      "excerpt": "Ekran główny aplikacji Spotto — Twoje centrum wyszukiwania i rezerwacji obiektów sportowych. Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia p..."
     },
     {
-      "slug": "home/features",
-      "title": "Home Screen Features",
+      "slug": "home/faq",
+      "title": "FAQ — Ekran Home",
       "screen": "home",
-      "content": "# Home Screen Features\n\nThis directory contains detailed explanations of Home screen features.\n\n## Available Guides\n\n- [Search functionality](./search.md) *(to be created)*\n- [Sport categories](./categories.md) *(to be created)*\n- [Favorites system](./favorites.md) *(to be created)*\n- [Map view](./map-view.md) *(to be created)*\n\n---\n\n**Last Updated**: 2026-03-17\n",
+      "content": "\n# Najczęściej zadawane pytania — Ekran Home\n\n## Wyszukiwanie obiektów\n\n### Jak mogę znaleźć obiekt sportowy w mojej okolicy?\n\nMasz dwa sposoby:\n1. **Wyszukiwarka** — wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. [Przewodnik krok po kroku](./how-to-search-facilities.md)\n2. **Mapa** — otwórz widok mapy, który automatycznie pokaże obiekty w pobliżu Twojej lokalizacji. [Jak korzystać z mapy](./how-to-use-map.md)\n\n### Czy mogę szukać obiektów w innym mieście?\n\nTak. Wpisz dowolne miasto w polu wyszukiwania — aplikacja nie ogranicza wyników do Twojej lokalizacji.\n\n### Dlaczego wyszukiwarka nie pokazuje żadnych wyników?\n\nNajczęstsze przyczyny:\n- Nazwa miasta wpisana z błędem — sprawdź pisownię\n- Brak obiektów zarejestrowanych w Spotto w danym mieście\n- Wybrany zbyt wąski filtr typu obiektu — usuń filtr i spróbuj ponownie\n- Brak połączenia z internetem\n\n---\n\n## Kategorie sportów\n\n### Jakie kategorie sportów są dostępne?\n\nDostępne kategorie obejmują m.in.: Strzelectwo, Squash, Siłownia, Tenis, Padel, Piłka nożna, Basen, Badminton, Wspinaczka i inne. Lista jest dynamiczna i zależy od obiektów w systemie. [Pełna lista kategorii](./features/categories.md)\n\n### Czy mogę filtrować obiekty po wielu kategoriach jednocześnie?\n\nNie — w tej chwili można wybrać jedną kategorię naraz. Aby zobaczyć obiekty z różnych dyscyplin, użyj wyszukiwarki bez filtra typu obiektu.\n\n---\n\n## Ulubione\n\n### Jak dodać obiekt do ulubionych?\n\nDotknij ikony serca (♡) na karcie obiektu w wynikach wyszukiwania lub na stronie szczegółów obiektu. [Pełny przewodnik](./how-to-manage-favorites.md)\n\n### Czy moje ulubione synchronizują się między urządzeniami?\n\nTak. Ulubione są przypisane do Twojego konta i synchronizują się automatycznie na wszystkich urządzeniach, na których jesteś zalogowany/a.\n\n### Ile obiektów mogę dodać do ulubionych?\n\nNie ma limitu — możesz dodać dowolną liczbę obiektów.\n\n---\n\n## Mapa\n\n### Dlaczego mapa nie pokazuje mojej lokalizacji?\n\nAplikacja potrzebuje dostępu do lokalizacji GPS. Sprawdź:\n- Czy lokalizacja jest włączona w ustawieniach telefonu\n- Czy aplikacja Spotto ma uprawnienia do lokalizacji\n- [Jak włączyć lokalizację](./features/map-view.md)\n\n### Czy mogę korzystać z mapy bez włączonej lokalizacji?\n\nTak, ale mapa nie pokaże Twojej pozycji ani nie posortuje obiektów wg odległości. Możesz ręcznie przesuwać i przeglądać mapę.\n\n---\n\n## Rezerwacja\n\n### Jak szybko mogę zarezerwować obiekt?\n\nNajszybszy sposób to funkcja **Szybka rezerwacja (QuickBook)** — jedno dotknięcie na karcie obiektu w wynikach wyszukiwania. [Jak zarezerwować](./how-to-book-facility.md)\n\n### Czy mogę zarezerwować obiekt na kilka godzin?\n\nTak. Podczas wyboru terminu zaznacz kilka sąsiadujących slotów czasowych.\n\n### Co to są „Oczekujące płatności\"?\n\nTo rezerwacje, dla których nie dokończono procesu płatności. Pojawią się jako powiadomienie na ekranie Home. Dotknij powiadomienia, aby dokończyć płatność.\n\n### Jakie metody płatności są akceptowane?\n\nSpotto obsługuje płatności przez TPay:\n- Karty płatnicze (Visa, Mastercard)\n- Szybkie przelewy bankowe\n- BLIK\n\n---\n\n## Tablica społeczności\n\n### Co to jest tablica społeczności?\n\nTo sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty, aktywność i ogłoszenia z społeczności Spotto. [Więcej o tablicy](./features/community-wall.md)\n\n### Czy mogę wyłączyć tablicę społeczności?\n\nTablica jest częścią ekranu Home i nie można jej wyłączyć. Możesz ją pominąć, przewijając ekran.\n\n---\n\n## Powiązane tematy\n\n- [Ekran Home — przegląd](./README.md)\n- [Troubleshooting](./troubleshooting.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
       "metadata": {
         "screen": "home",
-        "status": "🔴",
-        "lastUpdated": "2026-03-17T19:46:31.874Z",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
         "prerequisites": []
       },
       "headings": [
         {
           "level": 1,
-          "text": "Home Screen Features",
-          "id": "home-screen-features"
+          "text": "Najczęściej zadawane pytania — Ekran Home",
+          "id": "najczęściej-zadawane-pytania-ekran-home"
         },
         {
           "level": 2,
-          "text": "Available Guides",
-          "id": "available-guides"
+          "text": "Wyszukiwanie obiektów",
+          "id": "wyszukiwanie-obiektów"
+        },
+        {
+          "level": 3,
+          "text": "Jak mogę znaleźć obiekt sportowy w mojej okolicy?",
+          "id": "jak-mogę-znaleźć-obiekt-sportowy-w-mojej-okolicy"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę szukać obiektów w innym mieście?",
+          "id": "czy-mogę-szukać-obiektów-w-innym-mieście"
+        },
+        {
+          "level": 3,
+          "text": "Dlaczego wyszukiwarka nie pokazuje żadnych wyników?",
+          "id": "dlaczego-wyszukiwarka-nie-pokazuje-żadnych-wyników"
+        },
+        {
+          "level": 2,
+          "text": "Kategorie sportów",
+          "id": "kategorie-sportów"
+        },
+        {
+          "level": 3,
+          "text": "Jakie kategorie sportów są dostępne?",
+          "id": "jakie-kategorie-sportów-są-dostępne"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę filtrować obiekty po wielu kategoriach jednocześnie?",
+          "id": "czy-mogę-filtrować-obiekty-po-wielu-kategoriach-jednocześnie"
+        },
+        {
+          "level": 2,
+          "text": "Ulubione",
+          "id": "ulubione"
+        },
+        {
+          "level": 3,
+          "text": "Jak dodać obiekt do ulubionych?",
+          "id": "jak-dodać-obiekt-do-ulubionych"
+        },
+        {
+          "level": 3,
+          "text": "Czy moje ulubione synchronizują się między urządzeniami?",
+          "id": "czy-moje-ulubione-synchronizują-się-między-urządzeniami"
+        },
+        {
+          "level": 3,
+          "text": "Ile obiektów mogę dodać do ulubionych?",
+          "id": "ile-obiektów-mogę-dodać-do-ulubionych"
+        },
+        {
+          "level": 2,
+          "text": "Mapa",
+          "id": "mapa"
+        },
+        {
+          "level": 3,
+          "text": "Dlaczego mapa nie pokazuje mojej lokalizacji?",
+          "id": "dlaczego-mapa-nie-pokazuje-mojej-lokalizacji"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę korzystać z mapy bez włączonej lokalizacji?",
+          "id": "czy-mogę-korzystać-z-mapy-bez-włączonej-lokalizacji"
+        },
+        {
+          "level": 2,
+          "text": "Rezerwacja",
+          "id": "rezerwacja"
+        },
+        {
+          "level": 3,
+          "text": "Jak szybko mogę zarezerwować obiekt?",
+          "id": "jak-szybko-mogę-zarezerwować-obiekt"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę zarezerwować obiekt na kilka godzin?",
+          "id": "czy-mogę-zarezerwować-obiekt-na-kilka-godzin"
+        },
+        {
+          "level": 3,
+          "text": "Co to są „Oczekujące płatności\"?",
+          "id": "co-to-są-oczekujące-płatności"
+        },
+        {
+          "level": 3,
+          "text": "Jakie metody płatności są akceptowane?",
+          "id": "jakie-metody-płatności-są-akceptowane"
+        },
+        {
+          "level": 2,
+          "text": "Tablica społeczności",
+          "id": "tablica-społeczności"
+        },
+        {
+          "level": 3,
+          "text": "Co to jest tablica społeczności?",
+          "id": "co-to-jest-tablica-społeczności"
+        },
+        {
+          "level": 3,
+          "text": "Czy mogę wyłączyć tablicę społeczności?",
+          "id": "czy-mogę-wyłączyć-tablicę-społeczności"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
         }
       ],
-      "excerpt": "This directory contains detailed explanations of Home screen features. - Search functionality (to be created) - Sport categories (to be created) - Favorites system (to be created) - Map view (to be cr..."
+      "excerpt": "Masz dwa sposoby: 1. Wyszukiwarka — wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. Przewodnik krok po kroku 2. Mapa — otwórz widok mapy, który automatycznie pokaże obiekt..."
+    },
+    {
+      "slug": "home/features",
+      "title": "Funkcje ekranu Home",
+      "screen": "home",
+      "content": "\n# Funkcje ekranu Home\n\nSzczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto.\n\n## Dostępne opisy\n\n- [Wyszukiwarka](./search.md) — filtry, wyniki, podpowiedzi lokalizacji\n- [Kategorie sportowe](./categories.md) — karuzela dyscyplin, lista kategorii\n- [System ulubionych](./favorites.md) — zapisywanie obiektów, szybki dostęp\n- [Widok mapy](./map-view.md) — obiekty w pobliżu, markery, nawigacja\n- [Tablica społeczności](./community-wall.md) — posty użytkowników, interakcje\n\n## Zobacz też\n\n- [Przewodniki krok po kroku](../README.md) — jak korzystać z poszczególnych funkcji\n- [FAQ](../faq.md) — najczęstsze pytania\n- [Troubleshooting](../troubleshooting.md) — rozwiązywanie problemów\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Funkcje ekranu Home",
+          "id": "funkcje-ekranu-home"
+        },
+        {
+          "level": 2,
+          "text": "Dostępne opisy",
+          "id": "dostępne-opisy"
+        },
+        {
+          "level": 2,
+          "text": "Zobacz też",
+          "id": "zobacz-też"
+        }
+      ],
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto. - Wyszukiwarka — filtry, wyniki, podpowiedzi lokalizacji - Kategorie sportowe — karuzela dyscyplin, lista kategorii..."
+    },
+    {
+      "slug": "home/features/categories",
+      "title": "Kategorie sportowe",
+      "screen": "home",
+      "content": "\n# Kategorie sportowe\n\n## Opis\n\nSekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej.\n\n## Dostępne kategorie\n\n| Kategoria | Ikona | Opis |\n|-----------|-------|------|\n| Strzelectwo | 🎯 | Strzelnice sportowe i rekreacyjne |\n| Squash | 🏸 | Korty squashowe |\n| Siłownia | 💪 | Sale siłowe i fitness |\n| Tenis | 🎾 | Korty tenisowe (hala i outdoor) |\n| Padel | 🏓 | Korty do padla |\n| Piłka nożna | ⚽ | Boiska (orliki, halowe, pełnowymiarowe) |\n| Basen | 🏊 | Pływalnie i aquaparki |\n| Badminton | 🏸 | Korty do badmintona |\n| Tenis stołowy | 🏓 | Stoły do tenisa stołowego |\n| Wspinaczka | 🧗 | Ścianki wspinaczkowe |\n\n> 💡 **Uwaga**: Lista kategorii jest dynamiczna i zależy od obiektów zarejestrowanych w systemie Spotto. Nowe kategorie pojawiają się automatycznie.\n\n## Jak działa karuzela\n\n- **Przewijanie** — przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii\n- **Wybór** — dotknij kategorii, aby zobaczyć obiekty oferujące tę dyscyplinę\n- **Wyniki** — po wybraniu kategorii wyświetli się lista obiektów (analogicznie do wyników wyszukiwania)\n\n## Różnice między wyszukiwarką a kategoriami\n\n| Aspekt | Wyszukiwarka | Kategorie |\n|--------|-------------|-----------|\n| Wybór lokalizacji | Ręcznie | Automatycznie (wg lokalizacji) |\n| Filtr daty | Tak | Nie (pokazuje ogólną dostępność) |\n| Filtr typu | Tak (rozwijana lista) | Tak (dotknięcie ikony) |\n| Szybkość | Wymaga wpisania | Jedno dotknięcie |\n\n## Powiązane\n\n- [Jak przeglądać kategorie — przewodnik](../how-to-browse-categories.md)\n- [Wyszukiwarka](./search.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kategorie sportowe",
+          "id": "kategorie-sportowe"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Dostępne kategorie",
+          "id": "dostępne-kategorie"
+        },
+        {
+          "level": 2,
+          "text": "Jak działa karuzela",
+          "id": "jak-działa-karuzela"
+        },
+        {
+          "level": 2,
+          "text": "Różnice między wyszukiwarką a kategoriami",
+          "id": "różnice-między-wyszukiwarką-a-kategoriami"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. | Kategoria | Ikona | Opis | |--------..."
+    },
+    {
+      "slug": "home/features/community-wall",
+      "title": "Tablica społeczności",
+      "screen": "home",
+      "content": "\n# Tablica społeczności\n\n## Opis\n\nTablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie sportu w Twojej okolicy.\n\n## Co znajdziesz na tablicy\n\n- **Posty użytkowników** — informacje o wydarzeniach, treningach i aktywnościach\n- **Aktywność społeczności** — co inni użytkownicy rezerwują i polecają\n- **Ogłoszenia** — ważne informacje od obiektów sportowych\n\n## Interakcje\n\nZ tablicy społeczności możesz:\n- **Przeglądać posty** — przewiń w dół, aby zobaczyć więcej treści\n- **Reagować** — polub lub skomentuj post\n- **Udostępniać** — podziel się interesującym postem\n- **Tworzyć posty** — dotknij przycisku tworzenia nowego posta\n\n## Tworzenie posta\n\n1. Dotknij przycisku **Nowy post** na tablicy społeczności\n2. Wpisz treść posta\n3. Opcjonalnie dodaj zdjęcie lub lokalizację\n4. Dotknij **Opublikuj**\n\n> 💡 **Wskazówka**: Posty są widoczne dla innych użytkowników Spotto. Pamiętaj o kulturze wypowiedzi.\n\n## Wymagania\n\n- Musisz być zalogowany/a, aby przeglądać i tworzyć posty\n- Tworzenie postów wymaga uzupełnionego profilu\n\n## Powiązane\n\n- [Ekran Home — przegląd](../README.md)\n- [Jak edytować profil](../../profile/how-to-edit-profile.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Tablica społeczności",
+          "id": "tablica-społeczności"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Co znajdziesz na tablicy",
+          "id": "co-znajdziesz-na-tablicy"
+        },
+        {
+          "level": 2,
+          "text": "Interakcje",
+          "id": "interakcje"
+        },
+        {
+          "level": 2,
+          "text": "Tworzenie posta",
+          "id": "tworzenie-posta"
+        },
+        {
+          "level": 2,
+          "text": "Wymagania",
+          "id": "wymagania"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie ..."
+    },
+    {
+      "slug": "home/features/favorites",
+      "title": "System ulubionych",
+      "screen": "home",
+      "content": "\n# System ulubionych\n\n## Opis\n\nSystem ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji **Ulubione** na ekranie Home.\n\n## Jak dodać do ulubionych\n\nObiekt możesz dodać do ulubionych na dwa sposoby:\n\n1. **Z wyników wyszukiwania** — dotknij ikony serca (♡) na karcie obiektu\n2. **Ze strony szczegółów** — dotknij ikony serca w prawym górnym rogu\n\nPo dodaniu ikona zmienia się na wypełnione serce (♥).\n\n## Sekcja ulubionych na ekranie Home\n\nSekcja wyświetla się na ekranie Home po dodaniu przynajmniej jednego obiektu. Zawiera:\n\n- **Karty obiektów** — minikarty z nazwą, adresem i oceną\n- **Przycisk Rezerwuj** — szybka rezerwacja bez wchodzenia w szczegóły\n- **Przewijanie** — jeśli masz wiele ulubionych, przewiń listę w bok\n\n## Zarządzanie ulubionymi\n\n- **Usuwanie** — dotknij wypełnionej ikony serca (♥), aby usunąć obiekt z ulubionych\n- **Kolejność** — obiekty wyświetlają się w kolejności dodania (najnowsze na początku)\n- **Synchronizacja** — ulubione są przypisane do konta i synchronizują się między urządzeniami\n\n## Wymagania\n\n- Musisz być zalogowany/a — ulubione nie działają bez konta\n- Wymagane połączenie z internetem do synchronizacji\n\n## Powiązane\n\n- [Jak zarządzać ulubionymi — przewodnik](../how-to-manage-favorites.md)\n- [Jak zarezerwować obiekt](../how-to-book-facility.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "System ulubionych",
+          "id": "system-ulubionych"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Jak dodać do ulubionych",
+          "id": "jak-dodać-do-ulubionych"
+        },
+        {
+          "level": 2,
+          "text": "Sekcja ulubionych na ekranie Home",
+          "id": "sekcja-ulubionych-na-ekranie-home"
+        },
+        {
+          "level": 2,
+          "text": "Zarządzanie ulubionymi",
+          "id": "zarządzanie-ulubionymi"
+        },
+        {
+          "level": 2,
+          "text": "Wymagania",
+          "id": "wymagania"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "System ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji Ulubione na ekranie Home. Obiekt możesz dodać do ulubionych na..."
+    },
+    {
+      "slug": "home/features/map-view",
+      "title": "Widok mapy",
+      "screen": "home",
+      "content": "\n# Widok mapy\n\n## Opis\n\nWidok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami.\n\n## Elementy mapy\n\n| Element | Opis |\n|---------|------|\n| **Niebieska kropka** | Twoja aktualna lokalizacja |\n| **Kolorowe markery** | Obiekty sportowe (pinezki na mapie) |\n| **Przycisk celownika** | Centrowanie mapy na Twojej pozycji |\n| **Przyciski +/-** | Przybliżanie i oddalanie mapy |\n| **Okienko informacyjne** | Pojawia się po dotknięciu markera |\n\n## Gesty nawigacji\n\n- **Przesuwanie** — przeciągnij palcem po mapie\n- **Przybliżanie** — szczypnij dwoma palcami (pinch-to-zoom) lub dotknij +\n- **Oddalanie** — rozsuń dwa palce lub dotknij -\n- **Podwójne dotknięcie** — szybkie przybliżenie\n\n## Interakcja z markerami\n\nPo dotknięciu markera pojawia się okienko z:\n- Nazwą obiektu\n- Adresem\n- Odległością od Twojej lokalizacji\n- Oceną użytkowników\n- Przyciskami: **Szczegóły** i **Rezerwuj**\n\n## Uprawnienia lokalizacji\n\nMapa wymaga dostępu do lokalizacji GPS. Bez tego:\n- Mapa nadal działa, ale nie pokaże Twojej pozycji\n- Obiekty nie będą sortowane wg odległości\n- Przycisk celownika będzie nieaktywny\n\n### Jak włączyć lokalizację\n\n**Android**: Ustawienia → Lokalizacja → Włącz → Spotto → Zezwól\n\n**iOS**: Ustawienia → Prywatność → Usługi lokalizacyjne → Spotto → Podczas używania\n\n## Powiązane\n\n- [Jak korzystać z mapy — przewodnik](../how-to-use-map.md)\n- [Wyszukiwarka](./search.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Widok mapy",
+          "id": "widok-mapy"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Elementy mapy",
+          "id": "elementy-mapy"
+        },
+        {
+          "level": 2,
+          "text": "Gesty nawigacji",
+          "id": "gesty-nawigacji"
+        },
+        {
+          "level": 2,
+          "text": "Interakcja z markerami",
+          "id": "interakcja-z-markerami"
+        },
+        {
+          "level": 2,
+          "text": "Uprawnienia lokalizacji",
+          "id": "uprawnienia-lokalizacji"
+        },
+        {
+          "level": 3,
+          "text": "Jak włączyć lokalizację",
+          "id": "jak-włączyć-lokalizację"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami. | Element ..."
+    },
+    {
+      "slug": "home/features/search",
+      "title": "Wyszukiwarka obiektów",
+      "screen": "home",
+      "content": "\n# Wyszukiwarka obiektów\n\n## Opis\n\nWyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu.\n\n## Dostępne filtry\n\n| Filtr | Opis | Wymagany |\n|-------|------|----------|\n| **Miasto/lokalizacja** | Nazwa miasta lub adres | Tak |\n| **Data** | Dzień rezerwacji (domyślnie: dziś) | Nie |\n| **Typ obiektu** | Rodzaj obiektu (kort, strzelnica, siłownia...) | Nie |\n\n## Jak działa wyszukiwarka\n\n1. **Autouzupełnianie** — wpisując nazwę miasta, zobaczysz podpowiedzi. Dotknij podpowiedzi, aby ją wybrać.\n2. **Wyszukiwanie** — po wypełnieniu filtrów dotknij przycisku szukaj lub potwierdź klawiszem.\n3. **Wyniki** — lista obiektów posortowanych wg trafności i odległości.\n\n## Karta wyniku\n\nKażdy wynik wyszukiwania wyświetla się jako karta z informacjami:\n\n- **Nazwa obiektu** — oficjalna nazwa miejsca\n- **Adres** — ulica, numer, miasto\n- **Typ** — rodzaj obiektu (np. „Kort squashowy\")\n- **Dostępność** — wolne terminy na wybrany dzień\n- **Cena** — orientacyjna cena za godzinę\n- **Ocena** — średnia ocen użytkowników (gwiazdki)\n- **Przycisk Rezerwuj** — szybki dostęp do rezerwacji\n\n## Sortowanie wyników\n\nWyniki są domyślnie sortowane wg trafności. Czynniki wpływające na kolejność:\n- Dopasowanie do zapytania\n- Odległość od lokalizacji użytkownika\n- Popularność obiektu\n- Dostępność terminów\n\n## Ograniczenia\n\n- Wyszukiwarka wymaga połączenia z internetem\n- Wyniki ograniczone do obiektów zarejestrowanych w systemie Spotto\n- Autouzupełnianie działa dla polskich miast\n\n## Powiązane\n\n- [Jak wyszukać obiekt — przewodnik](../how-to-search-facilities.md)\n- [Jak zarezerwować obiekt](../how-to-book-facility.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Wyszukiwarka obiektów",
+          "id": "wyszukiwarka-obiektów"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Dostępne filtry",
+          "id": "dostępne-filtry"
+        },
+        {
+          "level": 2,
+          "text": "Jak działa wyszukiwarka",
+          "id": "jak-działa-wyszukiwarka"
+        },
+        {
+          "level": 2,
+          "text": "Karta wyniku",
+          "id": "karta-wyniku"
+        },
+        {
+          "level": 2,
+          "text": "Sortowanie wyników",
+          "id": "sortowanie-wyników"
+        },
+        {
+          "level": 2,
+          "text": "Ograniczenia",
+          "id": "ograniczenia"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Wyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu. | Filtr | Opis | Wymagany | |-------|------..."
+    },
+    {
+      "slug": "home/how-to-book-facility",
+      "title": "Jak zarezerwować obiekt sportowy",
+      "screen": "home",
+      "content": "\n# Jak zarezerwować obiekt sportowy\n\n**Ekran**: Home (Start)\n**Rola**: Gracz\n**Trudność**: Średnia\n\n## Przegląd\n\nZ ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z widoku mapy. Ten przewodnik opisuje pełny proces rezerwacji krok po kroku.\n\n---\n\n## Zanim zaczniesz\n\n- Musisz mieć konto w aplikacji Spotto i być zalogowany/a\n- Potrzebujesz ważnej metody płatności (karta lub TPay)\n\n---\n\n## Kroki\n\n### Krok 1: Znajdź obiekt\n\nUżyj jednej z metod, aby znaleźć obiekt:\n- [Wyszukiwarka](./how-to-search-facilities.md) — wpisz miasto i datę\n- [Kategorie](./how-to-browse-categories.md) — wybierz dyscyplinę sportową\n- [Ulubione](./how-to-manage-favorites.md) — wybierz z zapisanych obiektów\n- [Mapa](./how-to-use-map.md) — znajdź na mapie\n\n### Krok 2: Dotknij przycisku „Rezerwuj\"\n\nNa karcie obiektu (w wynikach wyszukiwania lub w szczegółach) dotknij przycisku **Rezerwuj**.\n\n![Przycisk rezerwacji](/assets/images/home/book-button.png)\n\n> 💡 **Wskazówka**: Możesz też użyć funkcji **Szybka rezerwacja** (QuickBook), która pozwala zarezerwować wolny termin jednym dotknięciem bezpośrednio z wyników wyszukiwania.\n\n### Krok 3: Wybierz termin\n\nZobaczysz kalendarz z dostępnymi terminami:\n- **Zielone sloty** — dostępne do rezerwacji\n- **Szare sloty** — już zarezerwowane\n- **Żółte sloty** — ograniczona dostępność\n\nDotknij wybranego terminu, aby go zaznaczyć.\n\n![Wybór terminu](/assets/images/home/time-slot-selection.png)\n\n### Krok 4: Sprawdź szczegóły rezerwacji\n\nPrzed potwierdzeniem zobaczysz podsumowanie:\n- Nazwa obiektu i adres\n- Wybrany dzień i godzina\n- Czas trwania\n- **Cena całkowita**\n\n![Podsumowanie rezerwacji](/assets/images/home/booking-summary.png)\n\n> ⚠️ **Ważne**: Sprawdź dokładnie datę, godzinę i cenę przed potwierdzeniem. Po potwierdzeniu zmiana terminu może wymagać anulowania rezerwacji.\n\n### Krok 5: Potwierdź i zapłać\n\nDotknij przycisku **Potwierdź rezerwację**. Zostaniesz przekierowany/a do systemu płatności (TPay), gdzie możesz zapłacić:\n- Kartą płatniczą\n- Szybkim przelewem\n- BLIK\n\nPo pomyślnej płatności zobaczysz potwierdzenie rezerwacji.\n\n![Potwierdzenie rezerwacji](/assets/images/home/booking-confirmation.png)\n\n---\n\n## Szybka rezerwacja (QuickBook)\n\nFunkcja QuickBook pozwala zarezerwować obiekt bez wchodzenia w szczegóły:\n\n1. W wynikach wyszukiwania dotknij przycisku **Szybka rezerwacja** na karcie obiektu\n2. Aplikacja automatycznie wybierze najbliższy wolny termin\n3. Potwierdź i zapłać\n\n> 💡 **Wskazówka**: QuickBook jest idealna, gdy nie masz preferencji co do konkretnej godziny i chcesz po prostu zagrać jak najszybciej.\n\n---\n\n## Oczekujące płatności\n\nJeśli przerwiesz proces płatności lub płatność się nie powiedzie, rezerwacja trafi do sekcji **Oczekujące płatności** na ekranie Home.\n\nAby dokończyć płatność:\n1. Dotknij powiadomienia o oczekującej płatności na ekranie Home\n2. Przejdź do systemu płatności\n3. Dokończ transakcję\n\n> ⚠️ **Ważne**: Oczekujące płatności mają ograniczony czas ważności. Jeśli nie zapłacisz w wyznaczonym terminie, rezerwacja zostanie automatycznie anulowana.\n\n---\n\n## Weryfikacja\n\nRezerwacja zakończyła się sukcesem, jeśli:\n- Widzisz ekran potwierdzenia rezerwacji\n- Rezerwacja pojawia się w sekcji „Nadchodzące rezerwacje\" na ekranie Home\n- Otrzymujesz powiadomienie lub e-mail z potwierdzeniem\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Brak dostępnych terminów\n**Rozwiązanie**: Obiekt może być w pełni zarezerwowany na wybrany dzień. Spróbuj:\n- Wybrać inny dzień\n- Sprawdzić późniejsze godziny\n- Poszukać podobnego obiektu w okolicy\n\n### Problem: Płatność nie powiodła się\n**Rozwiązanie**:\n- Sprawdź, czy masz wystarczające środki na koncie\n- Upewnij się, że karta płatnicza jest ważna\n- Spróbuj innej metody płatności (np. BLIK zamiast karty)\n- Jeśli problem się powtarza, skontaktuj się z obsługą\n\n### Problem: Rezerwacja nie pojawia się po płatności\n**Rozwiązanie**: Poczekaj kilka minut — potwierdzenie może wymagać przetworzenia. Jeśli rezerwacja nie pojawi się po 15 minutach:\n- Sprawdź sekcję „Oczekujące płatności\"\n- Odśwież ekran Home (pociągnij w dół)\n- Skontaktuj się z obsługą, podając numer transakcji\n\n---\n\n## Powiązane tematy\n\n- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)\n- [Jak anulować rezerwację](../reservations/how-to-cancel-booking.md)\n- [Jak kupić karnet](../shop/how-to-buy-pass.md)\n- [Problemy z płatnościami](../troubleshooting/payments/payment-failed.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Średnia",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": [
+          "home/how-to-search-facilities"
+        ]
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak zarezerwować obiekt sportowy",
+          "id": "jak-zarezerwować-obiekt-sportowy"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Zanim zaczniesz",
+          "id": "zanim-zaczniesz"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Znajdź obiekt",
+          "id": "krok-1-znajdź-obiekt"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Dotknij przycisku „Rezerwuj\"",
+          "id": "krok-2-dotknij-przycisku-rezerwuj"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Wybierz termin",
+          "id": "krok-3-wybierz-termin"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Sprawdź szczegóły rezerwacji",
+          "id": "krok-4-sprawdź-szczegóły-rezerwacji"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Potwierdź i zapłać",
+          "id": "krok-5-potwierdź-i-zapłać"
+        },
+        {
+          "level": 2,
+          "text": "Szybka rezerwacja (QuickBook)",
+          "id": "szybka-rezerwacja-quickbook"
+        },
+        {
+          "level": 2,
+          "text": "Oczekujące płatności",
+          "id": "oczekujące-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Brak dostępnych terminów",
+          "id": "problem-brak-dostępnych-terminów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Płatność nie powiodła się",
+          "id": "problem-płatność-nie-powiodła-się"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Rezerwacja nie pojawia się po płatności",
+          "id": "problem-rezerwacja-nie-pojawia-się-po-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Średnia Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z widoku..."
+    },
+    {
+      "slug": "home/how-to-browse-categories",
+      "title": "Jak przeglądać kategorie sportów",
+      "screen": "home",
+      "content": "\n# Jak przeglądać kategorie sportów\n\n**Ekran**: Home (Start)\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nNa ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesującą Cię dyscyplinę i zobaczyć wszystkie dostępne obiekty.\n\n---\n\n## Kroki\n\n### Krok 1: Znajdź sekcję kategorii\n\nPrzewiń ekran Home w dół, aż zobaczysz sekcję **Popularne aktywności**. Wyświetla się jako pozioma karuzela z ikonami sportów.\n\n![Karuzela kategorii](/assets/images/home/categories-carousel.png)\n\n### Krok 2: Przeglądaj dostępne kategorie\n\nPrzesuń palcem w lewo lub prawo po karuzeli, aby zobaczyć wszystkie dostępne kategorie. Przykładowe kategorie:\n\n| Kategoria | Opis |\n|-----------|------|\n| Strzelectwo | Strzelnice sportowe i rekreacyjne |\n| Squash | Korty squashowe |\n| Siłownia | Sale siłowe i fitness |\n| Tenis | Korty tenisowe |\n| Padel | Korty do padla |\n| Piłka nożna | Boiska piłkarskie (orlik, hala) |\n| Basen | Pływalnie i baseny |\n| Badminton | Korty do badmintona |\n\n> 💡 **Wskazówka**: Lista kategorii może się różnić w zależności od dostępności obiektów w Twojej okolicy.\n\n### Krok 3: Wybierz kategorię\n\nDotknij wybranej kategorii. Aplikacja wyświetli wszystkie obiekty oferujące tę dyscyplinę sportową.\n\n![Wyniki kategorii](/assets/images/home/category-results.png)\n\n### Krok 4: Przeglądaj obiekty w kategorii\n\nZobaczysz listę obiektów podobną do wyników wyszukiwania. Każdy obiekt zawiera:\n- Nazwę i adres\n- Dostępne terminy\n- Cenę\n- Ocenę użytkowników\n\nDotknij obiektu, aby zobaczyć szczegóły, lub od razu zarezerwuj wolny termin.\n\n---\n\n## Weryfikacja\n\nPrzeglądanie kategorii działa poprawnie, jeśli:\n- Widzisz karuzelę z ikonami sportów na ekranie Home\n- Po dotknięciu kategorii wyświetla się lista obiektów\n- Obiekty odpowiadają wybranej dyscyplinie\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Karuzela kategorii nie wyświetla się\n**Rozwiązanie**: Upewnij się, że aplikacja jest zaktualizowana do najnowszej wersji. Spróbuj odświeżyć ekran Home (pociągnij w dół).\n\n### Problem: Wybrana kategoria nie pokazuje żadnych obiektów\n**Rozwiązanie**: Może to oznaczać, że w Twojej okolicy nie ma obiektów oferujących tę dyscyplinę. Spróbuj:\n- Zmienić lokalizację w wyszukiwarce\n- Wybrać inną kategorię\n\n---\n\n## Powiązane tematy\n\n- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)\n- [Jak zarezerwować obiekt](./how-to-book-facility.md)\n- [Kategorie sportowe — szczegóły](./features/categories.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak przeglądać kategorie sportów",
+          "id": "jak-przeglądać-kategorie-sportów"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Znajdź sekcję kategorii",
+          "id": "krok-1-znajdź-sekcję-kategorii"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Przeglądaj dostępne kategorie",
+          "id": "krok-2-przeglądaj-dostępne-kategorie"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Wybierz kategorię",
+          "id": "krok-3-wybierz-kategorię"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Przeglądaj obiekty w kategorii",
+          "id": "krok-4-przeglądaj-obiekty-w-kategorii"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Karuzela kategorii nie wyświetla się",
+          "id": "problem-karuzela-kategorii-nie-wyświetla-się"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Wybrana kategoria nie pokazuje żadnych obiektów",
+          "id": "problem-wybrana-kategoria-nie-pokazuje-żadnych-obiektów"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Na ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesującą C..."
+    },
+    {
+      "slug": "home/how-to-manage-favorites",
+      "title": "Jak zarządzać ulubionymi obiektami",
+      "screen": "home",
+      "content": "\n# Jak zarządzać ulubionymi obiektami\n\n**Ekran**: Home (Start)\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nSystem ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca — masz je zawsze pod ręką na ekranie Home.\n\n---\n\n## Kroki\n\n### Dodawanie obiektu do ulubionych\n\n#### Krok 1: Znajdź obiekt\n\nWyszukaj obiekt sportowy za pomocą [wyszukiwarki](./how-to-search-facilities.md) lub [kategorii](./how-to-browse-categories.md).\n\n#### Krok 2: Otwórz szczegóły obiektu\n\nDotknij karty obiektu, aby otworzyć jego stronę szczegółów.\n\n#### Krok 3: Dodaj do ulubionych\n\nNa stronie szczegółów obiektu dotknij ikony serca (♡) w prawym górnym rogu. Ikona zmieni się na wypełnione serce (♥), potwierdzając dodanie do ulubionych.\n\n![Dodawanie do ulubionych](/assets/images/home/add-to-favorites.png)\n\n> 💡 **Wskazówka**: Możesz też dodać obiekt do ulubionych bezpośrednio z karty wyników wyszukiwania, dotykając ikony serca.\n\n---\n\n### Przeglądanie ulubionych na ekranie Home\n\nNa ekranie Home znajdziesz sekcję **Ulubione**, która wyświetla Twoje zapisane obiekty jako karty szybkiego dostępu.\n\n![Sekcja ulubionych](/assets/images/home/favorites-section.png)\n\nZ sekcji ulubionych możesz:\n- **Dotknąć kartę** — otworzyć szczegóły obiektu\n- **Rezerwuj** — przejść bezpośrednio do rezerwacji\n\n---\n\n### Usuwanie obiektu z ulubionych\n\n#### Krok 1: Znajdź obiekt w ulubionych\n\nPrzejdź do sekcji ulubionych na ekranie Home lub otwórz szczegóły obiektu.\n\n#### Krok 2: Usuń z ulubionych\n\nDotknij wypełnionej ikony serca (♥). Ikona zmieni się z powrotem na puste serce (♡), co oznacza usunięcie z ulubionych.\n\n---\n\n## Weryfikacja\n\nSystem ulubionych działa poprawnie, jeśli:\n- Po dodaniu obiektu ikona serca zmienia się na wypełnioną\n- Obiekt pojawia się w sekcji ulubionych na ekranie Home\n- Po usunięciu z ulubionych obiekt znika z sekcji\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Nie widzę sekcji ulubionych na ekranie Home\n**Rozwiązanie**: Sekcja ulubionych pojawia się dopiero po dodaniu przynajmniej jednego obiektu. Dodaj obiekt do ulubionych, a sekcja się wyświetli.\n\n### Problem: Ulubione się nie zapisują\n**Rozwiązanie**: Upewnij się, że jesteś zalogowany/a do konta. Ulubione są przypisane do konta użytkownika i wymagają aktywnej sesji.\n\n---\n\n## Powiązane tematy\n\n- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)\n- [Jak zarezerwować obiekt](./how-to-book-facility.md)\n- [System ulubionych — szczegóły](./features/favorites.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak zarządzać ulubionymi obiektami",
+          "id": "jak-zarządzać-ulubionymi-obiektami"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Dodawanie obiektu do ulubionych",
+          "id": "dodawanie-obiektu-do-ulubionych"
+        },
+        {
+          "level": 4,
+          "text": "Krok 1: Znajdź obiekt",
+          "id": "krok-1-znajdź-obiekt"
+        },
+        {
+          "level": 4,
+          "text": "Krok 2: Otwórz szczegóły obiektu",
+          "id": "krok-2-otwórz-szczegóły-obiektu"
+        },
+        {
+          "level": 4,
+          "text": "Krok 3: Dodaj do ulubionych",
+          "id": "krok-3-dodaj-do-ulubionych"
+        },
+        {
+          "level": 3,
+          "text": "Przeglądanie ulubionych na ekranie Home",
+          "id": "przeglądanie-ulubionych-na-ekranie-home"
+        },
+        {
+          "level": 3,
+          "text": "Usuwanie obiektu z ulubionych",
+          "id": "usuwanie-obiektu-z-ulubionych"
+        },
+        {
+          "level": 4,
+          "text": "Krok 1: Znajdź obiekt w ulubionych",
+          "id": "krok-1-znajdź-obiekt-w-ulubionych"
+        },
+        {
+          "level": 4,
+          "text": "Krok 2: Usuń z ulubionych",
+          "id": "krok-2-usuń-z-ulubionych"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie widzę sekcji ulubionych na ekranie Home",
+          "id": "problem-nie-widzę-sekcji-ulubionych-na-ekranie-home"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Ulubione się nie zapisują",
+          "id": "problem-ulubione-się-nie-zapisują"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca ..."
+    },
+    {
+      "slug": "home/how-to-search-facilities",
+      "title": "Jak wyszukać obiekt sportowy",
+      "screen": "home",
+      "content": "\n# Jak wyszukać obiekt sportowy\n\n**Ekran**: Home (Start)\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nWyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie obiektu (np. kort squashowy, strzelnica, siłownia).\n\n---\n\n## Kroki\n\n### Krok 1: Otwórz wyszukiwarkę\n\nNa górze ekranu Home zobaczysz pasek wyszukiwania. Dotknij go, aby rozwinąć formularz wyszukiwania.\n\n![Pasek wyszukiwania](/assets/images/home/search-bar.png)\n\n### Krok 2: Wpisz miasto lub lokalizację\n\nWpisz nazwę miasta, w którym szukasz obiektu (np. „Warszawa\", „Kraków\", „Gdańsk\").\n\n![Wpisywanie miasta](/assets/images/home/search-city-input.png)\n\n> 💡 **Wskazówka**: Aplikacja podpowiada nazwy miast w trakcie wpisywania — wystarczy wybrać z listy.\n\n### Krok 3: Wybierz datę\n\nDotknij pola z datą, aby wybrać dzień, w którym chcesz zarezerwować obiekt. Domyślnie ustawiony jest dzisiejszy dzień.\n\n![Wybór daty](/assets/images/home/search-date-picker.png)\n\n### Krok 4: Wybierz typ obiektu (opcjonalnie)\n\nJeśli szukasz konkretnego typu obiektu, wybierz go z listy rozwijanej:\n- Kort squashowy\n- Strzelnica\n- Siłownia\n- Sala fitness\n- Boisko\n- i inne...\n\n> 💡 **Wskazówka**: Jeśli nie wybierzesz typu, zobaczysz wszystkie dostępne obiekty w danym mieście.\n\n### Krok 5: Przeglądaj wyniki\n\nPo wypełnieniu filtrów zobaczysz listę obiektów spełniających kryteria. Każda karta wyniku zawiera:\n\n- **Nazwa obiektu** — pełna nazwa miejsca\n- **Adres** — lokalizacja z miastem\n- **Dostępność** — wolne terminy na wybrany dzień\n- **Cena** — orientacyjna cena za godzinę\n- **Ocena** — średnia ocen użytkowników\n\n![Wyniki wyszukiwania](/assets/images/home/search-results.png)\n\n### Krok 6: Wybierz obiekt\n\nDotknij karty obiektu, aby zobaczyć jego pełne szczegóły, lub użyj przycisku **Rezerwuj**, aby przejść bezpośrednio do rezerwacji.\n\n---\n\n## Weryfikacja\n\nWyszukiwanie zakończyło się sukcesem, jeśli:\n- Widzisz listę obiektów pasujących do Twoich kryteriów\n- Karty wyników pokazują nazwy, adresy i dostępność\n- Możesz dotknąć kartę, aby zobaczyć szczegóły\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Brak wyników wyszukiwania\n**Rozwiązanie**: Sprawdź, czy:\n- Nazwa miasta jest wpisana poprawnie\n- Wybrana data nie jest zbyt odległa\n- Spróbuj usunąć filtr typu obiektu, aby zobaczyć więcej wyników\n\n### Problem: Wyszukiwarka nie reaguje\n**Rozwiązanie**: Upewnij się, że masz połączenie z internetem. Spróbuj zamknąć i ponownie otworzyć aplikację.\n\n---\n\n## Powiązane tematy\n\n- [Jak przeglądać kategorie sportów](./how-to-browse-categories.md)\n- [Jak zarezerwować obiekt](./how-to-book-facility.md)\n- [Jak korzystać z widoku mapy](./how-to-use-map.md)\n- [Szczegóły wyszukiwarki](./features/search.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak wyszukać obiekt sportowy",
+          "id": "jak-wyszukać-obiekt-sportowy"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Otwórz wyszukiwarkę",
+          "id": "krok-1-otwórz-wyszukiwarkę"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Wpisz miasto lub lokalizację",
+          "id": "krok-2-wpisz-miasto-lub-lokalizację"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Wybierz datę",
+          "id": "krok-3-wybierz-datę"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Wybierz typ obiektu (opcjonalnie)",
+          "id": "krok-4-wybierz-typ-obiektu-opcjonalnie"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Przeglądaj wyniki",
+          "id": "krok-5-przeglądaj-wyniki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 6: Wybierz obiekt",
+          "id": "krok-6-wybierz-obiekt"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Brak wyników wyszukiwania",
+          "id": "problem-brak-wyników-wyszukiwania"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Wyszukiwarka nie reaguje",
+          "id": "problem-wyszukiwarka-nie-reaguje"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Wyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie obiektu..."
+    },
+    {
+      "slug": "home/how-to-use-map",
+      "title": "Jak korzystać z widoku mapy",
+      "screen": "home",
+      "content": "\n# Jak korzystać z widoku mapy\n\n**Ekran**: Home (Start)\n**Rola**: Gracz\n**Trudność**: Łatwa\n\n## Przegląd\n\nWidok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy obiekt i zarezerwować go.\n\n---\n\n## Zanim zaczniesz\n\n- Upewnij się, że aplikacja ma dostęp do lokalizacji (GPS)\n- Sprawdź, czy lokalizacja jest włączona w ustawieniach telefonu\n\n---\n\n## Kroki\n\n### Krok 1: Otwórz widok mapy\n\nNa ekranie Home znajdź sekcję **Obiekty w pobliżu** z mapą. Dotknij mapy, aby ją rozwinąć na pełny ekran.\n\n![Sekcja mapy](/assets/images/home/map-section.png)\n\n### Krok 2: Zezwól na dostęp do lokalizacji\n\nPrzy pierwszym użyciu mapy aplikacja poprosi o dostęp do Twojej lokalizacji. Dotknij **Zezwól**, aby zobaczyć obiekty w pobliżu.\n\n![Uprawnienia lokalizacji](/assets/images/home/location-permission.png)\n\n> ⚠️ **Ważne**: Bez dostępu do lokalizacji mapa nie będzie mogła pokazać obiektów w Twojej okolicy. Możesz nadal przeglądać mapę ręcznie.\n\n### Krok 3: Przeglądaj markery na mapie\n\nNa mapie zobaczysz kolorowe markery (pinezki) oznaczające obiekty sportowe. Każdy marker odpowiada jednemu obiektowi.\n\n![Markery na mapie](/assets/images/home/map-markers.png)\n\n- **Przybliżanie/oddalanie** — użyj gestu szczypania (pinch) lub przycisków +/-\n- **Przesuwanie** — przesuń palcem po mapie, aby zobaczyć inne obszary\n- **Moja lokalizacja** — dotknij ikony celownika, aby wrócić do swojej pozycji\n\n### Krok 4: Dotknij markera\n\nDotknij dowolnego markera, aby zobaczyć podstawowe informacje o obiekcie:\n- Nazwa obiektu\n- Adres\n- Odległość od Ciebie\n- Ocena\n\n![Szczegóły markera](/assets/images/home/map-marker-details.png)\n\n### Krok 5: Przejdź do szczegółów lub rezerwacji\n\nZ okienka informacyjnego markera możesz:\n- **Zobacz szczegóły** — otworzyć pełną stronę obiektu\n- **Rezerwuj** — przejść bezpośrednio do wyboru terminu\n\n---\n\n## Weryfikacja\n\nWidok mapy działa poprawnie, jeśli:\n- Mapa wyświetla się z Twoją lokalizacją (niebieska kropka)\n- Widoczne są markery obiektów sportowych\n- Dotknięcie markera pokazuje informacje o obiekcie\n\n---\n\n## Rozwiązywanie problemów\n\n### Problem: Mapa się nie ładuje\n**Rozwiązanie**:\n- Sprawdź połączenie z internetem\n- Zamknij i ponownie otwórz aplikację\n- Upewnij się, że aplikacja jest zaktualizowana\n\n### Problem: Nie widzę żadnych markerów\n**Rozwiązanie**:\n- Przybliż mapę — markery mogą być niewidoczne przy dużym oddaleniu\n- Sprawdź, czy w Twojej okolicy są zarejestrowane obiekty\n- Spróbuj przesunąć mapę do większego miasta\n\n### Problem: Lokalizacja jest nieprecyzyjna\n**Rozwiązanie**:\n- Włącz GPS (dokładna lokalizacja) w ustawieniach telefonu\n- Wyjdź na zewnątrz, aby uzyskać lepszy sygnał GPS\n- Zezwól aplikacji na dostęp do „dokładnej lokalizacji\" w ustawieniach uprawnień\n\n---\n\n## Powiązane tematy\n\n- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)\n- [Jak zarezerwować obiekt](./how-to-book-facility.md)\n- [Widok mapy — szczegóły](./features/map-view.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Łatwa",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Jak korzystać z widoku mapy",
+          "id": "jak-korzystać-z-widoku-mapy"
+        },
+        {
+          "level": 2,
+          "text": "Przegląd",
+          "id": "przegląd"
+        },
+        {
+          "level": 2,
+          "text": "Zanim zaczniesz",
+          "id": "zanim-zaczniesz"
+        },
+        {
+          "level": 2,
+          "text": "Kroki",
+          "id": "kroki"
+        },
+        {
+          "level": 3,
+          "text": "Krok 1: Otwórz widok mapy",
+          "id": "krok-1-otwórz-widok-mapy"
+        },
+        {
+          "level": 3,
+          "text": "Krok 2: Zezwól na dostęp do lokalizacji",
+          "id": "krok-2-zezwól-na-dostęp-do-lokalizacji"
+        },
+        {
+          "level": 3,
+          "text": "Krok 3: Przeglądaj markery na mapie",
+          "id": "krok-3-przeglądaj-markery-na-mapie"
+        },
+        {
+          "level": 3,
+          "text": "Krok 4: Dotknij markera",
+          "id": "krok-4-dotknij-markera"
+        },
+        {
+          "level": 3,
+          "text": "Krok 5: Przejdź do szczegółów lub rezerwacji",
+          "id": "krok-5-przejdź-do-szczegółów-lub-rezerwacji"
+        },
+        {
+          "level": 2,
+          "text": "Weryfikacja",
+          "id": "weryfikacja"
+        },
+        {
+          "level": 2,
+          "text": "Rozwiązywanie problemów",
+          "id": "rozwiązywanie-problemów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Mapa się nie ładuje",
+          "id": "problem-mapa-się-nie-ładuje"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Nie widzę żadnych markerów",
+          "id": "problem-nie-widzę-żadnych-markerów"
+        },
+        {
+          "level": 3,
+          "text": "Problem: Lokalizacja jest nieprecyzyjna",
+          "id": "problem-lokalizacja-jest-nieprecyzyjna"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane tematy",
+          "id": "powiązane-tematy"
+        }
+      ],
+      "excerpt": "Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Widok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy obiek..."
+    },
+    {
+      "slug": "home/troubleshooting",
+      "title": "Rozwiązywanie problemów — Ekran Home",
+      "screen": "home",
+      "content": "\n# Rozwiązywanie problemów — Ekran Home\n\nPoniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto.\n\n---\n\n## Wyszukiwanie\n\n### Brak wyników wyszukiwania\n\n**Problem**: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów.\n\n**Przyczyny**:\n- Błąd w nazwie miasta\n- Brak obiektów Spotto w wybranym mieście\n- Zbyt restrykcyjne filtry\n- Brak połączenia z internetem\n\n**Rozwiązanie**:\n1. Sprawdź pisownię nazwy miasta — skorzystaj z autouzupełniania\n2. Usuń filtr typu obiektu i szukaj ponownie\n3. Zmień datę na dzisiejszą, aby sprawdzić ogólną dostępność\n4. Sprawdź połączenie z internetem (ikona Wi-Fi/danych mobilnych)\n5. Zamknij i otwórz ponownie aplikację\n\n---\n\n### Wyszukiwarka nie reaguje na dotyk\n\n**Problem**: Pasek wyszukiwania nie rozwija się po dotknięciu.\n\n**Przyczyny**:\n- Aplikacja się zawiesiła\n- Problem z pamięcią urządzenia\n\n**Rozwiązanie**:\n1. Zamknij aplikację i otwórz ją ponownie\n2. Uruchom ponownie telefon\n3. Upewnij się, że masz najnowszą wersję aplikacji\n\n---\n\n## Mapa\n\n### Mapa się nie ładuje\n\n**Problem**: Sekcja mapy jest pusta lub wyświetla szary ekran.\n\n**Przyczyny**:\n- Brak połączenia z internetem\n- Problem z usługami Google Maps / Apple Maps\n- Niewystarczająca pamięć\n\n**Rozwiązanie**:\n1. Sprawdź połączenie z internetem\n2. Zamknij inne aplikacje, aby zwolnić pamięć\n3. Zamknij i otwórz Spotto ponownie\n4. Zaktualizuj aplikację do najnowszej wersji\n\n---\n\n### Nie widzę markerów obiektów na mapie\n\n**Problem**: Mapa się wyświetla, ale nie ma żadnych pinezek.\n\n**Przyczyny**:\n- Mapa jest zbyt oddalona\n- W widocznym obszarze nie ma obiektów Spotto\n- Problem z ładowaniem danych\n\n**Rozwiązanie**:\n1. Przybliż mapę (szczypnij dwoma palcami)\n2. Przesuń mapę do centrum dużego miasta\n3. Dotknij przycisku celownika, aby wrócić do swojej lokalizacji\n4. Pociągnij ekran w dół, aby odświeżyć dane\n\n---\n\n### Lokalizacja jest nieprecyzyjna lub niedostępna\n\n**Problem**: Niebieska kropka (Twoja pozycja) jest w złym miejscu lub nie wyświetla się.\n\n**Przyczyny**:\n- GPS wyłączony lub niedokładny\n- Brak uprawnień lokalizacji dla Spotto\n- Słaby sygnał GPS (wewnątrz budynku)\n\n**Rozwiązanie**:\n\n**Android**:\n1. Ustawienia → Lokalizacja → Włącz\n2. Ustawienia → Aplikacje → Spotto → Uprawnienia → Lokalizacja → „Zezwól podczas używania\"\n3. Wyjdź na zewnątrz, aby poprawić sygnał GPS\n\n**iOS**:\n1. Ustawienia → Prywatność → Usługi lokalizacyjne → Włącz\n2. Ustawienia → Prywatność → Usługi lokalizacyjne → Spotto → „Podczas używania\"\n3. Wyjdź na zewnątrz, aby poprawić sygnał GPS\n\n---\n\n## Rezerwacja\n\n### Nie mogę zarezerwować obiektu — brak dostępnych terminów\n\n**Problem**: Po wybraniu obiektu wszystkie terminy są szare (niedostępne).\n\n**Przyczyny**:\n- Obiekt jest w pełni zarezerwowany na wybrany dzień\n- Obiekt jest zamknięty w wybranym dniu\n- Problem z synchronizacją kalendarza\n\n**Rozwiązanie**:\n1. Zmień datę na inny dzień\n2. Sprawdź godziny otwarcia obiektu na stronie szczegółów\n3. Odśwież stronę (pociągnij w dół)\n4. Poszukaj podobnego obiektu w okolicy\n\n---\n\n### Płatność nie powiodła się\n\n**Problem**: Po potwierdzeniu rezerwacji płatność jest odrzucona.\n\n**Przyczyny**:\n- Niewystarczające środki na koncie\n- Karta wygasła lub zablokowana\n- Problem z systemem płatności TPay\n- Timeout połączenia\n\n**Rozwiązanie**:\n1. Sprawdź stan konta bankowego\n2. Spróbuj innej metody płatności (np. BLIK zamiast karty)\n3. Poczekaj 5 minut i spróbuj ponownie — rezerwacja powinna być w sekcji „Oczekujące płatności\"\n4. Jeśli problem się powtarza, skontaktuj się z obsługą klienta\n\n---\n\n### Rezerwacja nie pojawia się po płatności\n\n**Problem**: Zapłaciłem/am, ale rezerwacja nie widnieje w aplikacji.\n\n**Przyczyny**:\n- Opóźnienie w przetwarzaniu płatności\n- Sesja wygasła podczas płatności\n- Płatność nie została finalnie przetworzona\n\n**Rozwiązanie**:\n1. Poczekaj 5-15 minut — przetwarzanie może potrwać\n2. Odśwież ekran Home (pociągnij w dół)\n3. Sprawdź sekcję „Oczekujące płatności\" na ekranie Home\n4. Przejdź do zakładki [Rezerwacje](../reservations/README.md) i sprawdź tam\n5. Sprawdź e-mail — potwierdzenie mogło przyjść mailem\n6. Jeśli rezerwacja się nie pojawi po 30 minutach, skontaktuj się z obsługą, podając numer transakcji z banku\n\n---\n\n## Ulubione\n\n### Ulubione się nie zapisują\n\n**Problem**: Po dotknięciu ikony serca obiekt nie pojawia się w ulubionych.\n\n**Przyczyny**:\n- Nie jesteś zalogowany/a\n- Problem z połączeniem internetowym\n- Błąd synchronizacji\n\n**Rozwiązanie**:\n1. Upewnij się, że jesteś zalogowany/a do konta\n2. Sprawdź połączenie z internetem\n3. Zamknij i otwórz aplikację ponownie\n4. Spróbuj dodać obiekt do ulubionych jeszcze raz\n\n---\n\n### Sekcja ulubionych nie wyświetla się na ekranie Home\n\n**Problem**: Nie widzę sekcji „Ulubione\" na ekranie głównym.\n\n**Przyczyny**:\n- Nie masz żadnych zapisanych ulubionych\n- Nie jesteś zalogowany/a\n\n**Rozwiązanie**:\n1. Sekcja ulubionych pojawia się dopiero po dodaniu przynajmniej jednego obiektu\n2. Zaloguj się do konta\n3. Dodaj obiekt do ulubionych ([jak to zrobić](./how-to-manage-favorites.md))\n\n---\n\n## Ogólne problemy\n\n### Ekran Home jest pusty lub się nie ładuje\n\n**Problem**: Po otwarciu aplikacji ekran Home jest biały lub wyświetla błąd.\n\n**Rozwiązanie**:\n1. Sprawdź połączenie z internetem\n2. Zamknij i otwórz aplikację\n3. Wyczyść pamięć podręczną aplikacji:\n   - **Android**: Ustawienia → Aplikacje → Spotto → Pamięć → Wyczyść pamięć podręczną\n   - **iOS**: Usuń i zainstaluj aplikację ponownie\n4. Zaktualizuj aplikację do najnowszej wersji\n\n---\n\n### Dane na ekranie Home są nieaktualne\n\n**Problem**: Rezerwacje lub ulubione nie odzwierciedlają aktualnego stanu.\n\n**Rozwiązanie**:\n1. Pociągnij ekran w dół, aby odświeżyć dane\n2. Sprawdź połączenie z internetem\n3. Zamknij i otwórz aplikację\n\n---\n\n## Nadal potrzebujesz pomocy?\n\nJeśli powyższe rozwiązania nie pomogły:\n- Sprawdź [FAQ ekranu Home](./faq.md)\n- Przejdź do ogólnego [rozwiązywania problemów](../troubleshooting/app-issues/app-crash.md)\n- Skontaktuj się z zespołem wsparcia Spotto\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "metadata": {
+        "screen": "home",
+        "role": "Gracz",
+        "difficulty": "Średnia",
+        "status": "🟢",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Rozwiązywanie problemów — Ekran Home",
+          "id": "rozwiązywanie-problemów-ekran-home"
+        },
+        {
+          "level": 2,
+          "text": "Wyszukiwanie",
+          "id": "wyszukiwanie"
+        },
+        {
+          "level": 3,
+          "text": "Brak wyników wyszukiwania",
+          "id": "brak-wyników-wyszukiwania"
+        },
+        {
+          "level": 3,
+          "text": "Wyszukiwarka nie reaguje na dotyk",
+          "id": "wyszukiwarka-nie-reaguje-na-dotyk"
+        },
+        {
+          "level": 2,
+          "text": "Mapa",
+          "id": "mapa"
+        },
+        {
+          "level": 3,
+          "text": "Mapa się nie ładuje",
+          "id": "mapa-się-nie-ładuje"
+        },
+        {
+          "level": 3,
+          "text": "Nie widzę markerów obiektów na mapie",
+          "id": "nie-widzę-markerów-obiektów-na-mapie"
+        },
+        {
+          "level": 3,
+          "text": "Lokalizacja jest nieprecyzyjna lub niedostępna",
+          "id": "lokalizacja-jest-nieprecyzyjna-lub-niedostępna"
+        },
+        {
+          "level": 2,
+          "text": "Rezerwacja",
+          "id": "rezerwacja"
+        },
+        {
+          "level": 3,
+          "text": "Nie mogę zarezerwować obiektu — brak dostępnych terminów",
+          "id": "nie-mogę-zarezerwować-obiektu-brak-dostępnych-terminów"
+        },
+        {
+          "level": 3,
+          "text": "Płatność nie powiodła się",
+          "id": "płatność-nie-powiodła-się"
+        },
+        {
+          "level": 3,
+          "text": "Rezerwacja nie pojawia się po płatności",
+          "id": "rezerwacja-nie-pojawia-się-po-płatności"
+        },
+        {
+          "level": 2,
+          "text": "Ulubione",
+          "id": "ulubione"
+        },
+        {
+          "level": 3,
+          "text": "Ulubione się nie zapisują",
+          "id": "ulubione-się-nie-zapisują"
+        },
+        {
+          "level": 3,
+          "text": "Sekcja ulubionych nie wyświetla się na ekranie Home",
+          "id": "sekcja-ulubionych-nie-wyświetla-się-na-ekranie-home"
+        },
+        {
+          "level": 2,
+          "text": "Ogólne problemy",
+          "id": "ogólne-problemy"
+        },
+        {
+          "level": 3,
+          "text": "Ekran Home jest pusty lub się nie ładuje",
+          "id": "ekran-home-jest-pusty-lub-się-nie-ładuje"
+        },
+        {
+          "level": 3,
+          "text": "Dane na ekranie Home są nieaktualne",
+          "id": "dane-na-ekranie-home-są-nieaktualne"
+        },
+        {
+          "level": 2,
+          "text": "Nadal potrzebujesz pomocy?",
+          "id": "nadal-potrzebujesz-pomocy"
+        }
+      ],
+      "excerpt": "Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto. --- Problem: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów. Przyczyny: - Błą..."
     },
     {
       "slug": "README",
@@ -108,7 +1074,7 @@
       "metadata": {
         "screen": "README.md",
         "status": "🔴",
-        "lastUpdated": "2026-03-17T19:46:31.869Z",
+        "lastUpdated": "2026-03-21T20:47:57.439Z",
         "prerequisites": []
       },
       "headings": [
@@ -198,17 +1164,17 @@
     },
     {
       "screen": "home",
-      "articleCount": 2,
+      "articleCount": 14,
       "statuses": {
-        "completed": 0,
+        "completed": 14,
         "inProgress": 0,
-        "notStarted": 2
+        "notStarted": 0
       }
     }
   ],
   "stats": {
-    "totalArticles": 3,
+    "totalArticles": 15,
     "totalScreens": 2,
-    "lastBuilt": "2026-03-17T19:46:31.881Z"
+    "lastBuilt": "2026-03-21T20:47:57.524Z"
   }
 }
