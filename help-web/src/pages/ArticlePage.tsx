@@ -15,7 +15,7 @@ const screenNames: Record<string, string> = {
 };
 
 export default function ArticlePage() {
-  const { slug } = useParams<{ slug: string }>();
+  const { '*': slug } = useParams();
 
   if (!slug) {
     return <Navigate to="/" replace />;
@@ -111,7 +111,7 @@ export default function ArticlePage() {
 
           {/* Markdown Content */}
           <article className="prose-wrapper">
-            <MarkdownRenderer content={article.content} />
+            <MarkdownRenderer content={article.content} articleSlug={slug} />
           </article>
 
           {/* Article Footer */}

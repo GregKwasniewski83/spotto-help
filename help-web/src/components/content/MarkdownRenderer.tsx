@@ -9,9 +9,29 @@ import { Link } from 'react-router-dom';
 interface MarkdownRendererProps {
   content: string;
   className?: string;
+  articleSlug?: string;
 }
 
-export default function MarkdownRenderer({ content, className = '' }: MarkdownRendererProps) {
+function resolveRelativePath(href: string, currentSlug: string): string {
+  const cleanHref = href.replace(/\.md$/, '');
+  const parts = currentSlug.split('/');
+  const baseParts = parts.length === 1 ? [...parts] : parts.slice(0, -1);
+  const hrefParts = cleanHref.split('/');
+  const resultParts = [...baseParts];
+
+  for (const part of hrefParts) {
+    if (part === '.') continue;
+    if (part === '..') {
+      resultParts.pop();
+    } else {
+      resultParts.push(part);
+    }
+  }
+
+  return resultParts.join('/').replace(/\/README$/, '');
+}
+
+export default function MarkdownRenderer({ content, className = '', articleSlug }: MarkdownRendererProps) {
   return (
     <div className={`prose prose-lg max-w-none ${className}`}>
       <ReactMarkdown
@@ -70,10 +90,12 @@ export default function MarkdownRenderer({ content, className = '' }: MarkdownRe
             }
             // Relative markdown links (convert to router links)
             if (href?.endsWith('.md')) {
-              const path = href.replace(/\.md$/, '').replace(/^\.\//, '');
+              const resolved = articleSlug
+                ? resolveRelativePath(href, articleSlug)
+                : href.replace(/\.md$/, '').replace(/^\.\//, '');
               return (
                 <Link
-                  to={`/article/${path}`}
+                  to={`/article/${resolved}`}
                   className="text-primary-600 hover:text-primary-700 hover:underline"
                 >
                   {children}

@@ -123,6 +123,33 @@
       "difficulty": "Średnia"
     },
     {
+      "slug": "home/how-to-join-training",
+      "title": "Jak dołączyć do treningu",
+      "screen": "home",
+      "content": "Jak dołączyć do treningu Ekran: Home (Start) Rola: Gracz Trudność: Łatwa Z ekranu Home możesz wyszukać treningi prowadzone przez trenerów zarejestrowanych w Spotto i dołączyć do wybranego zajęcia. Przełącz wyszukiwarkę na zakładkę Treningi, ustaw filtry (miasto, kategoria, data), przeglądaj wyniki z informacjami o trenerze, cenie i liczbie uczestników. Dotknij karty treningu aby zobaczyć szczegóły i dołączyć. Zielona kropka oznacza wolne miejsca, czerwona — trening pełny. Po dołączeniu i płatności przez TPay trening pojawi się w Twoich rezerwacjach.",
+      "excerpt": "Z ekranu Home możesz wyszukać treningi prowadzone przez trenerów zarejestrowanych w Spotto i dołączyć do wybranego zajęcia. To prosty sposób, by znaleźć trening dopasowany do Twojego poziomu, lokaliz...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/trainings",
+      "title": "Wyszukiwanie treningów",
+      "screen": "home",
+      "content": "Wyszukiwanie treningów Wyszukiwarka na ekranie Home posiada dwie zakładki: Obiekty i Treningi. Zakładka Treningi pozwala znaleźć sesje treningowe prowadzone przez certyfikowanych trenerów w Spotto. Filtry: miasto (min. 3 znaki), kategoria z karuzeli chipów, data i godzina (domyślnie 2 godziny od teraz). Karta wyniku zawiera: nazwę treningu, cenę, imię trenera, datę, liczbę uczestników i status dostępności. Zielona kropka — wolne miejsca, czerwona kropka z napisem Pełne — brak miejsc. Po dotknięciu karty otwiera się okno Dołącz do treningu z pełnymi szczegółami.",
+      "excerpt": "Wyszukiwarka na ekranie Home posiada dwie zakładki: Obiekty i Treningi. Zakładka Treningi pozwala znaleźć sesje treningowe prowadzone przez certyfikowanych trenerów w Spotto. Każdy wynik wyświetla się...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/pending-payments",
+      "title": "Oczekujące płatności",
+      "screen": "home",
+      "content": "Oczekujące płatności Sekcja Oczekujące płatności pojawia się na ekranie Home, gdy masz niedokończone transakcje. Wyświetla się automatycznie gdy przerwałeś proces płatności, płatność nie powiodła się lub transakcja jest w trakcie przetwarzania. Każda karta zawiera: opis (nazwa obiektu/treningu), kwotę, czas utworzenia i status. Dwa przyciski: Płatność (otwiera TPay, sprawdza status po zamknięciu) i Anuluj (z potwierdzeniem). Oczekujące płatności mają ograniczony czas ważności. Metody płatności: karta, szybki przelew, BLIK.",
+      "excerpt": "Sekcja Oczekujące płatności pojawia się na ekranie Home, gdy masz niedokończone transakcje. To ważne powiadomienie — niedokończona płatność oznacza, że Twoja rezerwacja nie jest jeszcze potwierdzona...",
+      "role": "Gracz",
+      "difficulty": "Łatwa"
+    },
+    {
       "slug": "README",
       "title": "Spotto Help Documentation",
       "screen": "README.md",
@@ -131,7 +158,7 @@
     }
   ],
   "stats": {
-    "totalItems": 15,
-    "lastBuilt": "2026-03-21T20:48:03.661Z"
+    "totalItems": 18,
+    "lastBuilt": "2026-03-28T22:00:00.000Z"
   }
 }
