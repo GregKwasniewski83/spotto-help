@@ -11,10 +11,10 @@ Szczegółowe opisy wszystkich funkcji dostępnych na ekranie Sklep.
 
 ## Lista funkcji
 
-- [Katalog produktów](./product-catalog.md) — rodzaje produktów, informacje na kartach
-- [Moje zakupy](./my-purchases.md) — statusy produktów, pasek postępu, wykorzystanie
-- [Wyszukiwarka i filtry](./search-filters.md) — szukanie, filtrowanie, sortowanie
-- [Płatności](./payments.md) — system TPay, metody płatności, potwierdzenia
+- [Katalog produktów](./product-catalog.md) : rodzaje produktów, informacje na kartach
+- [Moje zakupy](./my-purchases.md) : statusy produktów, pasek postępu, wykorzystanie
+- [Wyszukiwarka i filtry](./search-filters.md) : szukanie, filtrowanie, sortowanie
+- [Płatności](./payments.md) : system TPay, metody płatności, potwierdzenia
 
 ---
 

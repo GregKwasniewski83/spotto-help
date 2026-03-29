@@ -1,7 +1,7 @@
 ---
 title: "Nie mogę anulować rezerwacji"
 screen: troubleshooting
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -21,7 +21,7 @@ Chcesz anulować rezerwację, ale opcja nie jest dostępna lub wyświetla się b
 
 **Wyjaśnienie**: Wiele obiektów nie pozwala na anulowanie na mniej niż 48 godzin przed terminem rezerwacji.
 
-**Rozwiązanie**: Skontaktuj się bezpośrednio z obiektem sportowym — dane kontaktowe znajdziesz w szczegółach rezerwacji.
+**Rozwiązanie**: Skontaktuj się bezpośrednio z obiektem sportowym : dane kontaktowe znajdziesz w szczegółach rezerwacji.
 
 ### Rezerwacja już się rozpoczęła
 

@@ -1,13 +1,13 @@
 ---
-title: "Rozwiązywanie problemów — Ekran Home"
+title: "Rozwiązywanie problemów : Ekran Home"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
-# Rozwiązywanie problemów — Ekran Home
+# Rozwiązywanie problemów : Ekran Home
 
 Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto.
 
@@ -26,7 +26,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 - Brak połączenia z internetem
 
 **Rozwiązanie**:
-1. Sprawdź pisownię nazwy miasta — skorzystaj z autouzupełniania
+1. Sprawdź pisownię nazwy miasta : skorzystaj z autouzupełniania
 2. Usuń filtr typu obiektu i szukaj ponownie
 3. Zmień datę na dzisiejszą, aby sprawdzić ogólną dostępność
 4. Sprawdź połączenie z internetem (ikona Wi-Fi/danych mobilnych)
@@ -110,7 +110,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 
 ## Rezerwacja
 
-### Nie mogę zarezerwować obiektu — brak dostępnych terminów
+### Nie mogę zarezerwować obiektu : brak dostępnych terminów
 
 **Problem**: Po wybraniu obiektu wszystkie terminy są szare (niedostępne).
 
@@ -140,7 +140,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 **Rozwiązanie**:
 1. Sprawdź stan konta bankowego
 2. Spróbuj innej metody płatności (np. BLIK zamiast karty)
-3. Poczekaj 5 minut i spróbuj ponownie — rezerwacja powinna być w sekcji „Oczekujące płatności"
+3. Poczekaj 5 minut i spróbuj ponownie : rezerwacja powinna być w sekcji „Oczekujące płatności"
 4. Jeśli problem się powtarza, skontaktuj się z obsługą klienta
 
 ---
@@ -155,11 +155,11 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 - Płatność nie została finalnie przetworzona
 
 **Rozwiązanie**:
-1. Poczekaj 5-15 minut — przetwarzanie może potrwać
+1. Poczekaj 5-15 minut : przetwarzanie może potrwać
 2. Odśwież ekran Home (pociągnij w dół)
 3. Sprawdź sekcję „Oczekujące płatności" na ekranie Home
 4. Przejdź do zakładki [Rezerwacje](../reservations/README.md) i sprawdź tam
-5. Sprawdź e-mail — potwierdzenie mogło przyjść mailem
+5. Sprawdź e-mail : potwierdzenie mogło przyjść mailem
 6. Jeśli rezerwacja się nie pojawi po 30 minutach, skontaktuj się z obsługą, podając numer transakcji z banku
 
 ---

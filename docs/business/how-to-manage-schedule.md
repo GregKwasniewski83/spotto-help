@@ -39,7 +39,7 @@ Skonfiguruj godziny otwarcia dla trzech typów dni:
 
 Dla każdego typu dnia zaznacz godziny (sloty od 00:00 do 23:00), w których obiekt jest dostępny.
 
-![Harmonogram tygodniowy — Screenshot #24](../../assets/images/business/weekly-schedule.png)
+![Harmonogram tygodniowy : Screenshot #24](../../assets/images/business/weekly-schedule.png)
 
 > 💡 **Wskazówka**: Zaznaczona godzina = obiekt dostępny. Odznaczona = zamknięte.
 
@@ -53,7 +53,7 @@ Aby nadpisać harmonogram tygodniowy na konkretną datę:
 
 Harmonogram na konkretną datę ma wyższy priorytet niż harmonogram tygodniowy.
 
-![Dostępność na konkretną datę — Screenshot #25](../../assets/images/business/date-specific-schedule.png)
+![Dostępność na konkretną datę : Screenshot #25](../../assets/images/business/date-specific-schedule.png)
 
 ### Krok 4: Zapisz zmiany
 
@@ -74,7 +74,7 @@ Dotknij **Zapisz**, aby zatwierdzić nowy harmonogram.
 ## Powiązane tematy
 
 - [Jak dodać obiekt sportowy](./how-to-add-facility.md)
-- [Profil firmy — szczegóły](./features/business-profile.md)
+- [Profil firmy : szczegóły](./features/business-profile.md)
 
 ---
 

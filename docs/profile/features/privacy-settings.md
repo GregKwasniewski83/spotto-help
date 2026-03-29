@@ -35,7 +35,7 @@ Aplikacja Spotto przetwarza dane osobowe zgodnie z RODO. Pełna polityka prywatn
 ### Zbierane dane
 
 - Dane osobowe (imię, nazwisko, e-mail, telefon)
-- Dane firmy (NIP — dla ról biznesowych)
+- Dane firmy (NIP : dla ról biznesowych)
 - Historia rezerwacji
 - Dane lokalizacyjne (za zgodą)
 
@@ -64,7 +64,7 @@ Aplikacja Spotto przetwarza dane osobowe zgodnie z RODO. Pełna polityka prywatn
 
 ## Powiązane
 
-- [Jak zarządzać prywatnością — przewodnik](../how-to-manage-privacy.md)
+- [Jak zarządzać prywatnością : przewodnik](../how-to-manage-privacy.md)
 
 ---
 

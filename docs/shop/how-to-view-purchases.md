@@ -1,7 +1,7 @@
 ---
 title: "Jak przeglądać moje zakupy"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak przeglądać moje zakupy
 
 **Ekran**: Sklep → Moje zakupy
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -30,7 +30,7 @@ Na dolnym pasku nawigacji dotknij ikony **Sklep**.
 
 Na górze ekranu zobaczysz dwie zakładki. Dotknij **Moje zakupy**.
 
-![Przełączanie na Moje zakupy — Screenshot #12](../../assets/images/shop/switch-to-purchases.png)
+![Przełączanie na Moje zakupy : Screenshot #12](../../assets/images/shop/switch-to-purchases.png)
 
 ### Krok 3: Przeglądaj swoje zakupy
 
@@ -45,14 +45,14 @@ Każda karta zakupu zawiera:
 | **Data ważności** | Do kiedy produkt jest aktywny |
 | **Firma** | Nazwa obiektu, który oferuje produkt |
 
-![Karta zakupu z detalami — Screenshot #13](../../assets/images/shop/purchase-card-details.png)
+![Karta zakupu z detalami : Screenshot #13](../../assets/images/shop/purchase-card-details.png)
 
 ### Krok 4: Filtruj zakupy
 
 Użyj przycisków filtrów nad listą:
-- **Wszystkie** — pokaż wszystkie zakupy
-- **Aktywne** — tylko produkty, których możesz jeszcze użyć
-- **Nieaktywne** — wygasłe lub w pełni wykorzystane produkty
+- **Wszystkie** : pokaż wszystkie zakupy
+- **Aktywne** : tylko produkty, których możesz jeszcze użyć
+- **Nieaktywne** : wygasłe lub w pełni wykorzystane produkty
 
 ---
 
@@ -70,7 +70,7 @@ Użyj przycisków filtrów nad listą:
 
 - [Jak wykorzystać zakupiony produkt](./how-to-use-product.md)
 - [Jak kupić produkt](./how-to-buy-pass.md)
-- [Moje zakupy — szczegóły](./features/my-purchases.md)
+- [Moje zakupy : szczegóły](./features/my-purchases.md)
 
 ---
 

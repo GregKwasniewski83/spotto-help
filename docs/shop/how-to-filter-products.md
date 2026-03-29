@@ -1,7 +1,7 @@
 ---
 title: "Jak filtrować i szukać produktów"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak filtrować i szukać produktów
 
 **Ekran**: Sklep
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -24,19 +24,19 @@ Sklep Spotto oferuje wyszukiwarkę i zaawansowane filtry, które pomogą Ci szyb
 
 ### Krok 1: Otwórz wyszukiwarkę
 
-Na ekranie Sklep dotknij pola wyszukiwania na górze ekranu. Wpisz szukaną frazę — wyniki filtrują się automatycznie po:
+Na ekranie Sklep dotknij pola wyszukiwania na górze ekranu. Wpisz szukaną frazę : wyniki filtrują się automatycznie po:
 - Nazwie produktu
 - Opisie produktu
 - Nazwie firmy
 - Mieście
 
-![Wyszukiwarka produktów — Screenshot #14](../../assets/images/shop/product-search-bar.png)
+![Wyszukiwarka produktów : Screenshot #14](../../assets/images/shop/product-search-bar.png)
 
 ### Krok 2: Otwórz panel filtrów
 
 Dotknij ikony **filtrów** obok pola wyszukiwania. Otworzy się panel z opcjami filtrowania.
 
-![Panel filtrów — Screenshot #15](../../assets/images/shop/filter-panel.png)
+![Panel filtrów : Screenshot #15](../../assets/images/shop/filter-panel.png)
 
 ### Krok 3: Ustaw filtry
 
@@ -81,7 +81,7 @@ Jeśli przejdziesz do Sklepu z profilu konkretnego obiektu sportowego, produkty 
 
 - [Jak kupić produkt](./how-to-buy-pass.md)
 - [Katalog produktów](./features/product-catalog.md)
-- [Wyszukiwarka i filtry — szczegóły](./features/search-filters.md)
+- [Wyszukiwarka i filtry : szczegóły](./features/search-filters.md)
 
 ---
 

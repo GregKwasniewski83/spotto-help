@@ -26,8 +26,8 @@ Powtarzający się grafik na każdy tydzień. Definiujesz go raz, a obowiązuje 
 | **Niedziela** | 00:00 – 23:00 | Osobna konfiguracja |
 
 Każdą godzinę (slot godzinny) możesz oznaczyć jako:
-- **Dostępny** — gotowy na zajęcia w tym czasie
-- **Niedostępny** — brak możliwości prowadzenia zajęć
+- **Dostępny** : gotowy na zajęcia w tym czasie
+- **Niedostępny** : brak możliwości prowadzenia zajęć
 
 Aby ustawić dostępność, dotknij odpowiednich slotów na siatce tygodniowej. Sloty zmieniają kolor w zależności od statusu.
 
@@ -38,9 +38,9 @@ Nadpisanie grafiku ogólnego dla wybranej daty. Przydatne, gdy:
 - Chcesz dodać **dodatkowe godziny** w dzień, który normalnie jest wolny
 - Musisz **zmienić godziny** na jeden konkretny dzień
 
-Harmonogram na konkretną datę ma **wyższy priorytet** niż grafik ogólny — jeśli ustawisz dostępność na konkretny dzień, grafik tygodniowy jest ignorowany dla tego dnia.
+Harmonogram na konkretną datę ma **wyższy priorytet** niż grafik ogólny : jeśli ustawisz dostępność na konkretny dzień, grafik tygodniowy jest ignorowany dla tego dnia.
 
-![Harmonogram dostępności trenera — Screenshot #62](../../../assets/images/trainer/availability-schedule-detail.png)
+![Harmonogram dostępności trenera : Screenshot #62](../../../assets/images/trainer/availability-schedule-detail.png)
 
 ## Przypisanie do firm
 
@@ -59,11 +59,11 @@ Dzięki kolorom łatwo zobaczysz, ile godzin poświęcasz każdej firmie i czy h
 
 | Status | Kolor | Opis |
 |--------|-------|------|
-| **Dostępny** | Zielony | Wolny slot — gotowy na zajęcia |
-| **Zarezerwowany** | Niebieski | Zajęcia już zaplanowane — nie można zmienić |
+| **Dostępny** | Zielony | Wolny slot : gotowy na zajęcia |
+| **Zarezerwowany** | Niebieski | Zajęcia już zaplanowane : nie można zmienić |
 | **Niedostępny** | Szary | Trener niedostępny w tym czasie |
 
-> 💡 **Wskazówka**: Zarezerwowanych slotów nie możesz zmienić na niedostępne — najpierw musisz odwołać zaplanowane zajęcia.
+> 💡 **Wskazówka**: Zarezerwowanych slotów nie możesz zmienić na niedostępne : najpierw musisz odwołać zaplanowane zajęcia.
 
 ## Przykłady konfiguracji
 
@@ -78,7 +78,7 @@ Dzięki kolorom łatwo zobaczysz, ile godzin poświęcasz każdej firmie i czy h
 
 ## Powiązane
 
-- [Jak ustawić harmonogram — przewodnik krok po kroku](../how-to-set-availability.md)
+- [Jak ustawić harmonogram : przewodnik krok po kroku](../how-to-set-availability.md)
 - [Powiązania z firmami](./business-associations.md)
 - [Zarządzanie treningami](./training-management.md)
 

@@ -23,7 +23,7 @@ Profil trenera to Twoja wizytówka w Spotto. Zawiera dane kontaktowe, specjaliza
 ## Zanim zaczniesz
 
 - Musisz mieć konto w Spotto z aktywną rolą „Trener" (włącz ją w [ustawieniach profilu](../profile/how-to-manage-roles.md))
-- Jeśli działasz jako trener niezależny — przygotuj NIP, REGON i dane firmy
+- Jeśli działasz jako trener niezależny : przygotuj NIP, REGON i dane firmy
 
 ---
 
@@ -37,12 +37,12 @@ Na dolnym pasku nawigacji dotknij ikony **Trener**. Jeśli nie masz jeszcze prof
 
 | Typ | Opis |
 |-----|------|
-| **Niezależny** | Samodzielna działalność — wymagane dane firmy i TPay |
-| **Pracownik** | Pracujesz dla obiektu — uproszczony formularz |
+| **Niezależny** | Samodzielna działalność : wymagane dane firmy i TPay |
+| **Pracownik** | Pracujesz dla obiektu : uproszczony formularz |
 
-![Wybór typu trenera — Screenshot #39](../../assets/images/trainer/trainer-type-selection.png)
+![Wybór typu trenera : Screenshot #39](../../assets/images/trainer/trainer-type-selection.png)
 
-> 💡 **Wskazówka**: Typ „Pracownik" wymaga mniej danych, ale nie możesz samodzielnie tworzyć treningów — to robi firma.
+> 💡 **Wskazówka**: Typ „Pracownik" wymaga mniej danych, ale nie możesz samodzielnie tworzyć treningów : to robi firma.
 
 ### Krok 3: Wypełnij dane podstawowe
 
@@ -55,7 +55,7 @@ Na dolnym pasku nawigacji dotknij ikony **Trener**. Jeśli nie masz jeszcze prof
 | **Adres** | Adres działalności | Tak |
 | **Kod pocztowy** | Kod pocztowy | Tak |
 
-![Dane podstawowe trenera — Screenshot #40](../../assets/images/trainer/trainer-basic-info.png)
+![Dane podstawowe trenera : Screenshot #40](../../assets/images/trainer/trainer-basic-info.png)
 
 ### Krok 4: (Niezależny) Wypełnij dane firmy
 
@@ -75,11 +75,11 @@ Tylko dla trenerów niezależnych:
 
 ### Krok 5: Ustaw stawkę godzinową
 
-- **Stawka netto** — cena za godzinę bez VAT
-- **Stawka VAT** — wybierz: 0%, 8% lub 23%
-- **Stawka brutto** — oblicza się automatycznie
+- **Stawka netto** : cena za godzinę bez VAT
+- **Stawka VAT** : wybierz: 0%, 8% lub 23%
+- **Stawka brutto** : oblicza się automatycznie
 
-![Stawka godzinowa — Screenshot #41](../../assets/images/trainer/trainer-hourly-rate.png)
+![Stawka godzinowa : Screenshot #41](../../assets/images/trainer/trainer-hourly-rate.png)
 
 ### Krok 6: (Niezależny) Wypełnij dane TPay
 
@@ -118,7 +118,7 @@ Profil został utworzony, gdy:
 
 - [Jak nawiązać współpracę z obiektem](./how-to-associate-with-business.md)
 - [Jak utworzyć trening](./how-to-create-training.md)
-- [Profil trenera — szczegóły](./features/trainer-profile.md)
+- [Profil trenera : szczegóły](./features/trainer-profile.md)
 
 ---
 

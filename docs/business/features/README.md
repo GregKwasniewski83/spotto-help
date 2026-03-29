@@ -7,7 +7,7 @@ lastUpdated: "2026-03-29"
 
 # Funkcje ekranu Biznes
 
-Ekran Biznes to centrum zarządzania Twoją firmą sportową w Spotto. Poniżej znajdziesz szczegółowe opisy wszystkich dostępnych funkcji — od podstawowej konfiguracji profilu, przez zarządzanie obiektami i personelem, po integracje z systemami płatności i fakturowania.
+Ekran Biznes to centrum zarządzania Twoją firmą sportową w Spotto. Poniżej znajdziesz szczegółowe opisy wszystkich dostępnych funkcji : od podstawowej konfiguracji profilu, przez zarządzanie obiektami i personelem, po integracje z systemami płatności i fakturowania.
 
 ## Konfiguracja firmy
 
@@ -37,8 +37,8 @@ Ekran Biznes to centrum zarządzania Twoją firmą sportową w Spotto. Poniżej 
 
 ## Powiązane tematy
 
-- [Ekran Biznes — przegląd](../README.md)
-- [FAQ — Ekran Biznes](../faq.md)
+- [Ekran Biznes : przegląd](../README.md)
+- [FAQ : Ekran Biznes](../faq.md)
 
 ---
 

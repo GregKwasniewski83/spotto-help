@@ -21,8 +21,8 @@ prerequisites:
 KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony przez Ministerstwo Finansów. Integracja z KSeF umożliwia automatyczne wystawianie i przesyłanie e-faktur.
 
 Spotto obsługuje dwie metody autoryzacji w KSeF:
-- **Token autoryzacyjny** — szybka konfiguracja, idealna na start
-- **Certyfikat kwalifikowany** — wyższy poziom bezpieczeństwa, zalecany do użytku produkcyjnego
+- **Token autoryzacyjny** : szybka konfiguracja, idealna na start
+- **Certyfikat kwalifikowany** : wyższy poziom bezpieczeństwa, zalecany do użytku produkcyjnego
 
 ---
 
@@ -49,7 +49,7 @@ Token autoryzacyjny to najprostsza metoda połączenia z KSeF. Wygenerujesz go n
 
 Na ekranie Biznes znajdź kartę **Status KSeF**. Jeśli KSeF nie jest skonfigurowany, zobaczysz komunikat „Nie skonfigurowano".
 
-![Karta statusu KSeF — Screenshot #28](../../assets/images/business/ksef-status-card.png)
+![Karta statusu KSeF : Screenshot #28](../../assets/images/business/ksef-status-card.png)
 
 ### Krok 2: Otwórz konfigurację
 
@@ -63,7 +63,7 @@ W oknie konfiguracji wybierz zakładkę lub opcję **Token**.
 
 W polu **Token KSeF** wklej token autoryzacyjny uzyskany z systemu KSeF.
 
-> 💡 **Wskazówka**: Token możesz skopiować ze strony KSeF i wkleić w aplikacji. Dane są bezpieczne — token nie jest przechowywany lokalnie po zapisaniu. Token musi mieć minimum 20 znaków.
+> 💡 **Wskazówka**: Token możesz skopiować ze strony KSeF i wkleić w aplikacji. Dane są bezpieczne : token nie jest przechowywany lokalnie po zapisaniu. Token musi mieć minimum 20 znaków.
 
 ### Krok 5: Wybierz środowisko
 
@@ -71,18 +71,18 @@ Wybierz środowisko pracy:
 
 | Środowisko | Opis |
 |------------|------|
-| **Testowe** | Środowisko do testowania — faktury nie są wysyłane naprawdę |
+| **Testowe** | Środowisko do testowania : faktury nie są wysyłane naprawdę |
 | **Produkcyjne** | Prawdziwe e-faktury wysyłane do systemu KSeF |
 
 > 💡 **Wskazówka**: Zalecamy rozpoczęcie od środowiska testowego, aby upewnić się, że wszystko działa prawidłowo.
 
-![Konfiguracja KSeF tokenem — Screenshot #29](../../assets/images/business/ksef-config-token.png)
+![Konfiguracja KSeF tokenem : Screenshot #29](../../assets/images/business/ksef-config-token.png)
 
 ### Krok 6: Zapisz i przetestuj
 
 Dotknij **Zapisz**. System automatycznie przetestuje połączenie z KSeF i wyświetli wynik:
-- **Zielona ikona** — połączenie działa prawidłowo
-- **Czerwona ikona** — sprawdź token i spróbuj ponownie
+- **Zielona ikona** : połączenie działa prawidłowo
+- **Czerwona ikona** : sprawdź token i spróbuj ponownie
 
 ---
 
@@ -98,7 +98,7 @@ Na ekranie Biznes znajdź kartę **Status KSeF** i dotknij **Konfiguruj**.
 
 W oknie konfiguracji wybierz zakładkę lub opcję **Certyfikat**.
 
-![Konfiguracja KSeF certyfikatem — Screenshot #55](../../assets/images/business/ksef-config-certificate.png)
+![Konfiguracja KSeF certyfikatem : Screenshot #55](../../assets/images/business/ksef-config-certificate.png)
 
 ### Krok 3: Wgraj plik certyfikatu
 
@@ -120,7 +120,7 @@ Wpisz hasło zabezpieczające plik certyfikatu. Jest to hasło, które ustawiono
 
 ### Krok 5: Wybierz środowisko
 
-Tak samo jak przy metodzie tokenowej — wybierz **Testowe** lub **Produkcyjne**.
+Tak samo jak przy metodzie tokenowej : wybierz **Testowe** lub **Produkcyjne**.
 
 ### Krok 6: Zapisz i przetestuj
 
@@ -136,9 +136,9 @@ Dotknij **Zapisz**. System:
 
 | Kryterium | Token | Certyfikat |
 |-----------|-------|------------|
-| **Łatwość konfiguracji** | Prostsza — skopiuj i wklej | Wymaga pliku certyfikatu |
-| **Bezpieczeństwo** | Standardowe | Wyższe — klucz kryptograficzny |
-| **Ważność** | Ograniczona — wymaga odnawiania | Ważny do daty wygaśnięcia certyfikatu |
+| **Łatwość konfiguracji** | Prostsza : skopiuj i wklej | Wymaga pliku certyfikatu |
+| **Bezpieczeństwo** | Standardowe | Wyższe : klucz kryptograficzny |
+| **Ważność** | Ograniczona : wymaga odnawiania | Ważny do daty wygaśnięcia certyfikatu |
 | **Zalecane użycie** | Testowanie, małe firmy | Produkcja, większe firmy |
 | **Wymagania** | Konto na stronie KSeF | Certyfikat kwalifikowany |
 
@@ -149,11 +149,11 @@ Dotknij **Zapisz**. System:
 ## Zarządzanie KSeF
 
 Po konfiguracji (niezależnie od wybranej metody) na karcie KSeF zobaczysz:
-- **Status konfiguracji** — Skonfigurowano / Nie skonfigurowano
-- **Metoda autoryzacji** — Token lub Certyfikat
-- **Środowisko** — Testowe lub Produkcyjne (etykieta)
-- **Ostatnia synchronizacja** — data i godzina
-- **Przełącznik** — włącz/wyłącz integrację KSeF
+- **Status konfiguracji** : Skonfigurowano / Nie skonfigurowano
+- **Metoda autoryzacji** : Token lub Certyfikat
+- **Środowisko** : Testowe lub Produkcyjne (etykieta)
+- **Ostatnia synchronizacja** : data i godzina
+- **Przełącznik** : włącz/wyłącz integrację KSeF
 
 ### Zmiana metody autoryzacji
 
@@ -161,14 +161,14 @@ Aby zmienić metodę z tokenu na certyfikat (lub odwrotnie):
 1. Dotknij **Rekonfiguruj** na karcie KSeF
 2. Wybierz nową metodę
 3. Wprowadź odpowiednie dane
-4. Zapisz — nowa konfiguracja zastąpi poprzednią
+4. Zapisz : nowa konfiguracja zastąpi poprzednią
 
 ---
 
 ## Rozwiązywanie problemów
 
 ### Problem: Test połączenia z tokenem nie powiódł się
-**Rozwiązanie**: Sprawdź, czy token jest prawidłowy i aktualny. Tokeny KSeF mają datę ważności — wygeneruj nowy na stronie KSeF Ministerstwa Finansów.
+**Rozwiązanie**: Sprawdź, czy token jest prawidłowy i aktualny. Tokeny KSeF mają datę ważności : wygeneruj nowy na stronie KSeF Ministerstwa Finansów.
 
 ### Problem: Błąd „Token wydaje się nieprawidłowy"
 **Rozwiązanie**: Token musi mieć minimum 20 znaków. Upewnij się, że skopiowałeś/aś cały token bez obcinania.
@@ -177,7 +177,7 @@ Aby zmienić metodę z tokenu na certyfikat (lub odwrotnie):
 **Rozwiązanie**:
 1. Sprawdź, czy plik ma format .pfx lub .p12
 2. Upewnij się, że hasło jest prawidłowe
-3. Sprawdź datę ważności certyfikatu — wygasły certyfikat nie zostanie zaakceptowany
+3. Sprawdź datę ważności certyfikatu : wygasły certyfikat nie zostanie zaakceptowany
 4. Certyfikat musi pochodzić od kwalifikowanego dostawcy usług zaufania
 
 ### Problem: Błąd hasła certyfikatu
@@ -190,7 +190,7 @@ Aby zmienić metodę z tokenu na certyfikat (lub odwrotnie):
 
 ## Powiązane tematy
 
-- [Integracja KSeF — szczegóły](./features/ksef-integration.md)
+- [Integracja KSeF : szczegóły](./features/ksef-integration.md)
 - [Jak skonfigurować TPay](./how-to-setup-tpay.md)
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Jak zarezerwować obiekt sportowy"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -12,7 +12,7 @@ prerequisites:
 # Jak zarezerwować obiekt sportowy
 
 **Ekran**: Home (Start)
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Średnia
 
 ## Przegląd
@@ -33,10 +33,10 @@ Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośr
 ### Krok 1: Znajdź obiekt
 
 Użyj jednej z metod, aby znaleźć obiekt:
-- [Wyszukiwarka](./how-to-search-facilities.md) — wpisz miasto i datę
-- [Kategorie](./how-to-browse-categories.md) — wybierz dyscyplinę sportową
-- [Ulubione](./how-to-manage-favorites.md) — wybierz z zapisanych obiektów
-- [Mapa](./how-to-use-map.md) — znajdź na mapie
+- [Wyszukiwarka](./how-to-search-facilities.md) : wpisz miasto i datę
+- [Kategorie](./how-to-browse-categories.md) : wybierz dyscyplinę sportową
+- [Ulubione](./how-to-manage-favorites.md) : wybierz z zapisanych obiektów
+- [Mapa](./how-to-use-map.md) : znajdź na mapie
 
 ### Krok 2: Dotknij przycisku „Rezerwuj"
 
@@ -49,9 +49,9 @@ Na karcie obiektu (w wynikach wyszukiwania lub w szczegółach) dotknij przycisk
 ### Krok 3: Wybierz termin
 
 Zobaczysz kalendarz z dostępnymi terminami:
-- **Zielone sloty** — dostępne do rezerwacji
-- **Szare sloty** — już zarezerwowane
-- **Żółte sloty** — ograniczona dostępność
+- **Zielone sloty** : dostępne do rezerwacji
+- **Szare sloty** : już zarezerwowane
+- **Żółte sloty** : ograniczona dostępność
 
 Dotknij wybranego terminu, aby go zaznaczyć.
 
@@ -132,7 +132,7 @@ Rezerwacja zakończyła się sukcesem, jeśli:
 - Jeśli problem się powtarza, skontaktuj się z obsługą
 
 ### Problem: Rezerwacja nie pojawia się po płatności
-**Rozwiązanie**: Poczekaj kilka minut — potwierdzenie może wymagać przetworzenia. Jeśli rezerwacja nie pojawi się po 15 minutach:
+**Rozwiązanie**: Poczekaj kilka minut : potwierdzenie może wymagać przetworzenia. Jeśli rezerwacja nie pojawi się po 15 minutach:
 - Sprawdź sekcję „Oczekujące płatności"
 - Odśwież ekran Home (pociągnij w dół)
 - Skontaktuj się z obsługą, podając numer transakcji

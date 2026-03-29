@@ -1,7 +1,7 @@
 ---
 title: "Częściowe anulowanie"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -34,8 +34,8 @@ Po otwarciu częściowego anulowania zobaczysz listę wszystkich slotów:
 
 ### Ograniczenia
 
-- **Nie można anulować wszystkich slotów** — do tego służy pełne anulowanie
-- **Anulowane sloty nie mogą być przywrócone** — decyzja jest nieodwracalna
+- **Nie można anulować wszystkich slotów** : do tego służy pełne anulowanie
+- **Anulowane sloty nie mogą być przywrócone** : decyzja jest nieodwracalna
 - **Musi pozostać co najmniej 1 aktywny slot**
 
 ### Odpowiedź systemu
@@ -59,7 +59,7 @@ Po anulowaniu otrzymasz szczegółowe podsumowanie:
 
 ## Powiązane
 
-- [Jak częściowo anulować — przewodnik](../how-to-partial-cancel.md)
+- [Jak częściowo anulować : przewodnik](../how-to-partial-cancel.md)
 - [Jak anulować całą rezerwację](../how-to-cancel-booking.md)
 - [Polityka zwrotów](./refund-policy.md)
 

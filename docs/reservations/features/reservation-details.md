@@ -1,7 +1,7 @@
 ---
 title: "Szczegóły rezerwacji"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -23,7 +23,7 @@ Widok szczegółów rezerwacji to pełnoekranowy modal, który otwiera się po d
 | **Lokalizacja** | Pełny adres z miastem |
 | **Kontakt** | Numer telefonu i e-mail z przyciskami szybkiego kontaktu |
 
-![IMG_RES_017 — Sekcja informacji o obiekcie](../../assets/images/reservations/details-facility-info.png)
+![IMG_RES_017 : Sekcja informacji o obiekcie](../../assets/images/reservations/details-facility-info.png)
 
 ### Szczegóły rezerwacji
 
@@ -38,10 +38,10 @@ Widok szczegółów rezerwacji to pełnoekranowy modal, który otwiera się po d
 ### Sloty czasowe
 
 Każdy zarezerwowany slot wyświetla się jako osobny chip:
-- **Aktywny** — normalny wygląd z godziną
-- **Anulowany** — przekreślony tekst, szary kolor
+- **Aktywny** : normalny wygląd z godziną
+- **Anulowany** : przekreślony tekst, szary kolor
 
-![IMG_RES_018 — Sloty czasowe w szczegółach](../../assets/images/reservations/details-time-slots.png)
+![IMG_RES_018 : Sloty czasowe w szczegółach](../../assets/images/reservations/details-time-slots.png)
 
 ### Informacje o trenerze (opcjonalnie)
 
@@ -63,9 +63,9 @@ Jeśli do rezerwacji przypisany jest trener:
 ### Przyciski akcji
 
 W zależności od stanu rezerwacji zobaczysz:
-- **Zapłać teraz** — jeśli rezerwacja nieopłacona
-- **Anuluj częściowo** — jeśli rezerwacja ma wiele slotów
-- **Anuluj wszystko** — jeśli rezerwacja kwalifikuje się do anulowania
+- **Zapłać teraz** : jeśli rezerwacja nieopłacona
+- **Anuluj częściowo** : jeśli rezerwacja ma wiele slotów
+- **Anuluj wszystko** : jeśli rezerwacja kwalifikuje się do anulowania
 
 ## Powiązane
 

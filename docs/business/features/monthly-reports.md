@@ -36,7 +36,7 @@ Zawiera wszystko z podsumowania, plus szczegółowe listy:
 | **Zakupy produktów** | Transakcje zakupu karnetów i pakietów z cenami |
 | **Sesje trenerskie** | Lista sesji trenerów z godzinami i stawkami |
 
-![Raport miesięczny — Screenshot #60](../../../assets/images/business/monthly-report-detail.png)
+![Raport miesięczny : Screenshot #60](../../../assets/images/business/monthly-report-detail.png)
 
 ## Rozkład na obiekty
 
@@ -54,17 +54,17 @@ Dzięki temu widzisz, które obiekty generują najwięcej przychodu i gdzie wyst
 ## Wybór okresu
 
 Możesz wygenerować raport za dowolny miesiąc:
-- **Miesiąc** — wybierz z listy (styczeń – grudzień)
-- **Rok** — wybierz z dostępnych lat (ostatnie 2-3 lata)
+- **Miesiąc** : wybierz z listy (styczeń – grudzień)
+- **Rok** : wybierz z dostępnych lat (ostatnie 2-3 lata)
 
 > 💡 **Wskazówka**: Generuj raporty regularnie (np. na koniec każdego miesiąca), aby śledzić trendy i podejmować lepsze decyzje biznesowe.
 
 ## Eksport i udostępnianie
 
 Wygenerowany raport możesz:
-- **Pobrać jako PDF** — zapisz na urządzeniu do archiwum lub księgowości
-- **Udostępnić** — wyślij e-mailem, przez komunikator lub inną aplikację
-- **Wydrukować** — wydrukuj bezpośrednio z urządzenia
+- **Pobrać jako PDF** : zapisz na urządzeniu do archiwum lub księgowości
+- **Udostępnić** : wyślij e-mailem, przez komunikator lub inną aplikację
+- **Wydrukować** : wydrukuj bezpośrednio z urządzenia
 
 ## Przykłady zastosowania
 
@@ -80,7 +80,7 @@ Wygenerowany raport możesz:
 
 ## Powiązane
 
-- [Jak generować raporty — przewodnik krok po kroku](../how-to-generate-reports.md)
+- [Jak generować raporty : przewodnik krok po kroku](../how-to-generate-reports.md)
 - [Zarządzanie obiektami](./facility-management.md)
 - [Powiązania z trenerami](./trainer-associations.md)
 

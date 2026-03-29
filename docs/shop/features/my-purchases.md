@@ -1,7 +1,7 @@
 ---
 title: "Moje zakupy"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -38,16 +38,16 @@ Każdy zakupiony produkt wyświetla się jako karta z informacjami:
 ## Filtrowanie zakupów
 
 Nad listą zakupów znajdują się przyciski filtrów:
-- **Wszystkie** — wyświetla wszystkie zakupy
-- **Aktywne** — tylko produkty ze statusem „Aktywny"
-- **Nieaktywne** — wygasłe i wykorzystane produkty
+- **Wszystkie** : wyświetla wszystkie zakupy
+- **Aktywne** : tylko produkty ze statusem „Aktywny"
+- **Nieaktywne** : wygasłe i wykorzystane produkty
 
 ## Pasek postępu
 
 Pasek postępu wizualnie pokazuje, ile wejść zostało:
-- **Pełny (zielony)** — wszystkie wejścia dostępne
-- **Częściowo zapełniony** — część wejść wykorzystana
-- **Pusty (czerwony)** — wszystkie wejścia zużyte
+- **Pełny (zielony)** : wszystkie wejścia dostępne
+- **Częściowo zapełniony** : część wejść wykorzystana
+- **Pusty (czerwony)** : wszystkie wejścia zużyte
 
 ## Kod weryfikacyjny
 
@@ -62,8 +62,8 @@ Po dotknięciu „Użyj produktu" wyświetla się okno z:
 
 ## Powiązane
 
-- [Jak wykorzystać produkt — przewodnik](../how-to-use-product.md)
-- [Jak przeglądać zakupy — przewodnik](../how-to-view-purchases.md)
+- [Jak wykorzystać produkt : przewodnik](../how-to-use-product.md)
+- [Jak przeglądać zakupy : przewodnik](../how-to-view-purchases.md)
 
 ---
 

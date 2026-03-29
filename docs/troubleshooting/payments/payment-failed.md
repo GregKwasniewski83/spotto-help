@@ -64,8 +64,8 @@ Próbujesz zapłacić za rezerwację lub produkt, ale płatność kończy się b
 ## Po nieudanej płatności
 
 - Twoje konto bankowe **nie powinno być obciążone** po nieudanej płatności
-- Jeśli widzisz obciążenie mimo nieudanej transakcji — może to być tymczasowa blokada, która zniknie w ciągu 24-48 godzin
-- Rezerwacja lub produkt **nie zostanie zakupiony** — możesz spróbować ponownie
+- Jeśli widzisz obciążenie mimo nieudanej transakcji : może to być tymczasowa blokada, która zniknie w ciągu 24-48 godzin
+- Rezerwacja lub produkt **nie zostanie zakupiony** : możesz spróbować ponownie
 
 ---
 

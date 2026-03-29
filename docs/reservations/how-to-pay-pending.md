@@ -1,7 +1,7 @@
 ---
 title: "Jak dokończyć oczekującą płatność"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -9,7 +9,7 @@ lastUpdated: "2026-03-28"
 # Jak dokończyć oczekującą płatność
 
 **Ekran**: Rezerwacje
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -24,23 +24,23 @@ Jeśli nie dokończyłeś/aś płatności za rezerwację, pojawi się ona w sekc
 
 Na ekranie Rezerwacje u góry zobaczysz sekcję z ikoną alertu i nagłówkiem **Oczekujące płatności**.
 
-![IMG_RES_014 — Sekcja oczekujących płatności](../../assets/images/reservations/pending-payments-section.png)
+![IMG_RES_014 : Sekcja oczekujących płatności](../../assets/images/reservations/pending-payments-section.png)
 
-> 💡 Sekcja wyświetla się tylko wtedy, gdy masz niedokończone transakcje. Jeśli jej nie widzisz — nie masz oczekujących płatności.
+> 💡 Sekcja wyświetla się tylko wtedy, gdy masz niedokończone transakcje. Jeśli jej nie widzisz : nie masz oczekujących płatności.
 
 ### Krok 2: Sprawdź szczegóły płatności
 
 Każda karta oczekującej płatności zawiera:
-- **Opis** — nazwa obiektu lub treningu
-- **Kwota** — cena do zapłaty
-- **Czas** — kiedy została utworzona (np. „5 minut temu")
-- **Status** — „Oczekuje płatności"
+- **Opis** : nazwa obiektu lub treningu
+- **Kwota** : cena do zapłaty
+- **Czas** : kiedy została utworzona (np. „5 minut temu")
+- **Status** : „Oczekuje płatności"
 
 ### Krok 3: Dotknij „Płatność"
 
 Dotknij niebieskiego przycisku **Płatność** na karcie.
 
-![IMG_RES_015 — Przycisk Płatność](../../assets/images/reservations/pay-button.png)
+![IMG_RES_015 : Przycisk Płatność](../../assets/images/reservations/pay-button.png)
 
 ### Krok 4: Dokończ płatność w TPay
 
@@ -55,11 +55,11 @@ Dokończ transakcję zgodnie z instrukcjami na stronie TPay.
 
 Po zakończeniu płatności wróć do aplikacji Spotto. Aplikacja automatycznie sprawdzi status płatności.
 
-- **Sukces** — zobaczysz zielone potwierdzenie, rezerwacja zostanie potwierdzona
-- **Timeout** — żółte ostrzeżenie, spróbuj ponownie za chwilę
-- **Błąd** — czerwony komunikat, spróbuj innej metody płatności
+- **Sukces** : zobaczysz zielone potwierdzenie, rezerwacja zostanie potwierdzona
+- **Timeout** : żółte ostrzeżenie, spróbuj ponownie za chwilę
+- **Błąd** : czerwony komunikat, spróbuj innej metody płatności
 
-![IMG_RES_016 — Potwierdzenie płatności](../../assets/images/reservations/payment-success.png)
+![IMG_RES_016 : Potwierdzenie płatności](../../assets/images/reservations/payment-success.png)
 
 ---
 
@@ -96,7 +96,7 @@ Płatność zakończyła się sukcesem, jeśli:
 **Rozwiązanie**: Sprawdź stan konta bankowego, ważność karty, i spróbuj innej metody (np. BLIK zamiast karty).
 
 ### Problem: Po płatności nadal widzę „Oczekujące"
-**Rozwiązanie**: Poczekaj minutę i odśwież ekran. Jeśli problem się utrzymuje, sprawdź historię transakcji w banku — jeśli środki zostały pobrane, skontaktuj się z obsługą.
+**Rozwiązanie**: Poczekaj minutę i odśwież ekran. Jeśli problem się utrzymuje, sprawdź historię transakcji w banku : jeśli środki zostały pobrane, skontaktuj się z obsługą.
 
 ---
 

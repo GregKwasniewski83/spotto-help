@@ -34,17 +34,17 @@ Podczas płatności przez TPay widzisz błąd, stronę się nie ładuje lub prze
 **Objawy**: TPay potwierdza płatność, ale aplikacja nie aktualizuje statusu
 
 **Rozwiązanie**:
-1. Odczekaj kilka sekund — aplikacja weryfikuje płatność w tle
+1. Odczekaj kilka sekund : aplikacja weryfikuje płatność w tle
 2. Zamknij i otwórz aplikację
 3. Sprawdź zakładkę „Moje zakupy" lub „Rezerwacje"
-4. Jeśli produkt/rezerwacja nie pojawia się po kilku minutach — skontaktuj się z support@spotto.pl
+4. Jeśli produkt/rezerwacja nie pojawia się po kilku minutach : skontaktuj się z support@spotto.pl
 
 ### Przekierowanie z TPay nie wraca do aplikacji
 
 **Rozwiązanie**:
 1. Ręcznie otwórz aplikację Spotto
 2. Sprawdź, czy rezerwacja lub produkt zostały zarejestrowane
-3. Jeśli nie — poczekaj kilka minut i odśwież
+3. Jeśli nie : poczekaj kilka minut i odśwież
 
 ---
 

@@ -11,19 +11,19 @@ lastUpdated: "2026-03-29"
 
 ## Opis
 
-System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności od tego, kim jesteś — graczem, właścicielem firmy czy trenerem. Każda rola odblokowuje osobną zakładkę i zestaw funkcji. Możesz mieć aktywne wszystkie trzy role jednocześnie.
+System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności od tego, kim jesteś : użytkownikem, właścicielem firmy czy trenerem. Każda rola odblokowuje osobną zakładkę i zestaw funkcji. Możesz mieć aktywne wszystkie trzy role jednocześnie.
 
 ## Dostępne role
 
-### Gracz (Użytkownik)
+### Użytkownik (Użytkownik)
 
 | Właściwość | Wartość |
 |------------|--------|
-| **Status** | Zawsze aktywny — nie można wyłączyć |
+| **Status** | Zawsze aktywny : nie można wyłączyć |
 | **Regulamin** | Musi być zaakceptowany przy rejestracji |
 | **Zakładki** | Home, Rezerwacje, Sklep, Profil |
 
-**Funkcje roli Gracz:**
+**Funkcje roli Użytkownik:**
 - Wyszukiwanie i przeglądanie obiektów sportowych
 - Rezerwacja obiektów (korty, sale, strzelnice)
 - Zarządzanie ulubionymi obiektami
@@ -35,7 +35,7 @@ System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności
 
 | Właściwość | Wartość |
 |------------|--------|
-| **Status** | Opcjonalny — możesz włączyć/wyłączyć |
+| **Status** | Opcjonalny : możesz włączyć/wyłączyć |
 | **Regulamin** | Wymagany przy aktywacji roli |
 | **Zakładka** | [Biznes](../../business/README.md) |
 
@@ -53,7 +53,7 @@ System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności
 
 | Właściwość | Wartość |
 |------------|--------|
-| **Status** | Opcjonalny — możesz włączyć/wyłączyć |
+| **Status** | Opcjonalny : możesz włączyć/wyłączyć |
 | **Regulamin** | Wymagany przy aktywacji roli |
 | **Zakładka** | [Trener](../../trainer/README.md) |
 
@@ -72,11 +72,11 @@ Aby włączyć lub wyłączyć rolę:
 1. Przejdź do **Profil** → **Ustawienia**
 2. Znajdź sekcję **Role**
 3. Przełącz przełącznik przy wybranej roli
-4. Przy pierwszym włączeniu — zaakceptuj regulamin
+4. Przy pierwszym włączeniu : zaakceptuj regulamin
 
-![Zarządzanie rolami — Screenshot #61](../../../assets/images/profile/role-management-detail.png)
+![Zarządzanie rolami : Screenshot #61](../../../assets/images/profile/role-management-detail.png)
 
-> 💡 **Wskazówka**: Wyłączenie roli nie powoduje utraty danych. Jeśli wyłączysz rolę Biznes, Twoja firma i obiekty pozostają w systemie — po ponownym włączeniu wszystko wróci.
+> 💡 **Wskazówka**: Wyłączenie roli nie powoduje utraty danych. Jeśli wyłączysz rolę Biznes, Twoja firma i obiekty pozostają w systemie : po ponownym włączeniu wszystko wróci.
 
 ## Regulaminy
 
@@ -84,11 +84,11 @@ Każda rola ma osobny regulamin, który musisz zaakceptować:
 
 | Regulamin | Kiedy wymagany | Można odrzucić? |
 |-----------|---------------|-----------------|
-| **Regulamin Gracza** | Przy rejestracji konta | Nie — wymagany do korzystania z aplikacji |
-| **Regulamin Biznesu** | Przy włączeniu roli Biznes | Tak — rola nie zostanie aktywowana |
-| **Regulamin Trenera** | Przy włączeniu roli Trener | Tak — rola nie zostanie aktywowana |
+| **Regulamin Użytkownika** | Przy rejestracji konta | Nie : wymagany do korzystania z aplikacji |
+| **Regulamin Biznesu** | Przy włączeniu roli Biznes | Tak : rola nie zostanie aktywowana |
+| **Regulamin Trenera** | Przy włączeniu roli Trener | Tak : rola nie zostanie aktywowana |
 
-Regulaminy można rozwinąć i przeczytać bezpośrednio w aplikacji przed akceptacją. Treść regulaminów może się zmieniać — aplikacja poinformuje Cię, gdy pojawi się nowa wersja wymagająca ponownej akceptacji.
+Regulaminy można rozwinąć i przeczytać bezpośrednio w aplikacji przed akceptacją. Treść regulaminów może się zmieniać : aplikacja poinformuje Cię, gdy pojawi się nowa wersja wymagająca ponownej akceptacji.
 
 ## Co się dzieje przy wyłączeniu roli
 
@@ -97,13 +97,13 @@ Regulaminy można rozwinąć i przeczytać bezpośrednio w aplikacji przed akcep
 | **Biznes** | Zakładka Biznes znika z nawigacji. Firma, obiekty i produkty pozostają w systemie, ale nie możesz nimi zarządzać do ponownego włączenia |
 | **Trener** | Zakładka Trener znika z nawigacji. Profil trenerski i powiązania z firmami pozostają, ale nie możesz tworzyć nowych treningów |
 
-> ⚠️ **Ważne**: Rola Gracza jest nieodłączną częścią konta i nie można jej wyłączyć.
+> ⚠️ **Ważne**: Rola Użytkownika jest nieodłączną częścią konta i nie można jej wyłączyć.
 
 ---
 
 ## Powiązane
 
-- [Jak zarządzać rolami — przewodnik](../how-to-manage-roles.md)
+- [Jak zarządzać rolami : przewodnik](../how-to-manage-roles.md)
 - [Ustawienia konta](./account-settings.md)
 - [Ekran Biznes](../../business/README.md)
 - [Ekran Trener](../../trainer/README.md)

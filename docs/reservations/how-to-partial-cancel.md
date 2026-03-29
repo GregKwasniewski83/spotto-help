@@ -1,7 +1,7 @@
 ---
 title: "Jak częściowo anulować rezerwację"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -11,7 +11,7 @@ prerequisites:
 # Jak częściowo anulować rezerwację
 
 **Ekran**: Rezerwacje
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Średnia
 
 ## Przegląd
@@ -38,19 +38,19 @@ Na ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz częściowo anulo
 
 W widoku szczegółów dotknij przycisku **Anuluj częściowo**. Przycisk jest widoczny tylko dla rezerwacji z wieloma slotami.
 
-![IMG_RES_010 — Przycisk częściowego anulowania](../../assets/images/reservations/partial-cancel-button.png)
+![IMG_RES_010 : Przycisk częściowego anulowania](../../assets/images/reservations/partial-cancel-button.png)
 
 ### Krok 3: Wybierz sloty do anulowania
 
 Otworzy się ekran z listą wszystkich zarezerwowanych godzin. Każdy slot pokazuje:
 
-- **Godzina** — np. „10:00"
-- **Cena** — koszt danego slotu
-- **Status** — „Aktywny" lub „Anulowany" (jeśli już wcześniej anulowany)
+- **Godzina** : np. „10:00"
+- **Cena** : koszt danego slotu
+- **Status** : „Aktywny" lub „Anulowany" (jeśli już wcześniej anulowany)
 
 Dotknij slotów, które chcesz anulować. Wybrane sloty podświetlą się niebieskim obramowaniem z ikoną zaznaczenia.
 
-![IMG_RES_011 — Wybór slotów do anulowania](../../assets/images/reservations/select-slots.png)
+![IMG_RES_011 : Wybór slotów do anulowania](../../assets/images/reservations/select-slots.png)
 
 > ⚠️ **Ważne**: Sloty już anulowane (szare) nie mogą być ponownie wybrane. Musisz pozostawić przynajmniej jeden aktywny slot.
 
@@ -66,9 +66,9 @@ Dotknij **Anuluj wybrane**.
 
 Pojawi się nakładka z potwierdzeniem zawierająca:
 - Liczbę slotów do anulowania
-- **Szacowany zwrot** (95% wartości — po odliczeniu 5% opłaty)
+- **Szacowany zwrot** (95% wartości : po odliczeniu 5% opłaty)
 
-![IMG_RES_012 — Potwierdzenie częściowego anulowania](../../assets/images/reservations/partial-cancel-confirm.png)
+![IMG_RES_012 : Potwierdzenie częściowego anulowania](../../assets/images/reservations/partial-cancel-confirm.png)
 
 Dotknij **Potwierdź**, aby anulować wybrane sloty.
 
@@ -84,7 +84,7 @@ Po przetworzeniu zobaczysz podsumowanie:
 | Kwota zwrotu | 95 zł |
 | Opłata za anulowanie | 5% (5 zł) |
 
-![IMG_RES_013 — Podsumowanie częściowego anulowania](../../assets/images/reservations/partial-cancel-summary.png)
+![IMG_RES_013 : Podsumowanie częściowego anulowania](../../assets/images/reservations/partial-cancel-summary.png)
 
 > 💡 Okno zamknie się automatycznie po 3 sekundach.
 
@@ -113,7 +113,7 @@ Częściowe anulowanie zakończyło się sukcesem, jeśli:
 
 - [Jak anulować rezerwację (pełne)](./how-to-cancel-booking.md)
 - [Polityka anulowania i zwrotów](./features/refund-policy.md)
-- [Częściowe anulowanie — szczegóły](./features/partial-cancellation.md)
+- [Częściowe anulowanie : szczegóły](./features/partial-cancellation.md)
 
 ---
 

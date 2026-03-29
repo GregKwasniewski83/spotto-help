@@ -1,7 +1,7 @@
 ---
 title: "Statusy rezerwacji"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -21,7 +21,7 @@ Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualny
 | **Aktywna** | 🔵 Niebieski | Rezerwacja trwa właśnie teraz | Tak* |
 | **Częściowa** | 🟡 Żółty | Część slotów została anulowana | Tak |
 | **Częściowy zwrot** | 🟡 Żółty | Zwrot za anulowane sloty przetworzony | Tak |
-| **Zakończona** | ⚪ Szary | Rezerwacja zrealizowana — wizyta odbyta | Nie |
+| **Zakończona** | ⚪ Szary | Rezerwacja zrealizowana : wizyta odbyta | Nie |
 | **Anulowana** | 🔴 Czerwony | Rezerwacja w pełni anulowana | Nie |
 
 *Aktywna rezerwacja może być anulowana tylko jeśli spełnia zasadę 48h.
@@ -38,9 +38,9 @@ Utworzona → Oczekująca → Potwierdzona → Aktywna → Zakończona
 
 ## Gdzie widzisz status
 
-- **Lista rezerwacji** — kolorowa plakietka na karcie
-- **Szczegóły rezerwacji** — w sekcji „Informacje o rezerwacji"
-- **Oczekujące płatności** — osobna sekcja dla statusu „Oczekująca"
+- **Lista rezerwacji** : kolorowa plakietka na karcie
+- **Szczegóły rezerwacji** : w sekcji „Informacje o rezerwacji"
+- **Oczekujące płatności** : osobna sekcja dla statusu „Oczekująca"
 
 ## Co robić w zależności od statusu
 

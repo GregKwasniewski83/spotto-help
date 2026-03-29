@@ -1,13 +1,13 @@
 ---
-title: "Rozwiązywanie problemów — Sklep"
+title: "Rozwiązywanie problemów : Sklep"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
-# Rozwiązywanie problemów — Ekran Sklep
+# Rozwiązywanie problemów : Ekran Sklep
 
 ## Problemy z zakupem
 
@@ -36,7 +36,7 @@ lastUpdated: "2026-03-29"
 
 **Rozwiązania**:
 1. Sprawdź w „Moje zakupy", czy produkt nie został kupiony dwukrotnie
-2. Jedno z obciążeń może być tymczasową blokadą — zwykle znika w ciągu 24-48 godzin
+2. Jedno z obciążeń może być tymczasową blokadą : zwykle znika w ciągu 24-48 godzin
 3. Skontaktuj się z obsługą klienta: support@spotto.pl
 
 ---
@@ -48,10 +48,10 @@ lastUpdated: "2026-03-29"
 **Objawy**: Płatność zakończyła się sukcesem, ale produkt nie widać w „Moje zakupy".
 
 **Rozwiązania**:
-1. Odczekaj kilka sekund — aplikacja automatycznie odświeża listę
+1. Odczekaj kilka sekund : aplikacja automatycznie odświeża listę
 2. Przełącz się między zakładkami „Sklep" i „Moje zakupy"
 3. Zamknij i otwórz aplikację ponownie
-4. Sprawdź filtr — upewnij się, że jest ustawiony na „Wszystkie" lub „Aktywne"
+4. Sprawdź filtr : upewnij się, że jest ustawiony na „Wszystkie" lub „Aktywne"
 
 ### Kod weryfikacyjny nie działa
 
@@ -61,14 +61,14 @@ lastUpdated: "2026-03-29"
 1. Upewnij się, że pokazujesz aktualny kod z aplikacji (nie zrzut ekranu)
 2. Sprawdź, czy produkt jest nadal aktywny (zielony status)
 3. Sprawdź, czy masz pozostałe wejścia
-4. Skontaktuj się z firmą — dane kontaktowe są w oknie kodu weryfikacyjnego
+4. Skontaktuj się z firmą : dane kontaktowe są w oknie kodu weryfikacyjnego
 
 ### Produkt wygasł za wcześnie
 
 **Objawy**: Produkt zmienił status na „Wygasły" mimo że spodziewałeś/aś się dłuższej ważności.
 
 **Rozwiązania**:
-1. Sprawdź datę ważności na karcie zakupu — okres liczy się od daty zakupu
+1. Sprawdź datę ważności na karcie zakupu : okres liczy się od daty zakupu
 2. Jeśli data jest nieprawidłowa, skontaktuj się z firmą lub napisz na support@spotto.pl
 
 ---
@@ -93,6 +93,6 @@ lastUpdated: "2026-03-29"
 
 ## Powiązane tematy
 
-- [Problemy z płatnościami — szczegóły](../troubleshooting/payments/payment-failed.md)
+- [Problemy z płatnościami : szczegóły](../troubleshooting/payments/payment-failed.md)
 - [Jak kupić produkt](./how-to-buy-pass.md)
-- [FAQ — Sklep](./faq.md)
+- [FAQ : Sklep](./faq.md)

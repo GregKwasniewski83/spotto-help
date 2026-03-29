@@ -12,24 +12,24 @@ Masz problem z aplikacją Spotto? Znajdź rozwiązanie poniżej lub skontaktuj s
 ## Kategorie problemów
 
 ### Logowanie i konto
-- [Nie mogę się zalogować](./authentication/login-failed.md) — błędne hasło, zablokowane konto
-- [Zapomniałem hasła](./authentication/forgot-password.md) — resetowanie hasła
-- [Konto zablokowane](./authentication/account-locked.md) — odblokowanie dostępu
+- [Nie mogę się zalogować](./authentication/login-failed.md) : błędne hasło, zablokowane konto
+- [Zapomniałem hasła](./authentication/forgot-password.md) : resetowanie hasła
+- [Konto zablokowane](./authentication/account-locked.md) : odblokowanie dostępu
 
 ### Płatności
-- [Płatność się nie powiodła](./payments/payment-failed.md) — błędy TPay, odrzucona transakcja
-- [Problem ze zwrotem](./payments/refund-issues.md) — czas oczekiwania, status zwrotu
-- [Błędy TPay](./payments/tpay-errors.md) — przekierowanie, timeout, inne błędy
+- [Płatność się nie powiodła](./payments/payment-failed.md) : błędy TPay, odrzucona transakcja
+- [Problem ze zwrotem](./payments/refund-issues.md) : czas oczekiwania, status zwrotu
+- [Błędy TPay](./payments/tpay-errors.md) : przekierowanie, timeout, inne błędy
 
 ### Rezerwacje
-- [Rezerwacja się nie powiodła](./bookings/booking-failed.md) — nie można zarezerwować
-- [Nie mogę anulować rezerwacji](./bookings/cannot-cancel.md) — zasady anulowania
-- [Termin niedostępny](./bookings/time-slot-unavailable.md) — brak wolnych terminów
+- [Rezerwacja się nie powiodła](./bookings/booking-failed.md) : nie można zarezerwować
+- [Nie mogę anulować rezerwacji](./bookings/cannot-cancel.md) : zasady anulowania
+- [Termin niedostępny](./bookings/time-slot-unavailable.md) : brak wolnych terminów
 
 ### Problemy z aplikacją
-- [Aplikacja się zawiesza](./app-issues/app-crash.md) — awarie i zawieszenia
-- [Wolne działanie](./app-issues/slow-performance.md) — optymalizacja wydajności
-- [Problemy z synchronizacją](./app-issues/sync-issues.md) — dane się nie aktualizują
+- [Aplikacja się zawiesza](./app-issues/app-crash.md) : awarie i zawieszenia
+- [Wolne działanie](./app-issues/slow-performance.md) : optymalizacja wydajności
+- [Problemy z synchronizacją](./app-issues/sync-issues.md) : dane się nie aktualizują
 
 ---
 
@@ -37,10 +37,10 @@ Masz problem z aplikacją Spotto? Znajdź rozwiązanie poniżej lub skontaktuj s
 
 Zanim szukasz szczegółowego rozwiązania, wypróbuj te kroki:
 
-1. **Sprawdź połączenie z internetem** — większość funkcji wymaga internetu
-2. **Zamknij i otwórz aplikację** — rozwiązuje wiele tymczasowych problemów
-3. **Zaktualizuj aplikację** — sprawdź, czy masz najnowszą wersję
-4. **Zrestartuj telefon** — pomaga przy problemach z pamięcią
+1. **Sprawdź połączenie z internetem** : większość funkcji wymaga internetu
+2. **Zamknij i otwórz aplikację** : rozwiązuje wiele tymczasowych problemów
+3. **Zaktualizuj aplikację** : sprawdź, czy masz najnowszą wersję
+4. **Zrestartuj telefon** : pomaga przy problemach z pamięcią
 
 ---
 

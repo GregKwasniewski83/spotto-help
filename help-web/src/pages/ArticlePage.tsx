@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { Home, ChevronRight, Clock, User, BarChart2 } from 'lucide-react';
+import { Home, Clock, User, BarChart2 } from 'lucide-react';
 import { getArticleBySlug } from '@/lib/content/loader';
 import MarkdownRenderer from '@/components/content/MarkdownRenderer';
 import StatusBadge from '@/components/common/StatusBadge';
@@ -47,20 +47,6 @@ export default function ArticlePage() {
 
   return (
     <div className="fade-in">
-      {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-sm text-gray-600 mb-6 flex-wrap">
-        <Link to="/" className="hover:text-primary-600 flex items-center gap-1">
-          <Home size={16} />
-          Start
-        </Link>
-        <ChevronRight size={16} className="text-gray-400" />
-        <Link to={`/screen/${article.screen}`} className="hover:text-primary-600">
-          {screenDisplayName}
-        </Link>
-        <ChevronRight size={16} className="text-gray-400" />
-        <span className="text-gray-900 font-medium">{article.title}</span>
-      </nav>
-
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         {/* Main Content */}
         <div className="lg:col-span-3">

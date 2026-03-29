@@ -34,7 +34,7 @@ Dotknij swojego obecnego avatara w nagłówku ekranu. Otworzy się okno wyboru a
 
 Przeglądaj dostępne avatary ze zwierzętami. Dotknij wybranego, aby go zaznaczyć.
 
-![Wybór avatara — Screenshot #52](../../assets/images/profile/avatar-selection.png)
+![Wybór avatara : Screenshot #52](../../assets/images/profile/avatar-selection.png)
 
 > 💡 **Wskazówka**: Aktualnie wybrany avatar jest podświetlony.
 
@@ -47,7 +47,7 @@ Dotknij **Zapisz** lub zamknij okno. Avatar zmieni się natychmiast w nagłówku
 ## Powiązane tematy
 
 - [Jak edytować dane profilu](./how-to-edit-profile.md)
-- [Ustawienia konta — szczegóły](./features/account-settings.md)
+- [Ustawienia konta : szczegóły](./features/account-settings.md)
 
 ---
 

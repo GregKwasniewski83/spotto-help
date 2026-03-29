@@ -20,13 +20,13 @@ Twoje konto zostało tymczasowo lub trwale zablokowane i nie możesz się zalogo
 **Rozwiązanie**:
 1. Odczekaj 15-30 minut
 2. Spróbuj zalogować się ponownie
-3. Jeśli nie pamiętasz hasła — [zresetuj je](./forgot-password.md)
+3. Jeśli nie pamiętasz hasła : [zresetuj je](./forgot-password.md)
 
 ### Blokada bezpieczeństwa
 
 Jeśli system wykrył podejrzaną aktywność na Twoim koncie:
-1. Sprawdź skrzynkę e-mail — powinieneś/aś otrzymać powiadomienie
-2. Jeśli to nie Ty próbowałeś/aś się logować — zmień hasło natychmiast
+1. Sprawdź skrzynkę e-mail : powinieneś/aś otrzymać powiadomienie
+2. Jeśli to nie Ty próbowałeś/aś się logować : zmień hasło natychmiast
 3. Skontaktuj się z support@spotto.pl w celu odblokowania
 
 ---

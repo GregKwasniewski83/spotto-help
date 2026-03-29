@@ -1,7 +1,7 @@
 ---
 title: "Katalog produktów"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -11,7 +11,7 @@ lastUpdated: "2026-03-29"
 
 ## Opis
 
-Katalog produktów to główna część zakładki „Sklep". Wyświetla produkty oferowane przez obiekty sportowe zarejestrowane w Spotto — karnety, pakiety wejść i abonamenty.
+Katalog produktów to główna część zakładki „Sklep". Wyświetla produkty oferowane przez obiekty sportowe zarejestrowane w Spotto : karnety, pakiety wejść i abonamenty.
 
 ## Karta produktu
 
@@ -28,7 +28,7 @@ Każdy produkt wyświetla się jako karta z następującymi informacjami:
 | **Przycisk „Kup teraz"** | Rozpocznij zakup produktu |
 | **Ikona udostępniania** | Wyślij link do produktu znajomemu |
 
-![Elementy karty produktu — Screenshot #16](../../../assets/images/shop/product-card-anatomy.png)
+![Elementy karty produktu : Screenshot #16](../../../assets/images/shop/product-card-anatomy.png)
 
 ## Rodzaje produktów
 
@@ -45,20 +45,20 @@ Produkty różnią się okresem ważności:
 ## Produkty a obiekty
 
 Produkty mogą być powiązane z:
-- **Wszystkimi obiektami firmy** — karnet ważny we wszystkich lokalizacjach
-- **Konkretnymi obiektami** — karnet ważny tylko w wybranych lokalizacjach
+- **Wszystkimi obiektami firmy** : karnet ważny we wszystkich lokalizacjach
+- **Konkretnymi obiektami** : karnet ważny tylko w wybranych lokalizacjach
 
 ## Zastosowanie produktów
 
 Niektóre produkty mają dodatkowe właściwości:
-- **Płatne w aplikacji** — mogą być użyte do opłacenia rezerwacji bezpośrednio w Spotto
-- **Płatne u trenera** — mogą być użyte do opłacenia zajęć z trenerem
+- **Płatne w aplikacji** : mogą być użyte do opłacenia rezerwacji bezpośrednio w Spotto
+- **Płatne u trenera** : mogą być użyte do opłacenia zajęć z trenerem
 
 ---
 
 ## Powiązane
 
-- [Jak kupić produkt — przewodnik](../how-to-buy-pass.md)
+- [Jak kupić produkt : przewodnik](../how-to-buy-pass.md)
 - [Jak filtrować produkty](../how-to-filter-products.md)
 
 ---

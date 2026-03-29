@@ -1,7 +1,7 @@
 ---
 title: "Jak udostępnić produkt znajomemu"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak udostępnić produkt znajomemu
 
 **Ekran**: Sklep
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -30,7 +30,7 @@ Otwórz zakładkę **Sklep** i znajdź produkt, który chcesz udostępnić.
 
 Na karcie produktu dotknij ikony **udostępniania** (strzałka w górę lub trzy połączone kropki, w zależności od systemu).
 
-![Przycisk udostępniania na karcie produktu — Screenshot #11](../../assets/images/shop/share-product-button.png)
+![Przycisk udostępniania na karcie produktu : Screenshot #11](../../assets/images/shop/share-product-button.png)
 
 ### Krok 3: Wybierz sposób wysłania
 
@@ -43,8 +43,8 @@ Otworzy się systemowe menu udostępniania. Możesz wysłać link przez:
 ### Krok 4: Znajomy otwiera link
 
 Osoba, która otrzyma link:
-- Jeśli ma zainstalowaną aplikację Spotto — link otworzy się bezpośrednio w aplikacji na stronie produktu
-- Jeśli nie ma aplikacji — link otworzy stronę internetową z informacją o produkcie
+- Jeśli ma zainstalowaną aplikację Spotto : link otworzy się bezpośrednio w aplikacji na stronie produktu
+- Jeśli nie ma aplikacji : link otworzy stronę internetową z informacją o produkcie
 
 ---
 

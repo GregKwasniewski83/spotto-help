@@ -61,7 +61,7 @@ Zmiana jest natychmiastowa.
 
 ## Powiązane
 
-- [Jak edytować profil — przewodnik](../how-to-edit-profile.md)
+- [Jak edytować profil : przewodnik](../how-to-edit-profile.md)
 - [Jak zmienić avatar](../how-to-change-avatar.md)
 - [Jak zmienić język](../how-to-change-language.md)
 

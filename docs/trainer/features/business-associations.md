@@ -15,20 +15,20 @@ System powiązań łączy trenerów z obiektami sportowymi. Trener wysyła proś
 
 ## Jak wygląda proces
 
-1. **Wyszukujesz firmę** — szukasz po mieście i typie obiektu
-2. **Wysyłasz prośbę** — firma otrzymuje powiadomienie
-3. **Czekasz na decyzję** — firma akceptuje lub odrzuca
-4. **Współpraca aktywna** — po akceptacji możesz prowadzić zajęcia
+1. **Wyszukujesz firmę** : szukasz po mieście i typie obiektu
+2. **Wysyłasz prośbę** : firma otrzymuje powiadomienie
+3. **Czekasz na decyzję** : firma akceptuje lub odrzuca
+4. **Współpraca aktywna** : po akceptacji możesz prowadzić zajęcia
 
 ## Statusy powiązań
 
 | Status | Kolor | Opis | Twoje akcje |
 |--------|-------|------|-------------|
 | **Oczekujące** | Żółty/pomarańczowy | Prośba wysłana, firma jeszcze nie zdecydowała | Wyślij ponownie e-mail, anuluj prośbę |
-| **Potwierdzone** | Zielony | Współpraca aktywna — możesz prowadzić zajęcia | Usuń powiązanie |
+| **Potwierdzone** | Zielony | Współpraca aktywna : możesz prowadzić zajęcia | Usuń powiązanie |
 | **Odrzucone** | Czerwony | Firma odrzuciła prośbę (widoczny powód odrzucenia) | Wyślij nową prośbę |
 
-![Lista powiązań z firmami — Screenshot #63](../../../assets/images/trainer/business-associations-detail.png)
+![Lista powiązań z firmami : Screenshot #63](../../../assets/images/trainer/business-associations-detail.png)
 
 ## Informacje o powiązaniu
 
@@ -46,19 +46,19 @@ Dla każdego powiązania widzisz szczegółowe informacje:
 
 ## Uprawnienia po akceptacji
 
-Po akceptacji prośby firma ustala Twoje uprawnienia. Nie możesz ich zmienić samodzielnie — są konfigurowane po stronie firmy:
+Po akceptacji prośby firma ustala Twoje uprawnienia. Nie możesz ich zmienić samodzielnie : są konfigurowane po stronie firmy:
 
 | Uprawnienie | Opis | Co oznacza dla Ciebie |
 |-------------|------|----------------------|
 | **Może prowadzić własne treningi** | Trener samodzielnie tworzy zajęcia | Widzisz obiekty firmy przy tworzeniu treningu i możesz przypisać do nich swoje zajęcia |
-| **Pracownik** | Trener jest pracownikiem etatowym firmy | Nie możesz samodzielnie tworzyć treningów — zajęcia muszą być tworzone po stronie firmy |
+| **Pracownik** | Trener jest pracownikiem etatowym firmy | Nie możesz samodzielnie tworzyć treningów : zajęcia muszą być tworzone po stronie firmy |
 | **Maks. liczba uczestników** | Limit osób na jednym treningu | Np. firma pozwala Ci prowadzić zajęcia max. dla 10 osób |
 
-> ⚠️ **Ważne**: Status „Pracownik" i „Może prowadzić własne treningi" wykluczają się — jeśli jesteś pracownikiem, nie możesz samodzielnie tworzyć treningów.
+> ⚠️ **Ważne**: Status „Pracownik" i „Może prowadzić własne treningi" wykluczają się : jeśli jesteś pracownikiem, nie możesz samodzielnie tworzyć treningów.
 
 ## Stawki godzinowe
 
-Firma ustala Twoją stawkę godzinową. To firma decyduje, ile Ci płaci — niezależnie od stawki, jaką ustawiłeś w swoim profilu trenerskim:
+Firma ustala Twoją stawkę godzinową. To firma decyduje, ile Ci płaci : niezależnie od stawki, jaką ustawiłeś w swoim profilu trenerskim:
 
 | Pole | Opis |
 |------|------|
@@ -91,7 +91,7 @@ Możesz wysłać prośby do wielu firm jednocześnie. Każda firma osobno decydu
 
 ## Powiązane
 
-- [Jak nawiązać współpracę — przewodnik krok po kroku](../how-to-associate-with-business.md)
+- [Jak nawiązać współpracę : przewodnik krok po kroku](../how-to-associate-with-business.md)
 - [Zarządzanie trenerami (perspektywa firmy)](../../business/how-to-manage-trainers.md)
 - [Powiązania z trenerami (perspektywa firmy)](../../business/features/trainer-associations.md)
 - [Harmonogram dostępności](./availability-schedule.md)

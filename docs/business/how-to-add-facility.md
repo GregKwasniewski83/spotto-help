@@ -17,7 +17,7 @@ prerequisites:
 
 ## Przegląd
 
-Obiekty sportowe to miejsca, które oferujesz klientom do rezerwacji — korty, strzelnice, siłownie itp. Każdy obiekt ma swoją nazwę, typ, cenę i harmonogram dostępności.
+Obiekty sportowe to miejsca, które oferujesz klientom do rezerwacji : korty, strzelnice, siłownie itp. Każdy obiekt ma swoją nazwę, typ, cenę i harmonogram dostępności.
 
 ---
 
@@ -33,7 +33,7 @@ Obiekty sportowe to miejsca, które oferujesz klientom do rezerwacji — korty, 
 
 Na ekranie Biznes znajdź sekcję **Obiekty sportowe** i dotknij przycisku **Dodaj obiekt**.
 
-![Sekcja obiektów — Screenshot #21](../../assets/images/business/facilities-section.png)
+![Sekcja obiektów : Screenshot #21](../../assets/images/business/facilities-section.png)
 
 ### Krok 2: Wypełnij dane obiektu
 
@@ -48,18 +48,18 @@ Uzupełnij formularz obiektu:
 | **Miasto** | Miasto | Tak |
 | **Kod pocztowy** | Kod pocztowy | Tak |
 
-![Formularz obiektu — Screenshot #22](../../assets/images/business/facility-form.png)
+![Formularz obiektu : Screenshot #22](../../assets/images/business/facility-form.png)
 
 ### Krok 3: Ustaw cenę
 
 Skonfiguruj cenę za godzinę:
-- **Cena netto** — cena bez VAT
-- **Stawka VAT** — wybierz z listy: 0%, 5%, 8%, 23% lub ZW (zwolniony)
-- **Cena brutto** — oblicza się automatycznie na podstawie ceny netto i stawki VAT
+- **Cena netto** : cena bez VAT
+- **Stawka VAT** : wybierz z listy: 0%, 5%, 8%, 23% lub ZW (zwolniony)
+- **Cena brutto** : oblicza się automatycznie na podstawie ceny netto i stawki VAT
 
-> 💡 **Wskazówka**: Możesz też wpisać cenę brutto — cena netto obliczy się automatycznie.
+> 💡 **Wskazówka**: Możesz też wpisać cenę brutto : cena netto obliczy się automatycznie.
 
-![Konfiguracja ceny — Screenshot #23](../../assets/images/business/facility-pricing.png)
+![Konfiguracja ceny : Screenshot #23](../../assets/images/business/facility-pricing.png)
 
 ### Krok 4: Ustaw dodatkowe parametry
 
@@ -103,7 +103,7 @@ Obiekt został dodany prawidłowo, gdy:
 ## Powiązane tematy
 
 - [Jak skonfigurować harmonogram](./how-to-manage-schedule.md)
-- [Zarządzanie obiektami — szczegóły](./features/facility-management.md)
+- [Zarządzanie obiektami : szczegóły](./features/facility-management.md)
 - [Jak utworzyć profil firmy](./how-to-create-profile.md)
 
 ---

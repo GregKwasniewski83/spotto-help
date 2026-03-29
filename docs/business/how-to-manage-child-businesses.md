@@ -26,12 +26,12 @@ System firm podrzędnych pozwala firmom-matkom zarządzać filiami i powiązanym
 ### Przeglądanie firm podrzędnych
 
 W sekcji **Firmy podrzędne** na ekranie Biznes zobaczysz:
-- **Oczekujące** — nowe prośby o powiązanie
-- **Potwierdzone** — aktywne firmy podrzędne
+- **Oczekujące** : nowe prośby o powiązanie
+- **Potwierdzone** : aktywne firmy podrzędne
 
 Każda firma podrzędna wyświetla: avatar, nazwę, miasto i e-mail.
 
-![Lista firm podrzędnych — Screenshot #37](../../assets/images/business/child-businesses-list.png)
+![Lista firm podrzędnych : Screenshot #37](../../assets/images/business/child-businesses-list.png)
 
 ### Akceptacja firmy podrzędnej
 
@@ -68,7 +68,7 @@ Jeśli Twoja firma jest firmą podrzędną:
 
 ## Powiązane tematy
 
-- [Firmy podrzędne — szczegóły](./features/child-businesses.md)
+- [Firmy podrzędne : szczegóły](./features/child-businesses.md)
 - [Jak skonfigurować TPay](./how-to-setup-tpay.md)
 
 ---

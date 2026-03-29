@@ -11,7 +11,7 @@ lastUpdated: "2026-03-29"
 
 ## Problem
 
-Dane w aplikacji nie aktualizują się — np. po zakupie produktu nie widzisz go w „Moje zakupy", rezerwacja się nie pojawia lub zmiany w profilu nie są zapisane.
+Dane w aplikacji nie aktualizują się : np. po zakupie produktu nie widzisz go w „Moje zakupy", rezerwacja się nie pojawia lub zmiany w profilu nie są zapisane.
 
 ## Rozwiązania
 
@@ -21,7 +21,7 @@ Przesuń palcem z góry na dół na liście (pull-to-refresh), aby wymusić odś
 
 ### Przełącz się między zakładkami
 
-Przejdź do innej zakładki i wróć — to wymusza ponowne załadowanie danych.
+Przejdź do innej zakładki i wróć : to wymusza ponowne załadowanie danych.
 
 ### Zamknij i otwórz aplikację
 
@@ -46,7 +46,7 @@ W ostateczności:
 
 Jeśli nie otrzymujesz powiadomień o zakupach i rezerwacjach:
 1. Sprawdź, czy powiadomienia push są włączone w [ustawieniach prywatności](../../profile/how-to-manage-privacy.md)
-2. Sprawdź ustawienia systemowe telefonu — upewnij się, że Spotto ma pozwolenie na powiadomienia
+2. Sprawdź ustawienia systemowe telefonu : upewnij się, że Spotto ma pozwolenie na powiadomienia
 
 ---
 

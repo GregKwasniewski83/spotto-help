@@ -11,7 +11,7 @@ lastUpdated: "2026-03-29"
 
 ## Problem
 
-Aplikacja Spotto działa wolno — ekrany ładują się długo, przyciski reagują z opóźnieniem.
+Aplikacja Spotto działa wolno : ekrany ładują się długo, przyciski reagują z opóźnieniem.
 
 ## Rozwiązania
 

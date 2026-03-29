@@ -1,32 +1,32 @@
 ---
-title: "FAQ — Ekran Home"
+title: "FAQ : Ekran Home"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
-# Najczęściej zadawane pytania — Ekran Home
+# Najczęściej zadawane pytania : Ekran Home
 
 ## Wyszukiwanie obiektów
 
 ### Jak mogę znaleźć obiekt sportowy w mojej okolicy?
 
 Masz dwa sposoby:
-1. **Wyszukiwarka** — wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. [Przewodnik krok po kroku](./how-to-search-facilities.md)
-2. **Mapa** — otwórz widok mapy, który automatycznie pokaże obiekty w pobliżu Twojej lokalizacji. [Jak korzystać z mapy](./how-to-use-map.md)
+1. **Wyszukiwarka** : wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. [Przewodnik krok po kroku](./how-to-search-facilities.md)
+2. **Mapa** : otwórz widok mapy, który automatycznie pokaże obiekty w pobliżu Twojej lokalizacji. [Jak korzystać z mapy](./how-to-use-map.md)
 
 ### Czy mogę szukać obiektów w innym mieście?
 
-Tak. Wpisz dowolne miasto w polu wyszukiwania — aplikacja nie ogranicza wyników do Twojej lokalizacji.
+Tak. Wpisz dowolne miasto w polu wyszukiwania : aplikacja nie ogranicza wyników do Twojej lokalizacji.
 
 ### Dlaczego wyszukiwarka nie pokazuje żadnych wyników?
 
 Najczęstsze przyczyny:
-- Nazwa miasta wpisana z błędem — sprawdź pisownię
+- Nazwa miasta wpisana z błędem : sprawdź pisownię
 - Brak obiektów zarejestrowanych w Spotto w danym mieście
-- Wybrany zbyt wąski filtr typu obiektu — usuń filtr i spróbuj ponownie
+- Wybrany zbyt wąski filtr typu obiektu : usuń filtr i spróbuj ponownie
 - Brak połączenia z internetem
 
 ---
@@ -39,7 +39,7 @@ Dostępne kategorie obejmują m.in.: Strzelectwo, Squash, Siłownia, Tenis, Pade
 
 ### Czy mogę filtrować obiekty po wielu kategoriach jednocześnie?
 
-Nie — w tej chwili można wybrać jedną kategorię naraz. Aby zobaczyć obiekty z różnych dyscyplin, użyj wyszukiwarki bez filtra typu obiektu.
+Nie : w tej chwili można wybrać jedną kategorię naraz. Aby zobaczyć obiekty z różnych dyscyplin, użyj wyszukiwarki bez filtra typu obiektu.
 
 ---
 
@@ -55,7 +55,7 @@ Tak. Ulubione są przypisane do Twojego konta i synchronizują się automatyczni
 
 ### Ile obiektów mogę dodać do ulubionych?
 
-Nie ma limitu — możesz dodać dowolną liczbę obiektów.
+Nie ma limitu : możesz dodać dowolną liczbę obiektów.
 
 ---
 
@@ -78,7 +78,7 @@ Tak, ale mapa nie pokaże Twojej pozycji ani nie posortuje obiektów wg odległo
 
 ### Jak szybko mogę zarezerwować obiekt?
 
-Najszybszy sposób to funkcja **Szybka rezerwacja (QuickBook)** — jedno dotknięcie na karcie obiektu w wynikach wyszukiwania. [Jak zarezerwować](./how-to-book-facility.md)
+Najszybszy sposób to funkcja **Szybka rezerwacja (QuickBook)** : jedno dotknięcie na karcie obiektu w wynikach wyszukiwania. [Jak zarezerwować](./how-to-book-facility.md)
 
 ### Czy mogę zarezerwować obiekt na kilka godzin?
 
@@ -111,7 +111,7 @@ Tablica jest częścią ekranu Home i nie można jej wyłączyć. Możesz ją po
 
 ## Powiązane tematy
 
-- [Ekran Home — przegląd](./README.md)
+- [Ekran Home : przegląd](./README.md)
 - [Troubleshooting](./troubleshooting.md)
 
 ---

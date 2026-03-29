@@ -57,7 +57,7 @@ Na górze ekranu Trener widzisz:
 
 ## Powiązane
 
-- [Jak utworzyć profil trenera — przewodnik](../how-to-create-trainer-profile.md)
+- [Jak utworzyć profil trenera : przewodnik](../how-to-create-trainer-profile.md)
 
 ---
 

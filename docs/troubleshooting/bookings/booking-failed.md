@@ -1,7 +1,7 @@
 ---
 title: "Rezerwacja się nie powiodła"
 screen: troubleshooting
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -36,7 +36,7 @@ Próbujesz zarezerwować obiekt sportowy, ale rezerwacja kończy się błędem.
 **Objawy**: Brak dostępnych slotów
 
 **Rozwiązanie**:
-1. Sprawdź harmonogram obiektu — może być zamknięty w wybranym terminie
+1. Sprawdź harmonogram obiektu : może być zamknięty w wybranym terminie
 2. Spróbuj innego dnia
 3. Skontaktuj się z obiektem bezpośrednio
 

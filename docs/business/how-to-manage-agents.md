@@ -31,7 +31,7 @@ Na ekranie Biznes znajdź sekcję **Agenci** i dotknij **Zaproś agenta**.
 
 Wpisz adres e-mail osoby, którą chcesz zaprosić. System wyśle zaproszenie na podany adres.
 
-![Zapraszanie agenta — Screenshot #30](../../assets/images/business/invite-agent.png)
+![Zapraszanie agenta : Screenshot #30](../../assets/images/business/invite-agent.png)
 
 ### Krok 3: Oczekuj na akceptację
 
@@ -66,8 +66,8 @@ Na liście **Aktywni agenci** widzisz:
 ## Zarządzanie zaproszeniami
 
 Na liście **Oczekujące zaproszenia** możesz:
-- **Wysłać ponownie** — jeśli osoba nie otrzymała zaproszenia
-- **Anulować** — jeśli chcesz wycofać zaproszenie
+- **Wysłać ponownie** : jeśli osoba nie otrzymała zaproszenia
+- **Anulować** : jeśli chcesz wycofać zaproszenie
 
 Zaproszenia, które wygasły, są oznaczone specjalną etykietą.
 
@@ -75,7 +75,7 @@ Zaproszenia, które wygasły, są oznaczone specjalną etykietą.
 
 ## Powiązane tematy
 
-- [Zarządzanie agentami — szczegóły](./features/agent-management.md)
+- [Zarządzanie agentami : szczegóły](./features/agent-management.md)
 - [Jak utworzyć profil firmy](./how-to-create-profile.md)
 
 ---

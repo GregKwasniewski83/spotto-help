@@ -7,13 +7,13 @@ lastUpdated: "2026-03-29"
 
 # Ekran Sklep
 
-**Sklep w aplikacji Spotto** — kupuj karnety, pakiety i abonamenty na obiekty sportowe.
+**Sklep w aplikacji Spotto** : kupuj karnety, pakiety i abonamenty na obiekty sportowe.
 
 ## Przegląd ekranu
 
-Ekran Sklep pozwala przeglądać i kupować produkty oferowane przez obiekty sportowe — karnety, pakiety wejść i abonamenty. Po zakupie produkty trafiają do zakładki „Moje zakupy", skąd możesz je wykorzystać.
+Ekran Sklep pozwala przeglądać i kupować produkty oferowane przez obiekty sportowe : karnety, pakiety wejść i abonamenty. Po zakupie produkty trafiają do zakładki „Moje zakupy", skąd możesz je wykorzystać.
 
-![Przegląd ekranu Sklep — Screenshot #1](../../assets/images/shop/shop-screen-overview.png)
+![Przegląd ekranu Sklep : Screenshot #1](../../assets/images/shop/shop-screen-overview.png)
 
 ### Co znajdziesz na ekranie Sklep
 
@@ -31,29 +31,29 @@ Ekran Sklep pozwala przeglądać i kupować produkty oferowane przez obiekty spo
 
 ### Zakupy
 
-- [Jak kupić produkt (karnet/pakiet)](./how-to-buy-pass.md) — znajdź produkt, kup i zapłać przez TPay
-- [Jak wykorzystać zakupiony produkt](./how-to-use-product.md) — pokaż kod weryfikacyjny pracownikowi obiektu
-- [Jak udostępnić produkt znajomemu](./how-to-share-product.md) — wyślij link do produktu
+- [Jak kupić produkt (karnet/pakiet)](./how-to-buy-pass.md) : znajdź produkt, kup i zapłać przez TPay
+- [Jak wykorzystać zakupiony produkt](./how-to-use-product.md) : pokaż kod weryfikacyjny pracownikowi obiektu
+- [Jak udostępnić produkt znajomemu](./how-to-share-product.md) : wyślij link do produktu
 
 ### Zarządzanie zakupami
 
-- [Jak przeglądać moje zakupy](./how-to-view-purchases.md) — sprawdź status, pozostałe wejścia i ważność
-- [Jak filtrować i szukać produktów](./how-to-filter-products.md) — szukaj po cenie, mieście, okresie ważności
+- [Jak przeglądać moje zakupy](./how-to-view-purchases.md) : sprawdź status, pozostałe wejścia i ważność
+- [Jak filtrować i szukać produktów](./how-to-filter-products.md) : szukaj po cenie, mieście, okresie ważności
 
 ---
 
 ## Szczegółowe opisy funkcji
 
-- [Katalog produktów](./features/product-catalog.md) — rodzaje produktów, karty produktów
-- [Moje zakupy](./features/my-purchases.md) — statusy, postęp wykorzystania
-- [Wyszukiwarka i filtry](./features/search-filters.md) — filtrowanie, sortowanie wyników
-- [Płatności](./features/payments.md) — TPay, metody płatności, potwierdzenia
+- [Katalog produktów](./features/product-catalog.md) : rodzaje produktów, karty produktów
+- [Moje zakupy](./features/my-purchases.md) : statusy, postęp wykorzystania
+- [Wyszukiwarka i filtry](./features/search-filters.md) : filtrowanie, sortowanie wyników
+- [Płatności](./features/payments.md) : TPay, metody płatności, potwierdzenia
 
 ---
 
 ## Najczęściej zadawane pytania
 
-Zobacz [FAQ ekranu Sklep](./faq.md) — odpowiedzi na pytania o produkty, płatności, wykorzystanie i ważność.
+Zobacz [FAQ ekranu Sklep](./faq.md) : odpowiedzi na pytania o produkty, płatności, wykorzystanie i ważność.
 
 ---
 

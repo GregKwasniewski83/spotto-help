@@ -39,7 +39,7 @@ Skonfiguruj dostępność dla trzech typów dni:
 
 Zaznacz godziny (od 00:00 do 23:00), w których jesteś dostępny/a.
 
-![Grafik tygodniowy trenera — Screenshot #48](../../assets/images/trainer/trainer-weekly-schedule.png)
+![Grafik tygodniowy trenera : Screenshot #48](../../assets/images/trainer/trainer-weekly-schedule.png)
 
 ### Krok 3: (Opcjonalnie) Ustaw dostępność na konkretną datę
 
@@ -61,7 +61,7 @@ Dotknij **Zapisz**, aby zatwierdzić zmiany.
 
 ## Powiązane tematy
 
-- [Harmonogram dostępności — szczegóły](./features/availability-schedule.md)
+- [Harmonogram dostępności : szczegóły](./features/availability-schedule.md)
 - [Jak nawiązać współpracę z obiektem](./how-to-associate-with-business.md)
 
 ---

@@ -37,18 +37,18 @@ Konfiguracja TPay wymaga podania danych rejestrowych firmy:
 | **Imię osoby kontaktowej** | tekst | Imię przedstawiciela firmy |
 | **Nazwisko osoby kontaktowej** | tekst | Nazwisko przedstawiciela firmy |
 
-![Formularz konfiguracji TPay — Screenshot #58](../../../assets/images/business/tpay-config-detail.png)
+![Formularz konfiguracji TPay : Screenshot #58](../../../assets/images/business/tpay-config-detail.png)
 
 > ⚠️ **Ważne**: Wszystkie pola są wymagane. Nieprawidłowe dane spowodują odrzucenie rejestracji.
 
 ## Walidacja danych
 
 System automatycznie sprawdza poprawność danych:
-- **NIP** — dokładnie 10 cyfr
-- **REGON** — 9 lub 14 cyfr
-- **KRS** — dokładnie 10 cyfr
-- **E-mail** — prawidłowy format adresu
-- **URL** — musi zaczynać się od http:// lub https://
+- **NIP** : dokładnie 10 cyfr
+- **REGON** : 9 lub 14 cyfr
+- **KRS** : dokładnie 10 cyfr
+- **E-mail** : prawidłowy format adresu
+- **URL** : musi zaczynać się od http:// lub https://
 
 Błędy walidacji są wyświetlane przy odpowiednich polach formularza.
 
@@ -73,7 +73,7 @@ Po konfiguracji TPay Twoi klienci mogą płacić za pomocą:
 
 ## Firmy podrzędne a TPay
 
-Firmy podrzędne mogą korzystać z Twojej konfiguracji TPay — nie muszą konfigurować własnego konta. To upraszcza zarządzanie płatnościami w organizacjach z wieloma lokalizacjami. [Więcej o firmach podrzędnych](./child-businesses.md)
+Firmy podrzędne mogą korzystać z Twojej konfiguracji TPay : nie muszą konfigurować własnego konta. To upraszcza zarządzanie płatnościami w organizacjach z wieloma lokalizacjami. [Więcej o firmach podrzędnych](./child-businesses.md)
 
 ## Bezpieczeństwo
 
@@ -86,7 +86,7 @@ Firmy podrzędne mogą korzystać z Twojej konfiguracji TPay — nie muszą konf
 
 ## Powiązane
 
-- [Jak skonfigurować TPay — przewodnik krok po kroku](../how-to-setup-tpay.md)
+- [Jak skonfigurować TPay : przewodnik krok po kroku](../how-to-setup-tpay.md)
 - [Płatności (perspektywa klienta)](../../shop/features/payments.md)
 - [Firmy podrzędne](./child-businesses.md)
 

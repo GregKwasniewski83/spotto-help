@@ -35,7 +35,7 @@ TPay to bramka płatnicza, która umożliwia Twoim klientom płacenie za rezerwa
 
 Na ekranie Biznes dotknij przycisku edycji profilu. Przewiń do sekcji **Dane TPay**.
 
-![Sekcja TPay — Screenshot #26](../../assets/images/business/tpay-section.png)
+![Sekcja TPay : Screenshot #26](../../assets/images/business/tpay-section.png)
 
 ### Krok 2: Wypełnij wymagane dane
 
@@ -52,11 +52,11 @@ Na ekranie Biznes dotknij przycisku edycji profilu. Przewiń do sekcji **Dane TP
 | **Imię osoby kontaktowej** | Imię przedstawiciela | Tak |
 | **Nazwisko osoby kontaktowej** | Nazwisko przedstawiciela | Tak |
 
-![Formularz danych TPay — Screenshot #27](../../assets/images/business/tpay-form.png)
+![Formularz danych TPay : Screenshot #27](../../assets/images/business/tpay-form.png)
 
 ### Krok 3: Włącz automatyczną rejestrację
 
-Przełącz opcję **Automatyczna rejestracja w TPay** — system automatycznie utworzy konto sprzedawcy na podstawie podanych danych.
+Przełącz opcję **Automatyczna rejestracja w TPay** : system automatycznie utworzy konto sprzedawcy na podstawie podanych danych.
 
 ### Krok 4: Zapisz profil
 
@@ -88,7 +88,7 @@ Konfiguracja TPay jest prawidłowa, gdy:
 
 ## Powiązane tematy
 
-- [Integracja TPay — szczegóły](./features/tpay-integration.md)
+- [Integracja TPay : szczegóły](./features/tpay-integration.md)
 - [Jak skonfigurować KSeF](./how-to-setup-ksef.md)
 - [Płatności w Sklepie](../shop/features/payments.md)
 

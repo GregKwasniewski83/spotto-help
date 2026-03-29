@@ -24,7 +24,7 @@ Profil firmy to Twoja wizytówka w Spotto. Zawiera dane firmy, adres, godziny ot
 
 - Musisz mieć konto w Spotto z aktywną rolą „Biznes" (możesz ją włączyć w [ustawieniach profilu](../profile/how-to-manage-roles.md))
 - Przygotuj dane firmy: NIP, REGON, adres, dane kontaktowe
-- Jeśli planujesz przyjmować płatności online — przygotuj też dane do [konfiguracji TPay](./how-to-setup-tpay.md)
+- Jeśli planujesz przyjmować płatności online : przygotuj też dane do [konfiguracji TPay](./how-to-setup-tpay.md)
 
 ---
 
@@ -34,7 +34,7 @@ Profil firmy to Twoja wizytówka w Spotto. Zawiera dane firmy, adres, godziny ot
 
 Na dolnym pasku nawigacji dotknij ikony **Biznes**. Jeśli nie masz jeszcze profilu firmy, zobaczysz formularz tworzenia profilu.
 
-![Ekran tworzenia profilu firmy — Screenshot #18](../../assets/images/business/create-profile-form.png)
+![Ekran tworzenia profilu firmy : Screenshot #18](../../assets/images/business/create-profile-form.png)
 
 ### Krok 2: Wypełnij dane podstawowe
 
@@ -51,24 +51,24 @@ Uzupełnij wymagane pola:
 | **E-mail** | Adres e-mail kontaktowy | Tak |
 | **Telefon** | Numer telefonu kontaktowego | Tak |
 
-![Formularz danych podstawowych — Screenshot #19](../../assets/images/business/profile-basic-info.png)
+![Formularz danych podstawowych : Screenshot #19](../../assets/images/business/profile-basic-info.png)
 
 ### Krok 3: Dodaj avatar firmy
 
 Dotknij ikony aparatu na zdjęciu profilowym, aby dodać logo lub zdjęcie firmy:
-- **Zrób zdjęcie** — użyj aparatu
-- **Wybierz z galerii** — wybierz istniejące zdjęcie
+- **Zrób zdjęcie** : użyj aparatu
+- **Wybierz z galerii** : wybierz istniejące zdjęcie
 
 ### Krok 4: Ustaw harmonogram
 
 Skonfiguruj godziny otwarcia:
-- **Dni robocze** — godziny dostępności od poniedziałku do piątku
-- **Sobota** — godziny w sobotę
-- **Niedziela** — godziny w niedzielę
+- **Dni robocze** : godziny dostępności od poniedziałku do piątku
+- **Sobota** : godziny w sobotę
+- **Niedziela** : godziny w niedzielę
 
 Każda godzina (od 00:00 do 23:00) może być oznaczona jako dostępna lub niedostępna.
 
-![Konfiguracja harmonogramu — Screenshot #20](../../assets/images/business/schedule-config.png)
+![Konfiguracja harmonogramu : Screenshot #20](../../assets/images/business/schedule-config.png)
 
 > 💡 **Wskazówka**: Możesz też ustawić specjalne godziny na konkretne daty (np. święta). [Jak skonfigurować harmonogram](./how-to-manage-schedule.md)
 
@@ -97,9 +97,9 @@ Profil został prawidłowo utworzony, gdy:
 ## Co dalej?
 
 Po utworzeniu profilu:
-1. [Dodaj obiekt sportowy](./how-to-add-facility.md) — utwórz pierwszy obiekt
-2. [Skonfiguruj TPay](./how-to-setup-tpay.md) — włącz płatności online
-3. [Utwórz produkty](./how-to-manage-products.md) — dodaj karnety i pakiety
+1. [Dodaj obiekt sportowy](./how-to-add-facility.md) : utwórz pierwszy obiekt
+2. [Skonfiguruj TPay](./how-to-setup-tpay.md) : włącz płatności online
+3. [Utwórz produkty](./how-to-manage-products.md) : dodaj karnety i pakiety
 
 ---
 
@@ -117,7 +117,7 @@ Po utworzeniu profilu:
 
 - [Jak dodać obiekt sportowy](./how-to-add-facility.md)
 - [Jak skonfigurować TPay](./how-to-setup-tpay.md)
-- [Profil firmy — szczegóły](./features/business-profile.md)
+- [Profil firmy : szczegóły](./features/business-profile.md)
 
 ---
 

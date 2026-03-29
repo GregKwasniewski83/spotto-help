@@ -33,16 +33,16 @@ W sekcji **Preferencje** znajdź opcję **Język**.
 ### Krok 3: Wybierz język
 
 Dotknij wybranego języka:
-- **Polski** — domyślny
-- **English** — angielski
+- **Polski** : domyślny
+- **English** : angielski
 
-Zmiana języka jest natychmiastowa — cały interfejs aplikacji przełączy się na wybrany język.
+Zmiana języka jest natychmiastowa : cały interfejs aplikacji przełączy się na wybrany język.
 
 ---
 
 ## Powiązane tematy
 
-- [Ustawienia konta — szczegóły](./features/account-settings.md)
+- [Ustawienia konta : szczegóły](./features/account-settings.md)
 
 ---
 

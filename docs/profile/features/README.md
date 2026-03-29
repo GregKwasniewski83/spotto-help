@@ -11,9 +11,9 @@ Szczegółowe opisy wszystkich funkcji dostępnych na ekranach Profil i Ustawien
 
 ## Lista funkcji
 
-- [Ustawienia konta](./account-settings.md) — dane osobowe, avatar, lokalizacja, język
-- [Zarządzanie rolami](./role-management.md) — Gracz, Biznes, Trener
-- [Ustawienia prywatności](./privacy-settings.md) — analityka, marketing, RODO
+- [Ustawienia konta](./account-settings.md) : dane osobowe, avatar, lokalizacja, język
+- [Zarządzanie rolami](./role-management.md) : Użytkownik, Biznes, Trener
+- [Ustawienia prywatności](./privacy-settings.md) : analityka, marketing, RODO
 
 ---
 

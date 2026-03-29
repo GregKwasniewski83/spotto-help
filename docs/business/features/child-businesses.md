@@ -17,7 +17,7 @@ System firm podrzędnych umożliwia zarządzanie strukturą organizacyjną z fir
 
 Firmy podrzędne są przydatne, gdy:
 - Masz **wiele lokalizacji** (np. sieć siłowni) i chcesz zarządzać nimi centralnie
-- Chcesz, aby filie **korzystały z jednego konta TPay** — nie musisz konfigurować płatności osobno dla każdej
+- Chcesz, aby filie **korzystały z jednego konta TPay** : nie musisz konfigurować płatności osobno dla każdej
 - Chcesz wystawiać **faktury z jednego NIP** dla całej organizacji
 
 ## Jak działa powiązanie
@@ -42,7 +42,7 @@ Firma nadrzędna może nadać firmie podrzędnej dwa niezależne uprawnienia:
 | **Używaj TPay rodzica** | Firma podrzędna korzysta z bramki płatniczej firmy nadrzędnej | Klienci płacą przez konto TPay matki. Firma podrzędna nie musi konfigurować własnego TPay |
 | **Używaj NIP rodzica do faktur** | Faktury wystawiane z NIP firmy nadrzędnej | Wszystkie faktury wystawiane centralnie na jeden NIP |
 
-> ⚠️ **Ważne**: Gdy firma podrzędna korzysta z TPay rodzica, sekcja KSeF jest dla niej automatycznie ukryta — e-faktury wystawiane są z poziomu firmy nadrzędnej.
+> ⚠️ **Ważne**: Gdy firma podrzędna korzysta z TPay rodzica, sekcja KSeF jest dla niej automatycznie ukryta : e-faktury wystawiane są z poziomu firmy nadrzędnej.
 
 ## Statusy powiązań
 
@@ -61,7 +61,7 @@ Na ekranie Biznes firmy nadrzędnej w sekcji **Firmy podrzędne** widzisz:
 - Aktualne uprawnienia (ikony TPay i NIP)
 - Przyciski akcji: zaakceptuj, odrzuć, zmień uprawnienia, usuń
 
-![Lista firm podrzędnych — Screenshot #57](../../../assets/images/business/child-businesses-detail.png)
+![Lista firm podrzędnych : Screenshot #57](../../../assets/images/business/child-businesses-detail.png)
 
 ## Widok firmy podrzędnej
 
@@ -73,14 +73,14 @@ Jeśli Twoja firma jest firmą podrzędną, na ekranie Biznes zobaczysz sekcję 
 
 ## Zmiana i usunięcie powiązania
 
-- **Zmiana uprawnień** — firma nadrzędna może w dowolnym momencie zmienić uprawnienia (włączyć/wyłączyć TPay, NIP)
-- **Usunięcie** — firma nadrzędna może usunąć powiązanie. Firma podrzędna traci dostęp do TPay i NIP rodzica i musi skonfigurować własne
+- **Zmiana uprawnień** : firma nadrzędna może w dowolnym momencie zmienić uprawnienia (włączyć/wyłączyć TPay, NIP)
+- **Usunięcie** : firma nadrzędna może usunąć powiązanie. Firma podrzędna traci dostęp do TPay i NIP rodzica i musi skonfigurować własne
 
 ---
 
 ## Powiązane
 
-- [Jak zarządzać firmami podrzędnymi — przewodnik krok po kroku](../how-to-manage-child-businesses.md)
+- [Jak zarządzać firmami podrzędnymi : przewodnik krok po kroku](../how-to-manage-child-businesses.md)
 - [Integracja TPay](./tpay-integration.md)
 - [Integracja KSeF](./ksef-integration.md)
 

@@ -48,9 +48,9 @@ Dostępne stawki VAT:
 ## Harmonogram obiektu
 
 Każdy obiekt ma własny harmonogram 24-godzinny (00:00 – 23:00). Sloty mogą mieć status:
-- **Dostępny** — klient może zarezerwować
-- **Zarezerwowany** — już zajęty
-- **Niedostępny** — obiekt zamknięty
+- **Dostępny** : klient może zarezerwować
+- **Zarezerwowany** : już zajęty
+- **Niedostępny** : obiekt zamknięty
 
 ## Plan obiektu
 
@@ -60,7 +60,7 @@ Możesz dodać plan obiektu (PDF lub zdjęcie), aby klienci mogli zobaczyć ukł
 
 ## Powiązane
 
-- [Jak dodać obiekt — przewodnik](../how-to-add-facility.md)
+- [Jak dodać obiekt : przewodnik](../how-to-add-facility.md)
 - [Profil firmy](./business-profile.md)
 
 ---

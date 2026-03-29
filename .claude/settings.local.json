@@ -25,7 +25,12 @@
       "Bash(find /mnt/c/Users/tadeu/Repo/spotto-help/docs/reservations -type f -name *.md)",
       "Bash(sort -t'#' -k2 -n)",
       "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo -type f -name *.ts -o -name *.tsx -o -name *.json)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages -type f \\\\\\(-name *business* -o -name *profile* \\\\\\) -path */api/src/*)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/api -type f -name *Business* -o -name *Profile*)",
+      "Bash(grep -E \"\\\\.cs$\")",
+      "Bash(grep -r \"TPayMerchantId\" /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/api/PlaySpace.Api/Controllers/*.cs)",
+      "Bash(find:*)"
     ]
   }
 }

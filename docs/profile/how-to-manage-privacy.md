@@ -30,7 +30,7 @@ Na ekranie Profil dotknij ikony **Ustawienia** (koło zębate) w prawym górnym 
 
 W sekcji Prywatność i bezpieczeństwo dotknij **Ustawienia prywatności**.
 
-![Ustawienia prywatności — Screenshot #54](../../assets/images/profile/privacy-settings.png)
+![Ustawienia prywatności : Screenshot #54](../../assets/images/profile/privacy-settings.png)
 
 ### Krok 3: Dostosuj ustawienia
 
@@ -47,7 +47,7 @@ Każde ustawienie ma przełącznik, który możesz włączyć lub wyłączyć:
 
 ### Krok 4: (Opcjonalnie) Zresetuj dane analityczne
 
-Na dole ekranu znajdziesz opcję **Zresetuj analitykę** — usuwa wszystkie zebrane dane analityczne.
+Na dole ekranu znajdziesz opcję **Zresetuj analitykę** : usuwa wszystkie zebrane dane analityczne.
 
 > ⚠️ **Ważne**: Resetowanie danych analitycznych jest nieodwracalne.
 
@@ -55,7 +55,7 @@ Na dole ekranu znajdziesz opcję **Zresetuj analitykę** — usuwa wszystkie zeb
 
 ## Powiązane tematy
 
-- [Ustawienia prywatności — szczegóły](./features/privacy-settings.md)
+- [Ustawienia prywatności : szczegóły](./features/privacy-settings.md)
 - [Polityka prywatności (RODO)](./features/privacy-settings.md)
 
 ---

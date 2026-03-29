@@ -10,16 +10,16 @@ Szczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezer
 
 ## Dostępne opisy
 
-- [Szczegóły rezerwacji](./reservation-details.md) — pełny widok informacji o rezerwacji
-- [Statusy rezerwacji](./booking-status.md) — znaczenie kolorów i stanów rezerwacji
-- [Polityka anulowania i zwrotów](./refund-policy.md) — zasada 48h, opłata 5%, terminy zwrotów
-- [Częściowe anulowanie](./partial-cancellation.md) — anulowanie wybranych godzin z rezerwacji
+- [Szczegóły rezerwacji](./reservation-details.md) : pełny widok informacji o rezerwacji
+- [Statusy rezerwacji](./booking-status.md) : znaczenie kolorów i stanów rezerwacji
+- [Polityka anulowania i zwrotów](./refund-policy.md) : zasada 48h, opłata 5%, terminy zwrotów
+- [Częściowe anulowanie](./partial-cancellation.md) : anulowanie wybranych godzin z rezerwacji
 
 ## Zobacz też
 
-- [Przewodniki krok po kroku](../README.md) — jak przeglądać, anulować, płacić
-- [FAQ](../faq.md) — najczęstsze pytania
-- [Troubleshooting](../troubleshooting.md) — rozwiązywanie problemów
+- [Przewodniki krok po kroku](../README.md) : jak przeglądać, anulować, płacić
+- [FAQ](../faq.md) : najczęstsze pytania
+- [Troubleshooting](../troubleshooting.md) : rozwiązywanie problemów
 
 ---
 

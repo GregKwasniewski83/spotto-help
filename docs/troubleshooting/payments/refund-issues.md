@@ -17,8 +17,8 @@ Oczekujesz zwrotu pieniędzy za anulowaną rezerwację lub produkt, ale środki 
 
 ### Rezerwacje
 
-- Anulowanie rezerwacji z wyprzedzeniem **powyżej 48 godzin** — pełny zwrot minus opłata manipulacyjna (10%)
-- Anulowanie **poniżej 48 godzin** przed terminem — zwrot może nie przysługiwać (zależy od polityki obiektu)
+- Anulowanie rezerwacji z wyprzedzeniem **powyżej 48 godzin** : pełny zwrot minus opłata manipulacyjna (10%)
+- Anulowanie **poniżej 48 godzin** przed terminem : zwrot może nie przysługiwać (zależy od polityki obiektu)
 - Szczegóły znajdziesz w regulaminie obiektu sportowego
 
 ### Produkty (karnety)
@@ -36,11 +36,11 @@ Oczekujesz zwrotu pieniędzy za anulowaną rezerwację lub produkt, ale środki 
 
 ## Co zrobić
 
-1. **Sprawdź status rezerwacji** — upewnij się, że anulowanie zostało potwierdzone
-2. **Odczekaj** — zwroty mogą trwać do 10 dni roboczych
-3. **Sprawdź wyciąg bankowy** — zwrot może pojawić się pod inną datą
-4. **Skontaktuj się z obiektem** — dane kontaktowe znajdziesz w szczegółach rezerwacji
-5. **Zgłoś problem** — napisz na support@spotto.pl z numerem rezerwacji
+1. **Sprawdź status rezerwacji** : upewnij się, że anulowanie zostało potwierdzone
+2. **Odczekaj** : zwroty mogą trwać do 10 dni roboczych
+3. **Sprawdź wyciąg bankowy** : zwrot może pojawić się pod inną datą
+4. **Skontaktuj się z obiektem** : dane kontaktowe znajdziesz w szczegółach rezerwacji
+5. **Zgłoś problem** : napisz na support@spotto.pl z numerem rezerwacji
 
 ---
 

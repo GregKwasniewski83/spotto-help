@@ -1,8 +1,16 @@
-import { useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
 
 export default function Layout() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -12,6 +20,7 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <ScrollToTop />
       <Header onMenuClick={toggleSidebar} isMobileMenuOpen={isSidebarOpen} />
 
       <div className="flex flex-1">

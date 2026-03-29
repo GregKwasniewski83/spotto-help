@@ -1,7 +1,7 @@
 ---
 title: "Termin niedostępny"
 screen: troubleshooting
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"

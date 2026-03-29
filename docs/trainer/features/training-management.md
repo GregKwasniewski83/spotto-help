@@ -50,7 +50,7 @@ Trenerzy ze statusem „Pracownik" nie mogą tworzyć ani edytować treningów. 
 
 ## Powiązane
 
-- [Jak utworzyć trening — przewodnik](../how-to-create-training.md)
+- [Jak utworzyć trening : przewodnik](../how-to-create-training.md)
 - [Jak zarządzać uczestnikami](../how-to-manage-participants.md)
 
 ---

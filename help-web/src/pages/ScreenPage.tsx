@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { FileQuestion, ChevronRight, Home } from 'lucide-react';
+import { FileQuestion } from 'lucide-react';
 import { getArticlesByScreen, getScreenSummary } from '@/lib/content/loader';
 import StatusBadge from '@/components/common/StatusBadge';
 
@@ -26,16 +26,6 @@ export default function ScreenPage() {
 
   return (
     <div className="fade-in">
-      {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-sm text-gray-600 mb-6">
-        <Link to="/" className="hover:text-primary-600 flex items-center gap-1">
-          <Home size={16} />
-          Start
-        </Link>
-        <ChevronRight size={16} className="text-gray-400" />
-        <span className="text-gray-900 font-medium">{screenDisplayName}</span>
-      </nav>
-
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">

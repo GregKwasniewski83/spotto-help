@@ -1,7 +1,7 @@
 ---
 title: "Jak przeglądać rezerwacje"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -9,7 +9,7 @@ lastUpdated: "2026-03-28"
 # Jak przeglądać rezerwacje
 
 **Ekran**: Rezerwacje
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -24,21 +24,21 @@ Ekran Rezerwacje pokazuje wszystkie Twoje nadchodzące rezerwacje obiektów spor
 
 Dotknij ikony **kalendarza** na dolnym pasku nawigacji aplikacji.
 
-![IMG_RES_002 — Pasek nawigacji z zaznaczonym przyciskiem Rezerwacje](../../assets/images/reservations/nav-bar-reservations.png)
+![IMG_RES_002 : Pasek nawigacji z zaznaczonym przyciskiem Rezerwacje](../../assets/images/reservations/nav-bar-reservations.png)
 
 ### Krok 2: Przeglądaj nadchodzące wydarzenia
 
 Na ekranie zobaczysz listę nadchodzących wydarzeń. Każda karta zawiera:
 
-- **Zdjęcie** — avatar obiektu lub ikona trenera
-- **Tytuł** — nazwa obiektu lub treningu
-- **Data i godzina** — sformatowana jako „Dziś", „Jutro" lub pełna data
-- **Lokalizacja** — adres obiektu
-- **Czas trwania** — liczba zarezerwowanych godzin
-- **Cena** — łączny koszt
-- **Typ** — plakietka „Rezerwacja" lub „Trening"
+- **Zdjęcie** : avatar obiektu lub ikona trenera
+- **Tytuł** : nazwa obiektu lub treningu
+- **Data i godzina** : sformatowana jako „Dziś", „Jutro" lub pełna data
+- **Lokalizacja** : adres obiektu
+- **Czas trwania** : liczba zarezerwowanych godzin
+- **Cena** : łączny koszt
+- **Typ** : plakietka „Rezerwacja" lub „Trening"
 
-![IMG_RES_003 — Lista nadchodzących rezerwacji](../../assets/images/reservations/upcoming-list.png)
+![IMG_RES_003 : Lista nadchodzących rezerwacji](../../assets/images/reservations/upcoming-list.png)
 
 > 💡 **Wskazówka**: Nowo utworzona rezerwacja pojawi się z niebieskim obramowaniem i pulsującą animacją, abyś łatwo ją znalazł/a.
 
@@ -46,7 +46,7 @@ Na ekranie zobaczysz listę nadchodzących wydarzeń. Każda karta zawiera:
 
 Jeśli masz więcej rezerwacji niż widać na ekranie, dotknij przycisku **Zobacz wszystkie** u góry sekcji.
 
-![IMG_RES_004 — Przycisk Zobacz wszystkie](../../assets/images/reservations/see-all-button.png)
+![IMG_RES_004 : Przycisk Zobacz wszystkie](../../assets/images/reservations/see-all-button.png)
 
 Otworzy się pełnoekranowa lista ze wszystkimi nadchodzącymi wydarzeniami.
 
@@ -62,7 +62,7 @@ Dotknij dowolnej karty, aby zobaczyć pełne szczegóły:
 - Numer rezerwacji
 - Przyciski akcji (płatność, anulowanie)
 
-![IMG_RES_005 — Widok szczegółów rezerwacji](../../assets/images/reservations/reservation-details.png)
+![IMG_RES_005 : Widok szczegółów rezerwacji](../../assets/images/reservations/reservation-details.png)
 
 ---
 
@@ -92,7 +92,7 @@ Przeglądanie działa poprawnie, jeśli:
 **Rozwiązanie**: Jeśli nie masz nadchodzących rezerwacji, zobaczysz komunikat zachęcający do dokonania pierwszej rezerwacji. Przejdź do [ekranu Home](../home/README.md), aby zarezerwować obiekt.
 
 ### Problem: Nowa rezerwacja nie pojawia się
-**Rozwiązanie**: Poczekaj kilka sekund — aplikacja synchronizuje nowe rezerwacje z serwisem (do 5 prób). Jeśli nadal nie widać, pociągnij ekran w dół, aby odświeżyć.
+**Rozwiązanie**: Poczekaj kilka sekund : aplikacja synchronizuje nowe rezerwacje z serwisem (do 5 prób). Jeśli nadal nie widać, pociągnij ekran w dół, aby odświeżyć.
 
 ---
 

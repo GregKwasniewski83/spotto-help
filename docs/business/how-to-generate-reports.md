@@ -17,7 +17,7 @@ prerequisites:
 
 ## Przegląd
 
-Raporty miesięczne dają Ci pełny obraz działalności firmy — przychody, liczba rezerwacji, anulowania i szczegółowy rozkład na obiekty. Możesz generować raporty podsumowujące i szczegółowe.
+Raporty miesięczne dają Ci pełny obraz działalności firmy : przychody, liczba rezerwacji, anulowania i szczegółowy rozkład na obiekty. Możesz generować raporty podsumowujące i szczegółowe.
 
 ---
 
@@ -31,7 +31,7 @@ Na ekranie Biznes dotknij przycisku **Raporty miesięczne**.
 
 Wybierz miesiąc i rok, za który chcesz wygenerować raport.
 
-![Wybór okresu raportu — Screenshot #35](../../assets/images/business/report-period-select.png)
+![Wybór okresu raportu : Screenshot #35](../../assets/images/business/report-period-select.png)
 
 ### Krok 3: Wybierz typ raportu
 
@@ -55,19 +55,19 @@ Raport zawiera:
 - Transakcje zakupów produktów
 - Sesje trenerskie
 
-![Raport miesięczny — Screenshot #36](../../assets/images/business/monthly-report.png)
+![Raport miesięczny : Screenshot #36](../../assets/images/business/monthly-report.png)
 
 ### Krok 5: Eksportuj raport
 
 Możesz:
-- **Pobrać PDF** — zapisz raport na urządzeniu
-- **Udostępnić** — wyślij raport e-mailem lub przez inną aplikację
+- **Pobrać PDF** : zapisz raport na urządzeniu
+- **Udostępnić** : wyślij raport e-mailem lub przez inną aplikację
 
 ---
 
 ## Powiązane tematy
 
-- [Raporty miesięczne — szczegóły](./features/monthly-reports.md)
+- [Raporty miesięczne : szczegóły](./features/monthly-reports.md)
 - [Jak zarządzać obiektami](./how-to-add-facility.md)
 
 ---

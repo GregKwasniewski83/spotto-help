@@ -30,7 +30,7 @@ Na dolnym pasku nawigacji dotknij ikony **Profil**.
 
 Na karcie danych osobowych dotknij przycisku **Edytuj**. Otworzy się formularz edycji.
 
-![Edycja profilu — Screenshot #50](../../assets/images/profile/edit-profile-form.png)
+![Edycja profilu : Screenshot #50](../../assets/images/profile/edit-profile-form.png)
 
 ### Krok 3: Zmień dane
 
@@ -44,7 +44,7 @@ Możesz zmienić:
 | **Data urodzenia** | Twoja data urodzenia |
 | **Zainteresowania** | Wybierz ulubione sporty (wielokrotny wybór) |
 
-![Zainteresowania sportowe — Screenshot #51](../../assets/images/profile/interests-selection.png)
+![Zainteresowania sportowe : Screenshot #51](../../assets/images/profile/interests-selection.png)
 
 > 💡 **Wskazówka**: Zainteresowania pomagają aplikacji dopasowywać rekomendacje do Twoich preferencji.
 
@@ -57,7 +57,7 @@ Dotknij **Zapisz**. Dane zostaną zaktualizowane natychmiast.
 ## Powiązane tematy
 
 - [Jak zmienić avatar](./how-to-change-avatar.md)
-- [Ustawienia konta — szczegóły](./features/account-settings.md)
+- [Ustawienia konta : szczegóły](./features/account-settings.md)
 
 ---
 

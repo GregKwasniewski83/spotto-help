@@ -1,5 +1,5 @@
 ---
-title: "FAQ — Ekran Profil"
+title: "FAQ : Ekran Profil"
 screen: profile
 role: "Wszystkie"
 difficulty: "Łatwa"
@@ -7,7 +7,7 @@ status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
-# Najczęściej zadawane pytania — Ekran Profil i Ustawienia
+# Najczęściej zadawane pytania : Ekran Profil i Ustawienia
 
 ## Konto
 
@@ -42,9 +42,9 @@ Obecnie dostępne są predefiniowane avatary ze zwierzętami. Własne zdjęcia m
 ### Czym są role w Spotto?
 
 Role (typy profilu) określają, do jakich funkcji masz dostęp:
-- **Gracz** — rezerwacje, Sklep (zawsze aktywna)
-- **Biznes** — zarządzanie firmą
-- **Trener** — prowadzenie zajęć
+- **Użytkownik** : rezerwacje, Sklep (zawsze aktywna)
+- **Biznes** : zarządzanie firmą
+- **Trener** : prowadzenie zajęć
 
 [Szczegóły](./how-to-manage-roles.md)
 
@@ -54,7 +54,7 @@ Otwórz sekcję „Typy profilu" na ekranie Profil i włącz przełącznik przy 
 
 ### Czy mogę mieć kilka ról jednocześnie?
 
-Tak — możesz być jednocześnie Graczem, właścicielem firmy i trenerem.
+Tak : możesz być jednocześnie Użytkownikem, właścicielem firmy i trenerem.
 
 ---
 

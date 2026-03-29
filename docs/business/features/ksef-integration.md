@@ -17,9 +17,9 @@ KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony
 
 | Kryterium | Token | Certyfikat |
 |-----------|-------|------------|
-| **Łatwość konfiguracji** | Prosta — skopiuj i wklej | Wymaga pliku .pfx/.p12 i hasła |
+| **Łatwość konfiguracji** | Prosta : skopiuj i wklej | Wymaga pliku .pfx/.p12 i hasła |
 | **Poziom bezpieczeństwa** | Standardowy (RSA-OAEP) | Najwyższy (klucz kryptograficzny) |
-| **Czas ważności** | Krótki — wymaga odnawiania | Długi — 1-2 lata (do daty wygaśnięcia) |
+| **Czas ważności** | Krótki : wymaga odnawiania | Długi : 1-2 lata (do daty wygaśnięcia) |
 | **Koszt** | Bezpłatny | Zależy od dostawcy certyfikatu |
 | **Zalecane użycie** | Testowanie, szybki start, małe firmy | Produkcja, większe firmy, wyższe wymagania |
 | **Źródło** | Strona KSeF Ministerstwa Finansów | Kwalifikowany dostawca usług zaufania |
@@ -41,7 +41,7 @@ Token autoryzacyjny to najprostsza metoda połączenia z KSeF. Generujesz go na 
 
 Na ekranie **Biznes** przewiń do karty **Status KSeF**. Jeśli KSeF nie jest skonfigurowany, zobaczysz status „Nie skonfigurowano" i przycisk **Konfiguruj**.
 
-![Karta statusu KSeF — Screenshot #28](../../../assets/images/business/ksef-status-card.png)
+![Karta statusu KSeF : Screenshot #28](../../../assets/images/business/ksef-status-card.png)
 
 **Krok 2: Dotknij „Konfiguruj"**
 
@@ -59,7 +59,7 @@ W polu **Token KSeF** wklej token skopiowany ze strony KSeF Ministerstwa Finans�
 |-----------|-----------|
 | **Minimalna długość** | 20 znaków |
 | **Dozwolone znaki** | Litery, cyfry, znaki specjalne |
-| **Kopiowanie** | Zalecane kopiuj/wklej — unikaj ręcznego przepisywania |
+| **Kopiowanie** | Zalecane kopiuj/wklej : unikaj ręcznego przepisywania |
 
 > 💡 **Wskazówka**: Token możesz skopiować ze strony KSeF i wkleić w aplikacji. Upewnij się, że skopiowałeś cały token bez obcinania.
 
@@ -69,12 +69,12 @@ Wybierz środowisko pracy z KSeF:
 
 | Środowisko | Adres API | Opis |
 |------------|-----------|------|
-| **Testowe** | ksef-test.mf.gov.pl | Do testów — faktury nie są oficjalne, nie trafiają do systemu KSeF |
+| **Testowe** | ksef-test.mf.gov.pl | Do testów : faktury nie są oficjalne, nie trafiają do systemu KSeF |
 | **Produkcyjne** | ksef.mf.gov.pl | Prawdziwe e-faktury wysyłane do oficjalnego systemu KSeF |
 
 > 💡 **Wskazówka**: Zalecamy rozpoczęcie od środowiska **testowego**, aby upewnić się, że konfiguracja działa prawidłowo, a dopiero potem przejście na produkcję.
 
-![Konfiguracja KSeF tokenem — Screenshot #29](../../../assets/images/business/ksef-config-token.png)
+![Konfiguracja KSeF tokenem : Screenshot #29](../../../assets/images/business/ksef-config-token.png)
 
 **Krok 6: Dotknij „Zapisz"**
 
@@ -85,8 +85,8 @@ System automatycznie:
 4. Wyświetli wynik testu
 
 **Wynik testu:**
-- ✅ **Zielona ikona** — połączenie działa prawidłowo, KSeF jest gotowy
-- ❌ **Czerwona ikona** — błąd połączenia, sprawdź token i spróbuj ponownie
+- ✅ **Zielona ikona** : połączenie działa prawidłowo, KSeF jest gotowy
+- ❌ **Czerwona ikona** : błąd połączenia, sprawdź token i spróbuj ponownie
 
 ---
 
@@ -118,7 +118,7 @@ Na ekranie **Biznes** przewiń do karty **Status KSeF** i dotknij **Konfiguruj**
 
 Na ekranie konfiguracji dotknij zakładki **Certyfikat**.
 
-![Konfiguracja KSeF certyfikatem — Screenshot #55](../../../assets/images/business/ksef-config-certificate.png)
+![Konfiguracja KSeF certyfikatem : Screenshot #55](../../../assets/images/business/ksef-config-certificate.png)
 
 **Krok 3: Wgraj plik certyfikatu**
 
@@ -126,8 +126,8 @@ Dotknij przycisku **Wybierz plik certyfikatu**. Otworzy się systemowy selektor 
 
 | Obsługiwany format | Rozszerzenie | Opis |
 |--------------------|-------------|------|
-| **PKCS#12** | .pfx | Format Microsoft — zawiera klucz prywatny i certyfikat |
-| **PKCS#12** | .p12 | Format standardowy — identyczny z .pfx |
+| **PKCS#12** | .pfx | Format Microsoft : zawiera klucz prywatny i certyfikat |
+| **PKCS#12** | .p12 | Format standardowy : identyczny z .pfx |
 
 Po wybraniu pliku zobaczysz jego nazwę wyświetloną pod przyciskiem.
 
@@ -140,18 +140,18 @@ W polu **Hasło certyfikatu** wpisz hasło zabezpieczające plik .pfx/.p12.
 | Ważne informacje o haśle | |
 |---------------------------|---|
 | **Czym jest to hasło?** | Hasło ustawione podczas eksportu certyfikatu do pliku .pfx/.p12 |
-| **Czy jest przechowywane?** | Nie — hasło jest używane jednorazowo do odczytania klucza prywatnego |
+| **Czy jest przechowywane?** | Nie : hasło jest używane jednorazowo do odczytania klucza prywatnego |
 | **Nie pamiętam hasła** | Wyeksportuj certyfikat ponownie z nowym hasłem u dostawcy |
 
 > 💡 **Wskazówka**: To hasło dotyczy samego pliku certyfikatu, a **nie** hasła do konta u dostawcy certyfikatu. Są to dwa różne hasła.
 
 **Krok 5: Wybierz środowisko**
 
-Tak samo jak przy metodzie tokenowej — wybierz **Testowe** lub **Produkcyjne**.
+Tak samo jak przy metodzie tokenowej : wybierz **Testowe** lub **Produkcyjne**.
 
 | Środowisko | Adres API | Opis |
 |------------|-----------|------|
-| **Testowe** | ksef-test.mf.gov.pl | Do testów — faktury nie trafiają do oficjalnego systemu |
+| **Testowe** | ksef-test.mf.gov.pl | Do testów : faktury nie trafiają do oficjalnego systemu |
 | **Produkcyjne** | ksef.mf.gov.pl | Prawdziwe e-faktury w systemie KSeF |
 
 **Krok 6: Dotknij „Zapisz"**
@@ -166,14 +166,14 @@ System automatycznie:
 7. Wyświetli wynik testu
 
 **Wynik testu:**
-- ✅ **Zielona ikona** — certyfikat prawidłowy, połączenie działa
-- ❌ **Czerwona ikona** — błąd, sprawdź certyfikat, hasło i datę ważności
+- ✅ **Zielona ikona** : certyfikat prawidłowy, połączenie działa
+- ❌ **Czerwona ikona** : błąd, sprawdź certyfikat, hasło i datę ważności
 
 ---
 
 ## Bezpieczeństwo
 
-### Token — jak działa zabezpieczenie
+### Token : jak działa zabezpieczenie
 
 Po wprowadzeniu tokenu aplikacja:
 1. Szyfruje token kluczem publicznym KSeF algorytmem **RSA-OAEP**
@@ -183,14 +183,14 @@ Po wprowadzeniu tokenu aplikacja:
 
 Token **nie jest przechowywany** lokalnie na urządzeniu po zapisaniu konfiguracji.
 
-### Certyfikat — jak działa zabezpieczenie
+### Certyfikat : jak działa zabezpieczenie
 
 Certyfikat kwalifikowany zawiera klucz prywatny, który:
 1. Służy do **podpisywania żądań** autoryzacyjnych kryptograficznie
-2. Zapewnia **niezaprzeczalność** — tylko posiadacz certyfikatu mógł podpisać żądanie
+2. Zapewnia **niezaprzeczalność** : tylko posiadacz certyfikatu mógł podpisać żądanie
 3. Jest chroniony hasłem pliku .pfx/.p12
 
-Hasło certyfikatu **nie jest przechowywane** — jest używane jednorazowo do odczytania klucza.
+Hasło certyfikatu **nie jest przechowywane** : jest używane jednorazowo do odczytania klucza.
 
 ---
 
@@ -213,7 +213,7 @@ Możesz w dowolnym momencie zmienić metodę:
 1. Dotknij **Rekonfiguruj** na karcie KSeF
 2. Wybierz nową zakładkę (Token → Certyfikat lub odwrotnie)
 3. Wprowadź nowe dane autoryzacyjne
-4. Zapisz — nowa konfiguracja zastąpi poprzednią
+4. Zapisz : nowa konfiguracja zastąpi poprzednią
 
 ### Wyłączenie integracji
 
@@ -225,8 +225,8 @@ Przełącznik na karcie KSeF pozwala tymczasowo wyłączyć integrację bez usuw
 
 | Ograniczenie | Opis |
 |-------------|------|
-| **Firmy podrzędne** | KSeF nie jest dostępny dla firm podrzędnych korzystających z TPay firmy nadrzędnej — e-faktury wystawiane są centralnie |
-| **Ważność tokenu** | Token ma ograniczony czas ważności — po wygaśnięciu wygeneruj nowy na stronie KSeF |
+| **Firmy podrzędne** | KSeF nie jest dostępny dla firm podrzędnych korzystających z TPay firmy nadrzędnej : e-faktury wystawiane są centralnie |
+| **Ważność tokenu** | Token ma ograniczony czas ważności : po wygaśnięciu wygeneruj nowy na stronie KSeF |
 | **Ważność certyfikatu** | Po wygaśnięciu certyfikatu trzeba uzyskać nowy od dostawcy i ponownie skonfigurować |
 | **Kwalifikowani dostawcy** | Akceptowane są wyłącznie certyfikaty od kwalifikowanych dostawców usług zaufania |
 
@@ -237,18 +237,18 @@ Przełącznik na karcie KSeF pozwala tymczasowo wyłączyć integrację bez usuw
 | Problem | Przyczyna | Rozwiązanie |
 |---------|-----------|-------------|
 | Test połączenia tokenem nie powiódł się | Token wygasł lub jest nieprawidłowy | Wygeneruj nowy token na stronie KSeF Ministerstwa Finansów |
-| „Token wydaje się nieprawidłowy" | Token za krótki | Token musi mieć minimum 20 znaków — skopiuj cały token |
+| „Token wydaje się nieprawidłowy" | Token za krótki | Token musi mieć minimum 20 znaków : skopiuj cały token |
 | Certyfikat nie jest akceptowany | Niewłaściwy format pliku | Użyj formatu .pfx lub .p12 (PKCS#12) |
 | Błąd hasła certyfikatu | Nieprawidłowe hasło pliku | To hasło pliku certyfikatu, nie hasło konta u dostawcy |
 | Certyfikat wygasł | Data ważności minęła | Uzyskaj nowy certyfikat od dostawcy |
 | Nie widzę sekcji KSeF | Firma podrzędna z TPay rodzica | KSeF jest zarządzany przez firmę nadrzędną |
-| Błąd połączenia z serwerem | Serwer KSeF niedostępny | Spróbuj ponownie za kilka minut — serwer KSeF może mieć przerwę techniczną |
+| Błąd połączenia z serwerem | Serwer KSeF niedostępny | Spróbuj ponownie za kilka minut : serwer KSeF może mieć przerwę techniczną |
 
 ---
 
 ## Powiązane
 
-- [Jak skonfigurować KSeF — przewodnik](../how-to-setup-ksef.md)
+- [Jak skonfigurować KSeF : przewodnik](../how-to-setup-ksef.md)
 - [Integracja TPay](./tpay-integration.md)
 - [Firmy podrzędne](./child-businesses.md)
 

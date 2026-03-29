@@ -24,7 +24,7 @@ W Spotto masz trzy typy profilu (role), które możesz włączać i wyłączać.
 
 | Rola | Opis | Można wyłączyć? |
 |------|------|-----------------|
-| **Gracz (Użytkownik)** | Rezerwacja obiektów, szukanie zajęć, ulubione | Nie — zawsze aktywna |
+| **Użytkownik (Użytkownik)** | Rezerwacja obiektów, szukanie zajęć, ulubione | Nie : zawsze aktywna |
 | **Biznes** | Zarządzanie firmą, obiektami, produktami | Tak |
 | **Trener** | Prowadzenie treningów, współpraca z firmami | Tak |
 
@@ -36,14 +36,14 @@ W Spotto masz trzy typy profilu (role), które możesz włączać i wyłączać.
 
 Na ekranie Profil znajdź sekcję **Typy profilu**.
 
-![Typy profilu — Screenshot #53](../../assets/images/profile/profile-types.png)
+![Typy profilu : Screenshot #53](../../assets/images/profile/profile-types.png)
 
 ### Krok 2: Włącz lub wyłącz rolę
 
 Każda rola ma przełącznik:
-- **Gracz** — zawsze włączony, nie można wyłączyć
-- **Biznes** — dotknij przełącznik, aby włączyć/wyłączyć
-- **Trener** — dotknij przełącznik, aby włączyć/wyłączyć
+- **Użytkownik** : zawsze włączony, nie można wyłączyć
+- **Biznes** : dotknij przełącznik, aby włączyć/wyłączyć
+- **Trener** : dotknij przełącznik, aby włączyć/wyłączyć
 
 ### Krok 3: Zaakceptuj regulamin
 
@@ -51,7 +51,7 @@ Przy pierwszym włączeniu roli musisz zaakceptować odpowiedni regulamin:
 - Rozwiń regulamin, aby go przeczytać
 - Zaznacz zgodę
 
-> ⚠️ **Ważne**: Regulamin Gracza musi być zawsze zaakceptowany.
+> ⚠️ **Ważne**: Regulamin Użytkownika musi być zawsze zaakceptowany.
 
 ### Krok 4: Zapisz zmiany
 
@@ -61,7 +61,7 @@ Dotknij **Zapisz zmiany**. Role zostaną zaktualizowane.
 
 ## Co daje każda rola?
 
-### Gracz
+### Użytkownik
 - Wyszukiwanie i rezerwacja obiektów sportowych
 - Zarządzanie ulubionymi
 - Przeglądanie i kupowanie produktów w Sklepie
@@ -83,7 +83,7 @@ Dotknij **Zapisz zmiany**. Role zostaną zaktualizowane.
 
 ## Powiązane tematy
 
-- [Zarządzanie rolami — szczegóły](./features/role-management.md)
+- [Zarządzanie rolami : szczegóły](./features/role-management.md)
 - [Ekran Biznes](../business/README.md)
 - [Ekran Trener](../trainer/README.md)
 

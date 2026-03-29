@@ -1,7 +1,7 @@
 ---
 title: "Wyszukiwarka i filtry produktów"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -54,7 +54,7 @@ Jeśli przejdziesz do Sklepu z profilu konkretnego obiektu, produkty zostaną au
 
 ## Powiązane
 
-- [Jak filtrować produkty — przewodnik](../how-to-filter-products.md)
+- [Jak filtrować produkty : przewodnik](../how-to-filter-products.md)
 - [Katalog produktów](./product-catalog.md)
 
 ---

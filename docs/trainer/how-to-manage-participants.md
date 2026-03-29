@@ -30,18 +30,18 @@ Na liście treningów (zakładka **Treningi**) znajdź trening i dotknij **Zobac
 ### Krok 2: Przejrzyj listę
 
 Dla każdego uczestnika widzisz:
-- **Avatar** — zdjęcie lub domyślna ikona
+- **Avatar** : zdjęcie lub domyślna ikona
 - **Imię i nazwisko**
 - **E-mail**
 - **Telefon** (jeśli podany)
 
-![Lista uczestników — Screenshot #47](../../assets/images/trainer/participants-list.png)
+![Lista uczestników : Screenshot #47](../../assets/images/trainer/participants-list.png)
 
 ### Krok 3: Kontaktuj się z uczestnikami
 
 Dotknij danych kontaktowych uczestnika:
-- **E-mail** — otwiera aplikację pocztową
-- **Telefon** — otwiera dialer
+- **E-mail** : otwiera aplikację pocztową
+- **Telefon** : otwiera dialer
 
 ### Krok 4: Usunięcie uczestnika
 
@@ -56,7 +56,7 @@ Aby usunąć uczestnika z treningu:
 ## Powiązane tematy
 
 - [Jak utworzyć trening](./how-to-create-training.md)
-- [Zarządzanie treningami — szczegóły](./features/training-management.md)
+- [Zarządzanie treningami : szczegóły](./features/training-management.md)
 
 ---
 

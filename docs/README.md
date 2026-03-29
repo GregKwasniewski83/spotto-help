@@ -67,7 +67,7 @@ See [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:
 | Business | 9 | 9 | ✅ | 🟢 Complete |
 | Trainer | 5 | 4 | ✅ | 🟢 Complete |
 | Profile | 5 | 3 | ✅ | 🟢 Complete |
-| Troubleshooting | 9 | — | — | 🟢 Complete |
+| Troubleshooting | 9 | : | : | 🟢 Complete |
 
 **Legend**:
 - 🔴 Not Started - No content yet

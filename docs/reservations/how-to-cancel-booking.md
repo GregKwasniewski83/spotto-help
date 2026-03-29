@@ -1,7 +1,7 @@
 ---
 title: "Jak anulować rezerwację"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"
@@ -11,7 +11,7 @@ prerequisites:
 # Jak anulować rezerwację
 
 **Ekran**: Rezerwacje
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -35,31 +35,31 @@ Jeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot ś
 
 Na ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz anulować.
 
-![IMG_RES_006 — Dotknij karty rezerwacji](../../assets/images/reservations/tap-reservation-card.png)
+![IMG_RES_006 : Dotknij karty rezerwacji](../../assets/images/reservations/tap-reservation-card.png)
 
 ### Krok 2: Dotknij „Anuluj wszystko"
 
 W widoku szczegółów przewiń na dół do sekcji akcji. Dotknij przycisku **Anuluj wszystko**.
 
-![IMG_RES_007 — Przycisk Anuluj wszystko](../../assets/images/reservations/cancel-all-button.png)
+![IMG_RES_007 : Przycisk Anuluj wszystko](../../assets/images/reservations/cancel-all-button.png)
 
-> ⚠️ **Ważne**: Jeśli przycisk jest nieaktywny (szary), oznacza to, że rezerwacja nie kwalifikuje się do anulowania — sprawdź warunki w sekcji „Zanim zaczniesz".
+> ⚠️ **Ważne**: Jeśli przycisk jest nieaktywny (szary), oznacza to, że rezerwacja nie kwalifikuje się do anulowania : sprawdź warunki w sekcji „Zanim zaczniesz".
 
 ### Krok 3: Potwierdź anulowanie
 
 Pojawi się okno potwierdzenia z pytaniem, czy na pewno chcesz anulować. Dotknij **Potwierdź anulowanie**.
 
-![IMG_RES_008 — Okno potwierdzenia anulowania](../../assets/images/reservations/cancel-confirmation.png)
+![IMG_RES_008 : Okno potwierdzenia anulowania](../../assets/images/reservations/cancel-confirmation.png)
 
 ### Krok 4: Poczekaj na przetworzenie
 
-Aplikacja przetworzy anulowanie — zobaczysz wskaźnik ładowania. Po zakończeniu:
+Aplikacja przetworzy anulowanie : zobaczysz wskaźnik ładowania. Po zakończeniu:
 
 - Pojawi się **potwierdzenie anulowania** ze szczegółami zwrotu
 - Kwota zwrotu = 95% ceny (5% opłata za anulowanie)
 - Zwrot trafi na konto w ciągu 3-5 dni roboczych
 
-![IMG_RES_009 — Potwierdzenie anulowania ze zwrotem](../../assets/images/reservations/cancel-success.png)
+![IMG_RES_009 : Potwierdzenie anulowania ze zwrotem](../../assets/images/reservations/cancel-success.png)
 
 ---
 

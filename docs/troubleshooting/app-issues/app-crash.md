@@ -44,7 +44,7 @@ Jeśli problem się powtarza:
 2. Zainstaluj ponownie ze sklepu
 3. Zaloguj się swoimi danymi
 
-> 💡 **Wskazówka**: Twoje dane (rezerwacje, zakupy, profil) są powiązane z kontem, nie z aplikacją — nie stracisz ich po reinstalacji.
+> 💡 **Wskazówka**: Twoje dane (rezerwacje, zakupy, profil) są powiązane z kontem, nie z aplikacją : nie stracisz ich po reinstalacji.
 
 ---
 

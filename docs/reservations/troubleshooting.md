@@ -1,12 +1,12 @@
 ---
-title: "Rozwiązywanie problemów — Ekran Rezerwacje"
+title: "Rozwiązywanie problemów : Ekran Rezerwacje"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-28"
 ---
-# Rozwiązywanie problemów — Ekran Rezerwacje
+# Rozwiązywanie problemów : Ekran Rezerwacje
 
 Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwacjami w aplikacji Spotto.
 
@@ -24,9 +24,9 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 - Sesja wygasła podczas płatności
 
 **Rozwiązanie**:
-1. Poczekaj 10-15 sekund — aplikacja automatycznie synchronizuje nowe rezerwacje
+1. Poczekaj 10-15 sekund : aplikacja automatycznie synchronizuje nowe rezerwacje
 2. Pociągnij ekran w dół, aby odświeżyć
-3. Sprawdź sekcję „Oczekujące płatności" — rezerwacja może czekać na dokończenie płatności
+3. Sprawdź sekcję „Oczekujące płatności" : rezerwacja może czekać na dokończenie płatności
 4. Zamknij i otwórz ponownie aplikację
 5. Jeśli nie pojawi się po 15 minutach, skontaktuj się z obsługą z numerem transakcji
 
@@ -62,9 +62,9 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 - Rezerwacja jest już anulowana
 
 **Rozwiązanie**:
-1. Sprawdź datę rezerwacji — musi być > 48h w przyszłości
-2. Rezerwacje opłacone karnetem nie mogą być anulowane — skontaktuj się z obiektem
-3. Jeśli widzisz błąd „Nie można anulować", przeczytaj komunikat — zawiera powód odmowy
+1. Sprawdź datę rezerwacji : musi być > 48h w przyszłości
+2. Rezerwacje opłacone karnetem nie mogą być anulowane : skontaktuj się z obiektem
+3. Jeśli widzisz błąd „Nie można anulować", przeczytaj komunikat : zawiera powód odmowy
 
 ---
 
@@ -123,7 +123,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 **Rozwiązanie**:
 1. Poczekaj pełne 5 dni roboczych od momentu anulowania
 2. Sprawdź historię transakcji w banku (zwrot może być ukryty pod inną nazwą)
-3. Jeśli po 7 dniach brak zwrotu — skontaktuj się z obsługą Spotto, podając:
+3. Jeśli po 7 dniach brak zwrotu : skontaktuj się z obsługą Spotto, podając:
    - Numer rezerwacji (widoczny w szczegółach)
    - Datę anulowania
    - Kwotę oczekiwanego zwrotu

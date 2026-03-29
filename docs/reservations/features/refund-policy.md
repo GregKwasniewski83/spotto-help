@@ -1,7 +1,7 @@
 ---
 title: "Polityka anulowania i zwrotów"
 screen: reservations
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-28"

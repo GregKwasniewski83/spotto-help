@@ -37,10 +37,10 @@ Możesz dodać logo lub zdjęcie firmy. Avatar jest widoczny:
 ### Harmonogram
 
 Harmonogram określa godziny otwarcia firmy:
-- **Dni robocze** — poniedziałek – piątek
-- **Sobota** — osobny grafik
-- **Niedziela** — osobny grafik
-- **Konkretne daty** — nadpisanie grafiku na wybrane dni
+- **Dni robocze** : poniedziałek – piątek
+- **Sobota** : osobny grafik
+- **Niedziela** : osobny grafik
+- **Konkretne daty** : nadpisanie grafiku na wybrane dni
 
 Każdy slot godzinowy (00:00 – 23:00) może być: dostępny, niedostępny lub zarezerwowany.
 
@@ -56,7 +56,7 @@ Plan jest widoczny dla klientów i pomaga w orientacji w obiekcie.
 
 ## Powiązane
 
-- [Jak utworzyć profil firmy — przewodnik](../how-to-create-profile.md)
+- [Jak utworzyć profil firmy : przewodnik](../how-to-create-profile.md)
 - [Jak skonfigurować harmonogram](../how-to-manage-schedule.md)
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Płatności w Sklepie"
 screen: shop
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-29"
@@ -11,7 +11,7 @@ lastUpdated: "2026-03-29"
 
 ## Opis
 
-Płatności za produkty w Sklepie Spotto obsługiwane są przez system **TPay** — bezpieczną bramkę płatniczą. Po potwierdzeniu zakupu zostaniesz przekierowany/a do strony TPay w przeglądarce.
+Płatności za produkty w Sklepie Spotto obsługiwane są przez system **TPay** : bezpieczną bramkę płatniczą. Po potwierdzeniu zakupu zostaniesz przekierowany/a do strony TPay w przeglądarce.
 
 ## Dostępne metody płatności
 
@@ -23,18 +23,18 @@ Płatności za produkty w Sklepie Spotto obsługiwane są przez system **TPay** 
 
 ## Przebieg płatności
 
-1. **Potwierdzenie zakupu** — dotykasz „Kup teraz" i potwierdzasz w aplikacji
-2. **Przekierowanie do TPay** — otwiera się przeglądarka z bramką płatniczą
-3. **Realizacja płatności** — wybierasz metodę i płacisz
-4. **Powrót do aplikacji** — po płatności wracasz automatycznie do Spotto
-5. **Potwierdzenie** — aplikacja wyświetla komunikat o sukcesie
+1. **Potwierdzenie zakupu** : dotykasz „Kup teraz" i potwierdzasz w aplikacji
+2. **Przekierowanie do TPay** : otwiera się przeglądarka z bramką płatniczą
+3. **Realizacja płatności** : wybierasz metodę i płacisz
+4. **Powrót do aplikacji** : po płatności wracasz automatycznie do Spotto
+5. **Potwierdzenie** : aplikacja wyświetla komunikat o sukcesie
 
 ## Potwierdzenie płatności
 
 Spotto weryfikuje płatność na kilka sposobów:
-- **Powiadomienie push** — główna metoda, natychmiastowe potwierdzenie
-- **Automatyczna weryfikacja** — aplikacja sprawdza status po powrocie z przeglądarki
-- **Odpytywanie statusu** — w razie opóźnienia, aplikacja sprawdza status co kilka sekund
+- **Powiadomienie push** : główna metoda, natychmiastowe potwierdzenie
+- **Automatyczna weryfikacja** : aplikacja sprawdza status po powrocie z przeglądarki
+- **Odpytywanie statusu** : w razie opóźnienia, aplikacja sprawdza status co kilka sekund
 
 ## Ceny produktów
 
@@ -52,7 +52,7 @@ Spotto weryfikuje płatność na kilka sposobów:
 
 ## Powiązane
 
-- [Jak kupić produkt — przewodnik](../how-to-buy-pass.md)
+- [Jak kupić produkt : przewodnik](../how-to-buy-pass.md)
 - [Problemy z płatnościami](../../troubleshooting/payments/payment-failed.md)
 
 ---

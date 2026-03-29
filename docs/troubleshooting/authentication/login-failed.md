@@ -11,7 +11,7 @@ lastUpdated: "2026-03-29"
 
 ## Problem
 
-Nie możesz zalogować się do aplikacji Spotto — widzisz błąd lub ekran logowania nie przyjmuje Twoich danych.
+Nie możesz zalogować się do aplikacji Spotto : widzisz błąd lub ekran logowania nie przyjmuje Twoich danych.
 
 ## Najczęstsze przyczyny i rozwiązania
 
@@ -22,7 +22,7 @@ Nie możesz zalogować się do aplikacji Spotto — widzisz błąd lub ekran log
 **Rozwiązanie**:
 1. Sprawdź, czy nie masz włączonego Caps Lock
 2. Upewnij się, że wpisujesz prawidłowy adres e-mail
-3. Jeśli nie pamiętasz hasła — [zresetuj je](./forgot-password.md)
+3. Jeśli nie pamiętasz hasła : [zresetuj je](./forgot-password.md)
 
 ### Konto nie istnieje
 
@@ -48,7 +48,7 @@ Nie możesz zalogować się do aplikacji Spotto — widzisz błąd lub ekran log
 
 **Rozwiązanie**:
 1. Odczekaj kilka minut i spróbuj ponownie
-2. Jeśli problem się powtarza — [zresetuj hasło](./forgot-password.md)
+2. Jeśli problem się powtarza : [zresetuj hasło](./forgot-password.md)
 
 ---
 
