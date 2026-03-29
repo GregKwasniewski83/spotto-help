@@ -17,7 +17,15 @@
       "Bash(curl:*)",
       "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/components -type d -name *reserv* -o -type d -name *booking*)",
       "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/types -type f -name *)",
-      "Bash(pkill -f vite)"
+      "Bash(pkill -f vite)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile -type d -name *manage* -o -type d -name *business*)",
+      "Bash(grep -r \"shop\\\\|sklep\\\\|product\\\\|purchase\\\\|karnet\\\\|membership\\\\|pass\" /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/translations/*.ts)",
+      "Bash(python3:*)",
+      "Bash(grep -l \"getBusinessTrainerAssociations\\\\|updateTrainerPricing\\\\|KSeF\\\\|Monthly\" /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/services/*.ts /mnt/c/Users/tadeu/Repo/spotto-monorepo/packages/mobile/services/**/*.ts)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-help/docs/reservations -type f -name *.md)",
+      "Bash(sort -t'#' -k2 -n)",
+      "Bash(find /mnt/c/Users/tadeu/Repo/spotto-monorepo -type f -name *.ts -o -name *.tsx -o -name *.json)",
+      "Bash(ls:*)"
     ]
   }
 }
