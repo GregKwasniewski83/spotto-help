@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@layer base {
+  header input[type="text"] {
+    background-color: #ffffff;
+    border-color: #d1d5db;
+    color: #1f2937;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

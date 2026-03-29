@@ -105,7 +105,7 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
               <div className="flex items-center gap-2">
                 <img src={spottoLogo} alt="Spotto" className="w-8 h-8 object-contain" />
                 <div className="hidden sm:block">
-                  <h1 className="text-lg font-bold text-white leading-tight">Spotto Pomoc</h1>
+                  <h1 className="font-bold text-white leading-tight" style={{ fontSize: '2rem' }}>Spotto Pomoc</h1>
                   <p className="text-[11px] text-gray-400 leading-tight">Centrum pomocy i dokumentacji</p>
                 </div>
               </div>

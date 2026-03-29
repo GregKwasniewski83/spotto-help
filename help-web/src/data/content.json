@@ -3516,7 +3516,7 @@
       "metadata": {
         "screen": "README.md",
         "status": "🔴",
-        "lastUpdated": "2026-03-29T19:34:30.351Z",
+        "lastUpdated": "2026-03-29T19:58:41.088Z",
         "prerequisites": []
       },
       "headings": [
@@ -7057,6 +7057,6 @@
   "stats": {
     "totalArticles": 98,
     "totalScreens": 8,
-    "lastBuilt": "2026-03-29T19:34:30.871Z"
+    "lastBuilt": "2026-03-29T19:58:41.153Z"
   }
 }

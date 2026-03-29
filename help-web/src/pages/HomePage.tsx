@@ -22,6 +22,7 @@ export default function HomePage() {
             type="text"
             placeholder="Czego szukasz?"
             className="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent shadow-sm"
+            style={{ color: '#ffffff' }}
           />
           <Search size={24} className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" />
         </div>

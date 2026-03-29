@@ -80,6 +80,7 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Szukaj w pomocy..."
             className="flex-1 text-base outline-none"
+            style={{ color: '#ffffff' }}
           />
           {query.length > 0 && (
             <button

@@ -71,7 +71,8 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={placeholder}
-          className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
+          className="w-full pl-10 pr-10 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all"
+          style={{ backgroundColor: '#f3f4f6', color: '#1f2937', border: '1px solid #d1d5db' }}
           aria-label="Wyszukaj dokumentację"
         />
 
