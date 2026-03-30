@@ -25,6 +25,8 @@ Częściowe anulowanie jest dostępne, gdy:
 
 Po otwarciu częściowego anulowania zobaczysz listę wszystkich slotów:
 
+![IMG_RES_029 : Lista slotów z zaznaczeniem do anulowania](../../assets/images/reservations/feat-partial-cancel-slot-list.png)
+
 | Element | Opis |
 |---------|------|
 | **Godzina** | Czas rozpoczęcia slotu (np. „10:00") |
@@ -42,6 +44,8 @@ Po otwarciu częściowego anulowania zobaczysz listę wszystkich slotów:
 
 Po anulowaniu otrzymasz szczegółowe podsumowanie:
 
+![IMG_RES_030 : Podsumowanie częściowego anulowania z kwotami](../../assets/images/reservations/feat-partial-cancel-summary.png)
+
 | Pole | Przykład |
 |------|---------|
 | Anulowane sloty | 2 |
@@ -55,6 +59,8 @@ Po anulowaniu otrzymasz szczegółowe podsumowanie:
 
 - Status zmienia się na **„Częściowa"** (partial)
 - W szczegółach rezerwacji anulowane sloty są **przekreślone**
+
+![IMG_RES_031 : Przekreślone sloty w widoku szczegółów rezerwacji](../../assets/images/reservations/feat-partial-cancel-crossed-slots.png)
 - Cena wyświetla się jako pozostała kwota
 
 ## Powiązane

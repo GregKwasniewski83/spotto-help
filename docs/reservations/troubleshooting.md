@@ -36,6 +36,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 
 **Problem**: Nie widzę żadnych rezerwacji, chociaż je mam.
 
+![IMG_RES_026 : Pusta lista rezerwacji](../../assets/images/reservations/ts-empty-list.png)
+
 **Przyczyny**:
 - Brak połączenia z internetem
 - Wszystkie rezerwacje są w przeszłości (wyświetlane są tylko nadchodzące)
@@ -55,6 +57,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 
 **Problem**: Przycisk anulowania jest nieaktywny lub pojawia się błąd.
 
+![IMG_RES_022 : Nieaktywny przycisk anulowania](../../assets/images/reservations/ts-cancel-button-disabled.png)
+
 **Przyczyny**:
 - Do rezerwacji pozostało mniej niż 48 godzin
 - Rezerwacja jest na dziś lub w przeszłości
@@ -71,6 +75,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 ### Błąd „Zasada 48 godzin"
 
 **Problem**: Pojawia się komunikat o niemożności anulowania z powodu zasady 48 godzin.
+
+![IMG_RES_023 : Komunikat błędu zasady 48 godzin](../../assets/images/reservations/ts-48h-rule-error.png)
 
 **Rozwiązanie**: Zasada jest obligatoryjna i nie można jej obejść. Opcje:
 1. Skontaktuj się bezpośrednio z obiektem (telefon lub e-mail z widoku szczegółów)
@@ -96,6 +102,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 ### Płatność nie powiodła się
 
 **Problem**: Próba płatności kończy się błędem.
+
+![IMG_RES_024 : Komunikat błędu płatności](../../assets/images/reservations/ts-payment-failed.png)
 
 **Przyczyny**:
 - Niewystarczające środki
@@ -143,6 +151,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 ### Ekran Rezerwacje się nie ładuje
 
 **Problem**: Ekran jest pusty lub wyświetla błąd.
+
+![IMG_RES_025 : Pusty ekran Rezerwacje z błędem](../../assets/images/reservations/ts-blank-screen.png)
 
 **Rozwiązanie**:
 1. Sprawdź połączenie z internetem

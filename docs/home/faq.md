@@ -23,6 +23,8 @@ Tak. Wpisz dowolne miasto w polu wyszukiwania : aplikacja nie ogranicza wyników
 
 ### Dlaczego wyszukiwarka nie pokazuje żadnych wyników?
 
+![Ekran braku wyników wyszukiwania](../../assets/images/home/faq-no-search-results.png)
+
 Najczęstsze przyczyny:
 - Nazwa miasta wpisana z błędem : sprawdź pisownię
 - Brak obiektów zarejestrowanych w Spotto w danym mieście
@@ -48,6 +50,8 @@ Nie : w tej chwili można wybrać jedną kategorię naraz. Aby zobaczyć obiekty
 ### Jak dodać obiekt do ulubionych?
 
 Dotknij ikony serca (♡) na karcie obiektu w wynikach wyszukiwania lub na stronie szczegółów obiektu. [Pełny przewodnik](./how-to-manage-favorites.md)
+
+![Ikona serca na karcie obiektu](../../assets/images/home/faq-heart-icon.png)
 
 ### Czy moje ulubione synchronizują się między urządzeniami?
 
@@ -88,12 +92,16 @@ Tak. Podczas wyboru terminu zaznacz kilka sąsiadujących slotów czasowych.
 
 To rezerwacje, dla których nie dokończono procesu płatności. Pojawią się jako powiadomienie na ekranie Home. Dotknij powiadomienia, aby dokończyć płatność.
 
+![Powiadomienie o oczekujących płatnościach na ekranie Home](../../assets/images/home/faq-pending-payments.png)
+
 ### Jakie metody płatności są akceptowane?
 
 Spotto obsługuje płatności przez TPay:
 - Karty płatnicze (Visa, Mastercard)
 - Szybkie przelewy bankowe
 - BLIK
+
+![Metody płatności TPay](../../assets/images/home/faq-payment-methods.png)
 
 ---
 
@@ -102,6 +110,8 @@ Spotto obsługuje płatności przez TPay:
 ### Co to jest tablica społeczności?
 
 To sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty, aktywność i ogłoszenia z społeczności Spotto. [Więcej o tablicy](./features/community-wall.md)
+
+![Sekcja tablicy społeczności na ekranie Home](../../assets/images/home/faq-community-wall.png)
 
 ### Czy mogę wyłączyć tablicę społeczności?
 

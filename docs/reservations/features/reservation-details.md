@@ -52,6 +52,8 @@ Jeśli do rezerwacji przypisany jest trener:
 - Cena usługi trenera
 - Kontakt (telefon, e-mail)
 
+![IMG_RES_032 : Sekcja informacji o trenerze w szczegółach](../../assets/images/reservations/details-trainer-info.png)
+
 ### Informacje o płatności
 
 | Element | Opis |
@@ -66,6 +68,8 @@ W zależności od stanu rezerwacji zobaczysz:
 - **Zapłać teraz** : jeśli rezerwacja nieopłacona
 - **Anuluj częściowo** : jeśli rezerwacja ma wiele slotów
 - **Anuluj wszystko** : jeśli rezerwacja kwalifikuje się do anulowania
+
+![IMG_RES_033 : Przyciski akcji w szczegółach rezerwacji](../../assets/images/reservations/details-action-buttons.png)
 
 ## Powiązane
 

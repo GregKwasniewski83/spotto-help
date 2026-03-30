@@ -15,6 +15,8 @@ Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na 
 
 ## Dostępne kategorie
 
+![Karuzela kategorii sportowych na ekranie Home](../../../assets/images/home/feat-categories-carousel.png)
+
 | Kategoria | Ikona | Opis |
 |-----------|-------|------|
 | Strzelectwo | 🎯 | Strzelnice sportowe i rekreacyjne |
@@ -35,6 +37,8 @@ Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na 
 - **Przewijanie** : przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii
 - **Wybór** : dotknij kategorii, aby zobaczyć obiekty oferujące tę dyscyplinę
 - **Wyniki** : po wybraniu kategorii wyświetli się lista obiektów (analogicznie do wyników wyszukiwania)
+
+![Wybrana kategoria - lista obiektów](../../../assets/images/home/feat-category-results.png)
 
 ## Różnice między wyszukiwarką a kategoriami
 

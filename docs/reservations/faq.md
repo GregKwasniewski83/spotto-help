@@ -32,6 +32,8 @@ Opłata za anulowanie wynosi 5% wartości anulowanej części. Otrzymasz zwrot 9
 ### Czy mogę anulować tylko jedną godzinę z rezerwacji na kilka godzin?
 Tak : użyj funkcji [częściowego anulowania](./how-to-partial-cancel.md). Wybierz konkretne sloty do anulowania, a reszta pozostanie aktywna.
 
+![IMG_RES_021 : Widok wyboru slotów do częściowego anulowania](../../assets/images/reservations/faq-partial-cancel-slots.png)
+
 ### Czy mogę anulować rezerwację opłaconą karnetem?
 Nie. Rezerwacje opłacone karnetem lub voucherem nie podlegają anulowaniu przez aplikację. Skontaktuj się bezpośrednio z obiektem.
 
@@ -51,6 +53,8 @@ Zwrot trafia na tę samą metodę płatności, którą dokonano rezerwacji (kart
 ### Co to są „Oczekujące płatności"?
 To rezerwacje, za które nie dokończono płatności. Pojawią się u góry ekranu Rezerwacje. Możesz dokończyć płatność lub anulować rezerwację. [Jak dokończyć](./how-to-pay-pending.md)
 
+![IMG_RES_020 : Sekcja oczekujących płatności na ekranie Rezerwacje](../../assets/images/reservations/faq-pending-payments.png)
+
 ### Jakie metody płatności są dostępne?
 Spotto obsługuje płatności przez TPay: karty płatnicze (Visa, Mastercard), szybkie przelewy bankowe i BLIK.
 
@@ -59,6 +63,9 @@ Spotto obsługuje płatności przez TPay: karty płatnicze (Visa, Mastercard), s
 ## Statusy
 
 ### Co oznaczają kolory statusów?
+
+![IMG_RES_019 : Kolorowe plakietki statusów rezerwacji](../../assets/images/reservations/faq-status-badges.png)
+
 - 🟢 **Zielony** : Potwierdzona (opłacona, gotowa)
 - 🟡 **Żółty** : Oczekująca / Częściowa
 - 🔵 **Niebieski** : Aktywna (trwa teraz)

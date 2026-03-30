@@ -15,6 +15,8 @@ Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytko
 
 ## Co znajdziesz na tablicy
 
+![Feed tablicy społeczności z postami](../../../assets/images/home/feat-community-wall-feed.png)
+
 - **Posty użytkowników** : informacje o wydarzeniach, treningach i aktywnościach
 - **Aktywność społeczności** : co inni użytkownicy rezerwują i polecają
 - **Ogłoszenia** : ważne informacje od obiektów sportowych
@@ -33,6 +35,8 @@ Z tablicy społeczności możesz:
 2. Wpisz treść posta
 3. Opcjonalnie dodaj zdjęcie lub lokalizację
 4. Dotknij **Opublikuj**
+
+![Tworzenie nowego posta na tablicy społeczności](../../../assets/images/home/feat-community-wall-new-post.png)
 
 > 💡 **Wskazówka**: Posty są widoczne dla innych użytkowników Spotto. Pamiętaj o kulturze wypowiedzi.
 

@@ -14,6 +14,8 @@ Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualny
 
 ## Lista statusów
 
+![IMG_RES_027 : Kolorowe plakietki statusów na kartach rezerwacji](../../assets/images/reservations/feat-status-badges-list.png)
+
 | Status | Kolor | Znaczenie | Można anulować? |
 |--------|-------|-----------|-----------------|
 | **Potwierdzona** | 🟢 Zielony | Rezerwacja opłacona i gotowa | Tak |
@@ -27,6 +29,8 @@ Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualny
 *Aktywna rezerwacja może być anulowana tylko jeśli spełnia zasadę 48h.
 
 ## Cykl życia rezerwacji
+
+![IMG_RES_028 : Diagram cyklu życia rezerwacji](../../assets/images/reservations/feat-status-lifecycle.png)
 
 ```
 Utworzona → Oczekująca → Potwierdzona → Aktywna → Zakończona

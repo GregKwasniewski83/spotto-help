@@ -45,6 +45,8 @@ Za każde anulowanie (pełne lub częściowe) pobierana jest opłata:
 - Opłata: 10 zł (5%)
 - Zwrot: 190 zł (95%)
 
+![IMG_RES_034 : Ekran potwierdzenia anulowania z kwotą zwrotu](../../assets/images/reservations/feat-refund-calculation.png)
+
 ## Termin zwrotu
 
 - Zwrot jest przetwarzany automatycznie przez system TPay
