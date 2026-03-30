@@ -93,17 +93,15 @@ function getScreenFromPath(filePath: string): string {
   return parts[0] || 'common';
 }
 
-async function buildContent() {
-  console.log('🔨 Building content from markdown files...\n');
+async function buildContentForLang(lang: string, docsDir: string, outputFile: string) {
+  const docsPath = path.resolve(__dirname, `../../${docsDir}`);
+  const outputPath = path.resolve(__dirname, `../src/data/${outputFile}`);
 
   try {
-    const docsPath = path.resolve(__dirname, '../../docs');
-    const outputPath = path.resolve(__dirname, '../src/data/content.json');
-
     // Check if docs directory exists
     if (!await fs.pathExists(docsPath)) {
       console.error(`❌ Docs directory not found: ${docsPath}`);
-      console.log('📝 Creating placeholder content.json');
+      console.log(`📝 Creating placeholder ${outputFile}`);
 
       await fs.ensureDir(path.dirname(outputPath));
       await fs.writeJSON(outputPath, {
@@ -219,16 +217,22 @@ async function buildContent() {
     await fs.writeJSON(outputPath, output, { spaces: 2 });
 
     // Print summary
-    console.log('\n📊 Content Build Summary:');
+    console.log(`\n📊 Content Build Summary (${lang}):`)
     console.log(`   Articles: ${articles.length}`);
     console.log(`   Screens: ${screens.size}`);
     console.log(`   Output: ${outputPath}`);
-    console.log('\n✅ Content build complete!\n');
 
   } catch (error) {
-    console.error('❌ Error building content:', error);
+    console.error(`❌ Error building content (${lang}):`, error);
     process.exit(1);
   }
+}
+
+async function buildContent() {
+  console.log('🔨 Building content from markdown files...\n');
+  await buildContentForLang('pl', 'docs', 'content-pl.json');
+  await buildContentForLang('en', 'docs-en', 'content-en.json');
+  console.log('\n✅ Content build complete!\n');
 }
 
 buildContent();

@@ -1,57 +1,22 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Calendar, ShoppingBag, Briefcase, User, Settings, AlertCircle } from 'lucide-react';
 import { clsx } from 'clsx';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName, getScreenDescription } from '@/lib/i18n/translations';
 
 interface Screen {
-  name: string;
   slug: string;
   icon: React.ComponentType<{ size?: number; className?: string }>;
-  description: string;
 }
 
 const screens: Screen[] = [
-  {
-    name: 'Home',
-    slug: 'home',
-    icon: Home,
-    description: 'Wyszukiwanie obiektów, kategorie, ulubione'
-  },
-  {
-    name: 'Rezerwacje',
-    slug: 'reservations',
-    icon: Calendar,
-    description: 'Historia rezerwacji, nadchodzące wydarzenia'
-  },
-  {
-    name: 'Sklep',
-    slug: 'shop',
-    icon: ShoppingBag,
-    description: 'Produkty, karnety, członkostwa'
-  },
-  {
-    name: 'Biznes',
-    slug: 'business',
-    icon: Briefcase,
-    description: 'Panel zarządzania firmą'
-  },
-  {
-    name: 'Trener',
-    slug: 'trainer',
-    icon: User,
-    description: 'Profil trenera i treningi'
-  },
-  {
-    name: 'Profil',
-    slug: 'profile',
-    icon: Settings,
-    description: 'Ustawienia konta'
-  },
-  {
-    name: 'Rozwiązywanie problemów',
-    slug: 'troubleshooting',
-    icon: AlertCircle,
-    description: 'Częste problemy i ich rozwiązania'
-  },
+  { slug: 'home', icon: Home },
+  { slug: 'reservations', icon: Calendar },
+  { slug: 'shop', icon: ShoppingBag },
+  { slug: 'business', icon: Briefcase },
+  { slug: 'trainer', icon: User },
+  { slug: 'profile', icon: Settings },
+  { slug: 'troubleshooting', icon: AlertCircle },
 ];
 
 interface SidebarProps {
@@ -61,6 +26,7 @@ interface SidebarProps {
 
 export default function Sidebar({ isOpen, onClose }: SidebarProps) {
   const location = useLocation();
+  const { lang, t } = useLanguage();
 
   const isScreenActive = (slug: string) => {
     return location.pathname.includes(`/screen/${slug}`) || location.pathname.includes(`/${slug}`);
@@ -88,7 +54,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       >
         <nav className="p-4">
           <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
-            Ekrany aplikacji
+            {t('sidebar.screens')}
           </h2>
           <ul className="space-y-1">
             {screens.map((screen) => {
@@ -126,10 +92,10 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                           'text-gray-900': !isActive,
                         }
                       )}>
-                        {screen.name}
+                        {getScreenName(screen.slug, lang)}
                       </div>
                       <p className="text-xs text-gray-500 mt-0.5 line-clamp-2">
-                        {screen.description}
+                        {getScreenDescription(screen.slug, lang)}
                       </p>
                     </div>
                   </Link>
@@ -140,7 +106,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
           <div className="mt-8 pt-6 border-t border-gray-200">
             <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
-              Dodatkowe zasoby
+              {t('sidebar.resources')}
             </h2>
             <ul className="space-y-1">
               <li>
@@ -148,7 +114,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                   to="/getting-started"
                   className="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors text-sm"
                 >
-                  Pierwsze kroki
+                  {t('sidebar.gettingStarted')}
                 </Link>
               </li>
               <li>
@@ -156,7 +122,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                   to="/glossary"
                   className="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors text-sm"
                 >
-                  Słownik pojęć
+                  {t('sidebar.glossary')}
                 </Link>
               </li>
             </ul>

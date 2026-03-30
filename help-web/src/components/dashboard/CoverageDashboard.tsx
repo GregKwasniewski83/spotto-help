@@ -7,6 +7,8 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, CheckCircle, Clock, Circle, TrendingUp } from 'lucide-react';
 import { getAllArticles, getAllScreens } from '@/lib/content/loader';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName } from '@/lib/i18n/translations';
 
 interface StatusCounts {
   completed: number;
@@ -16,10 +18,10 @@ interface StatusCounts {
 }
 
 export default function CoverageDashboard() {
-  const articles = getAllArticles();
-  const screens = getAllScreens();
+  const { lang, t } = useLanguage();
+  const articles = getAllArticles(lang);
+  const screens = getAllScreens(lang);
 
-  // Calculate status distribution
   const statusCounts = useMemo((): StatusCounts => {
     return articles.reduce((acc, article) => {
       const status = article.metadata.status;
@@ -36,43 +38,30 @@ export default function CoverageDashboard() {
     ? Math.round((statusCounts.completed / totalArticles) * 100)
     : 0;
 
-  // Sort screens by article count and add display names
   const sortedScreens = useMemo(() => {
-    const screenNames: Record<string, string> = {
-      home: 'Home',
-      reservations: 'Rezerwacje',
-      shop: 'Sklep',
-      business: 'Biznes',
-      trainer: 'Trener',
-      profile: 'Profil',
-      troubleshooting: 'Rozwiązywanie problemów'
-    };
-
     return screens
       .map(screen => ({
         ...screen,
-        displayName: screenNames[screen.screen] || screen.screen
+        displayName: getScreenName(screen.screen, lang)
       }))
       .sort((a, b) => b.articleCount - a.articleCount);
-  }, [screens]);
+  }, [screens, lang]);
 
   return (
     <div className="space-y-6">
       {/* Overview Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Total Articles */}
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-medium text-gray-600">Łącznie artykułów</h3>
+            <h3 className="text-sm font-medium text-gray-600">{t('dashboard.totalArticles')}</h3>
             <FileText size={20} className="text-primary-500" />
           </div>
           <p className="text-3xl font-bold text-gray-900">{totalArticles}</p>
         </div>
 
-        {/* Completion Rate */}
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-medium text-gray-600">Ukończone</h3>
+            <h3 className="text-sm font-medium text-gray-600">{t('dashboard.completed')}</h3>
             <TrendingUp size={20} className="text-green-500" />
           </div>
           <p className="text-3xl font-bold text-gray-900">{completionRate}%</p>
@@ -84,124 +73,102 @@ export default function CoverageDashboard() {
           </div>
         </div>
 
-        {/* In Progress */}
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-medium text-gray-600">W trakcie</h3>
+            <h3 className="text-sm font-medium text-gray-600">{t('dashboard.inProgress')}</h3>
             <Clock size={20} className="text-yellow-500" />
           </div>
           <p className="text-3xl font-bold text-gray-900">{statusCounts.inProgress}</p>
           <p className="text-sm text-gray-500 mt-1">
-            {totalArticles > 0 ? Math.round((statusCounts.inProgress / totalArticles) * 100) : 0}% wszystkich
+            {totalArticles > 0 ? Math.round((statusCounts.inProgress / totalArticles) * 100) : 0}% {t('dashboard.ofAll')}
           </p>
         </div>
 
-        {/* Not Started */}
         <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-sm font-medium text-gray-600">Nie rozpoczęto</h3>
+            <h3 className="text-sm font-medium text-gray-600">{t('dashboard.notStarted')}</h3>
             <Circle size={20} className="text-red-500" />
           </div>
           <p className="text-3xl font-bold text-gray-900">{statusCounts.notStarted}</p>
           <p className="text-sm text-gray-500 mt-1">
-            {totalArticles > 0 ? Math.round((statusCounts.notStarted / totalArticles) * 100) : 0}% wszystkich
+            {totalArticles > 0 ? Math.round((statusCounts.notStarted / totalArticles) * 100) : 0}% {t('dashboard.ofAll')}
           </p>
         </div>
       </div>
 
       {/* Status Distribution */}
       <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Rozkład statusów</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">{t('dashboard.statusDistribution')}</h3>
         <div className="space-y-3">
-          {/* Completed */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2 w-40">
               <CheckCircle size={18} className="text-green-500" />
-              <span className="text-sm font-medium text-gray-700">Ukończono</span>
+              <span className="text-sm font-medium text-gray-700">{t('status.completed')}</span>
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-2">
                 <div className="flex-1 bg-gray-200 rounded-full h-3">
                   <div
                     className="bg-green-500 h-3 rounded-full transition-all duration-300"
-                    style={{
-                      width: totalArticles > 0 ? `${(statusCounts.completed / totalArticles) * 100}%` : '0%'
-                    }}
+                    style={{ width: totalArticles > 0 ? `${(statusCounts.completed / totalArticles) * 100}%` : '0%' }}
                   />
                 </div>
-                <span className="text-sm font-medium text-gray-900 w-12 text-right">
-                  {statusCounts.completed}
-                </span>
+                <span className="text-sm font-medium text-gray-900 w-12 text-right">{statusCounts.completed}</span>
               </div>
             </div>
           </div>
 
-          {/* In Progress */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2 w-40">
               <Clock size={18} className="text-yellow-500" />
-              <span className="text-sm font-medium text-gray-700">W trakcie</span>
+              <span className="text-sm font-medium text-gray-700">{t('status.inProgress')}</span>
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-2">
                 <div className="flex-1 bg-gray-200 rounded-full h-3">
                   <div
                     className="bg-yellow-500 h-3 rounded-full transition-all duration-300"
-                    style={{
-                      width: totalArticles > 0 ? `${(statusCounts.inProgress / totalArticles) * 100}%` : '0%'
-                    }}
+                    style={{ width: totalArticles > 0 ? `${(statusCounts.inProgress / totalArticles) * 100}%` : '0%' }}
                   />
                 </div>
-                <span className="text-sm font-medium text-gray-900 w-12 text-right">
-                  {statusCounts.inProgress}
-                </span>
+                <span className="text-sm font-medium text-gray-900 w-12 text-right">{statusCounts.inProgress}</span>
               </div>
             </div>
           </div>
 
-          {/* Not Started */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2 w-40">
               <Circle size={18} className="text-red-500" />
-              <span className="text-sm font-medium text-gray-700">Nie rozpoczęto</span>
+              <span className="text-sm font-medium text-gray-700">{t('status.notStarted')}</span>
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-2">
                 <div className="flex-1 bg-gray-200 rounded-full h-3">
                   <div
                     className="bg-red-500 h-3 rounded-full transition-all duration-300"
-                    style={{
-                      width: totalArticles > 0 ? `${(statusCounts.notStarted / totalArticles) * 100}%` : '0%'
-                    }}
+                    style={{ width: totalArticles > 0 ? `${(statusCounts.notStarted / totalArticles) * 100}%` : '0%' }}
                   />
                 </div>
-                <span className="text-sm font-medium text-gray-900 w-12 text-right">
-                  {statusCounts.notStarted}
-                </span>
+                <span className="text-sm font-medium text-gray-900 w-12 text-right">{statusCounts.notStarted}</span>
               </div>
             </div>
           </div>
 
-          {/* No Status */}
           {statusCounts.noStatus > 0 && (
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-2 w-40">
                 <Circle size={18} className="text-gray-400" />
-                <span className="text-sm font-medium text-gray-700">Brak statusu</span>
+                <span className="text-sm font-medium text-gray-700">{t('dashboard.noStatus')}</span>
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2">
                   <div className="flex-1 bg-gray-200 rounded-full h-3">
                     <div
                       className="bg-gray-400 h-3 rounded-full transition-all duration-300"
-                      style={{
-                        width: totalArticles > 0 ? `${(statusCounts.noStatus / totalArticles) * 100}%` : '0%'
-                      }}
+                      style={{ width: totalArticles > 0 ? `${(statusCounts.noStatus / totalArticles) * 100}%` : '0%' }}
                     />
                   </div>
-                  <span className="text-sm font-medium text-gray-900 w-12 text-right">
-                    {statusCounts.noStatus}
-                  </span>
+                  <span className="text-sm font-medium text-gray-900 w-12 text-right">{statusCounts.noStatus}</span>
                 </div>
               </div>
             </div>
@@ -211,7 +178,7 @@ export default function CoverageDashboard() {
 
       {/* Coverage by Screen */}
       <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Pokrycie według ekranów</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">{t('dashboard.coverageByScreen')}</h3>
         <div className="space-y-3">
           {sortedScreens.length > 0 ? (
             sortedScreens.map(({ screen, displayName, articleCount, statuses }) => {
@@ -231,7 +198,7 @@ export default function CoverageDashboard() {
                         {displayName}
                       </span>
                       <span className="text-sm text-gray-600">
-                        {articleCount} {articleCount === 1 ? 'artykuł' : 'artykułów'}
+                        {articleCount} {articleCount === 1 ? t('screenPage.article') : t('screenPage.articles')}
                       </span>
                     </div>
                     <div className="flex items-center gap-2">
@@ -255,7 +222,7 @@ export default function CoverageDashboard() {
               );
             })
           ) : (
-            <p className="text-center text-gray-500 py-4">Brak danych do wyświetlenia</p>
+            <p className="text-center text-gray-500 py-4">{t('dashboard.noData')}</p>
           )}
         </div>
       </div>

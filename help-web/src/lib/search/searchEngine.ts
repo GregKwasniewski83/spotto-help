@@ -4,7 +4,9 @@
  */
 
 import Fuse, { IFuseOptions, FuseResultMatch } from 'fuse.js';
-import searchIndex from '@/data/search-index.json';
+import searchIndexPl from '@/data/search-index-pl.json';
+import searchIndexEn from '@/data/search-index-en.json';
+import type { Language } from '@/lib/i18n/translations';
 
 interface SearchItem {
   slug: string;
@@ -34,65 +36,58 @@ export interface SearchResult {
 // Fuse.js configuration
 const fuseOptions: IFuseOptions<SearchItem> = {
   keys: [
-    { name: 'title', weight: 3 },      // Title is most important
-    { name: 'excerpt', weight: 2 },     // Excerpt is second
-    { name: 'content', weight: 1 },     // Full content is third
-    { name: 'screen', weight: 1.5 },    // Screen name is important
+    { name: 'title', weight: 3 },
+    { name: 'excerpt', weight: 2 },
+    { name: 'content', weight: 1 },
+    { name: 'screen', weight: 1.5 },
   ],
-  threshold: 0.3,                       // 0.0 = perfect match, 1.0 = match anything
-  includeScore: true,                   // Include match score
-  includeMatches: true,                 // Include match positions for highlighting
-  minMatchCharLength: 2,                // Minimum characters to match
-  ignoreLocation: true,                 // Search entire string
-  useExtendedSearch: false,             // Don't use special search syntax
+  threshold: 0.3,
+  includeScore: true,
+  includeMatches: true,
+  minMatchCharLength: 2,
+  ignoreLocation: true,
+  useExtendedSearch: false,
+};
+
+const indexMap: Record<Language, SearchIndexData> = {
+  pl: searchIndexPl as SearchIndexData,
+  en: searchIndexEn as SearchIndexData,
 };
 
 class SearchEngine {
-  private fuse: Fuse<SearchItem>;
-  private items: SearchItem[];
+  private fuseInstances: Record<Language, Fuse<SearchItem>>;
 
   constructor() {
-    const data = searchIndex as SearchIndexData;
-    this.items = data.items;
-    this.fuse = new Fuse(this.items, fuseOptions);
+    this.fuseInstances = {
+      pl: new Fuse(indexMap.pl.items, fuseOptions),
+      en: new Fuse(indexMap.en.items, fuseOptions),
+    };
   }
 
-  /**
-   * Search for articles
-   */
-  search(query: string, maxResults: number = 10): SearchResult[] {
+  search(query: string, maxResults: number = 10, lang: Language = 'pl'): SearchResult[] {
     if (!query || query.trim().length < 2) {
       return [];
     }
 
-    const results = this.fuse.search(query, { limit: maxResults });
+    const fuse = this.fuseInstances[lang];
+    const results = fuse.search(query, { limit: maxResults });
     return results as SearchResult[];
   }
 
-  /**
-   * Get all items (for displaying recent or popular)
-   */
-  getAllItems(): SearchItem[] {
-    return this.items;
+  getAllItems(lang: Language = 'pl'): SearchItem[] {
+    return indexMap[lang].items;
   }
 
-  /**
-   * Search by screen
-   */
-  searchByScreen(screen: string): SearchItem[] {
-    return this.items.filter(item => item.screen === screen);
+  searchByScreen(screen: string, lang: Language = 'pl'): SearchItem[] {
+    return indexMap[lang].items.filter(item => item.screen === screen);
   }
 
-  /**
-   * Get stats
-   */
-  getStats() {
+  getStats(lang: Language = 'pl') {
     return {
-      totalItems: this.items.length,
-      lastBuilt: (searchIndex as SearchIndexData).stats.lastBuilt
+      totalItems: indexMap[lang].items.length,
+      lastBuilt: indexMap[lang].stats.lastBuilt
     };
   }
 }
 
-// Export singleton instance
 export const searchEngine = new SearchEngine();

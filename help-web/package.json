@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Spotto Help Portal - Public documentation website",
   "scripts": {
-    "dev": "npm run build:content && vite",
+    "dev": "npm run build:content && npm run build:search && vite",
     "build": "npm run build:content && npm run build:search && tsc -b && vite build",
     "build:content": "tsx scripts/build-content.ts",
     "build:search": "tsx scripts/build-search.ts",

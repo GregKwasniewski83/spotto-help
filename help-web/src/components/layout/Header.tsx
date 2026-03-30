@@ -1,20 +1,12 @@
 import { useState } from 'react';
-import { Menu, BarChart3, Search, Home, ChevronRight } from 'lucide-react';
+import { Menu, BarChart3, Search, Home, ChevronRight, Globe } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import SearchBar from '../search/SearchBar';
 import MobileSearchModal from '../search/MobileSearchModal';
 import spottoLogo from '../../assets/spotto-logo.png';
 import { getArticleBySlug } from '@/lib/content/loader';
-
-const screenNames: Record<string, string> = {
-  home: 'Home',
-  reservations: 'Rezerwacje',
-  shop: 'Sklep',
-  business: 'Biznes',
-  trainer: 'Trener',
-  profile: 'Profil',
-  troubleshooting: 'Rozwiązywanie problemów'
-};
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName } from '@/lib/i18n/translations';
 
 interface HeaderProps {
   onMenuClick: () => void;
@@ -23,27 +15,28 @@ interface HeaderProps {
 
 function Breadcrumbs() {
   const location = useLocation();
+  const { lang, t } = useLanguage();
   const path = location.pathname;
 
   const crumbs: { label: string; to?: string }[] = [
-    { label: 'Start', to: '/' }
+    { label: t('breadcrumb.home'), to: '/' }
   ];
 
   // /screen/:screen
   const screenMatch = path.match(/^\/screen\/([^/]+)/);
   if (screenMatch) {
     const screen = screenMatch[1];
-    crumbs.push({ label: screenNames[screen] || screen });
+    crumbs.push({ label: getScreenName(screen, lang) });
   }
 
   // /article/...slug
   const articleMatch = path.match(/^\/article\/(.+)/);
   if (articleMatch) {
     const slug = articleMatch[1];
-    const article = getArticleBySlug(slug);
+    const article = getArticleBySlug(slug, lang);
     if (article) {
       crumbs.push({
-        label: screenNames[article.screen] || article.screen,
+        label: getScreenName(article.screen, lang),
         to: `/screen/${article.screen}`
       });
       crumbs.push({ label: article.title });
@@ -85,6 +78,11 @@ function Breadcrumbs() {
 
 export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
   const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
+  const { lang, setLang, t } = useLanguage();
+
+  const toggleLanguage = () => {
+    setLang(lang === 'pl' ? 'en' : 'pl');
+  };
 
   return (
     <header className="bg-[#23262B] sticky top-0 z-50">
@@ -96,7 +94,7 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
             <button
               onClick={onMenuClick}
               className="lg:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
-              aria-label={isMobileMenuOpen ? "Zamknij menu" : "Otwórz menu"}
+              aria-label={isMobileMenuOpen ? t('header.closeMenu') : t('header.openMenu')}
             >
               <Menu size={22} className="text-white" />
             </button>
@@ -105,19 +103,19 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
               <div className="flex items-center gap-2">
                 <img src={spottoLogo} alt="Spotto" className="w-8 h-8 object-contain" />
                 <div className="hidden sm:block">
-                  <h1 className="font-bold text-white leading-tight" style={{ fontSize: '2rem' }}>Spotto Pomoc</h1>
-                  <p className="text-[11px] text-gray-400 leading-tight">Centrum pomocy i dokumentacji</p>
+                  <h1 className="font-bold text-white leading-tight" style={{ fontSize: '2rem' }}>{t('header.title')}</h1>
+                  <p className="text-[11px] text-gray-400 leading-tight">{t('header.subtitle')}</p>
                 </div>
               </div>
             </Link>
           </div>
 
-          {/* Right: Search and Dashboard */}
+          {/* Right: Search, Language, Dashboard */}
           <div className="flex items-center gap-3 flex-1 justify-end">
             <button
               onClick={() => setIsMobileSearchOpen(true)}
               className="md:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
-              aria-label="Szukaj"
+              aria-label={t('header.search')}
             >
               <Search size={20} className="text-white" />
             </button>
@@ -126,10 +124,20 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
               <SearchBar className="hidden md:block" />
             </div>
 
+            {/* Language Toggle */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center gap-1.5 px-2 py-1.5 rounded-lg hover:bg-white/10 transition-colors text-sm"
+              title={t('lang.switch')}
+            >
+              <Globe size={18} className="text-white" />
+              <span className="text-white font-medium uppercase text-xs">{lang}</span>
+            </button>
+
             <Link
               to="/dashboard"
               className="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors text-sm"
-              title="Panel pokrycia dokumentacji"
+              title={t('header.dashboard')}
             >
               <BarChart3 size={16} />
               <span className="font-medium">Dashboard</span>
