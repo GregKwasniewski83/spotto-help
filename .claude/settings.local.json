@@ -33,7 +33,17 @@
       "Bash(find:*)",
       "Bash(find /mnt/c/Users/tadeu/Repo/spotto-help/help-web/src -type f \\\\\\(-name *.tsx -o -name *.ts -o -name *.json \\\\\\))",
       "Bash(grep -r \"i18n\\\\|locale\\\\|language\" /mnt/c/Users/tadeu/Repo/spotto-help/help-web/src --include=*.tsx --include=*.ts --include=*.json)",
-      "Bash(npx tsx:*)"
+      "Bash(npx tsx:*)",
+      "Bash(grep -r \"base\\\\|publicDir\\\\|assetsDir\" /mnt/c/Users/tadeu/Repo/spotto-help/help-web/vite.config.*)",
+      "Bash(mv IMG_RES_003.png upcoming-list.png)",
+      "Bash(mv IMG_RES_007.png cancel-confirmation.png)",
+      "Bash(mv IMG_RES_009.png cancel-success.png)",
+      "Bash(mv IMG_RES_014.png pending-payments-section.png)",
+      "Bash(mv IMG_RES_025.png ts-blank-screen.png)",
+      "Bash(dpkg -l)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(sudo apt-get:*)"
     ]
   }
 }

@@ -105,12 +105,15 @@ function MarkdownSection({ content, articleSlug, isCard }: { content: string; ar
           ]}
           components={{
             img: ({ src, alt }) => (
-              <img
-                src={src}
-                alt={alt || ''}
-                className="rounded-lg shadow-md my-4"
-                loading="lazy"
-              />
+              <div className="flex justify-center my-4">
+                <img
+                  src={src}
+                  alt={alt || ''}
+                  className="rounded-lg shadow-md"
+                  style={{ width: '250px', height: 'auto' }}
+                  loading="lazy"
+                />
+              </div>
             ),
             a: ({ href, children }) => {
               if (href?.startsWith('http')) {

@@ -442,15 +442,6 @@
       "excerpt": "Detailed descriptions of all features available on the reservation management screen in Spotto. - Reservation details : full view of reservation information - Reservation statuses : meaning of colors ..."
     },
     {
-      "slug": "reservations/features/booking-status",
-      "title": "Reservation Statuses",
-      "screen": "reservations",
-      "content": "Reservation Statuses Description Every reservation in Spotto has an assigned status that indicates its current state. The status is displayed as a color-coded badge on the reservation card and in the details view. Status List !IMGRES027 : Color-coded status badges on reservation cards | Status | Color | Meaning | Can be canceled? | |--------|-------|---------|------------------| | Confirmed | 🟢 Green | Reservation paid and ready | Yes | | Pending | 🟡 Yellow | Awaiting payment or confirmation | Yes | | Active | 🔵 Blue | Reservation is in progress right now | Yes* | | Partial | 🟡 Yellow | Some slots have been canceled | Yes | | Partial refund | 🟡 Yellow | Refund for canceled slots processed | Yes | | Completed | ⚪ Gray | Reservation fulfilled: visit completed | No | | Canceled | 🔴 Red | Reservation fully canceled | No | *An active reservation can only be canceled if it meets the 48h rule. Reservation Lifecycle !IMGRES028 : Reservation lifecycle diagram ` Created -> Pending -> Confi",
-      "excerpt": "Every reservation in Spotto has an assigned status that indicates its current state. The status is displayed as a color-coded badge on the reservation card and in the details view. !IMGRES027 : Color-...",
-      "role": "User",
-      "difficulty": "Easy"
-    },
-    {
       "slug": "reservations/features/partial-cancellation",
       "title": "Partial Cancellation",
       "screen": "reservations",

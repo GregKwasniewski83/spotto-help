@@ -442,15 +442,6 @@
       "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezerwacjami w Spotto. - Szczegóły rezerwacji : pełny widok informacji o rezerwacji - Statusy rezerwacji : znaczenie kolorów i st..."
     },
     {
-      "slug": "reservations/features/booking-status",
-      "title": "Statusy rezerwacji",
-      "screen": "reservations",
-      "content": "Statusy rezerwacji Opis Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie. Status wyświetla się jako kolorowa plakietka na karcie rezerwacji i w widoku szczegółów. Lista statusów !IMGRES027 : Kolorowe plakietki statusów na kartach rezerwacji | Status | Kolor | Znaczenie | Można anulować? | |--------|-------|-----------|-----------------| | Potwierdzona | 🟢 Zielony | Rezerwacja opłacona i gotowa | Tak | | Oczekująca | 🟡 Żółty | Oczekuje na płatność lub potwierdzenie | Tak | | Aktywna | 🔵 Niebieski | Rezerwacja trwa właśnie teraz | Tak* | | Częściowa | 🟡 Żółty | Część slotów została anulowana | Tak | | Częściowy zwrot | 🟡 Żółty | Zwrot za anulowane sloty przetworzony | Tak | | Zakończona | ⚪ Szary | Rezerwacja zrealizowana : wizyta odbyta | Nie | | Anulowana | 🔴 Czerwony | Rezerwacja w pełni anulowana | Nie | *Aktywna rezerwacja może być anulowana tylko jeśli spełnia zasadę 48h. Cykl życia rezerwacji !IMGRES028 : Diagram cyklu życia rezerwacji `",
-      "excerpt": "Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie. Status wyświetla się jako kolorowa plakietka na karcie rezerwacji i w widoku szczegółów. !IMGRES027 : Kolorowe p...",
-      "role": "Użytkownik",
-      "difficulty": "Łatwa"
-    },
-    {
       "slug": "reservations/features/partial-cancellation",
       "title": "Częściowe anulowanie",
       "screen": "reservations",
