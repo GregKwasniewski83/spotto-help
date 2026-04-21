@@ -1,7 +1,7 @@
 ---
 title: "Jak zarządzać ulubionymi obiektami"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -11,12 +11,12 @@ prerequisites: []
 # Jak zarządzać ulubionymi obiektami
 
 **Ekran**: Home (Start)
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
 
-System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca — masz je zawsze pod ręką na ekranie Home.
+System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca : masz je zawsze pod ręką na ekranie Home.
 
 ---
 
@@ -49,8 +49,8 @@ Na ekranie Home znajdziesz sekcję **Ulubione**, która wyświetla Twoje zapisan
 ![Sekcja ulubionych](../../assets/images/home/favorites-section.png)
 
 Z sekcji ulubionych możesz:
-- **Dotknąć kartę** — otworzyć szczegóły obiektu
-- **Rezerwuj** — przejść bezpośrednio do rezerwacji
+- **Dotknąć kartę** : otworzyć szczegóły obiektu
+- **Rezerwuj** : przejść bezpośrednio do rezerwacji
 
 ---
 
@@ -89,7 +89,7 @@ System ulubionych działa poprawnie, jeśli:
 
 - [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)
 - [Jak zarezerwować obiekt](./how-to-book-facility.md)
-- [System ulubionych — szczegóły](./features/favorites.md)
+- [System ulubionych : szczegóły](./features/favorites.md)
 
 ---
 

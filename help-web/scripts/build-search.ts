@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Search Index Builder Script
- * Generates search index from content.json for Fuse.js
+ * Generates search indexes from content-pl.json and content-en.json for Fuse.js
  */
 
 import fs from 'fs-extra';
@@ -54,69 +54,66 @@ function stripMarkdown(markdown: string): string {
     .trim();
 }
 
+async function buildSearchIndexForLang(lang: string, contentFile: string, outputFile: string) {
+  const contentPath = path.resolve(__dirname, `../src/data/${contentFile}`);
+  const outputPath = path.resolve(__dirname, `../src/data/${outputFile}`);
+
+  if (!await fs.pathExists(contentPath)) {
+    console.error(`❌ ${contentFile} not found: ${contentPath}`);
+    console.log(`📝 Run "npm run build:content" first`);
+
+    await fs.ensureDir(path.dirname(outputPath));
+    await fs.writeJSON(outputPath, {
+      items: [],
+      stats: { totalItems: 0, lastBuilt: new Date().toISOString() },
+      error: `${contentFile} not found`
+    }, { spaces: 2 });
+
+    return;
+  }
+
+  const contentData = await fs.readJSON(contentPath);
+  const articles: Article[] = contentData.articles || [];
+
+  console.log(`📄 Processing ${articles.length} articles for search (${lang})...`);
+
+  const searchItems: SearchItem[] = articles.map(article => {
+    const plainContent = stripMarkdown(article.content);
+
+    return {
+      slug: article.slug,
+      title: article.title,
+      screen: article.screen,
+      content: plainContent.substring(0, 1000),
+      excerpt: article.excerpt || plainContent.substring(0, 200),
+      role: article.metadata.role,
+      difficulty: article.metadata.difficulty
+    };
+  });
+
+  const output = {
+    items: searchItems,
+    stats: {
+      totalItems: searchItems.length,
+      lastBuilt: new Date().toISOString()
+    }
+  };
+
+  await fs.ensureDir(path.dirname(outputPath));
+  await fs.writeJSON(outputPath, output, { spaces: 2 });
+
+  console.log(`   Indexed items (${lang}): ${searchItems.length}`);
+  console.log(`   Output: ${outputPath}`);
+}
+
 async function buildSearchIndex() {
-  console.log('🔍 Building search index...\n');
+  console.log('🔍 Building search indexes...\n');
 
   try {
-    const contentPath = path.resolve(__dirname, '../src/data/content.json');
-    const outputPath = path.resolve(__dirname, '../src/data/search-index.json');
+    await buildSearchIndexForLang('pl', 'content-pl.json', 'search-index-pl.json');
+    await buildSearchIndexForLang('en', 'content-en.json', 'search-index-en.json');
 
-    // Check if content.json exists
-    if (!await fs.pathExists(contentPath)) {
-      console.error(`❌ content.json not found: ${contentPath}`);
-      console.log('📝 Run "npm run build:content" first');
-
-      await fs.ensureDir(path.dirname(outputPath));
-      await fs.writeJSON(outputPath, {
-        items: [],
-        lastBuilt: new Date().toISOString(),
-        error: 'content.json not found'
-      }, { spaces: 2 });
-
-      process.exit(1);
-    }
-
-    // Read content.json
-    const contentData = await fs.readJSON(contentPath);
-    const articles: Article[] = contentData.articles || [];
-
-    console.log(`📄 Processing ${articles.length} articles for search...`);
-
-    // Build search items
-    const searchItems: SearchItem[] = articles.map(article => {
-      // Strip markdown from content for better search results
-      const plainContent = stripMarkdown(article.content);
-
-      return {
-        slug: article.slug,
-        title: article.title,
-        screen: article.screen,
-        content: plainContent.substring(0, 1000), // Limit content length for search
-        excerpt: article.excerpt || plainContent.substring(0, 200),
-        role: article.metadata.role,
-        difficulty: article.metadata.difficulty
-      };
-    });
-
-    // Build output structure
-    const output = {
-      items: searchItems,
-      stats: {
-        totalItems: searchItems.length,
-        lastBuilt: new Date().toISOString()
-      }
-    };
-
-    // Write to output file
-    await fs.ensureDir(path.dirname(outputPath));
-    await fs.writeJSON(outputPath, output, { spaces: 2 });
-
-    // Print summary
-    console.log('\n📊 Search Index Summary:');
-    console.log(`   Indexed items: ${searchItems.length}`);
-    console.log(`   Output: ${outputPath}`);
     console.log('\n✅ Search index build complete!\n');
-
   } catch (error) {
     console.error('❌ Error building search index:', error);
     process.exit(1);

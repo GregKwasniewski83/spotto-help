@@ -1,66 +1,46 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { Home, ChevronRight, Clock, User, BarChart2 } from 'lucide-react';
+import { Home, Clock, User, BarChart2 } from 'lucide-react';
 import { getArticleBySlug } from '@/lib/content/loader';
 import MarkdownRenderer from '@/components/content/MarkdownRenderer';
 import StatusBadge from '@/components/common/StatusBadge';
-
-const screenNames: Record<string, string> = {
-  home: 'Home',
-  reservations: 'Rezerwacje',
-  shop: 'Sklep',
-  business: 'Biznes',
-  trainer: 'Trener',
-  profile: 'Profil',
-  troubleshooting: 'Rozwiązywanie problemów'
-};
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName } from '@/lib/i18n/translations';
 
 export default function ArticlePage() {
-  const { slug } = useParams<{ slug: string }>();
+  const { '*': slug } = useParams();
+  const { lang, t } = useLanguage();
 
   if (!slug) {
     return <Navigate to="/" replace />;
   }
 
-  const article = getArticleBySlug(slug);
+  const article = getArticleBySlug(slug, lang);
 
   if (!article) {
     return (
       <div className="text-center py-16">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">
-          Artykuł nie znaleziony
+          {t('article.notFound')}
         </h1>
         <p className="text-gray-600 mb-8">
-          Artykuł o adresie "{slug}" nie istnieje.
+          {t('article.notFoundDesc').replace('{slug}', slug)}
         </p>
         <Link
           to="/"
           className="inline-flex items-center gap-2 px-6 py-3 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors"
         >
           <Home size={20} />
-          Wróć na stronę główną
+          {t('article.backHome')}
         </Link>
       </div>
     );
   }
 
-  const screenDisplayName = screenNames[article.screen] || article.screen;
+  const screenDisplayName = getScreenName(article.screen, lang);
+  const dateLocale = lang === 'pl' ? 'pl-PL' : 'en-GB';
 
   return (
     <div className="fade-in">
-      {/* Breadcrumbs */}
-      <nav className="flex items-center gap-2 text-sm text-gray-600 mb-6 flex-wrap">
-        <Link to="/" className="hover:text-primary-600 flex items-center gap-1">
-          <Home size={16} />
-          Start
-        </Link>
-        <ChevronRight size={16} className="text-gray-400" />
-        <Link to={`/screen/${article.screen}`} className="hover:text-primary-600">
-          {screenDisplayName}
-        </Link>
-        <ChevronRight size={16} className="text-gray-400" />
-        <span className="text-gray-900 font-medium">{article.title}</span>
-      </nav>
-
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         {/* Main Content */}
         <div className="lg:col-span-3">
@@ -74,20 +54,20 @@ export default function ArticlePage() {
               {article.metadata.role && (
                 <span className="flex items-center gap-1.5">
                   <User size={16} />
-                  <span className="font-medium">Rola:</span> {article.metadata.role}
+                  <span className="font-medium">{t('article.role')}</span> {article.metadata.role}
                 </span>
               )}
               {article.metadata.difficulty && (
                 <span className="flex items-center gap-1.5">
                   <BarChart2 size={16} />
-                  <span className="font-medium">Poziom:</span> {article.metadata.difficulty}
+                  <span className="font-medium">{t('article.level')}</span> {article.metadata.difficulty}
                 </span>
               )}
               {article.metadata.lastUpdated && (
                 <span className="flex items-center gap-1.5">
                   <Clock size={16} />
-                  <span className="font-medium">Aktualizacja:</span>{' '}
-                  {new Date(article.metadata.lastUpdated).toLocaleDateString('pl-PL')}
+                  <span className="font-medium">{t('article.updated')}</span>{' '}
+                  {new Date(article.metadata.lastUpdated).toLocaleDateString(dateLocale)}
                 </span>
               )}
             </div>
@@ -100,7 +80,7 @@ export default function ArticlePage() {
           {/* Prerequisites */}
           {article.metadata.prerequisites && article.metadata.prerequisites.length > 0 && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
-              <h3 className="font-semibold text-gray-900 mb-2">📋 Wymagania wstępne</h3>
+              <h3 className="font-semibold text-gray-900 mb-2">📋 {t('article.prerequisites')}</h3>
               <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
                 {article.metadata.prerequisites.map((prereq, index) => (
                   <li key={index}>{prereq}</li>
@@ -111,7 +91,7 @@ export default function ArticlePage() {
 
           {/* Markdown Content */}
           <article className="prose-wrapper">
-            <MarkdownRenderer content={article.content} />
+            <MarkdownRenderer content={article.content} articleSlug={slug} />
           </article>
 
           {/* Article Footer */}
@@ -121,11 +101,11 @@ export default function ArticlePage() {
                 to={`/screen/${article.screen}`}
                 className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium"
               >
-                ← Wróć do {screenDisplayName}
+                ← {t('article.backTo')} {screenDisplayName}
               </Link>
               <div className="text-sm text-gray-500">
-                Ostatnia aktualizacja:{' '}
-                {new Date(article.metadata.lastUpdated || '').toLocaleDateString('pl-PL', {
+                {t('article.lastUpdated')}{' '}
+                {new Date(article.metadata.lastUpdated || '').toLocaleDateString(dateLocale, {
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric'
@@ -141,7 +121,7 @@ export default function ArticlePage() {
             <div className="sticky top-20">
               <div className="bg-white rounded-lg border border-gray-200 p-4">
                 <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">
-                  Spis treści
+                  {t('article.toc')}
                 </h3>
                 <nav className="space-y-2">
                   {article.headings.map((heading, index) => (

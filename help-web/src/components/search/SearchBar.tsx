@@ -3,16 +3,17 @@ import { Search, X, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useSearch } from '@/hooks/useSearch';
 import SearchResults from './SearchResults';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 interface SearchBarProps {
   className?: string;
-  placeholder?: string;
 }
 
-export default function SearchBar({ className = '', placeholder = 'Szukaj w pomocy...' }: SearchBarProps) {
+export default function SearchBar({ className = '' }: SearchBarProps) {
   const navigate = useNavigate();
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   const {
     query,
@@ -29,7 +30,6 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
     function handleClickOutside(event: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
         // Optionally clear search when clicking outside
-        // clearSearch();
       }
     }
 
@@ -40,12 +40,10 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
   // Handle keyboard shortcuts
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
-      // Cmd+K or Ctrl+K to focus search
       if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
         event.preventDefault();
         inputRef.current?.focus();
       }
-      // Escape to clear search
       if (event.key === 'Escape') {
         clearSearch();
         inputRef.current?.blur();
@@ -70,18 +68,17 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder={placeholder}
-          className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
-          aria-label="Wyszukaj dokumentację"
+          placeholder={t('search.placeholder')}
+          className="w-full pl-10 pr-10 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all"
+          style={{ backgroundColor: '#f3f4f6', color: '#1f2937', border: '1px solid #d1d5db' }}
+          aria-label={t('search.ariaLabel')}
         />
 
-        {/* Search Icon */}
         <Search
           size={18}
           className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
         />
 
-        {/* Loading or Clear Icon */}
         <div className="absolute right-3 top-1/2 -translate-y-1/2">
           {isSearching ? (
             <Loader2 size={18} className="text-gray-400 animate-spin" />
@@ -89,7 +86,7 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
             <button
               onClick={clearSearch}
               className="text-gray-400 hover:text-gray-600 transition-colors"
-              aria-label="Wyczyść wyszukiwanie"
+              aria-label={t('search.clear')}
             >
               <X size={18} />
             </button>
@@ -97,7 +94,6 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
         </div>
       </div>
 
-      {/* Search Results Dropdown */}
       {showResults && (
         <SearchResults
           results={results}
@@ -108,7 +104,6 @@ export default function SearchBar({ className = '', placeholder = 'Szukaj w pomo
         />
       )}
 
-      {/* Keyboard Shortcut Hint */}
       {!query && (
         <div className="hidden lg:block absolute right-12 top-1/2 -translate-y-1/2 pointer-events-none">
           <kbd className="px-2 py-1 text-xs text-gray-500 bg-gray-100 border border-gray-200 rounded">

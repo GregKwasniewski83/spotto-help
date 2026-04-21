@@ -1,7 +1,7 @@
 ---
 title: "Kategorie sportowe"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -14,6 +14,8 @@ lastUpdated: "2026-03-21"
 Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej.
 
 ## Dostępne kategorie
+
+![Karuzela kategorii sportowych na ekranie Home](../../../assets/images/home/feat-categories-carousel.png)
 
 | Kategoria | Ikona | Opis |
 |-----------|-------|------|
@@ -32,9 +34,11 @@ Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na 
 
 ## Jak działa karuzela
 
-- **Przewijanie** — przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii
-- **Wybór** — dotknij kategorii, aby zobaczyć obiekty oferujące tę dyscyplinę
-- **Wyniki** — po wybraniu kategorii wyświetli się lista obiektów (analogicznie do wyników wyszukiwania)
+- **Przewijanie** : przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii
+- **Wybór** : dotknij kategorii, aby zobaczyć obiekty oferujące tę dyscyplinę
+- **Wyniki** : po wybraniu kategorii wyświetli się lista obiektów (analogicznie do wyników wyszukiwania)
+
+![Wybrana kategoria - lista obiektów](../../../assets/images/home/feat-category-results.png)
 
 ## Różnice między wyszukiwarką a kategoriami
 
@@ -47,7 +51,7 @@ Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na 
 
 ## Powiązane
 
-- [Jak przeglądać kategorie — przewodnik](../how-to-browse-categories.md)
+- [Jak przeglądać kategorie : przewodnik](../how-to-browse-categories.md)
 - [Wyszukiwarka](./search.md)
 
 ---

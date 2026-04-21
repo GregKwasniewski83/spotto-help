@@ -1,7 +1,7 @@
 ---
 title: "Jak wyszukać obiekt sportowy"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak wyszukać obiekt sportowy
 
 **Ekran**: Home (Start)
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -34,7 +34,7 @@ Wpisz nazwę miasta, w którym szukasz obiektu (np. „Warszawa", „Kraków", �
 
 ![Wpisywanie miasta](../../assets/images/home/search-city-input.png)
 
-> 💡 **Wskazówka**: Aplikacja podpowiada nazwy miast w trakcie wpisywania — wystarczy wybrać z listy.
+> 💡 **Wskazówka**: Aplikacja podpowiada nazwy miast w trakcie wpisywania : wystarczy wybrać z listy.
 
 ### Krok 3: Wybierz datę
 
@@ -58,11 +58,11 @@ Jeśli szukasz konkretnego typu obiektu, wybierz go z listy rozwijanej:
 
 Po wypełnieniu filtrów zobaczysz listę obiektów spełniających kryteria. Każda karta wyniku zawiera:
 
-- **Nazwa obiektu** — pełna nazwa miejsca
-- **Adres** — lokalizacja z miastem
-- **Dostępność** — wolne terminy na wybrany dzień
-- **Cena** — orientacyjna cena za godzinę
-- **Ocena** — średnia ocen użytkowników
+- **Nazwa obiektu** : pełna nazwa miejsca
+- **Adres** : lokalizacja z miastem
+- **Dostępność** : wolne terminy na wybrany dzień
+- **Cena** : orientacyjna cena za godzinę
+- **Ocena** : średnia ocen użytkowników
 
 ![Wyniki wyszukiwania](../../assets/images/home/search-results.png)
 

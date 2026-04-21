@@ -1,7 +1,7 @@
 ---
 title: "Widok mapy"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -25,10 +25,10 @@ Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty spo
 
 ## Gesty nawigacji
 
-- **Przesuwanie** — przeciągnij palcem po mapie
-- **Przybliżanie** — szczypnij dwoma palcami (pinch-to-zoom) lub dotknij +
-- **Oddalanie** — rozsuń dwa palce lub dotknij -
-- **Podwójne dotknięcie** — szybkie przybliżenie
+- **Przesuwanie** : przeciągnij palcem po mapie
+- **Przybliżanie** : szczypnij dwoma palcami (pinch-to-zoom) lub dotknij +
+- **Oddalanie** : rozsuń dwa palce lub dotknij -
+- **Podwójne dotknięcie** : szybkie przybliżenie
 
 ## Interakcja z markerami
 
@@ -54,7 +54,7 @@ Mapa wymaga dostępu do lokalizacji GPS. Bez tego:
 
 ## Powiązane
 
-- [Jak korzystać z mapy — przewodnik](../how-to-use-map.md)
+- [Jak korzystać z mapy : przewodnik](../how-to-use-map.md)
 - [Wyszukiwarka](./search.md)
 
 ---

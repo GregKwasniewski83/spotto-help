@@ -1,13 +1,13 @@
 ---
-title: "Rozwiązywanie problemów — Ekran Home"
+title: "Rozwiązywanie problemów : Ekran Home"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Średnia"
 status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
-# Rozwiązywanie problemów — Ekran Home
+# Rozwiązywanie problemów : Ekran Home
 
 Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto.
 
@@ -19,6 +19,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 
 **Problem**: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów.
 
+![Pusty ekran wyników wyszukiwania](../../assets/images/home/ts-no-search-results.png)
+
 **Przyczyny**:
 - Błąd w nazwie miasta
 - Brak obiektów Spotto w wybranym mieście
@@ -26,7 +28,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 - Brak połączenia z internetem
 
 **Rozwiązanie**:
-1. Sprawdź pisownię nazwy miasta — skorzystaj z autouzupełniania
+1. Sprawdź pisownię nazwy miasta : skorzystaj z autouzupełniania
 2. Usuń filtr typu obiektu i szukaj ponownie
 3. Zmień datę na dzisiejszą, aby sprawdzić ogólną dostępność
 4. Sprawdź połączenie z internetem (ikona Wi-Fi/danych mobilnych)
@@ -54,6 +56,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 ### Mapa się nie ładuje
 
 **Problem**: Sekcja mapy jest pusta lub wyświetla szary ekran.
+
+![Mapa się nie ładuje - szary ekran](../../assets/images/home/ts-map-not-loading.png)
 
 **Przyczyny**:
 - Brak połączenia z internetem
@@ -101,18 +105,24 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 2. Ustawienia → Aplikacje → Spotto → Uprawnienia → Lokalizacja → „Zezwól podczas używania"
 3. Wyjdź na zewnątrz, aby poprawić sygnał GPS
 
+![Ustawienia lokalizacji na Androidzie](../../assets/images/home/ts-android-location-settings.png)
+
 **iOS**:
 1. Ustawienia → Prywatność → Usługi lokalizacyjne → Włącz
 2. Ustawienia → Prywatność → Usługi lokalizacyjne → Spotto → „Podczas używania"
 3. Wyjdź na zewnątrz, aby poprawić sygnał GPS
 
+![Ustawienia lokalizacji na iOS](../../assets/images/home/ts-ios-location-settings.png)
+
 ---
 
 ## Rezerwacja
 
-### Nie mogę zarezerwować obiektu — brak dostępnych terminów
+### Nie mogę zarezerwować obiektu : brak dostępnych terminów
 
 **Problem**: Po wybraniu obiektu wszystkie terminy są szare (niedostępne).
+
+![Wszystkie terminy wyszarzone](../../assets/images/home/ts-no-available-slots.png)
 
 **Przyczyny**:
 - Obiekt jest w pełni zarezerwowany na wybrany dzień
@@ -131,6 +141,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 
 **Problem**: Po potwierdzeniu rezerwacji płatność jest odrzucona.
 
+![Komunikat błędu płatności](../../assets/images/home/ts-payment-failed.png)
+
 **Przyczyny**:
 - Niewystarczające środki na koncie
 - Karta wygasła lub zablokowana
@@ -140,7 +152,7 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 **Rozwiązanie**:
 1. Sprawdź stan konta bankowego
 2. Spróbuj innej metody płatności (np. BLIK zamiast karty)
-3. Poczekaj 5 minut i spróbuj ponownie — rezerwacja powinna być w sekcji „Oczekujące płatności"
+3. Poczekaj 5 minut i spróbuj ponownie : rezerwacja powinna być w sekcji „Oczekujące płatności"
 4. Jeśli problem się powtarza, skontaktuj się z obsługą klienta
 
 ---
@@ -155,11 +167,11 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 - Płatność nie została finalnie przetworzona
 
 **Rozwiązanie**:
-1. Poczekaj 5-15 minut — przetwarzanie może potrwać
+1. Poczekaj 5-15 minut : przetwarzanie może potrwać
 2. Odśwież ekran Home (pociągnij w dół)
 3. Sprawdź sekcję „Oczekujące płatności" na ekranie Home
 4. Przejdź do zakładki [Rezerwacje](../reservations/README.md) i sprawdź tam
-5. Sprawdź e-mail — potwierdzenie mogło przyjść mailem
+5. Sprawdź e-mail : potwierdzenie mogło przyjść mailem
 6. Jeśli rezerwacja się nie pojawi po 30 minutach, skontaktuj się z obsługą, podając numer transakcji z banku
 
 ---
@@ -203,6 +215,8 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 ### Ekran Home jest pusty lub się nie ładuje
 
 **Problem**: Po otwarciu aplikacji ekran Home jest biały lub wyświetla błąd.
+
+![Pusty ekran Home](../../assets/images/home/ts-blank-home-screen.png)
 
 **Rozwiązanie**:
 1. Sprawdź połączenie z internetem

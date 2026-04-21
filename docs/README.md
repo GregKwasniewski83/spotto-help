@@ -61,47 +61,18 @@ See [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:
 
 | Screen | Guides | Features | FAQ | Status |
 |--------|--------|----------|-----|--------|
-| Home | 0 | 0 | ❌ | 🔴 Not Started |
-| Reservations | 0 | 0 | ❌ | 🔴 Not Started |
-| Shop | 0 | 0 | ❌ | 🔴 Not Started |
-| Business | 0 | 0 | ❌ | 🔴 Not Started |
-| Trainer | 0 | 0 | ❌ | 🔴 Not Started |
-| Profile | 0 | 0 | ❌ | 🔴 Not Started |
-| Common | 0 | 0 | ❌ | 🔴 Not Started |
-| Troubleshooting | 0 | 0 | ❌ | 🔴 Not Started |
+| Home | 5 | 5 | ✅ | 🟢 Complete |
+| Reservations | 4 | 3 | ✅ | 🟢 Complete |
+| Shop | 5 | 4 | ✅ | 🟢 Complete |
+| Business | 9 | 9 | ✅ | 🟢 Complete |
+| Trainer | 5 | 4 | ✅ | 🟢 Complete |
+| Profile | 5 | 3 | ✅ | 🟢 Complete |
+| Troubleshooting | 9 | : | : | 🟢 Complete |
 
 **Legend**:
 - 🔴 Not Started - No content yet
 - 🟡 In Progress - Some content exists
 - 🟢 Complete - All core content done
-
----
-
-## Quick Links
-
-### Most Needed Content (Priority)
-
-1. **Home Screen**:
-   - How to search for facilities
-   - How to browse categories
-   - How to book from search results
-
-2. **Business Screen**:
-   - How to create business profile
-   - How to add facilities
-   - How to set up TPay
-   - How to manage schedule
-
-3. **Reservations Screen**:
-   - How to view bookings
-   - How to cancel reservation
-   - Understanding booking status
-
-### Next Priority
-
-4. **Shop Screen**: Product types, purchasing
-5. **Trainer Screen**: Creating trainings, associations
-6. **Profile Screen**: Settings, privacy
 
 ---
 
@@ -115,5 +86,5 @@ Read the [Contributing Guide](../CONTRIBUTING.md) for:
 
 ---
 
-**Last Updated**: 2026-03-17
+**Last Updated**: 2026-03-29
 **Maintainer**: Spotto Development Team

@@ -1,7 +1,7 @@
 ---
 title: "Jak przeglądać kategorie sportów"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak przeglądać kategorie sportów
 
 **Ekran**: Home (Start)
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -88,7 +88,7 @@ Przeglądanie kategorii działa poprawnie, jeśli:
 
 - [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)
 - [Jak zarezerwować obiekt](./how-to-book-facility.md)
-- [Kategorie sportowe — szczegóły](./features/categories.md)
+- [Kategorie sportowe : szczegóły](./features/categories.md)
 
 ---
 

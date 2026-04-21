@@ -7,7 +7,7 @@ lastUpdated: "2026-03-21"
 
 # Ekran Home (Start)
 
-**Ekran główny aplikacji Spotto** — Twoje centrum wyszukiwania i rezerwacji obiektów sportowych.
+**Ekran główny aplikacji Spotto** : Twoje centrum wyszukiwania i rezerwacji obiektów sportowych.
 
 ## Przegląd ekranu
 
@@ -33,36 +33,36 @@ Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdz
 
 ### Wyszukiwanie i rezerwacja
 
-- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md) — wpisz miasto, wybierz datę i znajdź idealny obiekt
-- [Jak przeglądać kategorie sportów](./how-to-browse-categories.md) — znajdź obiekty wg dyscypliny: Squash, Strzelectwo, Siłownia...
-- [Jak zarezerwować obiekt](./how-to-book-facility.md) — wybierz termin, potwierdź i zapłać
+- [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md) : wpisz miasto, wybierz datę i znajdź idealny obiekt
+- [Jak przeglądać kategorie sportów](./how-to-browse-categories.md) : znajdź obiekty wg dyscypliny: Squash, Strzelectwo, Siłownia...
+- [Jak zarezerwować obiekt](./how-to-book-facility.md) : wybierz termin, potwierdź i zapłać
 
 ### Personalizacja
 
-- [Jak zarządzać ulubionymi](./how-to-manage-favorites.md) — zapisz obiekty i rezerwuj jednym kliknięciem
-- [Jak korzystać z widoku mapy](./how-to-use-map.md) — znajdź obiekty w pobliżu na mapie
+- [Jak zarządzać ulubionymi](./how-to-manage-favorites.md) : zapisz obiekty i rezerwuj jednym kliknięciem
+- [Jak korzystać z widoku mapy](./how-to-use-map.md) : znajdź obiekty w pobliżu na mapie
 
 ---
 
 ## Szczegółowe opisy funkcji
 
-- [Wyszukiwarka](./features/search.md) — filtry, wyniki, podpowiedzi
-- [Kategorie sportowe](./features/categories.md) — lista dostępnych dyscyplin
-- [System ulubionych](./features/favorites.md) — zapisywanie i zarządzanie
-- [Widok mapy](./features/map-view.md) — nawigacja i markery
-- [Tablica społeczności](./features/community-wall.md) — posty i interakcje
+- [Wyszukiwarka](./features/search.md) : filtry, wyniki, podpowiedzi
+- [Kategorie sportowe](./features/categories.md) : lista dostępnych dyscyplin
+- [System ulubionych](./features/favorites.md) : zapisywanie i zarządzanie
+- [Widok mapy](./features/map-view.md) : nawigacja i markery
+- [Tablica społeczności](./features/community-wall.md) : posty i interakcje
 
 ---
 
 ## Najczęściej zadawane pytania
 
-Zobacz [FAQ ekranu Home](./faq.md) — odpowiedzi na najczęstsze pytania dotyczące wyszukiwania, kategorii, ulubionych i mapy.
+Zobacz [FAQ ekranu Home](./faq.md) : odpowiedzi na najczęstsze pytania dotyczące wyszukiwania, kategorii, ulubionych i mapy.
 
 ---
 
 ## Rozwiązywanie problemów
 
-Masz problem z ekranem Home? Zobacz [Troubleshooting](./troubleshooting.md) — rozwiązania najczęstszych problemów:
+Masz problem z ekranem Home? Zobacz [Troubleshooting](./troubleshooting.md) : rozwiązania najczęstszych problemów:
 
 - Brak wyników wyszukiwania
 - Nie działa lokalizacja

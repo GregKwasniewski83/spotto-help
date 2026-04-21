@@ -1,7 +1,7 @@
 ---
 title: "Tablica społeczności"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -15,17 +15,19 @@ Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytko
 
 ## Co znajdziesz na tablicy
 
-- **Posty użytkowników** — informacje o wydarzeniach, treningach i aktywnościach
-- **Aktywność społeczności** — co inni użytkownicy rezerwują i polecają
-- **Ogłoszenia** — ważne informacje od obiektów sportowych
+![Feed tablicy społeczności z postami](../../../assets/images/home/feat-community-wall-feed.png)
+
+- **Posty użytkowników** : informacje o wydarzeniach, treningach i aktywnościach
+- **Aktywność społeczności** : co inni użytkownicy rezerwują i polecają
+- **Ogłoszenia** : ważne informacje od obiektów sportowych
 
 ## Interakcje
 
 Z tablicy społeczności możesz:
-- **Przeglądać posty** — przewiń w dół, aby zobaczyć więcej treści
-- **Reagować** — polub lub skomentuj post
-- **Udostępniać** — podziel się interesującym postem
-- **Tworzyć posty** — dotknij przycisku tworzenia nowego posta
+- **Przeglądać posty** : przewiń w dół, aby zobaczyć więcej treści
+- **Reagować** : polub lub skomentuj post
+- **Udostępniać** : podziel się interesującym postem
+- **Tworzyć posty** : dotknij przycisku tworzenia nowego posta
 
 ## Tworzenie posta
 
@@ -33,6 +35,8 @@ Z tablicy społeczności możesz:
 2. Wpisz treść posta
 3. Opcjonalnie dodaj zdjęcie lub lokalizację
 4. Dotknij **Opublikuj**
+
+![Tworzenie nowego posta na tablicy społeczności](../../../assets/images/home/feat-community-wall-new-post.png)
 
 > 💡 **Wskazówka**: Posty są widoczne dla innych użytkowników Spotto. Pamiętaj o kulturze wypowiedzi.
 
@@ -43,7 +47,7 @@ Z tablicy społeczności możesz:
 
 ## Powiązane
 
-- [Ekran Home — przegląd](../README.md)
+- [Ekran Home : przegląd](../README.md)
 - [Jak edytować profil](../../profile/how-to-edit-profile.md)
 
 ---

@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Github, Mail } from 'lucide-react';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const { t } = useLanguage();
 
   return (
     <footer className="bg-white border-t border-gray-200 mt-auto">
@@ -11,32 +13,32 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">
-              O Spotto
+              {t('footer.about')}
             </h3>
             <p className="text-sm text-gray-600">
-              Aplikacja mobilna do rezerwacji obiektów sportowych, treningów i zakupu karnetów.
+              {t('footer.aboutText')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">
-              Szybkie linki
+              {t('footer.quickLinks')}
             </h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/getting-started" className="text-sm text-gray-600 hover:text-primary-600 transition-colors">
-                  Pierwsze kroki
+                  {t('sidebar.gettingStarted')}
                 </Link>
               </li>
               <li>
                 <Link to="/glossary" className="text-sm text-gray-600 hover:text-primary-600 transition-colors">
-                  Słownik pojęć
+                  {t('sidebar.glossary')}
                 </Link>
               </li>
               <li>
                 <Link to="/troubleshooting" className="text-sm text-gray-600 hover:text-primary-600 transition-colors">
-                  Rozwiązywanie problemów
+                  {t('footer.troubleshooting')}
                 </Link>
               </li>
             </ul>
@@ -45,7 +47,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">
-              Kontakt i wsparcie
+              {t('footer.contact')}
             </h3>
             <ul className="space-y-2">
               <li>
@@ -65,7 +67,7 @@ export default function Footer() {
                   className="flex items-center gap-2 text-sm text-gray-600 hover:text-primary-600 transition-colors"
                 >
                   <Github size={16} />
-                  Repozytorium dokumentacji
+                  {t('footer.docsRepo')}
                 </a>
               </li>
             </ul>
@@ -74,7 +76,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-gray-200">
           <p className="text-sm text-gray-500 text-center">
-            © {currentYear} Spotto. Wszelkie prawa zastrzeżone.
+            &copy; {currentYear} {t('footer.copyright')}
           </p>
         </div>
       </div>

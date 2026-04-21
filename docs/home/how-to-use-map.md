@@ -1,7 +1,7 @@
 ---
 title: "Jak korzystać z widoku mapy"
 screen: home
-role: "Gracz"
+role: "Użytkownik"
 difficulty: "Łatwa"
 status: "🟢"
 lastUpdated: "2026-03-21"
@@ -11,7 +11,7 @@ prerequisites: []
 # Jak korzystać z widoku mapy
 
 **Ekran**: Home (Start)
-**Rola**: Gracz
+**Rola**: Użytkownik
 **Trudność**: Łatwa
 
 ## Przegląd
@@ -49,9 +49,9 @@ Na mapie zobaczysz kolorowe markery (pinezki) oznaczające obiekty sportowe. Ka�
 
 ![Markery na mapie](../../assets/images/home/map-markers.png)
 
-- **Przybliżanie/oddalanie** — użyj gestu szczypania (pinch) lub przycisków +/-
-- **Przesuwanie** — przesuń palcem po mapie, aby zobaczyć inne obszary
-- **Moja lokalizacja** — dotknij ikony celownika, aby wrócić do swojej pozycji
+- **Przybliżanie/oddalanie** : użyj gestu szczypania (pinch) lub przycisków +/-
+- **Przesuwanie** : przesuń palcem po mapie, aby zobaczyć inne obszary
+- **Moja lokalizacja** : dotknij ikony celownika, aby wrócić do swojej pozycji
 
 ### Krok 4: Dotknij markera
 
@@ -66,8 +66,8 @@ Dotknij dowolnego markera, aby zobaczyć podstawowe informacje o obiekcie:
 ### Krok 5: Przejdź do szczegółów lub rezerwacji
 
 Z okienka informacyjnego markera możesz:
-- **Zobacz szczegóły** — otworzyć pełną stronę obiektu
-- **Rezerwuj** — przejść bezpośrednio do wyboru terminu
+- **Zobacz szczegóły** : otworzyć pełną stronę obiektu
+- **Rezerwuj** : przejść bezpośrednio do wyboru terminu
 
 ---
 
@@ -90,7 +90,7 @@ Widok mapy działa poprawnie, jeśli:
 
 ### Problem: Nie widzę żadnych markerów
 **Rozwiązanie**:
-- Przybliż mapę — markery mogą być niewidoczne przy dużym oddaleniu
+- Przybliż mapę : markery mogą być niewidoczne przy dużym oddaleniu
 - Sprawdź, czy w Twojej okolicy są zarejestrowane obiekty
 - Spróbuj przesunąć mapę do większego miasta
 
@@ -106,7 +106,7 @@ Widok mapy działa poprawnie, jeśli:
 
 - [Jak wyszukać obiekt sportowy](./how-to-search-facilities.md)
 - [Jak zarezerwować obiekt](./how-to-book-facility.md)
-- [Widok mapy — szczegóły](./features/map-view.md)
+- [Widok mapy : szczegóły](./features/map-view.md)
 
 ---
 
