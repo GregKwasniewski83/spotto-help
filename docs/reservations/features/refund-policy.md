@@ -3,7 +3,6 @@ title: "Polityka anulowania i zwrotów"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Polityka anulowania i zwrotów
@@ -44,8 +43,6 @@ Za każde anulowanie (pełne lub częściowe) pobierana jest opłata:
 **Przykład**: Anulowanie rezerwacji za 200 zł
 - Opłata: 10 zł (5%)
 - Zwrot: 190 zł (95%)
-
-![IMG_RES_034 : Ekran potwierdzenia anulowania z kwotą zwrotu](../../assets/images/reservations/feat-refund-calculation.png)
 
 ## Termin zwrotu
 

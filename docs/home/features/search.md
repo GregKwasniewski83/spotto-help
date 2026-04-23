@@ -3,7 +3,6 @@ title: "Wyszukiwarka obiektów"
 screen: home
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 

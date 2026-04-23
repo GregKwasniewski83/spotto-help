@@ -3,7 +3,6 @@ title: "Zarządzanie treningami"
 screen: trainer
 role: "Trener"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

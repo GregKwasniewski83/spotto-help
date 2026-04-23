@@ -1,7 +1,6 @@
 ---
 title: "Funkcje ekranu Rezerwacje"
 screen: reservations
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Funkcje ekranu Rezerwacje

@@ -3,7 +3,6 @@ title: "Jak filtrować i szukać produktów"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -29,8 +28,6 @@ Na ekranie Sklep dotknij pola wyszukiwania na górze ekranu. Wpisz szukaną fraz
 - Opisie produktu
 - Nazwie firmy
 - Mieście
-
-![Wyszukiwarka produktów : Screenshot #14](../../assets/images/shop/product-search-bar.png)
 
 ### Krok 2: Otwórz panel filtrów
 

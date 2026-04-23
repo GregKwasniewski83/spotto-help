@@ -3,34 +3,29 @@ title: "Statusy rezerwacji"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Statusy rezerwacji
 
 ## Opis
 
-Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie. Status wyświetla się jako kolorowa plakietka na karcie rezerwacji i w widoku szczegółów.
+Każda rezerwacja w Spotto ma przypisany status, który informuje o jej aktualnym stanie.
 
 ## Lista statusów
 
-![IMG_RES_027 : Kolorowe plakietki statusów na kartach rezerwacji](../../assets/images/reservations/feat-status-badges-list.png)
-
-| Status | Kolor | Znaczenie | Można anulować? |
-|--------|-------|-----------|-----------------|
-| **Potwierdzona** | 🟢 Zielony | Rezerwacja opłacona i gotowa | Tak |
-| **Oczekująca** | 🟡 Żółty | Oczekuje na płatność lub potwierdzenie | Tak |
-| **Aktywna** | 🔵 Niebieski | Rezerwacja trwa właśnie teraz | Tak* |
-| **Częściowa** | 🟡 Żółty | Część slotów została anulowana | Tak |
-| **Częściowy zwrot** | 🟡 Żółty | Zwrot za anulowane sloty przetworzony | Tak |
-| **Zakończona** | ⚪ Szary | Rezerwacja zrealizowana : wizyta odbyta | Nie |
-| **Anulowana** | 🔴 Czerwony | Rezerwacja w pełni anulowana | Nie |
+| Status | Znaczenie | Można anulować? |
+|--------|-----------|-----------------|
+| **Potwierdzona** | Rezerwacja opłacona i gotowa | Tak |
+| **Oczekująca** | Oczekuje na płatność lub potwierdzenie | Tak |
+| **Aktywna** | Rezerwacja trwa właśnie teraz | Tak* |
+| **Częściowa** | Część slotów została anulowana | Tak |
+| **Częściowy zwrot** | Zwrot za anulowane sloty przetworzony | Tak |
+| **Zakończona** | Rezerwacja zrealizowana : wizyta odbyta | Nie |
+| **Anulowana** | Rezerwacja w pełni anulowana | Nie |
 
 *Aktywna rezerwacja może być anulowana tylko jeśli spełnia zasadę 48h.
 
 ## Cykl życia rezerwacji
-
-![IMG_RES_028 : Diagram cyklu życia rezerwacji](../../assets/images/reservations/feat-status-lifecycle.png)
 
 ```
 Utworzona → Oczekująca → Potwierdzona → Aktywna → Zakończona
@@ -42,7 +37,7 @@ Utworzona → Oczekująca → Potwierdzona → Aktywna → Zakończona
 
 ## Gdzie widzisz status
 
-- **Lista rezerwacji** : kolorowa plakietka na karcie
+- **Lista rezerwacji** : plakietka na karcie
 - **Szczegóły rezerwacji** : w sekcji „Informacje o rezerwacji"
 - **Oczekujące płatności** : osobna sekcja dla statusu „Oczekująca"
 

@@ -3,7 +3,6 @@ title: "Rozwiązywanie problemów : Ekran Rezerwacje"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Rozwiązywanie problemów : Ekran Rezerwacje
@@ -57,8 +56,6 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 
 **Problem**: Przycisk anulowania jest nieaktywny lub pojawia się błąd.
 
-![IMG_RES_022 : Nieaktywny przycisk anulowania](../../assets/images/reservations/ts-cancel-button-disabled.png)
-
 **Przyczyny**:
 - Do rezerwacji pozostało mniej niż 48 godzin
 - Rezerwacja jest na dziś lub w przeszłości
@@ -102,8 +99,6 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwa
 ### Płatność nie powiodła się
 
 **Problem**: Próba płatności kończy się błędem.
-
-![IMG_RES_024 : Komunikat błędu płatności](../../assets/images/reservations/ts-payment-failed.png)
 
 **Przyczyny**:
 - Niewystarczające środki

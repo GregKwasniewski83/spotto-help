@@ -3,7 +3,6 @@ title: "Role Management"
 screen: profile
 role: "All"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -73,8 +72,6 @@ To enable or disable a role:
 2. Find the **Roles** section
 3. Toggle the switch next to the desired role
 4. When enabling for the first time: accept the terms and conditions
-
-![Role management: Screenshot #61](../../../assets/images/profile/role-management-detail.png)
 
 > 💡 **Tip**: Disabling a role does not cause data loss. If you disable the Business role, your company and facilities remain in the system: after re-enabling, everything will come back.
 

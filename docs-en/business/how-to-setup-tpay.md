@@ -3,7 +3,6 @@ title: "How to Set Up TPay"
 screen: business
 role: "Business Owner"
 difficulty: "Advanced"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

@@ -3,7 +3,6 @@ title: "How to Filter and Search Products"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -29,8 +28,6 @@ On the Shop screen, tap the search field at the top of the screen. Type your sea
 - Product description
 - Business name
 - City
-
-![Product search bar: Screenshot #14](../../assets/images/shop/product-search-bar.png)
 
 ### Step 2: Open the filter panel
 

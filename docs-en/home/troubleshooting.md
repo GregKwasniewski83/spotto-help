@@ -3,7 +3,6 @@ title: "Troubleshooting : Home Screen"
 screen: home
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -122,8 +121,6 @@ Below you will find solutions to the most common problems with the Home screen i
 
 **Problem**: After selecting a facility, all time slots are greyed out (unavailable).
 
-![All time slots greyed out](../../assets/images/home/ts-no-available-slots.png)
-
 **Causes**:
 - The facility is fully booked on the selected day
 - The facility is closed on the selected day
@@ -140,8 +137,6 @@ Below you will find solutions to the most common problems with the Home screen i
 ### Payment failed
 
 **Problem**: After confirming the booking, the payment is declined.
-
-![Payment failed error message](../../assets/images/home/ts-payment-failed.png)
 
 **Causes**:
 - Insufficient funds in the account

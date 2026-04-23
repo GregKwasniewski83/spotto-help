@@ -3,7 +3,6 @@ title: "How to Set Up an Availability Schedule"
 screen: trainer
 role: "Trainer"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "trainer/how-to-create-trainer-profile"

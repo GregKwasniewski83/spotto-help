@@ -3,7 +3,6 @@ title: "How to Add a Sports Facility"
 screen: business
 role: "Business Owner"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

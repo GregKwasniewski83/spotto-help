@@ -3,7 +3,6 @@ title: "How to Manage Products"
 screen: business
 role: "Business Owner"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

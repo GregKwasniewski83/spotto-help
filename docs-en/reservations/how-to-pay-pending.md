@@ -3,7 +3,6 @@ title: "How to complete a pending payment"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # How to complete a pending payment
@@ -39,8 +38,6 @@ Each pending payment card contains:
 ### Step 3: Tap "Payment"
 
 Tap the blue **Payment** button on the card.
-
-![IMG_RES_015 : Payment button](../../assets/images/reservations/pay-button.png)
 
 ### Step 4: Complete payment in TPay
 

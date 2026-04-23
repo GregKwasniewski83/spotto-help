@@ -3,7 +3,6 @@ title: "Zarządzanie rolami"
 screen: profile
 role: "Wszystkie"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -73,8 +72,6 @@ Aby włączyć lub wyłączyć rolę:
 2. Znajdź sekcję **Role**
 3. Przełącz przełącznik przy wybranej roli
 4. Przy pierwszym włączeniu : zaakceptuj regulamin
-
-![Zarządzanie rolami : Screenshot #61](../../../assets/images/profile/role-management-detail.png)
 
 > 💡 **Wskazówka**: Wyłączenie roli nie powoduje utraty danych. Jeśli wyłączysz rolę Biznes, Twoja firma i obiekty pozostają w systemie : po ponownym włączeniu wszystko wróci.
 

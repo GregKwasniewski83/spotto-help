@@ -3,7 +3,6 @@ title: "Booking Failed"
 screen: troubleshooting
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

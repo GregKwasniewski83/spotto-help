@@ -3,7 +3,6 @@ title: "Products (Passes and Packages)"
 screen: business
 role: "Business Owner"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

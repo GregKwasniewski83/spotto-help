@@ -1,7 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { FileQuestion } from 'lucide-react';
 import { getArticlesByScreen, getScreenSummary } from '@/lib/content/loader';
-import StatusBadge from '@/components/common/StatusBadge';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { getScreenName } from '@/lib/i18n/translations';
 
@@ -28,22 +27,6 @@ export default function ScreenPage() {
         {summary && (
           <div className="flex items-center gap-4 text-sm text-gray-600">
             <span>{summary.articleCount} {summary.articleCount === 1 ? t('screenPage.article') : t('screenPage.articles')}</span>
-            {summary.statuses && (
-              <>
-                <span className="text-gray-300">|</span>
-                <div className="flex items-center gap-3">
-                  <span className="flex items-center gap-1">
-                    🟢 {summary.statuses.completed}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    🟡 {summary.statuses.inProgress}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    🔴 {summary.statuses.notStarted}
-                  </span>
-                </div>
-              </>
-            )}
           </div>
         )}
       </div>
@@ -77,9 +60,6 @@ export default function ScreenPage() {
                 <h2 className="text-xl font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
                   {article.title}
                 </h2>
-                {article.metadata.status && (
-                  <StatusBadge status={article.metadata.status} />
-                )}
               </div>
 
               {article.excerpt && (

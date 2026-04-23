@@ -3,7 +3,6 @@ title: "Integracja KSeF"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Zaawansowana"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

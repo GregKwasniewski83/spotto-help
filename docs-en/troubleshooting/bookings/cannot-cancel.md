@@ -3,7 +3,6 @@ title: "I Can't Cancel a Booking"
 screen: troubleshooting
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

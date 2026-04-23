@@ -3,7 +3,6 @@ title: "How to partially cancel a reservation"
 screen: reservations
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-28"
 prerequisites:
   - "reservations/how-to-view-bookings"

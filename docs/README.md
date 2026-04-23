@@ -55,25 +55,6 @@ See [CONTENT_GUIDELINES.md](../CONTENT_GUIDELINES.md#document-structure) for:
 
 ---
 
-## Status
-
-### Coverage Progress
-
-| Screen | Guides | Features | FAQ | Status |
-|--------|--------|----------|-----|--------|
-| Home | 5 | 5 | ✅ | 🟢 Complete |
-| Reservations | 4 | 3 | ✅ | 🟢 Complete |
-| Shop | 5 | 4 | ✅ | 🟢 Complete |
-| Business | 9 | 9 | ✅ | 🟢 Complete |
-| Trainer | 5 | 4 | ✅ | 🟢 Complete |
-| Profile | 5 | 3 | ✅ | 🟢 Complete |
-| Troubleshooting | 9 | : | : | 🟢 Complete |
-
-**Legend**:
-- 🔴 Not Started - No content yet
-- 🟡 In Progress - Some content exists
-- 🟢 Complete - All core content done
-
 ---
 
 ## Contributing

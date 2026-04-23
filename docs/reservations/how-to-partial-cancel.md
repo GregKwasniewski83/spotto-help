@@ -3,7 +3,6 @@ title: "Jak częściowo anulować rezerwację"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-28"
 prerequisites:
   - "reservations/how-to-view-bookings"

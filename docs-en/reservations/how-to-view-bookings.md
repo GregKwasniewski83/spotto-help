@@ -3,7 +3,6 @@ title: "How to view reservations"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # How to view reservations
@@ -46,8 +45,6 @@ On the screen you will see a list of upcoming events. Each card contains:
 
 If you have more reservations than visible on the screen, tap the **See all** button at the top of the section.
 
-![IMG_RES_004 : See all button](../../assets/images/reservations/see-all-button.png)
-
 A full-screen list with all upcoming events will open.
 
 ### Step 4: Open reservation details
@@ -61,8 +58,6 @@ Tap any card to see full details:
 - Payment status
 - Reservation number
 - Action buttons (payment, cancellation)
-
-![IMG_RES_005 : Reservation details view](../../assets/images/reservations/reservation-details.png)
 
 ---
 

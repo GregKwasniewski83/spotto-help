@@ -3,7 +3,6 @@ title: "Jak przeglądać rezerwacje"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Jak przeglądać rezerwacje
@@ -46,8 +45,6 @@ Na ekranie zobaczysz listę nadchodzących wydarzeń. Każda karta zawiera:
 
 Jeśli masz więcej rezerwacji niż widać na ekranie, dotknij przycisku **Zobacz wszystkie** u góry sekcji.
 
-![IMG_RES_004 : Przycisk Zobacz wszystkie](../../assets/images/reservations/see-all-button.png)
-
 Otworzy się pełnoekranowa lista ze wszystkimi nadchodzącymi wydarzeniami.
 
 ### Krok 4: Otwórz szczegóły rezerwacji
@@ -61,8 +58,6 @@ Dotknij dowolnej karty, aby zobaczyć pełne szczegóły:
 - Status płatności
 - Numer rezerwacji
 - Przyciski akcji (płatność, anulowanie)
-
-![IMG_RES_005 : Widok szczegółów rezerwacji](../../assets/images/reservations/reservation-details.png)
 
 ---
 

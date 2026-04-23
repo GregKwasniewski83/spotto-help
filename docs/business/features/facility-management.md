@@ -3,7 +3,6 @@ title: "Zarządzanie obiektami sportowymi"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

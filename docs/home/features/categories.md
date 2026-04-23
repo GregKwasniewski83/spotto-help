@@ -3,7 +3,6 @@ title: "Kategorie sportowe"
 screen: home
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -29,6 +28,7 @@ Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na 
 | Badminton | 🏸 | Korty do badmintona |
 | Tenis stołowy | 🏓 | Stoły do tenisa stołowego |
 | Wspinaczka | 🧗 | Ścianki wspinaczkowe |
+| Nurkowanie | 🤿 | Centra nurkowe i szkolenia |
 
 > 💡 **Uwaga**: Lista kategorii jest dynamiczna i zależy od obiektów zarejestrowanych w systemie Spotto. Nowe kategorie pojawiają się automatycznie.
 

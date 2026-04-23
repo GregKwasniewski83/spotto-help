@@ -3,7 +3,6 @@ title: "FAQ : Reservations Screen"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Frequently Asked Questions : Reservations Screen
@@ -62,15 +61,14 @@ Spotto supports payments through TPay: payment cards (Visa, Mastercard), fast ba
 
 ## Statuses
 
-### What do the status colors mean?
+### What are the reservation statuses?
 
-![IMG_RES_019 : Color-coded reservation status badges](../../assets/images/reservations/faq-status-badges.png)
-
-- 🟢 **Green** : Confirmed (paid, ready)
-- 🟡 **Yellow** : Pending / Partial
-- 🔵 **Blue** : Active (in progress now)
-- 🔴 **Red** : Canceled
-- ⚪ **Gray** : Completed
+- **Confirmed** : paid, ready
+- **Pending** : awaiting payment or confirmation
+- **Active** : in progress now
+- **Partial** : some slots canceled
+- **Canceled** : fully canceled
+- **Completed** : visit completed
 
 [Full list of statuses](./features/booking-status.md)
 

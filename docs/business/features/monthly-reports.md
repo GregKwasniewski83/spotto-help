@@ -3,7 +3,6 @@ title: "Raporty miesięczne"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

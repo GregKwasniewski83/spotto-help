@@ -3,7 +3,6 @@ title: "How to Use a Purchased Product"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "shop/how-to-buy-pass"
@@ -42,8 +41,6 @@ In the purchases list, find the product with **Active** status (green label). Yo
 - **All**: all purchases
 - **Active**: only active products
 - **Inactive**: expired or used up
-
-![Purchases list with filters: Screenshot #9](../../assets/images/shop/my-purchases-list.png)
 
 ### Step 3: Tap "Use Product"
 

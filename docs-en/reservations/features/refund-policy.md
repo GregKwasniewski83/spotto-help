@@ -3,7 +3,6 @@ title: "Cancellation and Refund Policy"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Cancellation and Refund Policy
@@ -44,8 +43,6 @@ A fee is charged for each cancellation (full or partial):
 **Example**: Canceling a 200 PLN reservation
 - Fee: 10 PLN (5%)
 - Refund: 190 PLN (95%)
-
-![IMG_RES_034 : Cancellation confirmation screen with refund amount](../../assets/images/reservations/feat-refund-calculation.png)
 
 ## Refund Timeline
 

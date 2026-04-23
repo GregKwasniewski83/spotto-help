@@ -3,7 +3,6 @@ title: "Jak wyszukać obiekt sportowy"
 screen: home
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites: []
 ---

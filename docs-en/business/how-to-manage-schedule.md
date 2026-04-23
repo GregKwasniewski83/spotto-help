@@ -3,7 +3,6 @@ title: "How to Configure a Schedule"
 screen: business
 role: "Business Owner"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

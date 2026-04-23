@@ -81,7 +81,7 @@ function generateExcerpt(content: string): string {
  * Transform image paths in content
  */
 function transformImagePaths(content: string): string {
-  return content.replace(/\(\.\.\/\.\.\/assets\//g, '(/assets/');
+  return content.replace(/\((?:\.\.\/)+assets\//g, '(/assets/');
 }
 
 /**
@@ -122,8 +122,15 @@ async function buildContentForLang(lang: string, docsDir: string, outputFile: st
     const articles: Article[] = [];
     const screens = new Set<string>();
 
+    // Excluded files (unpublished modules)
+    const excludedFiles = ['home/features/community-wall.md'];
+
     // Process each markdown file
     for (const file of files) {
+      if (excludedFiles.includes(file)) {
+        console.log(`⏭ Skipped (excluded): ${file}`);
+        continue;
+      }
       const filePath = path.join(docsPath, file);
       const fileContent = await fs.readFile(filePath, 'utf-8');
 
@@ -160,16 +167,19 @@ async function buildContentForLang(lang: string, docsDir: string, outputFile: st
         const excerpt = generateExcerpt(content);
 
         // Build article object
+        const isIndex = /README\.md$/i.test(file);
+
         const article: Article = {
           slug,
           title,
           screen,
           content: transformedContent,
+          isIndex,
           metadata: {
             screen,
             role: data.role,
             difficulty: data.difficulty,
-            status: data.status || '🔴',
+            status: data.status,
             lastUpdated: data.lastUpdated || new Date().toISOString(),
             prerequisites: data.prerequisites || []
           },

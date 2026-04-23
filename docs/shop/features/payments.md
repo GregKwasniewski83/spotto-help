@@ -3,7 +3,6 @@ title: "Płatności w Sklepie"
 screen: shop
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

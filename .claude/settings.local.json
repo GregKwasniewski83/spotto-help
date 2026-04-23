@@ -43,7 +43,9 @@
       "Bash(dpkg -l)",
       "Bash(pip3 list:*)",
       "Bash(pip3 install:*)",
-      "Bash(sudo apt-get:*)"
+      "Bash(sudo apt-get:*)",
+      "Bash(lsof -t -i:3001)",
+      "Bash(xargs -r kill)"
     ]
   }
 }

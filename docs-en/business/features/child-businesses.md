@@ -3,7 +3,6 @@ title: "Child Businesses"
 screen: business
 role: "Business Owner"
 difficulty: "Advanced"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

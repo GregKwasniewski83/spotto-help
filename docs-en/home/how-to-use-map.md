@@ -3,7 +3,6 @@ title: "How to Use the Map View"
 screen: home
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites: []
 ---

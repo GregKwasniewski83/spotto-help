@@ -3,7 +3,6 @@ title: "How to Change the App Language"
 screen: profile
 role: "All"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

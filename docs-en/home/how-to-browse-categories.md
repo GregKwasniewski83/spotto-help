@@ -3,7 +3,6 @@ title: "How to Browse Sport Categories"
 screen: home
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites: []
 ---

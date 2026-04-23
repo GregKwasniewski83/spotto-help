@@ -3,7 +3,6 @@ title: "How to Buy a Product (Pass/Package)"
 screen: shop
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -54,8 +53,6 @@ On the product card, you'll see:
 - **Number of entries**: how many times you can use it (e.g., "10 uses")
 - **Validity period**: how long the product is active (e.g., "3 months")
 - **Business name**: which facility offers the product
-
-![Product card: Screenshot #4](../../assets/images/shop/shop-product-card.png)
 
 ### Step 4: Tap "Buy Now"
 

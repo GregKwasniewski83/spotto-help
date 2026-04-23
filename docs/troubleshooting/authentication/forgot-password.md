@@ -3,7 +3,6 @@ title: "Zapomniałem hasła"
 screen: troubleshooting
 role: "Wszystkie"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

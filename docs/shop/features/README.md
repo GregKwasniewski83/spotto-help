@@ -1,7 +1,6 @@
 ---
 title: "Funkcje ekranu Sklep"
 screen: shop
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

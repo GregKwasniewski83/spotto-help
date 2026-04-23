@@ -3,7 +3,6 @@ title: "Partial Cancellation"
 screen: reservations
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Partial Cancellation
@@ -25,8 +24,6 @@ Partial cancellation is available when:
 
 After opening partial cancellation, you will see a list of all slots:
 
-![IMG_RES_029 : Slot list with cancellation selection](../../assets/images/reservations/feat-partial-cancel-slot-list.png)
-
 | Element | Description |
 |---------|-------------|
 | **Hour** | Slot start time (e.g., "10:00") |
@@ -43,8 +40,6 @@ After opening partial cancellation, you will see a list of all slots:
 ### System Response
 
 After cancellation, you will receive a detailed summary:
-
-![IMG_RES_030 : Partial cancellation summary with amounts](../../assets/images/reservations/feat-partial-cancel-summary.png)
 
 | Field | Example |
 |-------|---------|

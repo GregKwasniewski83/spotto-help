@@ -3,34 +3,29 @@ title: "Reservation Statuses"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Reservation Statuses
 
 ## Description
 
-Every reservation in Spotto has an assigned status that indicates its current state. The status is displayed as a color-coded badge on the reservation card and in the details view.
+Every reservation in Spotto has an assigned status that indicates its current state.
 
 ## Status List
 
-![IMG_RES_027 : Color-coded status badges on reservation cards](../../assets/images/reservations/feat-status-badges-list.png)
-
-| Status | Color | Meaning | Can be canceled? |
-|--------|-------|---------|------------------|
-| **Confirmed** | 🟢 Green | Reservation paid and ready | Yes |
-| **Pending** | 🟡 Yellow | Awaiting payment or confirmation | Yes |
-| **Active** | 🔵 Blue | Reservation is in progress right now | Yes* |
-| **Partial** | 🟡 Yellow | Some slots have been canceled | Yes |
-| **Partial refund** | 🟡 Yellow | Refund for canceled slots processed | Yes |
-| **Completed** | ⚪ Gray | Reservation fulfilled: visit completed | No |
-| **Canceled** | 🔴 Red | Reservation fully canceled | No |
+| Status | Meaning | Can be canceled? |
+|--------|---------|------------------|
+| **Confirmed** | Reservation paid and ready | Yes |
+| **Pending** | Awaiting payment or confirmation | Yes |
+| **Active** | Reservation is in progress right now | Yes* |
+| **Partial** | Some slots have been canceled | Yes |
+| **Partial refund** | Refund for canceled slots processed | Yes |
+| **Completed** | Reservation fulfilled : visit completed | No |
+| **Canceled** | Reservation fully canceled | No |
 
 *An active reservation can only be canceled if it meets the 48h rule.
 
 ## Reservation Lifecycle
-
-![IMG_RES_028 : Reservation lifecycle diagram](../../assets/images/reservations/feat-status-lifecycle.png)
 
 ```
 Created -> Pending -> Confirmed -> Active -> Completed
@@ -42,7 +37,7 @@ Created -> Pending -> Confirmed -> Active -> Completed
 
 ## Where You See the Status
 
-- **Reservation list** : color-coded badge on the card
+- **Reservation list** : badge on the card
 - **Reservation details** : in the "Reservation information" section
 - **Pending payments** : separate section for "Pending" status
 

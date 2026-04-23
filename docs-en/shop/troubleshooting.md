@@ -3,7 +3,6 @@ title: "Troubleshooting: Shop"
 screen: shop
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

@@ -3,7 +3,6 @@ title: "FAQ : Ekran Rezerwacje"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Najczęściej zadawane pytania : Ekran Rezerwacje
@@ -62,15 +61,14 @@ Spotto obsługuje płatności przez TPay: karty płatnicze (Visa, Mastercard), s
 
 ## Statusy
 
-### Co oznaczają kolory statusów?
+### Jakie są statusy rezerwacji?
 
-![IMG_RES_019 : Kolorowe plakietki statusów rezerwacji](../../assets/images/reservations/faq-status-badges.png)
-
-- 🟢 **Zielony** : Potwierdzona (opłacona, gotowa)
-- 🟡 **Żółty** : Oczekująca / Częściowa
-- 🔵 **Niebieski** : Aktywna (trwa teraz)
-- 🔴 **Czerwony** : Anulowana
-- ⚪ **Szary** : Zakończona
+- **Potwierdzona** : opłacona, gotowa
+- **Oczekująca** : czeka na płatność lub potwierdzenie
+- **Aktywna** : trwa teraz
+- **Częściowa** : część slotów anulowana
+- **Anulowana** : w pełni anulowana
+- **Zakończona** : wizyta odbyta
 
 [Pełna lista statusów](./features/booking-status.md)
 

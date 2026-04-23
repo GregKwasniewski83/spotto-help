@@ -3,7 +3,6 @@ title: "Jak utworzyć trening"
 screen: trainer
 role: "Trener"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "trainer/how-to-create-trainer-profile"

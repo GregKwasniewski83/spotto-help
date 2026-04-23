@@ -3,7 +3,6 @@ title: "Nie mogę się zalogować"
 screen: troubleshooting
 role: "Wszystkie"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

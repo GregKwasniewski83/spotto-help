@@ -3,7 +3,6 @@ title: "Jak przeglądać moje zakupy"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -29,8 +28,6 @@ Na dolnym pasku nawigacji dotknij ikony **Sklep**.
 ### Krok 2: Przejdź do „Moje zakupy"
 
 Na górze ekranu zobaczysz dwie zakładki. Dotknij **Moje zakupy**.
-
-![Przełączanie na Moje zakupy : Screenshot #12](../../assets/images/shop/switch-to-purchases.png)
 
 ### Krok 3: Przeglądaj swoje zakupy
 

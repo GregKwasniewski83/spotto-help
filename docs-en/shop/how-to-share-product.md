@@ -3,7 +3,6 @@ title: "How to Share a Product with a Friend"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

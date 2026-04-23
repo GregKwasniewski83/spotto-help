@@ -3,7 +3,6 @@ title: "Aplikacja się zawiesza"
 screen: troubleshooting
 role: "Wszystkie"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

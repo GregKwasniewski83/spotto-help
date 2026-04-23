@@ -3,7 +3,6 @@ title: "How to Manage Training Participants"
 screen: trainer
 role: "Trainer"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "trainer/how-to-create-training"
@@ -34,8 +33,6 @@ For each participant, you can see:
 - **Full name**
 - **Email**
 - **Phone** (if provided)
-
-![Participant list: Screenshot #47](../../assets/images/trainer/participants-list.png)
 
 ### Step 3: Contact Participants
 

@@ -3,7 +3,6 @@ title: "Trainer Associations"
 screen: business
 role: "Business Owner"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -27,8 +26,6 @@ The trainer association system allows you to manage collaboration with trainers 
 | **Pending** | Yellow/orange | Trainer sent a request: waiting for your decision |
 | **Confirmed** | Green | Collaboration active: trainer conducts sessions |
 | **Rejected** | Red | Request rejected |
-
-![Trainer associations list: Screenshot #59](../../../assets/images/business/trainer-associations-detail.png)
 
 ## Hourly Rates
 

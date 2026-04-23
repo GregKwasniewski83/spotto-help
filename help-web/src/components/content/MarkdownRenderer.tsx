@@ -42,12 +42,16 @@ interface MarkdownRendererProps {
   content: string;
   className?: string;
   articleSlug?: string;
+  isIndex?: boolean;
 }
 
-function resolveRelativePath(href: string, currentSlug: string): string {
+function resolveRelativePath(href: string, currentSlug: string, isIndex?: boolean): string {
   const cleanHref = href.replace(/\.md$/, '');
   const parts = currentSlug.split('/');
-  const baseParts = parts.length === 1 ? [...parts] : parts.slice(0, -1);
+
+  // For index (README) pages, the slug IS the directory, so keep all parts.
+  // For regular pages, strip the last segment (filename) to get the directory.
+  const baseParts = isIndex ? [...parts] : parts.slice(0, -1);
   const hrefParts = cleanHref.split('/');
   const resultParts = [...baseParts];
 
@@ -88,7 +92,7 @@ function groupContentBySections(content: string): string[] {
   return sections;
 }
 
-function MarkdownSection({ content, articleSlug, isCard }: { content: string; articleSlug?: string; isCard: boolean }) {
+function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: string; articleSlug?: string; isIndex?: boolean; isCard: boolean }) {
   const wrapperClass = isCard
     ? 'bg-white rounded-lg border border-gray-200 p-6 mb-4'
     : 'mb-4';
@@ -150,7 +154,7 @@ function MarkdownSection({ content, articleSlug, isCard }: { content: string; ar
               }
               if (href?.endsWith('.md')) {
                 const resolved = articleSlug
-                  ? resolveRelativePath(href, articleSlug)
+                  ? resolveRelativePath(href, articleSlug, isIndex)
                   : href.replace(/\.md$/, '').replace(/^\.\//, '');
                 return (
                   <Link
@@ -257,7 +261,7 @@ function MarkdownSection({ content, articleSlug, isCard }: { content: string; ar
   );
 }
 
-export default function MarkdownRenderer({ content, className = '', articleSlug }: MarkdownRendererProps) {
+export default function MarkdownRenderer({ content, className = '', articleSlug, isIndex }: MarkdownRendererProps) {
   const sections = groupContentBySections(content);
 
   return (
@@ -273,6 +277,7 @@ export default function MarkdownRenderer({ content, className = '', articleSlug 
             key={i}
             content={section}
             articleSlug={articleSlug}
+            isIndex={isIndex}
             isCard={isCard}
           />
         );
