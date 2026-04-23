@@ -17,6 +17,7 @@ interface Article {
   title: string;
   screen: string;
   content: string;
+  isIndex: boolean;
   metadata: {
     screen: string;
     role?: string;
