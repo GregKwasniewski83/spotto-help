@@ -3,7 +3,6 @@ title: "Płatność się nie powiodła"
 screen: troubleshooting
 role: "Wszystkie"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

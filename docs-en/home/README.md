@@ -1,7 +1,6 @@
 ---
 title: "Home Screen - Help"
 screen: home
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -25,7 +24,6 @@ The Home screen is the first page you see when you launch the app. Here you'll f
 | Nearby map | Sports facilities in your area | [Details](./features/map-view.md) |
 | Upcoming reservations | Preview of your nearest bookings | [Reservations](../reservations/README.md) |
 | Pending payments | Notifications about incomplete payments | [How to book](./how-to-book-facility.md) |
-| Community wall | Posts and activity from other users | [Details](./features/community-wall.md) |
 
 ---
 
@@ -50,7 +48,6 @@ The Home screen is the first page you see when you launch the app. Here you'll f
 - [Sport categories](./features/categories.md) : list of available disciplines
 - [Favourites system](./features/favorites.md) : saving and managing
 - [Map view](./features/map-view.md) : navigation and markers
-- [Community wall](./features/community-wall.md) : posts and interactions
 
 ---
 

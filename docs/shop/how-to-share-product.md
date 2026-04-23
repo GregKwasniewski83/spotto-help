@@ -3,7 +3,6 @@ title: "Jak udostępnić produkt znajomemu"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

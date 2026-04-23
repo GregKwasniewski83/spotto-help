@@ -1,7 +1,6 @@
 ---
 title: "Ekran Trener - Pomoc"
 screen: trainer
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

@@ -3,7 +3,6 @@ title: "Jak skonfigurować TPay"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Zaawansowana"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

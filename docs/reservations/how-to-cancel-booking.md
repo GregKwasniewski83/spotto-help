@@ -3,7 +3,6 @@ title: "Jak anulować rezerwację"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 prerequisites:
   - "reservations/how-to-view-bookings"
@@ -34,8 +33,6 @@ Jeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot ś
 ### Krok 1: Otwórz szczegóły rezerwacji
 
 Na ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz anulować.
-
-![IMG_RES_006 : Dotknij karty rezerwacji](../../assets/images/reservations/tap-reservation-card.png)
 
 ### Krok 2: Dotknij „Anuluj wszystko"
 

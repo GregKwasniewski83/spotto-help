@@ -3,7 +3,6 @@ title: "I Can't Log In"
 screen: troubleshooting
 role: "All"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

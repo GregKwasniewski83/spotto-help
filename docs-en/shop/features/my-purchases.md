@@ -3,7 +3,6 @@ title: "My Purchases"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

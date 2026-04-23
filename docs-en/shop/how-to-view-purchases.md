@@ -3,7 +3,6 @@ title: "How to View My Purchases"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -29,8 +28,6 @@ On the bottom navigation bar, tap the **Shop** icon.
 ### Step 2: Go to "My Purchases"
 
 At the top of the screen, you'll see two tabs. Tap **My Purchases**.
-
-![Switching to My Purchases: Screenshot #12](../../assets/images/shop/switch-to-purchases.png)
 
 ### Step 3: Browse your purchases
 

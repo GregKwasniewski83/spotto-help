@@ -3,7 +3,6 @@ title: "Product Catalog"
 screen: shop
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -27,8 +26,6 @@ Each product is displayed as a card with the following information:
 | **Business** | Name of the sports facility offering the product |
 | **"Buy Now" button** | Start the product purchase |
 | **Share icon** | Send a product link to a friend |
-
-![Product card elements: Screenshot #16](../../../assets/images/shop/product-card-anatomy.png)
 
 ## Product Types
 

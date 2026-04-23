@@ -3,7 +3,6 @@ title: "Jak kupić produkt (karnet/pakiet)"
 screen: shop
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---
@@ -54,8 +53,6 @@ Na karcie produktu zobaczysz:
 - **Liczba wejść** : ile razy możesz skorzystać (np. „10 użyć")
 - **Okres ważności** : jak długo produkt jest aktywny (np. „3 miesiące")
 - **Nazwa firmy** : który obiekt oferuje produkt
-
-![Karta produktu : Screenshot #4](../../assets/images/shop/shop-product-card.png)
 
 ### Krok 4: Dotknij „Kup teraz"
 

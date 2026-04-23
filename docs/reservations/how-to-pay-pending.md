@@ -3,7 +3,6 @@ title: "Jak dokończyć oczekującą płatność"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Jak dokończyć oczekującą płatność
@@ -39,8 +38,6 @@ Każda karta oczekującej płatności zawiera:
 ### Krok 3: Dotknij „Płatność"
 
 Dotknij niebieskiego przycisku **Płatność** na karcie.
-
-![IMG_RES_015 : Przycisk Płatność](../../assets/images/reservations/pay-button.png)
 
 ### Krok 4: Dokończ płatność w TPay
 

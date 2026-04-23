@@ -3,7 +3,6 @@ title: "Powiązania z firmami"
 screen: trainer
 role: "Trener"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

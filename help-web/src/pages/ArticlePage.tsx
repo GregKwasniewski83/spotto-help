@@ -2,7 +2,6 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Home, Clock, User, BarChart2 } from 'lucide-react';
 import { getArticleBySlug } from '@/lib/content/loader';
 import MarkdownRenderer from '@/components/content/MarkdownRenderer';
-import StatusBadge from '@/components/common/StatusBadge';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { getScreenName } from '@/lib/i18n/translations';
 
@@ -71,10 +70,6 @@ export default function ArticlePage() {
                 </span>
               )}
             </div>
-
-            {article.metadata.status && (
-              <StatusBadge status={article.metadata.status} />
-            )}
           </div>
 
           {/* Prerequisites */}
@@ -91,7 +86,7 @@ export default function ArticlePage() {
 
           {/* Markdown Content */}
           <article className="prose-wrapper">
-            <MarkdownRenderer content={article.content} articleSlug={slug} />
+            <MarkdownRenderer content={article.content} articleSlug={slug} isIndex={article.isIndex} />
           </article>
 
           {/* Article Footer */}

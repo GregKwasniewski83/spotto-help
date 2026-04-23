@@ -3,7 +3,6 @@ title: "Szczegóły rezerwacji"
 screen: reservations
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Szczegóły rezerwacji

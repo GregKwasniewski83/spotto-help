@@ -1,7 +1,6 @@
 ---
 title: "Business Screen - Help"
 screen: business
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

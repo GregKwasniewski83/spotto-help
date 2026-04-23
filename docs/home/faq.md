@@ -3,7 +3,6 @@ title: "FAQ : Ekran Home"
 screen: home
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -104,18 +103,6 @@ Spotto obsługuje płatności przez TPay:
 ![Metody płatności TPay](../../assets/images/home/faq-payment-methods.png)
 
 ---
-
-## Tablica społeczności
-
-### Co to jest tablica społeczności?
-
-To sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty, aktywność i ogłoszenia z społeczności Spotto. [Więcej o tablicy](./features/community-wall.md)
-
-![Sekcja tablicy społeczności na ekranie Home](../../assets/images/home/faq-community-wall.png)
-
-### Czy mogę wyłączyć tablicę społeczności?
-
-Tablica jest częścią ekranu Home i nie można jej wyłączyć. Możesz ją pominąć, przewijając ekran.
 
 ---
 

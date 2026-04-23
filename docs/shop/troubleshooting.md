@@ -3,7 +3,6 @@ title: "Rozwiązywanie problemów : Sklep"
 screen: shop
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

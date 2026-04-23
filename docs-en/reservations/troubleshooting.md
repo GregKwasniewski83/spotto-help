@@ -3,7 +3,6 @@ title: "Troubleshooting : Reservations Screen"
 screen: reservations
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Troubleshooting : Reservations Screen
@@ -57,8 +56,6 @@ Below you will find solutions to the most common issues related to reservations 
 
 **Problem**: The cancel button is inactive or an error appears.
 
-![IMG_RES_022 : Inactive cancel button](../../assets/images/reservations/ts-cancel-button-disabled.png)
-
 **Causes**:
 - Less than 48 hours remain until the reservation
 - The reservation is for today or in the past
@@ -102,8 +99,6 @@ Below you will find solutions to the most common issues related to reservations 
 ### Payment failed
 
 **Problem**: Payment attempt ends with an error.
-
-![IMG_RES_024 : Payment error message](../../assets/images/reservations/ts-payment-failed.png)
 
 **Causes**:
 - Insufficient funds

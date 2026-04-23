@@ -1,7 +1,6 @@
 ---
 title: "Reservations Screen - Help"
 screen: reservations
-status: "🟢"
 lastUpdated: "2026-03-28"
 ---
 # Reservations Screen

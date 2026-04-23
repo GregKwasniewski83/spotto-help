@@ -3,7 +3,6 @@ title: "Jak wykorzystać zakupiony produkt"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "shop/how-to-buy-pass"
@@ -42,8 +41,6 @@ Na liście zakupów znajdź produkt ze statusem **Aktywny** (zielona etykieta). 
 - **Wszystkie** : wszystkie zakupy
 - **Aktywne** : tylko aktywne produkty
 - **Nieaktywne** : wygasłe lub wykorzystane
-
-![Lista zakupów z filtrami : Screenshot #9](../../assets/images/shop/my-purchases-list.png)
 
 ### Krok 3: Dotknij „Użyj produktu"
 

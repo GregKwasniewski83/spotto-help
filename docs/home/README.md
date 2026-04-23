@@ -1,7 +1,6 @@
 ---
 title: "Ekran Home - Pomoc"
 screen: home
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -25,7 +24,6 @@ Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdz
 | Mapa okolicy | Obiekty sportowe w Twojej okolicy | [Szczegóły](./features/map-view.md) |
 | Nadchodzące rezerwacje | Podgląd najbliższych rezerwacji | [Rezerwacje](../reservations/README.md) |
 | Oczekujące płatności | Powiadomienia o nieukończonych płatnościach | [Jak zarezerwować](./how-to-book-facility.md) |
-| Tablica społeczności | Posty i aktywność innych użytkowników | [Szczegóły](./features/community-wall.md) |
 
 ---
 
@@ -50,7 +48,6 @@ Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdz
 - [Kategorie sportowe](./features/categories.md) : lista dostępnych dyscyplin
 - [System ulubionych](./features/favorites.md) : zapisywanie i zarządzanie
 - [Widok mapy](./features/map-view.md) : nawigacja i markery
-- [Tablica społeczności](./features/community-wall.md) : posty i interakcje
 
 ---
 

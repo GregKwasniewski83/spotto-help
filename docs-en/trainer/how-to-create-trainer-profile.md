@@ -3,7 +3,6 @@ title: "How to Create a Trainer Profile"
 screen: trainer
 role: "Trainer"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

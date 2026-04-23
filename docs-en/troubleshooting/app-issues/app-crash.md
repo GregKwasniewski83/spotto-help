@@ -3,7 +3,6 @@ title: "App Crashes"
 screen: troubleshooting
 role: "All"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

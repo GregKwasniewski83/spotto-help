@@ -3,7 +3,6 @@ title: "Rezerwacja się nie powiodła"
 screen: troubleshooting
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

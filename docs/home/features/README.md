@@ -1,7 +1,6 @@
 ---
 title: "Funkcje ekranu Home"
 screen: home
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -15,7 +14,6 @@ Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacj
 - [Kategorie sportowe](./categories.md) : karuzela dyscyplin, lista kategorii
 - [System ulubionych](./favorites.md) : zapisywanie obiektów, szybki dostęp
 - [Widok mapy](./map-view.md) : obiekty w pobliżu, markery, nawigacja
-- [Tablica społeczności](./community-wall.md) : posty użytkowników, interakcje
 
 ## Zobacz też
 

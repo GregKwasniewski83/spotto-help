@@ -3,7 +3,6 @@ title: "How to Manage Profile Roles"
 screen: profile
 role: "All"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

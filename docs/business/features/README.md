@@ -1,7 +1,6 @@
 ---
 title: "Funkcje ekranu Biznes"
 screen: business
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

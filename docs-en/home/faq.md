@@ -3,7 +3,6 @@ title: "FAQ : Home Screen"
 screen: home
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -104,18 +103,6 @@ Spotto supports payments via TPay:
 ![TPay payment methods](../../assets/images/home/faq-payment-methods.png)
 
 ---
-
-## Community wall
-
-### What is the community wall?
-
-It is a section on the Home screen where users can browse posts, activity, and announcements from the Spotto community. [More about the wall](./features/community-wall.md)
-
-![Community wall section on Home screen](../../assets/images/home/faq-community-wall.png)
-
-### Can I turn off the community wall?
-
-The wall is part of the Home screen and cannot be disabled. You can skip it by scrolling past it.
 
 ---
 

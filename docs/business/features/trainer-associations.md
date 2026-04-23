@@ -3,7 +3,6 @@ title: "Powiązania z trenerami"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -27,8 +26,6 @@ System powiązań z trenerami pozwala zarządzać współpracą z trenerami, kt�
 | **Oczekujące** | Żółty/pomarańczowy | Trener wysłał prośbę : czeka na Twoją decyzję |
 | **Potwierdzone** | Zielony | Współpraca aktywna : trener prowadzi zajęcia |
 | **Odrzucone** | Czerwony | Prośba odrzucona |
-
-![Lista powiązań z trenerami : Screenshot #59](../../../assets/images/business/trainer-associations-detail.png)
 
 ## Stawki godzinowe
 

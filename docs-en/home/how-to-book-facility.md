@@ -3,7 +3,6 @@ title: "How to Book a Sports Facility"
 screen: home
 role: "User"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites:
   - "home/how-to-search-facilities"

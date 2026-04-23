@@ -3,7 +3,6 @@ title: "Business Profile"
 screen: business
 role: "Business Owner"
 difficulty: "Medium"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

@@ -3,7 +3,6 @@ title: "Time Slot Unavailable"
 screen: troubleshooting
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

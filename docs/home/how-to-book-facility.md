@@ -3,7 +3,6 @@ title: "Jak zarezerwować obiekt sportowy"
 screen: home
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites:
   - "home/how-to-search-facilities"

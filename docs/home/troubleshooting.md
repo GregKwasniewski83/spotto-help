@@ -3,7 +3,6 @@ title: "Rozwiązywanie problemów : Ekran Home"
 screen: home
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -122,8 +121,6 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 
 **Problem**: Po wybraniu obiektu wszystkie terminy są szare (niedostępne).
 
-![Wszystkie terminy wyszarzone](../../assets/images/home/ts-no-available-slots.png)
-
 **Przyczyny**:
 - Obiekt jest w pełni zarezerwowany na wybrany dzień
 - Obiekt jest zamknięty w wybranym dniu
@@ -140,8 +137,6 @@ Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem
 ### Płatność nie powiodła się
 
 **Problem**: Po potwierdzeniu rezerwacji płatność jest odrzucona.
-
-![Komunikat błędu płatności](../../assets/images/home/ts-payment-failed.png)
 
 **Przyczyny**:
 - Niewystarczające środki na koncie

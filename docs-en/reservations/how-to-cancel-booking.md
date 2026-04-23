@@ -3,7 +3,6 @@ title: "How to cancel a reservation"
 screen: reservations
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-28"
 prerequisites:
   - "reservations/how-to-view-bookings"
@@ -34,8 +33,6 @@ If your plans change, you can cancel an entire reservation and receive a refund.
 ### Step 1: Open reservation details
 
 On the Reservations screen, tap the card of the reservation you want to cancel.
-
-![IMG_RES_006 : Tap the reservation card](../../assets/images/reservations/tap-reservation-card.png)
 
 ### Step 2: Tap "Cancel All"
 

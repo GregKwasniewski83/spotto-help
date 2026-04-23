@@ -3,7 +3,6 @@ title: "How to Search for a Sports Facility"
 screen: home
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-21"
 prerequisites: []
 ---

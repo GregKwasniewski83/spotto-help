@@ -3,7 +3,6 @@ title: "Katalog produktów"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
@@ -27,8 +26,6 @@ Każdy produkt wyświetla się jako karta z następującymi informacjami:
 | **Firma** | Nazwa obiektu sportowego, który oferuje produkt |
 | **Przycisk „Kup teraz"** | Rozpocznij zakup produktu |
 | **Ikona udostępniania** | Wyślij link do produktu znajomemu |
-
-![Elementy karty produktu : Screenshot #16](../../../assets/images/shop/product-card-anatomy.png)
 
 ## Rodzaje produktów
 

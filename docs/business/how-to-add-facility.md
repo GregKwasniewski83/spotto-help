@@ -3,7 +3,6 @@ title: "Jak dodać obiekt sportowy"
 screen: business
 role: "Właściciel firmy"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "business/how-to-create-profile"

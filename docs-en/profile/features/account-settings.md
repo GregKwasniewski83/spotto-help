@@ -3,7 +3,6 @@ title: "Account Settings"
 screen: profile
 role: "All"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

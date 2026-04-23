@@ -1,7 +1,6 @@
 ---
 title: "Rozwiązywanie problemów - Pomoc"
 screen: troubleshooting
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

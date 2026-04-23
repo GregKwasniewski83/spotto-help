@@ -3,7 +3,6 @@ title: "Nie mogę anulować rezerwacji"
 screen: troubleshooting
 role: "Użytkownik"
 difficulty: "Średnia"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

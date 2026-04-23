@@ -3,7 +3,6 @@ title: "Jak zmienić avatar"
 screen: profile
 role: "Wszystkie"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites: []
 ---

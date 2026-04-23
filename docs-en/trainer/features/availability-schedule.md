@@ -3,7 +3,6 @@ title: "Availability Schedule"
 screen: trainer
 role: "Trainer"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

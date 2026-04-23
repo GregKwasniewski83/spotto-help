@@ -3,7 +3,6 @@ title: "Sport Categories"
 screen: home
 role: "User"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-21"
 ---
 
@@ -29,6 +28,7 @@ The sport categories section (Popular Activities) is an interactive carousel on 
 | Badminton | 🏸 | Badminton courts |
 | Table tennis | 🏓 | Table tennis tables |
 | Climbing | 🧗 | Climbing walls |
+| Diving | 🤿 | Dive centers and training |
 
 > 💡 **Note**: The category list is dynamic and depends on the venues registered in the Spotto system. New categories appear automatically.
 

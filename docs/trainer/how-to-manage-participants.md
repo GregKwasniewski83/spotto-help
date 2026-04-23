@@ -3,7 +3,6 @@ title: "Jak zarządzać uczestnikami treningu"
 screen: trainer
 role: "Trener"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 prerequisites:
   - "trainer/how-to-create-training"
@@ -34,8 +33,6 @@ Dla każdego uczestnika widzisz:
 - **Imię i nazwisko**
 - **E-mail**
 - **Telefon** (jeśli podany)
-
-![Lista uczestników : Screenshot #47](../../assets/images/trainer/participants-list.png)
 
 ### Krok 3: Kontaktuj się z uczestnikami
 

@@ -3,7 +3,6 @@ title: "FAQ: Business Screen"
 screen: business
 role: "Business Owner"
 difficulty: "Easy"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 

@@ -3,7 +3,6 @@ title: "Wyszukiwarka i filtry produktów"
 screen: shop
 role: "Użytkownik"
 difficulty: "Łatwa"
-status: "🟢"
 lastUpdated: "2026-03-29"
 ---
 
