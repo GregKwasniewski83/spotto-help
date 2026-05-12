@@ -35,7 +35,6 @@ Tap the facility card to open its details page.
 
 On the facility details page, tap the heart icon (♡) in the top-right corner. The icon will change to a filled heart (♥), confirming that the facility has been added to your favourites.
 
-![Adding to favourites](../../assets/images/home/add-to-favorites.png)
 
 > 💡 **Tip**: You can also add a facility to favourites directly from the search results card by tapping the heart icon there.
 

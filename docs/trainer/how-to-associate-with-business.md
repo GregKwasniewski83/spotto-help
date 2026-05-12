@@ -48,7 +48,6 @@ Możesz wysłać prośby do wielu firm jednocześnie:
 1. Zaznacz firmy, z którymi chcesz współpracować
 2. Dotknij **Wyślij prośby**
 
-![Wybór firm : Screenshot #43](../../assets/images/trainer/select-businesses.png)
 
 > 💡 **Wskazówka**: Możesz wysłać prośby do wielu firm naraz. Każda firma niezależnie decyduje o akceptacji.
 

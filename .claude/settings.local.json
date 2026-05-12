@@ -45,7 +45,19 @@
       "Bash(pip3 install:*)",
       "Bash(sudo apt-get:*)",
       "Bash(lsof -t -i:3001)",
-      "Bash(xargs -r kill)"
+      "Bash(xargs -r kill)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(npm run *)",
+      "Bash(echo \"started $!\")",
+      "Bash(grep -nE \"#[0-9a-fA-F]{3,8}|primary-|accent-\" /mnt/c/Users/tadeu/Repo/spotto-help/help-web/src/components/dashboard/CoverageDashboard.tsx)",
+      "Bash(sed -i 's|business/tpay-section.png|business/tpay-form.png|g' docs/business/how-to-setup-tpay.md docs-en/business/how-to-setup-tpay.md)",
+      "Bash(sed -i 's|home/add-to-favorites.png|home/favorites-section.png|g' docs/home/how-to-manage-favorites.md docs-en/home/how-to-manage-favorites.md)",
+      "Bash(sed -i 's|trainer/select-businesses.png|trainer/business-associations-detail.png|g' docs/trainer/how-to-associate-with-business.md docs-en/trainer/how-to-associate-with-business.md)",
+      "Bash(sed -i '/!\\\\[Sekcja TPay : Screenshot #26\\\\]\\(\\\\.\\\\.\\\\/\\\\.\\\\.\\\\/assets\\\\/images\\\\/business\\\\/tpay-form\\\\.png\\)/d' docs/business/how-to-setup-tpay.md)",
+      "Bash(sed -i '/!\\\\[TPay section: Screenshot #26\\\\]\\(\\\\.\\\\.\\\\/\\\\.\\\\.\\\\/assets\\\\/images\\\\/business\\\\/tpay-form\\\\.png\\)/d' docs-en/business/how-to-setup-tpay.md)",
+      "Bash(sed -i '/!\\\\[Dodawanie do ulubionych\\\\]\\(\\\\.\\\\.\\\\/\\\\.\\\\.\\\\/assets\\\\/images\\\\/home\\\\/favorites-section\\\\.png\\)/d' docs/home/how-to-manage-favorites.md)",
+      "Bash(sed -i '/!\\\\[Adding to favourites\\\\]\\(\\\\.\\\\.\\\\/\\\\.\\\\.\\\\/assets\\\\/images\\\\/home\\\\/favorites-section\\\\.png\\)/d' docs-en/home/how-to-manage-favorites.md)",
+      "Bash(sed -i '/!\\\\[Wybór firm : Screenshot #43\\\\]\\(\\\\.\\\\.\\\\/\\\\.\\\\.\\\\/assets\\\\/images\\\\/trainer\\\\/business-associations-detail\\\\.png\\)/d' docs/trainer/how-to-associate-with-business.md)"
     ]
   }
 }

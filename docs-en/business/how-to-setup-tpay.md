@@ -34,7 +34,6 @@ TPay is a payment gateway that enables your customers to pay for reservations an
 
 On the Business screen, tap the profile edit button. Scroll to the **TPay Data** section.
 
-![TPay section: Screenshot #26](../../assets/images/business/tpay-section.png)
 
 ### Step 2: Fill in the Required Data
 
