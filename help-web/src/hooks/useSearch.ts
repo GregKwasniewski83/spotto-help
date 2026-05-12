@@ -5,6 +5,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { searchEngine, SearchResult } from '@/lib/search/searchEngine';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 interface UseSearchOptions {
   debounceMs?: number;
@@ -19,6 +20,7 @@ export function useSearch(options: UseSearchOptions = {}) {
     minQueryLength = 2
   } = options;
 
+  const { lang } = useLanguage();
   const [query, setQuery] = useState('');
   const [debouncedQuery, setDebouncedQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -33,7 +35,7 @@ export function useSearch(options: UseSearchOptions = {}) {
     return () => clearTimeout(timer);
   }, [query, debounceMs]);
 
-  // Perform search when debounced query changes
+  // Perform search when debounced query or language changes
   useEffect(() => {
     if (debouncedQuery.length < minQueryLength) {
       setResults([]);
@@ -43,7 +45,7 @@ export function useSearch(options: UseSearchOptions = {}) {
 
     setIsSearching(true);
     try {
-      const searchResults = searchEngine.search(debouncedQuery, maxResults);
+      const searchResults = searchEngine.search(debouncedQuery, maxResults, lang);
       setResults(searchResults);
     } catch (error) {
       console.error('Search error:', error);
@@ -51,7 +53,7 @@ export function useSearch(options: UseSearchOptions = {}) {
     } finally {
       setIsSearching(false);
     }
-  }, [debouncedQuery, maxResults, minQueryLength]);
+  }, [debouncedQuery, maxResults, minQueryLength, lang]);
 
   const hasResults = results.length > 0;
   const showResults = query.length >= minQueryLength;

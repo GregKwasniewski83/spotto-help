@@ -17,6 +17,7 @@ interface Article {
   title: string;
   screen: string;
   content: string;
+  isIndex: boolean;
   metadata: {
     screen: string;
     role?: string;
@@ -81,7 +82,7 @@ function generateExcerpt(content: string): string {
  * Transform image paths in content
  */
 function transformImagePaths(content: string): string {
-  return content.replace(/\(\.\.\/\.\.\/assets\//g, '(/assets/');
+  return content.replace(/\((?:\.\.\/)+assets\//g, '(/assets/');
 }
 
 /**
@@ -93,17 +94,15 @@ function getScreenFromPath(filePath: string): string {
   return parts[0] || 'common';
 }
 
-async function buildContent() {
-  console.log('🔨 Building content from markdown files...\n');
+async function buildContentForLang(lang: string, docsDir: string, outputFile: string) {
+  const docsPath = path.resolve(__dirname, `../../${docsDir}`);
+  const outputPath = path.resolve(__dirname, `../src/data/${outputFile}`);
 
   try {
-    const docsPath = path.resolve(__dirname, '../../docs');
-    const outputPath = path.resolve(__dirname, '../src/data/content.json');
-
     // Check if docs directory exists
     if (!await fs.pathExists(docsPath)) {
       console.error(`❌ Docs directory not found: ${docsPath}`);
-      console.log('📝 Creating placeholder content.json');
+      console.log(`📝 Creating placeholder ${outputFile}`);
 
       await fs.ensureDir(path.dirname(outputPath));
       await fs.writeJSON(outputPath, {
@@ -124,8 +123,15 @@ async function buildContent() {
     const articles: Article[] = [];
     const screens = new Set<string>();
 
+    // Excluded files (unpublished modules)
+    const excludedFiles = ['home/features/community-wall.md'];
+
     // Process each markdown file
     for (const file of files) {
+      if (excludedFiles.includes(file)) {
+        console.log(`⏭ Skipped (excluded): ${file}`);
+        continue;
+      }
       const filePath = path.join(docsPath, file);
       const fileContent = await fs.readFile(filePath, 'utf-8');
 
@@ -162,16 +168,19 @@ async function buildContent() {
         const excerpt = generateExcerpt(content);
 
         // Build article object
+        const isIndex = /README\.md$/i.test(file);
+
         const article: Article = {
           slug,
           title,
           screen,
           content: transformedContent,
+          isIndex,
           metadata: {
             screen,
             role: data.role,
             difficulty: data.difficulty,
-            status: data.status || '🔴',
+            status: data.status,
             lastUpdated: data.lastUpdated || new Date().toISOString(),
             prerequisites: data.prerequisites || []
           },
@@ -219,16 +228,22 @@ async function buildContent() {
     await fs.writeJSON(outputPath, output, { spaces: 2 });
 
     // Print summary
-    console.log('\n📊 Content Build Summary:');
+    console.log(`\n📊 Content Build Summary (${lang}):`)
     console.log(`   Articles: ${articles.length}`);
     console.log(`   Screens: ${screens.size}`);
     console.log(`   Output: ${outputPath}`);
-    console.log('\n✅ Content build complete!\n');
 
   } catch (error) {
-    console.error('❌ Error building content:', error);
+    console.error(`❌ Error building content (${lang}):`, error);
     process.exit(1);
   }
+}
+
+async function buildContent() {
+  console.log('🔨 Building content from markdown files...\n');
+  await buildContentForLang('pl', 'docs', 'content-pl.json');
+  await buildContentForLang('en', 'docs-en', 'content-en.json');
+  console.log('\n✅ Content build complete!\n');
 }
 
 buildContent();

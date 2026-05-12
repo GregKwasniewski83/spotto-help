@@ -20,7 +20,7 @@ export const router = createBrowserRouter([
         element: <ScreenPage />,
       },
       {
-        path: 'article/:slug',
+        path: 'article/*',
         element: <ArticlePage />,
       },
       {

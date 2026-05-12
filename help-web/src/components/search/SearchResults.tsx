@@ -1,5 +1,7 @@
 import { SearchResult } from '@/lib/search/searchEngine';
 import { FileText, AlertCircle } from 'lucide-react';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName } from '@/lib/i18n/translations';
 
 interface SearchResultsProps {
   results: SearchResult[];
@@ -9,16 +11,6 @@ interface SearchResultsProps {
   onResultClick: (slug: string) => void;
 }
 
-const screenNames: Record<string, string> = {
-  home: 'Home',
-  reservations: 'Rezerwacje',
-  shop: 'Sklep',
-  business: 'Biznes',
-  trainer: 'Trener',
-  profile: 'Profil',
-  troubleshooting: 'Rozwiązywanie problemów'
-};
-
 export default function SearchResults({
   results,
   query,
@@ -26,11 +18,13 @@ export default function SearchResults({
   isSearching,
   onResultClick
 }: SearchResultsProps) {
+  const { lang, t } = useLanguage();
+
   if (isSearching) {
     return (
       <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-96 overflow-y-auto">
         <div className="p-4 text-center text-gray-500">
-          Szukam...
+          {t('search.searching')}
         </div>
       </div>
     );
@@ -42,10 +36,10 @@ export default function SearchResults({
         <div className="p-6 text-center">
           <AlertCircle size={48} className="mx-auto text-gray-300 mb-3" />
           <p className="text-gray-600 mb-2">
-            Brak wyników dla "<span className="font-semibold">{query}</span>"
+            {t('search.noResults')} "<span className="font-semibold">{query}</span>"
           </p>
           <p className="text-sm text-gray-500">
-            Spróbuj użyć innych słów kluczowych lub przejrzyj ekrany aplikacji.
+            {t('search.tryOther')}
           </p>
         </div>
       </div>
@@ -56,13 +50,13 @@ export default function SearchResults({
     <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-96 overflow-y-auto">
       <div className="p-2">
         <div className="px-3 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
-          Znaleziono {results.length} {results.length === 1 ? 'wynik' : 'wyników'}
+          {t('search.found')} {results.length} {results.length === 1 ? t('search.result') : t('search.results')}
         </div>
 
         <ul className="space-y-1">
           {results.map((result, index) => {
             const { item, score } = result;
-            const screenName = screenNames[item.screen] || item.screen;
+            const screenName = getScreenName(item.screen, lang);
             const matchQuality = score ? Math.round((1 - score) * 100) : 100;
 
             return (
@@ -117,24 +111,20 @@ export default function SearchResults({
 
       <div className="border-t border-gray-200 px-4 py-2 text-xs text-gray-500 bg-gray-50">
         <span className="inline-flex items-center gap-1">
-          Wskazówka: Użyj{' '}
+          {t('search.hint')}{' '}
           <kbd className="px-1.5 py-0.5 bg-white border border-gray-200 rounded text-[10px] font-mono">
             ↑
           </kbd>
           <kbd className="px-1.5 py-0.5 bg-white border border-gray-200 rounded text-[10px] font-mono">
             ↓
           </kbd>
-          do nawigacji
+          {t('search.toNavigate')}
         </span>
       </div>
     </div>
   );
 }
 
-/**
- * Simple text highlighting function
- * Highlights matching text segments
- */
 function highlightMatch(text: string, query: string): React.ReactNode {
   if (!query || query.length < 2) {
     return text;
@@ -153,9 +143,6 @@ function highlightMatch(text: string, query: string): React.ReactNode {
   );
 }
 
-/**
- * Escape special regex characters
- */
 function escapeRegExp(string: string): string {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }

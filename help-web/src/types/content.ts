@@ -23,6 +23,7 @@ export interface Article {
   title: string;               // Article title
   screen: string;              // "home"
   content: string;             // Raw markdown content
+  isIndex?: boolean;           // true for README.md (directory index) pages
   metadata: ArticleMetadata;   // Frontmatter data
   headings: Heading[];         // Table of contents
   excerpt?: string;            // First 200 characters (for search/previews)

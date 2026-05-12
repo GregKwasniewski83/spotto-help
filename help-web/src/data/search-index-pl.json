@@ -1,0 +1,853 @@
+{
+  "items": [
+    {
+      "slug": "business",
+      "title": "Ekran Biznes - Pomoc",
+      "screen": "business",
+      "content": "Ekran Biznes (Zarządzanie) Panel zarządzania firmą w Spotto : twórz profil firmy, zarządzaj obiektami, produktami, trenerami i płatnościami. Przegląd ekranu Ekran Biznes to centrum zarządzania Twoją firmą sportową. Znajdziesz tu wszystkie narzędzia potrzebne do prowadzenia działalności: od tworzenia profilu firmy, przez zarządzanie obiektami i harmonogramami, po integrację z systemami płatności i fakturowania. !Przegląd ekranu Biznes : Screenshot #17 Co znajdziesz na ekranie Biznes | Sekcja | Opis | Więcej | |--------|------|--------| | Profil firmy | Dane firmy, avatar, dane kontaktowe | Szczegóły | | Obiekty sportowe | Zarządzanie obiektami i harmonogramami | Szczegóły | | Produkty | Karnety, pakiety wejść, abonamenty | Szczegóły | | Agenci | Zapraszanie i zarządzanie personelem | Szczegóły | | Trenerzy | Powiązania z trenerami, stawki, uprawnienia | Szczegóły | | Firmy podrzędne | Zarządzanie filiami i firmami powiązanymi | Szczegóły | | Integracja TPay | Konfiguracja bramki płatnic",
+      "excerpt": "Panel zarządzania firmą w Spotto : twórz profil firmy, zarządzaj obiektami, produktami, trenerami i płatnościami. Ekran Biznes to centrum zarządzania Twoją firmą sportową. Znajdziesz tu wszystkie narz..."
+    },
+    {
+      "slug": "business/faq",
+      "title": "FAQ : Ekran Biznes",
+      "screen": "business",
+      "content": "Najczęściej zadawane pytania : Ekran Biznes Profil firmy Jak mogę zmienić dane firmy? Otwórz ekran Biznes i dotknij przycisku edycji profilu. Zmień potrzebne dane i dotknij Zapisz. Przewodnik Czy mogę mieć kilka firm w jednym koncie? Tak, ale każda firma wymaga osobnego profilu biznesowego. Jeśli masz filie : skorzystaj z systemu firm podrzędnych. Jak zmienić logo firmy? Na ekranie Biznes dotknij ikony aparatu na avatarze. Możesz zrobić nowe zdjęcie lub wybrać z galerii. --- Obiekty sportowe Ile obiektów mogę dodać? Nie ma limitu : możesz dodać dowolną liczbę obiektów sportowych. Jak zmienić cenę obiektu? Otwórz formularz edycji obiektu, zmień cenę netto lub brutto (system automatycznie przeliczy drugą wartość) i zapisz. Przewodnik Czy mogę tymczasowo zamknąć obiekt? Tak : ustaw harmonogram na konkretną datę bez zaznaczonych godzin. Jak skonfigurować harmonogram --- Płatności i fakturowanie Czy TPay jest wymagany? TPay jest wymagany, aby klienci mogli płacić online za rezerwacje i prod",
+      "excerpt": "Otwórz ekran Biznes i dotknij przycisku edycji profilu. Zmień potrzebne dane i dotknij Zapisz. Przewodnik Tak, ale każda firma wymaga osobnego profilu biznesowego. Jeśli masz filie : skorzystaj z syst...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/features",
+      "title": "Funkcje ekranu Biznes",
+      "screen": "business",
+      "content": "Funkcje ekranu Biznes Ekran Biznes to centrum zarządzania Twoją firmą sportową w Spotto. Poniżej znajdziesz szczegółowe opisy wszystkich dostępnych funkcji : od podstawowej konfiguracji profilu, przez zarządzanie obiektami i personelem, po integracje z systemami płatności i fakturowania. Konfiguracja firmy | Funkcja | Opis | Trudność | |---------|------|----------| | Profil firmy | Dane firmy, avatar, dane kontaktowe, harmonogram | Średnia | | Zarządzanie obiektami | Tworzenie obiektów, ceny, VAT, dostępność, plany | Średnia | | Integracja TPay | Konfiguracja bramki płatniczej dla klientów | Zaawansowana | | Integracja KSeF | Elektroniczne fakturowanie (token lub certyfikat) | Zaawansowana | Oferta i sprzedaż | Funkcja | Opis | Trudność | |---------|------|----------| | Produkty | Tworzenie karnetów, pakietów wejść i abonamentów | Średnia | | Raporty miesięczne | Analiza przychodów, rezerwacji i anulowań | Łatwa | Personel i współpraca | Funkcja | Opis | Trudność | |---------|------|--",
+      "excerpt": "Ekran Biznes to centrum zarządzania Twoją firmą sportową w Spotto. Poniżej znajdziesz szczegółowe opisy wszystkich dostępnych funkcji : od podstawowej konfiguracji profilu, przez zarządzanie obiektami..."
+    },
+    {
+      "slug": "business/features/agent-management",
+      "title": "Zarządzanie agentami",
+      "screen": "business",
+      "content": "Zarządzanie agentami Opis Agenci to osoby z dostępem do zarządzania Twoją firmą w Spotto. Mogą przeglądać rezerwacje, zarządzać obiektami i obsługiwać klientów w Twoim imieniu. System pozwala zapraszać nowych agentów e-mailem, śledzić statusy zaproszeń i w razie potrzeby cofać dostęp. Jak działa system zaproszeń Cały proces dodawania agenta składa się z czterech etapów: 1. Zaproszenie : wpisujesz adres e-mail osoby, którą chcesz zaprosić, i wysyłasz zaproszenie 2. Oczekiwanie : zaproszenie trafia na listę „Oczekujące zaproszenia\". Na podany adres e-mail wysyłana jest wiadomość z linkiem do akceptacji 3. Akceptacja : osoba klika link w e-mailu i staje się agentem Twojej firmy 4. Wygaśnięcie : jeśli zaproszenie nie zostanie zaakceptowane w określonym czasie, wygasa automatycznie !Sekcja agentów : Screenshot #56 > 💡 Wskazówka: Możesz wysłać zaproszenia do wielu osób : każda otrzyma osobny e-mail. Aktywni agenci Po zaakceptowaniu zaproszenia agent pojawia się na liście Aktywni agenci. Dla",
+      "excerpt": "Agenci to osoby z dostępem do zarządzania Twoją firmą w Spotto. Mogą przeglądać rezerwacje, zarządzać obiektami i obsługiwać klientów w Twoim imieniu. System pozwala zapraszać nowych agentów e-mailem,...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/features/business-profile",
+      "title": "Profil firmy",
+      "screen": "business",
+      "content": "Profil firmy Opis Profil firmy to Twoja wizytówka w aplikacji Spotto. Zawiera wszystkie dane potrzebne do prowadzenia działalności: od podstawowych informacji, przez harmonogram, po dane do integracji z systemami płatności. Dane profilu Dane podstawowe | Pole | Opis | |------|------| | NIP | 10-cyfrowy numer identyfikacji podatkowej | | Nazwa firmy | Oficjalna nazwa z rejestru | | Nazwa wyświetlana | Nazwa widoczna dla klientów w aplikacji | | Adres | Ulica, numer, miasto, kod pocztowy | | Współrzędne | Lokalizacja na mapie (szerokość/długość geograficzna) | | E-mail | Kontaktowy adres e-mail | | Telefon | Kontaktowy numer telefonu | Avatar firmy Możesz dodać logo lub zdjęcie firmy. Avatar jest widoczny: - Na karcie firmy w wynikach wyszukiwania - W nagłówku ekranu Biznes - W szczegółach rezerwacji klientów Harmonogram Harmonogram określa godziny otwarcia firmy: - Dni robocze : poniedziałek – piątek - Sobota : osobny grafik - Niedziela : osobny grafik - Konkretne daty : nadpisanie graf",
+      "excerpt": "Profil firmy to Twoja wizytówka w aplikacji Spotto. Zawiera wszystkie dane potrzebne do prowadzenia działalności: od podstawowych informacji, przez harmonogram, po dane do integracji z systemami płatn...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/features/child-businesses",
+      "title": "Firmy podrzędne",
+      "screen": "business",
+      "content": "Firmy podrzędne Opis System firm podrzędnych umożliwia zarządzanie strukturą organizacyjną z firmą nadrzędną (matką) i filiami. Firma podrzędna może korzystać z konfiguracji płatności (TPay) i danych podatkowych (NIP) firmy nadrzędnej, co upraszcza zarządzanie wieloma lokalizacjami. Kiedy używać firm podrzędnych Firmy podrzędne są przydatne, gdy: - Masz wiele lokalizacji (np. sieć siłowni) i chcesz zarządzać nimi centralnie - Chcesz, aby filie korzystały z jednego konta TPay : nie musisz konfigurować płatności osobno dla każdej - Chcesz wystawiać faktury z jednego NIP dla całej organizacji Jak działa powiązanie ` Firma nadrzędna (matka) ├── Firma podrzędna A (filia Kraków) ├── Firma podrzędna B (filia Warszawa) └── Firma podrzędna C (filia Wrocław) ` 1. Firma podrzędna wysyła prośbę o powiązanie do firmy nadrzędnej 2. Firma nadrzędna akceptuje lub odrzuca prośbę 3. Po akceptacji firma nadrzędna konfiguruje uprawnienia dla filii Uprawnienia Firma nadrzędna może nadać firmie podrzędnej d",
+      "excerpt": "System firm podrzędnych umożliwia zarządzanie strukturą organizacyjną z firmą nadrzędną (matką) i filiami. Firma podrzędna może korzystać z konfiguracji płatności (TPay) i danych podatkowych (NIP) fir...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "business/features/facility-management",
+      "title": "Zarządzanie obiektami sportowymi",
+      "screen": "business",
+      "content": "Zarządzanie obiektami sportowymi Opis Obiekty sportowe to miejsca (korty, strzelnice, siłownie itp.), które udostępniasz klientom do rezerwacji. Każdy obiekt ma swoją nazwę, typ, cenę, pojemność i harmonogram dostępności. Dane obiektu | Pole | Opis | |------|------| | Nazwa | Nazwa obiektu (np. „Kort squashowy nr 1\") | | Typ | Rodzaj obiektu z listy predefiniowanych typów | | Opis | Opis widoczny dla klientów | | Adres | Ulica, miasto, kod pocztowy | | Cena netto | Cena za godzinę bez VAT | | Stawka VAT | 0%, 5%, 8%, 23% lub ZW (zwolniony) | | Cena brutto | Obliczana automatycznie (netto + VAT) | | Min. liczba slotów | Minimalna długość rezerwacji | | Maks. użytkowników | Pojemność obiektu | | Cena za osobę | Czy cena jest naliczana za osobę | Cennik i VAT System automatycznie przelicza ceny: - Wpisz cenę netto → brutto oblicza się automatycznie - Wpisz cenę brutto → netto oblicza się automatycznie - Zmiana stawki VAT automatycznie aktualizuje drugą cenę Dostępne stawki VAT: | Stawka |",
+      "excerpt": "Obiekty sportowe to miejsca (korty, strzelnice, siłownie itp.), które udostępniasz klientom do rezerwacji. Każdy obiekt ma swoją nazwę, typ, cenę, pojemność i harmonogram dostępności. | Pole | Opis | ...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/features/ksef-integration",
+      "title": "Integracja KSeF",
+      "screen": "business",
+      "content": "Integracja KSeF Opis KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony przez Ministerstwo Finansów. Integracja pozwala automatycznie wystawiać i przesyłać e-faktury bezpośrednio z aplikacji Spotto. System obsługuje dwie metody autoryzacji: token i certyfikat kwalifikowany. Porównanie metod autoryzacji | Kryterium | Token | Certyfikat | |-----------|-------|------------| | Łatwość konfiguracji | Prosta : skopiuj i wklej | Wymaga pliku .pfx/.p12 i hasła | | Poziom bezpieczeństwa | Standardowy (RSA-OAEP) | Najwyższy (klucz kryptograficzny) | | Czas ważności | Krótki : wymaga odnawiania | Długi : 1-2 lata (do daty wygaśnięcia) | | Koszt | Bezpłatny | Zależy od dostawcy certyfikatu | | Zalecane użycie | Testowanie, szybki start, małe firmy | Produkcja, większe firmy, wyższe wymagania | | Źródło | Strona KSeF Ministerstwa Finansów | Kwalifikowany dostawca usług zaufania | --- Metoda 1: Konfiguracja za pomocą tokenu Token autoryzacyjny to najprostsza metoda połą",
+      "excerpt": "KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony przez Ministerstwo Finansów. Integracja pozwala automatycznie wystawiać i przesyłać e-faktury bezpośrednio z aplikacji ...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "business/features/monthly-reports",
+      "title": "Raporty miesięczne",
+      "screen": "business",
+      "content": "Raporty miesięczne Opis Raporty miesięczne dają Ci pełny obraz wyników finansowych i operacyjnych Twojej firmy za wybrany miesiąc. Możesz analizować przychody, liczbę rezerwacji, anulowania i szczegółowy rozkład na poszczególne obiekty sportowe. Typy raportów Raport podsumowujący Szybki przegląd kluczowych metryk za wybrany miesiąc: | Metryka | Opis | |---------|------| | Łączny przychód | Suma przychodów ze wszystkich obiektów (w PLN) | | Łączna liczba rezerwacji | Ile rezerwacji zrealizowano | | Liczba anulowań | Ile rezerwacji zostało anulowanych | | Rozkład na obiekty | Szczegółowe dane dla każdego obiektu | Raport szczegółowy Zawiera wszystko z podsumowania, plus szczegółowe listy: | Sekcja | Zawartość | |--------|-----------| | Rezerwacje | Lista poszczególnych rezerwacji z datami, uczestnikami i kwotami | | Zakupy produktów | Transakcje zakupu karnetów i pakietów z cenami | | Sesje trenerskie | Lista sesji trenerów z godzinami i stawkami | !Raport miesięczny : Screenshot #60 Roz",
+      "excerpt": "Raporty miesięczne dają Ci pełny obraz wyników finansowych i operacyjnych Twojej firmy za wybrany miesiąc. Możesz analizować przychody, liczbę rezerwacji, anulowania i szczegółowy rozkład na poszczegó...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/features/products",
+      "title": "Produkty (karnety i pakiety)",
+      "screen": "business",
+      "content": "Produkty (karnety i pakiety) Opis Produkty to oferty, które tworzysz dla klientów w Sklepie Spotto. Mogą to być karnety, pakiety wejść lub abonamenty z różnymi cenami, liczbą wejść i okresami ważności. Właściwości produktu | Właściwość | Opis | |------------|------| | Tytuł | Nazwa widoczna w Sklepie | | Podtytuł | Dodatkowy opis (opcjonalny) | | Opis | Szczegółowy opis produktu | | Cena netto/brutto | Z automatycznym przeliczaniem VAT | | Liczba użyć | Ile razy klient może skorzystać | | Okres | Dni, Tygodnie, Miesiące, Lata, Dożywotni | | Liczba okresów | Np. „3\" miesiące | | Aktywny | Czy produkt jest widoczny w Sklepie | Opcje płatności | Opcja | Opis | |-------|------| | Płatny w aplikacji | Klient używa produktu do opłacenia rezerwacji | | Płatny u trenera | Klient używa produktu do opłacenia treningu | Przypisanie do obiektów Produkt może być ważny: - We wszystkich obiektach firmy - W wybranych obiektach : zaznaczasz konkretne lokalizacje Ograniczenie czasowe Opcjonalnie możesz ",
+      "excerpt": "Produkty to oferty, które tworzysz dla klientów w Sklepie Spotto. Mogą to być karnety, pakiety wejść lub abonamenty z różnymi cenami, liczbą wejść i okresami ważności. | Właściwość | Opis | |---------...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/features/tpay-integration",
+      "title": "Integracja TPay",
+      "screen": "business",
+      "content": "Integracja TPay Opis TPay to certyfikowana bramka płatnicza umożliwiająca przyjmowanie płatności online od klientów. Konfiguracja TPay jest wymagana, aby klienci mogli płacić za rezerwacje obiektów sportowych i produkty (karnety, pakiety) w aplikacji Spotto. Dlaczego TPay jest ważny Bez skonfigurowanego TPay: - Klienci nie mogą płacić za rezerwacje w aplikacji - Twoje produkty nie będą dostępne do zakupu w Sklepie - Trenerzy nie mogą pobierać opłat za sesje treningowe Wymagane dane Konfiguracja TPay wymaga podania danych rejestrowych firmy: | Pole | Format | Opis | |------|--------|------| | NIP | 10 cyfr | Numer identyfikacji podatkowej firmy | | E-mail | adres@firma.pl | Kontaktowy e-mail firmy | | Telefon | numer telefonu | Kontaktowy numer telefonu | | REGON | 9 lub 14 cyfr | Numer REGON z rejestru GUS | | KRS | 10 cyfr | Numer Krajowego Rejestru Sądowego | | Forma prawna | z listy rozwijanej | Typ podmiotu prawnego (np. sp. z o.o., S.A., jednoosobowa działalność) | | Kategoria (MC",
+      "excerpt": "TPay to certyfikowana bramka płatnicza umożliwiająca przyjmowanie płatności online od klientów. Konfiguracja TPay jest wymagana, aby klienci mogli płacić za rezerwacje obiektów sportowych i produkty (...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "business/features/trainer-associations",
+      "title": "Powiązania z trenerami",
+      "screen": "business",
+      "content": "Powiązania z trenerami Opis System powiązań z trenerami pozwala zarządzać współpracą z trenerami, którzy prowadzą zajęcia w Twoich obiektach sportowych. Możesz akceptować lub odrzucać prośby trenerów, ustawiać stawki godzinowe, nadawać uprawnienia i kontrolować, co trenerzy mogą robić w Twoich obiektach. Jak działa współpraca 1. Trener wyszukuje Twoją firmę w aplikacji i wysyła prośbę o współpracę 2. Ty otrzymujesz prośbę w sekcji „Trenerzy\" na ekranie Biznes 3. Konfigurujesz stawkę i uprawnienia przed akceptacją 4. Akceptujesz : trener może prowadzić zajęcia w Twoich obiektach Statusy powiązań | Status | Kolor | Opis | |--------|-------|------| | Oczekujące | Żółty/pomarańczowy | Trener wysłał prośbę : czeka na Twoją decyzję | | Potwierdzone | Zielony | Współpraca aktywna : trener prowadzi zajęcia | | Odrzucone | Czerwony | Prośba odrzucona | !Lista powiązań z trenerami : Screenshot #59 Stawki godzinowe Dla każdego trenera ustalasz indywidualną stawkę za godzinę pracy: | Pole | Opis |",
+      "excerpt": "System powiązań z trenerami pozwala zarządzać współpracą z trenerami, którzy prowadzą zajęcia w Twoich obiektach sportowych. Możesz akceptować lub odrzucać prośby trenerów, ustawiać stawki godzinowe, ...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/how-to-add-facility",
+      "title": "Jak dodać obiekt sportowy",
+      "screen": "business",
+      "content": "Jak dodać obiekt sportowy Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Przegląd Obiekty sportowe to miejsca, które oferujesz klientom do rezerwacji : korty, strzelnice, siłownie itp. Każdy obiekt ma swoją nazwę, typ, cenę i harmonogram dostępności. --- Zanim zaczniesz - Musisz mieć utworzony profil firmy --- Kroki Krok 1: Otwórz sekcję „Obiekty\" Na ekranie Biznes znajdź sekcję Obiekty sportowe i dotknij przycisku Dodaj obiekt. !Sekcja obiektów : Screenshot #21 Krok 2: Wypełnij dane obiektu Uzupełnij formularz obiektu: | Pole | Opis | Wymagane | |------|------|----------| | Nazwa | Nazwa obiektu (np. „Kort squashowy nr 1\") | Tak | | Typ | Rodzaj obiektu (z listy rozwijanej) | Tak | | Opis | Opis obiektu dla klientów | Nie | | Adres | Ulica i numer obiektu | Tak | | Miasto | Miasto | Tak | | Kod pocztowy | Kod pocztowy | Tak | !Formularz obiektu : Screenshot #22 Krok 3: Ustaw cenę Skonfiguruj cenę za godzinę: - Cena netto : cena bez VAT - Stawka VAT : wybierz z listy: 0%, 5%, 8",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Obiekty sportowe to miejsca, które oferujesz klientom do rezerwacji : korty, strzelnice, siłownie itp. Każdy obiekt ma swoją nazwę, typ, cenę i h...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/how-to-create-profile",
+      "title": "Jak utworzyć profil firmy",
+      "screen": "business",
+      "content": "Jak utworzyć profil firmy Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Przegląd Profil firmy to Twoja wizytówka w Spotto. Zawiera dane firmy, adres, godziny otwarcia i informacje kontaktowe. Tworzenie profilu to pierwszy krok do przyjmowania rezerwacji od klientów. --- Zanim zaczniesz - Musisz mieć konto w Spotto z aktywną rolą „Biznes\" (możesz ją włączyć w ustawieniach profilu) - Przygotuj dane firmy: NIP, REGON, adres, dane kontaktowe - Jeśli planujesz przyjmować płatności online : przygotuj też dane do konfiguracji TPay --- Kroki Krok 1: Otwórz ekran Biznes Na dolnym pasku nawigacji dotknij ikony Biznes. Jeśli nie masz jeszcze profilu firmy, zobaczysz formularz tworzenia profilu. !Ekran tworzenia profilu firmy : Screenshot #18 Krok 2: Wypełnij dane podstawowe Uzupełnij wymagane pola: | Pole | Opis | Wymagane | |------|------|----------| | NIP | Numer identyfikacji podatkowej firmy | Tak | | Nazwa firmy | Oficjalna nazwa z rejestru | Tak | | Nazwa wyświetlana | Nazwa widocz",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Profil firmy to Twoja wizytówka w Spotto. Zawiera dane firmy, adres, godziny otwarcia i informacje kontaktowe. Tworzenie profilu to pierwszy krok...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/how-to-generate-reports",
+      "title": "Jak generować raporty miesięczne",
+      "screen": "business",
+      "content": "Jak generować raporty miesięczne Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Przegląd Raporty miesięczne dają Ci pełny obraz działalności firmy : przychody, liczba rezerwacji, anulowania i szczegółowy rozkład na obiekty. Możesz generować raporty podsumowujące i szczegółowe. --- Kroki Krok 1: Otwórz raporty Na ekranie Biznes dotknij przycisku Raporty miesięczne. Krok 2: Wybierz okres Wybierz miesiąc i rok, za który chcesz wygenerować raport. !Wybór okresu raportu : Screenshot #35 Krok 3: Wybierz typ raportu | Typ raportu | Zawartość | |-------------|-----------| | Podsumowanie | Łączne przychody, rezerwacje, anulowania, rozkład na obiekty | | Szczegółowy | Wszystko z podsumowania + lista rezerwacji, zakupów produktów, sesji trenerskich | Krok 4: Przejrzyj raport Raport zawiera: Podsumowanie: - Łączny przychód (PLN) - Łączna liczba rezerwacji - Liczba anulowań - Rozkład przychodów na obiekty (nazwa obiektu, przychód, rezerwacje, anulowania) Raport szczegółowy (dodatkowo): - List",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Raporty miesięczne dają Ci pełny obraz działalności firmy : przychody, liczba rezerwacji, anulowania i szczegółowy rozkład na obiekty. Możesz gener...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/how-to-manage-agents",
+      "title": "Jak zarządzać agentami",
+      "screen": "business",
+      "content": "Jak zarządzać agentami Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Przegląd Agenci to osoby, które pomagają Ci zarządzać firmą w Spotto. Możesz zaprosić pracowników, nadać im dostęp do panelu zarządzania i w razie potrzeby usunąć ich z zespołu. --- Zapraszanie agenta Krok 1: Otwórz sekcję „Agenci\" Na ekranie Biznes znajdź sekcję Agenci i dotknij Zaproś agenta. Krok 2: Podaj adres e-mail Wpisz adres e-mail osoby, którą chcesz zaprosić. System wyśle zaproszenie na podany adres. !Zapraszanie agenta : Screenshot #30 Krok 3: Oczekuj na akceptację Zaproszenie pojawi się na liście Oczekujące zaproszenia z informacją: - Adres e-mail zaproszonej osoby - Data zaproszenia - Kto zaprosił - Status ważności (zaproszenia wygasają po określonym czasie) > 💡 Wskazówka: Jeśli zaproszenie wygasło, możesz je ponownie wysłać przyciskiem Wyślij ponownie. --- Zarządzanie aktywnymi agentami Na liście Aktywni agenci widzisz: - Imię i nazwisko agenta - Adres e-mail - Data przypisania - Kto przypisał ag",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Agenci to osoby, które pomagają Ci zarządzać firmą w Spotto. Możesz zaprosić pracowników, nadać im dostęp do panelu zarządzania i w razie potrzeby ...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/how-to-manage-child-businesses",
+      "title": "Jak zarządzać firmami podrzędnymi",
+      "screen": "business",
+      "content": "Jak zarządzać firmami podrzędnymi Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana Przegląd System firm podrzędnych pozwala firmom-matkom zarządzać filiami i powiązanymi firmami. Firma podrzędna może korzystać z konfiguracji TPay i NIP firmy nadrzędnej. --- Zarządzanie z poziomu firmy nadrzędnej Przeglądanie firm podrzędnych W sekcji Firmy podrzędne na ekranie Biznes zobaczysz: - Oczekujące : nowe prośby o powiązanie - Potwierdzone : aktywne firmy podrzędne Każda firma podrzędna wyświetla: avatar, nazwę, miasto i e-mail. !Lista firm podrzędnych : Screenshot #37 Akceptacja firmy podrzędnej 1. Znajdź oczekującą prośbę 2. Skonfiguruj uprawnienia: | Uprawnienie | Opis | |-------------|------| | Używaj TPay rodzica | Firma podrzędna korzysta z bramki płatniczej firmy nadrzędnej | | Używaj NIP rodzica do faktur | Faktury wystawiane na NIP firmy nadrzędnej | 3. Dotknij Zaakceptuj lub Odrzuć Zmiana uprawnień Dla potwierdzonych firm podrzędnych możesz w dowolnym momencie zmienić upra",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana System firm podrzędnych pozwala firmom-matkom zarządzać filiami i powiązanymi firmami. Firma podrzędna może korzystać z konfiguracji TPay i ...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "business/how-to-manage-products",
+      "title": "Jak zarządzać produktami",
+      "screen": "business",
+      "content": "Jak zarządzać produktami Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Przegląd Produkty to karnety, pakiety wejść i abonamenty, które oferujesz klientom w Sklepie Spotto. Możesz tworzyć produkty z różnymi cenami, liczbą wejść i okresami ważności. --- Tworzenie produktu Krok 1: Otwórz sekcję „Produkty\" Na ekranie Biznes znajdź sekcję Produkty i dotknij Dodaj produkt. Krok 2: Wypełnij dane produktu | Pole | Opis | Wymagane | |------|------|----------| | Tytuł | Nazwa produktu (np. „Karnet miesięczny\") | Tak | | Podtytuł | Dodatkowy opis | Nie | | Opis | Szczegółowy opis produktu | Tak | | Cena netto | Cena bez VAT (w PLN) | Tak | | Stawka VAT | 0%, 5%, 8%, 23% lub ZW | Tak | | Cena brutto | Oblicza się automatycznie | : | | Liczba użyć | Ile razy klient może skorzystać | Tak | | Okres | Dni, Tygodnie, Miesiące, Lata lub Dożywotni | Tak | | Liczba okresów | Np. „3\" miesiące | Tak | !Formularz produktu : Screenshot #34 Krok 3: Ustaw opcje płatności | Opcja | Opis | |-------|-----",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Produkty to karnety, pakiety wejść i abonamenty, które oferujesz klientom w Sklepie Spotto. Możesz tworzyć produkty z różnymi cenami, liczbą wejś...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/how-to-manage-schedule",
+      "title": "Jak skonfigurować harmonogram",
+      "screen": "business",
+      "content": "Jak skonfigurować harmonogram Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Przegląd Harmonogram określa, w jakich godzinach Twoje obiekty są dostępne do rezerwacji. Możesz ustawić ogólny grafik tygodniowy oraz nadpisać go dla konkretnych dat (np. święta, wydarzenia specjalne). --- Kroki Krok 1: Otwórz harmonogram Na ekranie Biznes przejdź do edycji profilu firmy lub obiektu, a następnie znajdź sekcję Harmonogram. Krok 2: Ustaw harmonogram tygodniowy Skonfiguruj godziny otwarcia dla trzech typów dni: | Typ dnia | Opis | |----------|------| | Dni robocze | Poniedziałek – Piątek | | Sobota | Sobota | | Niedziela | Niedziela | Dla każdego typu dnia zaznacz godziny (sloty od 00:00 do 23:00), w których obiekt jest dostępny. !Harmonogram tygodniowy : Screenshot #24 > 💡 Wskazówka: Zaznaczona godzina = obiekt dostępny. Odznaczona = zamknięte. Krok 3: (Opcjonalnie) Dodaj dostępność na konkretną datę Aby nadpisać harmonogram tygodniowy na konkretną datę: 1. Wybierz tryb Harmonogram na ko",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Łatwa Harmonogram określa, w jakich godzinach Twoje obiekty są dostępne do rezerwacji. Możesz ustawić ogólny grafik tygodniowy oraz nadpisać go dla konkr...",
+      "role": "Właściciel firmy",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "business/how-to-manage-trainers",
+      "title": "Jak zarządzać trenerami",
+      "screen": "business",
+      "content": "Jak zarządzać trenerami Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Przegląd Trenerzy mogą prowadzić zajęcia w Twoich obiektach sportowych. Gdy trener wyśle prośbę o współpracę, zobaczysz ją na ekranie Biznes. Możesz ją zaakceptować, ustawić stawkę godzinową i nadać uprawnienia. --- Akceptacja trenera Krok 1: Sprawdź oczekujące prośby Na ekranie Biznes w sekcji Trenerzy zobaczysz listę powiązań ze statusami: - Oczekujące (żółty) : nowe prośby do rozpatrzenia - Potwierdzone (zielony) : zaakceptowani trenerzy !Lista trenerów : Screenshot #31 Krok 2: Ustaw stawkę godzinową Przed akceptacją lub po niej dotknij trenera, aby otworzyć panel stawek: - Stawka netto : cena za godzinę bez VAT - Stawka VAT : wybierz: 0%, 8% lub 23% - Stawka brutto : oblicza się automatycznie !Ustawianie stawki trenera : Screenshot #32 > 💡 Wskazówka: Możesz też wpisać stawkę brutto : netto obliczy się automatycznie. Krok 3: Ustaw uprawnienia Skonfiguruj, co trener może robić w Twoim obiekcie: | Uprawnie",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Średnia Trenerzy mogą prowadzić zajęcia w Twoich obiektach sportowych. Gdy trener wyśle prośbę o współpracę, zobaczysz ją na ekranie Biznes. Możesz ją za...",
+      "role": "Właściciel firmy",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "business/how-to-setup-ksef",
+      "title": "Jak skonfigurować KSeF",
+      "screen": "business",
+      "content": "Jak skonfigurować KSeF Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana Przegląd KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony przez Ministerstwo Finansów. Integracja z KSeF umożliwia automatyczne wystawianie i przesyłanie e-faktur. Spotto obsługuje dwie metody autoryzacji w KSeF: - Token autoryzacyjny : szybka konfiguracja, idealna na start - Certyfikat kwalifikowany : wyższy poziom bezpieczeństwa, zalecany do użytku produkcyjnego --- Zanim zaczniesz - Musisz mieć utworzony profil firmy - Wybierz metodę autoryzacji i przygotuj odpowiednie dane (patrz tabela poniżej) - Zdecyduj, czy chcesz najpierw przetestować połączenie w środowisku testowym | Metoda | Co potrzebujesz | Gdzie uzyskać | |--------|----------------|---------------| | Token | Token autoryzacyjny (min. 20 znaków) | Strona KSeF Ministerstwa Finansów | | Certyfikat | Plik certyfikatu (.pfx lub .p12) + hasło | Kwalifikowany dostawca usług zaufania | > ⚠️ Ważne: KSeF nie jest dost",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana KSeF (Krajowy System e-Faktur) to system elektronicznego fakturowania prowadzony przez Ministerstwo Finansów. Integracja z KSeF umożliwia au...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "business/how-to-setup-tpay",
+      "title": "Jak skonfigurować TPay",
+      "screen": "business",
+      "content": "Jak skonfigurować TPay Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana Przegląd TPay to bramka płatnicza, która umożliwia Twoim klientom płacenie za rezerwacje i produkty online. Konfiguracja TPay wymaga podania danych rejestrowych firmy. --- Zanim zaczniesz - Musisz mieć utworzony profil firmy - Przygotuj dane: NIP, REGON, KRS, adres strony internetowej - Dane osoby kontaktowej (imię, nazwisko) --- Kroki Krok 1: Otwórz edycję profilu firmy Na ekranie Biznes dotknij przycisku edycji profilu. Przewiń do sekcji Dane TPay. !Sekcja TPay : Screenshot #26 Krok 2: Wypełnij wymagane dane | Pole | Opis | Wymagane | |------|------|----------| | NIP | Numer identyfikacji podatkowej | Tak | | E-mail | E-mail firmowy | Tak | | Telefon | Numer kontaktowy | Tak | | REGON | Numer REGON (9 lub 14 cyfr) | Tak | | KRS | Numer KRS (10 cyfr) | Tak | | Forma prawna | Wybierz z listy rozwijanej | Tak | | Kategoria (MCC) | Kod kategorii działalności | Tak | | Strona internetowa | Adres URL (http:/",
+      "excerpt": "Ekran: Biznes Rola: Właściciel firmy Trudność: Zaawansowana TPay to bramka płatnicza, która umożliwia Twoim klientom płacenie za rezerwacje i produkty online. Konfiguracja TPay wymaga podania danych r...",
+      "role": "Właściciel firmy",
+      "difficulty": "Zaawansowana"
+    },
+    {
+      "slug": "home",
+      "title": "Ekran Home - Pomoc",
+      "screen": "home",
+      "content": "Ekran Home (Start) Ekran główny aplikacji Spotto : Twoje centrum wyszukiwania i rezerwacji obiektów sportowych. Przegląd ekranu Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia potrzebne do znalezienia i zarezerwowania idealnego obiektu sportowego. !Przegląd ekranu Home Co znajdziesz na ekranie Home | Sekcja | Opis | Więcej | |--------|------|--------| | Wyszukiwarka | Szukaj obiektów po mieście, dacie i typie | Szczegóły | | Kategorie sportów | Przeglądaj obiekty wg dyscypliny sportowej | Szczegóły | | Ulubione obiekty | Szybki dostęp do zapisanych obiektów | Szczegóły | | Mapa okolicy | Obiekty sportowe w Twojej okolicy | Szczegóły | | Nadchodzące rezerwacje | Podgląd najbliższych rezerwacji | Rezerwacje | | Oczekujące płatności | Powiadomienia o nieukończonych płatnościach | Jak zarezerwować | | Tablica społeczności | Posty i aktywność innych użytkowników | Szczegóły | --- Przewodniki krok po kroku Wyszukiwanie i rezerwacja - ",
+      "excerpt": "Ekran główny aplikacji Spotto : Twoje centrum wyszukiwania i rezerwacji obiektów sportowych. Ekran Home to pierwsza strona, którą widzisz po uruchomieniu aplikacji. Znajdziesz tu wszystkie narzędzia p..."
+    },
+    {
+      "slug": "home/faq",
+      "title": "FAQ : Ekran Home",
+      "screen": "home",
+      "content": "Najczęściej zadawane pytania : Ekran Home Wyszukiwanie obiektów Jak mogę znaleźć obiekt sportowy w mojej okolicy? Masz dwa sposoby: 1. Wyszukiwarka : wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. Przewodnik krok po kroku 2. Mapa : otwórz widok mapy, który automatycznie pokaże obiekty w pobliżu Twojej lokalizacji. Jak korzystać z mapy Czy mogę szukać obiektów w innym mieście? Tak. Wpisz dowolne miasto w polu wyszukiwania : aplikacja nie ogranicza wyników do Twojej lokalizacji. Dlaczego wyszukiwarka nie pokazuje żadnych wyników? !Ekran braku wyników wyszukiwania Najczęstsze przyczyny: - Nazwa miasta wpisana z błędem : sprawdź pisownię - Brak obiektów zarejestrowanych w Spotto w danym mieście - Wybrany zbyt wąski filtr typu obiektu : usuń filtr i spróbuj ponownie - Brak połączenia z internetem --- Kategorie sportów Jakie kategorie sportów są dostępne? Dostępne kategorie obejmują m.in.: Strzelectwo, Squash, Siłownia, Tenis, Padel, Piłka nożna, Basen, Badminto",
+      "excerpt": "Masz dwa sposoby: 1. Wyszukiwarka : wpisz nazwę miasta w pasku wyszukiwania na górze ekranu Home i wybierz datę. Przewodnik krok po kroku 2. Mapa : otwórz widok mapy, który automatycznie pokaże obiekt...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features",
+      "title": "Funkcje ekranu Home",
+      "screen": "home",
+      "content": "Funkcje ekranu Home Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto. Dostępne opisy - Wyszukiwarka : filtry, wyniki, podpowiedzi lokalizacji - Kategorie sportowe : karuzela dyscyplin, lista kategorii - System ulubionych : zapisywanie obiektów, szybki dostęp - Widok mapy : obiekty w pobliżu, markery, nawigacja - Tablica społeczności : posty użytkowników, interakcje Zobacz też - Przewodniki krok po kroku : jak korzystać z poszczególnych funkcji - FAQ : najczęstsze pytania - Troubleshooting : rozwiązywanie problemów --- Ostatnia aktualizacja: 2026-03-21",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie głównym aplikacji Spotto. - Wyszukiwarka : filtry, wyniki, podpowiedzi lokalizacji - Kategorie sportowe : karuzela dyscyplin, lista kategorii..."
+    },
+    {
+      "slug": "home/features/categories",
+      "title": "Kategorie sportowe",
+      "screen": "home",
+      "content": "Kategorie sportowe Opis Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. Dostępne kategorie !Karuzela kategorii sportowych na ekranie Home | Kategoria | Ikona | Opis | |-----------|-------|------| | Strzelectwo | 🎯 | Strzelnice sportowe i rekreacyjne | | Squash | 🏸 | Korty squashowe | | Siłownia | 💪 | Sale siłowe i fitness | | Tenis | 🎾 | Korty tenisowe (hala i outdoor) | | Padel | 🏓 | Korty do padla | | Piłka nożna | ⚽ | Boiska (orliki, halowe, pełnowymiarowe) | | Basen | 🏊 | Pływalnie i aquaparki | | Badminton | 🏸 | Korty do badmintona | | Tenis stołowy | 🏓 | Stoły do tenisa stołowego | | Wspinaczka | 🧗 | Ścianki wspinaczkowe | > 💡 Uwaga: Lista kategorii jest dynamiczna i zależy od obiektów zarejestrowanych w systemie Spotto. Nowe kategorie pojawiają się automatycznie. Jak działa karuzela - Przewijanie : przesuń palcem w lewo/prawo, aby zobaczyć więcej kategorii ",
+      "excerpt": "Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. !Karuzela kategorii sportowych na ekra...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/community-wall",
+      "title": "Tablica społeczności",
+      "screen": "home",
+      "content": "Tablica społeczności Opis Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie sportu w Twojej okolicy. Co znajdziesz na tablicy !Feed tablicy społeczności z postami - Posty użytkowników : informacje o wydarzeniach, treningach i aktywnościach - Aktywność społeczności : co inni użytkownicy rezerwują i polecają - Ogłoszenia : ważne informacje od obiektów sportowych Interakcje Z tablicy społeczności możesz: - Przeglądać posty : przewiń w dół, aby zobaczyć więcej treści - Reagować : polub lub skomentuj post - Udostępniać : podziel się interesującym postem - Tworzyć posty : dotknij przycisku tworzenia nowego posta Tworzenie posta 1. Dotknij przycisku Nowy post na tablicy społeczności 2. Wpisz treść posta 3. Opcjonalnie dodaj zdjęcie lub lokalizację 4. Dotknij Opublikuj !Tworzenie nowego posta na tablicy społeczności > 💡 Wskazówka: Posty są widoc",
+      "excerpt": "Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/favorites",
+      "title": "System ulubionych",
+      "screen": "home",
+      "content": "System ulubionych Opis System ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji Ulubione na ekranie Home. Jak dodać do ulubionych Obiekt możesz dodać do ulubionych na dwa sposoby: 1. Z wyników wyszukiwania : dotknij ikony serca (♡) na karcie obiektu 2. Ze strony szczegółów : dotknij ikony serca w prawym górnym rogu Po dodaniu ikona zmienia się na wypełnione serce (♥). Sekcja ulubionych na ekranie Home Sekcja wyświetla się na ekranie Home po dodaniu przynajmniej jednego obiektu. Zawiera: - Karty obiektów : minikarty z nazwą, adresem i oceną - Przycisk Rezerwuj : szybka rezerwacja bez wchodzenia w szczegóły - Przewijanie : jeśli masz wiele ulubionych, przewiń listę w bok Zarządzanie ulubionymi - Usuwanie : dotknij wypełnionej ikony serca (♥), aby usunąć obiekt z ulubionych - Kolejność : obiekty wyświetlają się w kolejności dodania (najnowsze na początku) - Synchronizacja : ulubione są przypisane do konta i s",
+      "excerpt": "System ulubionych pozwala zapisywać obiekty sportowe, do których regularnie wracasz. Zapisane obiekty wyświetlają się jako karty w sekcji Ulubione na ekranie Home. Obiekt możesz dodać do ulubionych na...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/map-view",
+      "title": "Widok mapy",
+      "screen": "home",
+      "content": "Widok mapy Opis Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami. Elementy mapy | Element | Opis | |---------|------| | Niebieska kropka | Twoja aktualna lokalizacja | | Kolorowe markery | Obiekty sportowe (pinezki na mapie) | | Przycisk celownika | Centrowanie mapy na Twojej pozycji | | Przyciski +/- | Przybliżanie i oddalanie mapy | | Okienko informacyjne | Pojawia się po dotknięciu markera | Gesty nawigacji - Przesuwanie : przeciągnij palcem po mapie - Przybliżanie : szczypnij dwoma palcami (pinch-to-zoom) lub dotknij + - Oddalanie : rozsuń dwa palce lub dotknij - - Podwójne dotknięcie : szybkie przybliżenie Interakcja z markerami Po dotknięciu markera pojawia się okienko z: - Nazwą obiektu - Adresem - Odległością od Twojej lokalizacji - Oceną użytkowników - Przyciskami: Szczegóły i Rezerwuj Uprawnienia lokalizacji Mapa wymaga dostępu do lokaliz",
+      "excerpt": "Widok mapy to interaktywna sekcja na ekranie Home, która wyświetla obiekty sportowe w Twojej okolicy. Mapa wykorzystuje lokalizację GPS, aby pokazać najbliższe miejsca na mapie z markerami. | Element ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/features/search",
+      "title": "Wyszukiwarka obiektów",
+      "screen": "home",
+      "content": "Wyszukiwarka obiektów Opis Wyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu. Dostępne filtry | Filtr | Opis | Wymagany | |-------|------|----------| | Miasto/lokalizacja | Nazwa miasta lub adres | Tak | | Data | Dzień rezerwacji (domyślnie: dziś) | Nie | | Typ obiektu | Rodzaj obiektu (kort, strzelnica, siłownia...) | Nie | Jak działa wyszukiwarka 1. Autouzupełnianie : wpisując nazwę miasta, zobaczysz podpowiedzi. Dotknij podpowiedzi, aby ją wybrać. 2. Wyszukiwanie : po wypełnieniu filtrów dotknij przycisku szukaj lub potwierdź klawiszem. 3. Wyniki : lista obiektów posortowanych wg trafności i odległości. Karta wyniku Każdy wynik wyszukiwania wyświetla się jako karta z informacjami: - Nazwa obiektu : oficjalna nazwa miejsca - Adres : ulica, numer, miasto - Typ : rodzaj obiektu (np. „Kort squashowy\") - Dostępność : wolne terminy na wybrany dzień - Cena : orientacyjna cena za godzin",
+      "excerpt": "Wyszukiwarka to główne narzędzie ekranu Home. Znajduje się na górze ekranu i pozwala znaleźć obiekty sportowe na podstawie lokalizacji, daty i typu obiektu. | Filtr | Opis | Wymagany | |-------|------...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-book-facility",
+      "title": "Jak zarezerwować obiekt sportowy",
+      "screen": "home",
+      "content": "Jak zarezerwować obiekt sportowy Ekran: Home (Start) Rola: Użytkownik Trudność: Średnia Przegląd Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z widoku mapy. Ten przewodnik opisuje pełny proces rezerwacji krok po kroku. --- Zanim zaczniesz - Musisz mieć konto w aplikacji Spotto i być zalogowany/a - Potrzebujesz ważnej metody płatności (karta lub TPay) --- Kroki Krok 1: Znajdź obiekt Użyj jednej z metod, aby znaleźć obiekt: - Wyszukiwarka : wpisz miasto i datę - Kategorie : wybierz dyscyplinę sportową - Ulubione : wybierz z zapisanych obiektów - Mapa : znajdź na mapie Krok 2: Dotknij przycisku „Rezerwuj\" Na karcie obiektu (w wynikach wyszukiwania lub w szczegółach) dotknij przycisku Rezerwuj. !Przycisk rezerwacji > 💡 Wskazówka: Możesz też użyć funkcji Szybka rezerwacja (QuickBook), która pozwala zarezerwować wolny termin jednym dotknięciem bezpośrednio z wyników wyszukiwania. Krok 3: Wybierz",
+      "excerpt": "Ekran: Home (Start) Rola: Użytkownik Trudność: Średnia Z ekranu Home możesz zarezerwować obiekt sportowy na kilka sposobów: bezpośrednio z wyników wyszukiwania, z listy kategorii, z ulubionych lub z w...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "home/how-to-browse-categories",
+      "title": "Jak przeglądać kategorie sportów",
+      "screen": "home",
+      "content": "Jak przeglądać kategorie sportów Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Przegląd Na ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesującą Cię dyscyplinę i zobaczyć wszystkie dostępne obiekty. --- Kroki Krok 1: Znajdź sekcję kategorii Przewiń ekran Home w dół, aż zobaczysz sekcję Popularne aktywności. Wyświetla się jako pozioma karuzela z ikonami sportów. !Karuzela kategorii Krok 2: Przeglądaj dostępne kategorie Przesuń palcem w lewo lub prawo po karuzeli, aby zobaczyć wszystkie dostępne kategorie. Przykładowe kategorie: | Kategoria | Opis | |-----------|------| | Strzelectwo | Strzelnice sportowe i rekreacyjne | | Squash | Korty squashowe | | Siłownia | Sale siłowe i fitness | | Tenis | Korty tenisowe | | Padel | Korty do padla | | Piłka nożna | Boiska piłkarskie (orlik, hala) | | Basen | Pływalnie i baseny | | Badminton | Korty do badmintona | > 💡 Wskazówka: Lista kategorii moż",
+      "excerpt": "Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Na ekranie Home znajdziesz karuzelę z popularnymi kategoriami sportowymi. Zamiast wpisywać zapytanie w wyszukiwarkę, możesz szybko wybrać interesuj...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-manage-favorites",
+      "title": "Jak zarządzać ulubionymi obiektami",
+      "screen": "home",
+      "content": "Jak zarządzać ulubionymi obiektami Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Przegląd System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego miejsca : masz je zawsze pod ręką na ekranie Home. --- Kroki Dodawanie obiektu do ulubionych Krok 1: Znajdź obiekt Wyszukaj obiekt sportowy za pomocą wyszukiwarki lub kategorii. Krok 2: Otwórz szczegóły obiektu Dotknij karty obiektu, aby otworzyć jego stronę szczegółów. Krok 3: Dodaj do ulubionych Na stronie szczegółów obiektu dotknij ikony serca (♡) w prawym górnym rogu. Ikona zmieni się na wypełnione serce (♥), potwierdzając dodanie do ulubionych. !Dodawanie do ulubionych > 💡 Wskazówka: Możesz też dodać obiekt do ulubionych bezpośrednio z karty wyników wyszukiwania, dotykając ikony serca. --- Przeglądanie ulubionych na ekranie Home Na ekranie Home znajdziesz sekcję Ulubione, która wyświetla Twoje zapisane obiekty jako karty szybkiego dostępu. !Se",
+      "excerpt": "Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa System ulubionych pozwala zapisywać obiekty sportowe, do których wracasz najczęściej. Dzięki temu nie musisz za każdym razem szukać tego samego mie...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-search-facilities",
+      "title": "Jak wyszukać obiekt sportowy",
+      "screen": "home",
+      "content": "Jak wyszukać obiekt sportowy Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Przegląd Wyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie obiektu (np. kort squashowy, strzelnica, siłownia). --- Kroki Krok 1: Otwórz wyszukiwarkę Na górze ekranu Home zobaczysz pasek wyszukiwania. Dotknij go, aby rozwinąć formularz wyszukiwania. !Pasek wyszukiwania Krok 2: Wpisz miasto lub lokalizację Wpisz nazwę miasta, w którym szukasz obiektu (np. „Warszawa\", „Kraków\", „Gdańsk\"). !Wpisywanie miasta > 💡 Wskazówka: Aplikacja podpowiada nazwy miast w trakcie wpisywania : wystarczy wybrać z listy. Krok 3: Wybierz datę Dotknij pola z datą, aby wybrać dzień, w którym chcesz zarezerwować obiekt. Domyślnie ustawiony jest dzisiejszy dzień. !Wybór daty Krok 4: Wybierz typ obiektu (opcjonalnie) Jeśli szukasz konkretnego typu obiektu, wybierz go z listy rozwijanej: - Kort squashowy - Strzelnica - Siłownia - Sala fitn",
+      "excerpt": "Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Wyszukiwarka na ekranie Home pozwala szybko znaleźć obiekt sportowy w dowolnym mieście. Możesz filtrować wyniki po lokalizacji, dacie oraz typie ob...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/how-to-use-map",
+      "title": "Jak korzystać z widoku mapy",
+      "screen": "home",
+      "content": "Jak korzystać z widoku mapy Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Przegląd Widok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy obiekt i zarezerwować go. --- Zanim zaczniesz - Upewnij się, że aplikacja ma dostęp do lokalizacji (GPS) - Sprawdź, czy lokalizacja jest włączona w ustawieniach telefonu --- Kroki Krok 1: Otwórz widok mapy Na ekranie Home znajdź sekcję Obiekty w pobliżu z mapą. Dotknij mapy, aby ją rozwinąć na pełny ekran. !Sekcja mapy Krok 2: Zezwól na dostęp do lokalizacji Przy pierwszym użyciu mapy aplikacja poprosi o dostęp do Twojej lokalizacji. Dotknij Zezwól, aby zobaczyć obiekty w pobliżu. !Uprawnienia lokalizacji > ⚠️ Ważne: Bez dostępu do lokalizacji mapa nie będzie mogła pokazać obiektów w Twojej okolicy. Możesz nadal przeglądać mapę ręcznie. Krok 3: Przeglądaj markery na mapie Na mapie zobaczysz kolorowe markery (pinezki) oznaczające obiekty sportowe. Każdy ",
+      "excerpt": "Ekran: Home (Start) Rola: Użytkownik Trudność: Łatwa Widok mapy na ekranie Home pozwala zobaczyć obiekty sportowe w Twojej okolicy na interaktywnej mapie. To najszybszy sposób, aby znaleźć najbliższy ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "home/troubleshooting",
+      "title": "Rozwiązywanie problemów : Ekran Home",
+      "screen": "home",
+      "content": "Rozwiązywanie problemów : Ekran Home Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto. --- Wyszukiwanie Brak wyników wyszukiwania Problem: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów. !Pusty ekran wyników wyszukiwania Przyczyny: - Błąd w nazwie miasta - Brak obiektów Spotto w wybranym mieście - Zbyt restrykcyjne filtry - Brak połączenia z internetem Rozwiązanie: 1. Sprawdź pisownię nazwy miasta : skorzystaj z autouzupełniania 2. Usuń filtr typu obiektu i szukaj ponownie 3. Zmień datę na dzisiejszą, aby sprawdzić ogólną dostępność 4. Sprawdź połączenie z internetem (ikona Wi-Fi/danych mobilnych) 5. Zamknij i otwórz ponownie aplikację --- Wyszukiwarka nie reaguje na dotyk Problem: Pasek wyszukiwania nie rozwija się po dotknięciu. Przyczyny: - Aplikacja się zawiesiła - Problem z pamięcią urządzenia Rozwiązanie: 1. Zamknij aplikację i otwórz ją ponownie 2. Uruchom ponownie telefon 3. Upewnij się, że masz najnowszą ",
+      "excerpt": "Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z ekranem Home w aplikacji Spotto. --- Problem: Po wpisaniu miasta i daty wyszukiwarka nie pokazuje żadnych obiektów. !Pusty ekran wyn...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "profile",
+      "title": "Ekran Profil - Pomoc",
+      "screen": "profile",
+      "content": "Ekran Profil i Ustawienia Twoje konto w Spotto : zarządzaj danymi osobowymi, rolami, prywatnością i ustawieniami aplikacji. Przegląd ekranu Ekran Profil to centrum zarządzania Twoim kontem. Znajdziesz tu swoje dane osobowe, typy profilu (Użytkownik, Biznes, Trener), avatar oraz dostęp do ustawień prywatności i aplikacji. !Przegląd ekranu Profil : Screenshot #49 Co znajdziesz na ekranie Profil | Sekcja | Opis | Więcej | |--------|------|--------| | Dane osobowe | Imię, nazwisko, data urodzenia, telefon | Szczegóły | | Avatar | Twoje zdjęcie profilowe | Szczegóły | | Zainteresowania | Twoje ulubione aktywności sportowe | Szczegóły | | Typy profilu | Role: Użytkownik, Biznes, Trener | Szczegóły | | Lokalizacja | Twoja aktualna lokalizacja | Szczegóły | Co znajdziesz w Ustawieniach | Sekcja | Opis | Więcej | |--------|------|--------| | Język | Polski / Angielski | Szczegóły | | Prywatność i bezpieczeństwo | Ustawienia prywatności, polityka prywatności | Szczegóły | | Pomoc i wsparcie | Ko",
+      "excerpt": "Twoje konto w Spotto : zarządzaj danymi osobowymi, rolami, prywatnością i ustawieniami aplikacji. Ekran Profil to centrum zarządzania Twoim kontem. Znajdziesz tu swoje dane osobowe, typy profilu (Użyt..."
+    },
+    {
+      "slug": "profile/faq",
+      "title": "FAQ : Ekran Profil",
+      "screen": "profile",
+      "content": "Najczęściej zadawane pytania : Ekran Profil i Ustawienia Konto Jak mogę zmienić swoje dane? Otwórz ekran Profil i dotknij Edytuj. Możesz zmienić imię, nazwisko, telefon, datę urodzenia i zainteresowania. Przewodnik Jak zmienić hasło? Obecnie zmiana hasła odbywa się przez funkcję „Zapomniałem hasła\" na ekranie logowania. Więcej: Problemy z logowaniem Czy mogę usunąć swoje konto? Funkcja usuwania konta jest w przygotowaniu. W razie potrzeby skontaktuj się z support@spotto.pl. --- Avatar Jak zmienić zdjęcie profilowe? Dotknij swojego avatara na ekranie Profil. Pojawi się okno z dostępnymi avatarami do wyboru. Przewodnik Czy mogę wgrać własne zdjęcie? Obecnie dostępne są predefiniowane avatary ze zwierzętami. Własne zdjęcia możesz ustawić w profilach Biznes i Trener. --- Role Czym są role w Spotto? Role (typy profilu) określają, do jakich funkcji masz dostęp: - Użytkownik : rezerwacje, Sklep (zawsze aktywna) - Biznes : zarządzanie firmą - Trener : prowadzenie zajęć Szczegóły Jak włączyć ro",
+      "excerpt": "Otwórz ekran Profil i dotknij Edytuj. Możesz zmienić imię, nazwisko, telefon, datę urodzenia i zainteresowania. Przewodnik Obecnie zmiana hasła odbywa się przez funkcję „Zapomniałem hasła\" na ekranie ...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/features",
+      "title": "Funkcje ekranu Profil",
+      "screen": "profile",
+      "content": "Funkcje ekranu Profil i Ustawienia Szczegółowe opisy wszystkich funkcji dostępnych na ekranach Profil i Ustawienia. Lista funkcji - Ustawienia konta : dane osobowe, avatar, lokalizacja, język - Zarządzanie rolami : Użytkownik, Biznes, Trener - Ustawienia prywatności : analityka, marketing, RODO --- Ostatnia aktualizacja: 2026-03-29",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranach Profil i Ustawienia. - Ustawienia konta : dane osobowe, avatar, lokalizacja, język - Zarządzanie rolami : Użytkownik, Biznes, Trener - Ustaw..."
+    },
+    {
+      "slug": "profile/features/account-settings",
+      "title": "Ustawienia konta",
+      "screen": "profile",
+      "content": "Ustawienia konta Opis Ustawienia konta pozwalają zarządzać danymi osobowymi, avatarem, lokalizacją i preferencjami językowymi. Dane osobowe | Pole | Opis | Edytowalne | |------|------|------------| | Imię | Twoje imię | Tak | | Nazwisko | Twoje nazwisko | Tak | | Telefon | Numer kontaktowy | Tak | | Data urodzenia | Data urodzenia | Tak | | Zainteresowania | Ulubione sporty (wielokrotny wybór) | Tak | Avatar Spotto oferuje zestaw avatarów ze zwierzętami. Avatar jest widoczny: - W nagłówku ekranu Profil - W komentarzach i postach społecznościowych - W listach uczestników treningów Lokalizacja Na ekranie Profil możesz: - Zobaczyć swoją aktualną lokalizację (jeśli pozwolenie jest udzielone) - Włączyć dostęp do lokalizacji (przycisk) - Lokalizacja jest używana do wyświetlania obiektów w pobliżu Ustawienia aplikacji Język - Polski (domyślny) - English Zmiana jest natychmiastowa. Pomoc i wsparcie - E-mail wsparcia: support@spotto.pl - E-mail reklamacji: reklamacje@spotto.pl O aplikacji - Fir",
+      "excerpt": "Ustawienia konta pozwalają zarządzać danymi osobowymi, avatarem, lokalizacją i preferencjami językowymi. | Pole | Opis | Edytowalne | |------|------|------------| | Imię | Twoje imię | Tak | | Nazwisk...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/features/privacy-settings",
+      "title": "Ustawienia prywatności",
+      "screen": "profile",
+      "content": "Ustawienia prywatności Opis Ustawienia prywatności pozwalają kontrolować, jakie dane zbiera aplikacja Spotto i jak są one wykorzystywane. Wszystkie ustawienia można zmieniać niezależnie. Dostępne ustawienia | Ustawienie | Opis | Domyślnie | |------------|------|-----------| | Analityka | Zbieranie danych o użytkowaniu do ulepszania aplikacji | Włączone | | Raporty awarii | Automatyczne wysyłanie raportów o błędach | Włączone | | Śledzenie lokalizacji | Dane lokalizacyjne do rekomendacji obiektów w pobliżu | Wyłączone | | Udostępnianie danych | Anonimowe dane udostępniane partnerom | Wyłączone | | E-maile marketingowe | Informacje o promocjach i nowościach | Wyłączone | | Powiadomienia push | Powiadomienia o rezerwacjach i aktualizacjach | Włączone | Resetowanie analityki Opcja Zresetuj analitykę usuwa wszystkie zebrane dane analityczne. Ta operacja jest nieodwracalna. Polityka prywatności (RODO) Aplikacja Spotto przetwarza dane osobowe zgodnie z RODO. Pełna polityka prywatności jest do",
+      "excerpt": "Ustawienia prywatności pozwalają kontrolować, jakie dane zbiera aplikacja Spotto i jak są one wykorzystywane. Wszystkie ustawienia można zmieniać niezależnie. | Ustawienie | Opis | Domyślnie | |------...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/features/role-management",
+      "title": "Zarządzanie rolami",
+      "screen": "profile",
+      "content": "Zarządzanie rolami Opis System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności od tego, kim jesteś : użytkownikem, właścicielem firmy czy trenerem. Każda rola odblokowuje osobną zakładkę i zestaw funkcji. Możesz mieć aktywne wszystkie trzy role jednocześnie. Dostępne role Użytkownik (Użytkownik) | Właściwość | Wartość | |------------|--------| | Status | Zawsze aktywny : nie można wyłączyć | | Regulamin | Musi być zaakceptowany przy rejestracji | | Zakładki | Home, Rezerwacje, Sklep, Profil | Funkcje roli Użytkownik: - Wyszukiwanie i przeglądanie obiektów sportowych - Rezerwacja obiektów (korty, sale, strzelnice) - Zarządzanie ulubionymi obiektami - Przeglądanie i zakup produktów w Sklepie (karnety, pakiety) - Udział w treningach prowadzonych przez trenerów - Przeglądanie historii rezerwacji i zakupów Biznes (Właściciel firmy) | Właściwość | Wartość | |------------|--------| | Status | Opcjonalny : możesz włączyć/wyłączyć | | Regulamin | Wymagany przy aktywacji roli",
+      "excerpt": "System ról w Spotto pozwala aktywować różne funkcje aplikacji w zależności od tego, kim jesteś : użytkownikem, właścicielem firmy czy trenerem. Każda rola odblokowuje osobną zakładkę i zestaw funkcji....",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/how-to-change-avatar",
+      "title": "Jak zmienić avatar",
+      "screen": "profile",
+      "content": "Jak zmienić avatar Ekran: Profil Rola: Wszystkie Trudność: Łatwa Przegląd Avatar to Twoje zdjęcie profilowe widoczne w aplikacji. Spotto oferuje zestaw avatarów ze zwierzętami do wyboru. --- Kroki Krok 1: Otwórz ekran Profil Na dolnym pasku nawigacji dotknij ikony Profil. Krok 2: Dotknij avatara Dotknij swojego obecnego avatara w nagłówku ekranu. Otworzy się okno wyboru avatarów. Krok 3: Wybierz nowy avatar Przeglądaj dostępne avatary ze zwierzętami. Dotknij wybranego, aby go zaznaczyć. !Wybór avatara : Screenshot #52 > 💡 Wskazówka: Aktualnie wybrany avatar jest podświetlony. Krok 4: Potwierdź wybór Dotknij Zapisz lub zamknij okno. Avatar zmieni się natychmiast w nagłówku profilu. --- Powiązane tematy - Jak edytować dane profilu - Ustawienia konta : szczegóły --- Ostatnia aktualizacja: 2026-03-29",
+      "excerpt": "Ekran: Profil Rola: Wszystkie Trudność: Łatwa Avatar to Twoje zdjęcie profilowe widoczne w aplikacji. Spotto oferuje zestaw avatarów ze zwierzętami do wyboru. --- Na dolnym pasku nawigacji dotknij iko...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/how-to-change-language",
+      "title": "Jak zmienić język aplikacji",
+      "screen": "profile",
+      "content": "Jak zmienić język aplikacji Ekran: Profil → Ustawienia Rola: Wszystkie Trudność: Łatwa Przegląd Spotto jest dostępne w dwóch językach: polskim i angielskim. Możesz zmienić język w dowolnym momencie. --- Kroki Krok 1: Otwórz Ustawienia Na ekranie Profil dotknij ikony Ustawienia (koło zębate). Krok 2: Znajdź sekcję „Preferencje\" W sekcji Preferencje znajdź opcję Język. Krok 3: Wybierz język Dotknij wybranego języka: - Polski : domyślny - English : angielski Zmiana języka jest natychmiastowa : cały interfejs aplikacji przełączy się na wybrany język. --- Powiązane tematy - Ustawienia konta : szczegóły --- Ostatnia aktualizacja: 2026-03-29",
+      "excerpt": "Ekran: Profil → Ustawienia Rola: Wszystkie Trudność: Łatwa Spotto jest dostępne w dwóch językach: polskim i angielskim. Możesz zmienić język w dowolnym momencie. --- Na ekranie Profil dotknij ikony Us...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/how-to-edit-profile",
+      "title": "Jak edytować dane profilu",
+      "screen": "profile",
+      "content": "Jak edytować dane profilu Ekran: Profil Rola: Wszystkie Trudność: Łatwa Przegląd Na ekranie Profil możesz zmienić swoje dane osobowe: imię, nazwisko, numer telefonu, datę urodzenia i zainteresowania sportowe. --- Kroki Krok 1: Otwórz ekran Profil Na dolnym pasku nawigacji dotknij ikony Profil. Krok 2: Dotknij „Edytuj profil\" Na karcie danych osobowych dotknij przycisku Edytuj. Otworzy się formularz edycji. !Edycja profilu : Screenshot #50 Krok 3: Zmień dane Możesz zmienić: | Pole | Opis | |------|------| | Imię | Twoje imię | | Nazwisko | Twoje nazwisko | | Telefon | Numer kontaktowy | | Data urodzenia | Twoja data urodzenia | | Zainteresowania | Wybierz ulubione sporty (wielokrotny wybór) | !Zainteresowania sportowe : Screenshot #51 > 💡 Wskazówka: Zainteresowania pomagają aplikacji dopasowywać rekomendacje do Twoich preferencji. Krok 4: Zapisz zmiany Dotknij Zapisz. Dane zostaną zaktualizowane natychmiast. --- Powiązane tematy - Jak zmienić avatar - Ustawienia konta : szczegóły --- O",
+      "excerpt": "Ekran: Profil Rola: Wszystkie Trudność: Łatwa Na ekranie Profil możesz zmienić swoje dane osobowe: imię, nazwisko, numer telefonu, datę urodzenia i zainteresowania sportowe. --- Na dolnym pasku nawiga...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/how-to-manage-privacy",
+      "title": "Jak zarządzać ustawieniami prywatności",
+      "screen": "profile",
+      "content": "Jak zarządzać ustawieniami prywatności Ekran: Profil → Ustawienia → Prywatność Rola: Wszystkie Trudność: Łatwa Przegląd Ustawienia prywatności pozwalają kontrolować, jakie dane są zbierane i jak są wykorzystywane. Możesz włączać i wyłączać poszczególne opcje niezależnie. --- Kroki Krok 1: Otwórz Ustawienia Na ekranie Profil dotknij ikony Ustawienia (koło zębate) w prawym górnym rogu. Krok 2: Otwórz „Prywatność i bezpieczeństwo\" W sekcji Prywatność i bezpieczeństwo dotknij Ustawienia prywatności. !Ustawienia prywatności : Screenshot #54 Krok 3: Dostosuj ustawienia Każde ustawienie ma przełącznik, który możesz włączyć lub wyłączyć: | Ustawienie | Opis | |------------|------| | Analityka | Zbieranie danych o użytkowaniu aplikacji w celu jej ulepszania | | Raporty awarii | Automatyczne wysyłanie raportów o błędach | | Śledzenie lokalizacji | Zbieranie danych o lokalizacji do rekomendacji | | Udostępnianie danych | Anonimowe udostępnianie danych partnerom | | E-maile marketingowe | Otrzymyw",
+      "excerpt": "Ekran: Profil → Ustawienia → Prywatność Rola: Wszystkie Trudność: Łatwa Ustawienia prywatności pozwalają kontrolować, jakie dane są zbierane i jak są wykorzystywane. Możesz włączać i wyłączać poszczeg...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "profile/how-to-manage-roles",
+      "title": "Jak zarządzać rolami profilu",
+      "screen": "profile",
+      "content": "Jak zarządzać rolami profilu Ekran: Profil Rola: Wszystkie Trudność: Łatwa Przegląd W Spotto masz trzy typy profilu (role), które możesz włączać i wyłączać. Każda rola daje dostęp do innych funkcji aplikacji. --- Dostępne role | Rola | Opis | Można wyłączyć? | |------|------|-----------------| | Użytkownik (Użytkownik) | Rezerwacja obiektów, szukanie zajęć, ulubione | Nie : zawsze aktywna | | Biznes | Zarządzanie firmą, obiektami, produktami | Tak | | Trener | Prowadzenie treningów, współpraca z firmami | Tak | --- Kroki Krok 1: Otwórz „Typy profilu\" Na ekranie Profil znajdź sekcję Typy profilu. !Typy profilu : Screenshot #53 Krok 2: Włącz lub wyłącz rolę Każda rola ma przełącznik: - Użytkownik : zawsze włączony, nie można wyłączyć - Biznes : dotknij przełącznik, aby włączyć/wyłączyć - Trener : dotknij przełącznik, aby włączyć/wyłączyć Krok 3: Zaakceptuj regulamin Przy pierwszym włączeniu roli musisz zaakceptować odpowiedni regulamin: - Rozwiń regulamin, aby go przeczytać - Zaznacz zgo",
+      "excerpt": "Ekran: Profil Rola: Wszystkie Trudność: Łatwa W Spotto masz trzy typy profilu (role), które możesz włączać i wyłączać. Każda rola daje dostęp do innych funkcji aplikacji. --- | Rola | Opis | Można wył...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "README",
+      "title": "Spotto Help Documentation",
+      "screen": "README.md",
+      "content": "Spotto Help Documentation Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen. Quick Navigation Main Screens - Home - Search facilities, browse categories, view favorites - Reservations - View and manage your bookings - Shop - Browse and purchase products - Business - Manage your business profile and facilities - Trainer - Create and manage trainings - Profile - Account settings and privacy Additional Resources - Common Topics - Getting started, navigation, glossary - Troubleshooting - Solutions to common problems --- For Content Creators Creating New Content 1. Choose the right screen directory 2. Use the appropriate template: - how-to-*.md for step-by-step guides - features/*.md for feature explanations - faq.md for quick Q&A 3. Follow the Content Guidelines 4. Add screenshots to assets/images/{screen}/ 5. Validate before committing: npm test Directory Structure Each screen directory contains: ` {screen}/ ├── ",
+      "excerpt": "Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen.\r \r \r \r \r \r - Home - Search facilities, browse categories, view favorites..."
+    },
+    {
+      "slug": "reservations",
+      "title": "Ekran Rezerwacje - Pomoc",
+      "screen": "reservations",
+      "content": "Ekran Rezerwacje Twoje centrum zarządzania rezerwacjami : przeglądaj nadchodzące wizyty, zarządzaj płatnościami i anuluj rezerwacje w jednym miejscu. Przegląd ekranu Ekran Rezerwacje wyświetla się po dotknięciu ikony kalendarza na dolnym pasku nawigacji. Znajdziesz tu kompletny przegląd swoich aktywności sportowych. !IMGRES001 : Przegląd ekranu Rezerwacje Co znajdziesz na ekranie Rezerwacje | Sekcja | Opis | Więcej | |--------|------|--------| | Nadchodzące wydarzenia | Lista rezerwacji i treningów posortowana wg daty | Szczegóły | | Oczekujące płatności | Niedokończone transakcje wymagające uwagi | Jak dokończyć | | Statusy rezerwacji | Kolorowe oznaczenia stanu rezerwacji | Szczegóły | | Anulowanie | Pełne lub częściowe anulowanie z możliwością zwrotu | Polityka zwrotów | --- Przewodniki krok po kroku Przeglądanie - Jak przeglądać rezerwacje : znajdź nadchodzące i przeszłe rezerwacje Zarządzanie - Jak anulować rezerwację : pełne anulowanie ze zwrotem środków - Jak anulować częściowo ",
+      "excerpt": "Twoje centrum zarządzania rezerwacjami : przeglądaj nadchodzące wizyty, zarządzaj płatnościami i anuluj rezerwacje w jednym miejscu. Ekran Rezerwacje wyświetla się po dotknięciu ikony kalendarza na do..."
+    },
+    {
+      "slug": "reservations/faq",
+      "title": "FAQ : Ekran Rezerwacje",
+      "screen": "reservations",
+      "content": "Najczęściej zadawane pytania : Ekran Rezerwacje Przeglądanie rezerwacji Jak sprawdzić moje nadchodzące rezerwacje? Dotknij ikony kalendarza na dolnym pasku nawigacji. Zobaczysz listę nadchodzących rezerwacji i treningów posortowaną wg daty. Pełny przewodnik Czy widzę też treningi, na które się zapisałem/am? Tak. Ekran Rezerwacje wyświetla zarówno rezerwacje obiektów, jak i treningi z trenerami. Każdy typ ma osobną kolorową plakietkę. Dlaczego moja nowa rezerwacja nie pojawia się na liście? Aplikacja synchronizuje nowe rezerwacje automatycznie (do 5 prób). Poczekaj kilka sekund : nowa rezerwacja pojawi się z niebieskim obramowaniem i pulsującą animacją. --- Anulowanie Kiedy mogę anulować rezerwację? Możesz anulować rezerwację, jeśli do jej rozpoczęcia pozostało więcej niż 48 godzin. Pełne zasady Ile kosztuje anulowanie? Opłata za anulowanie wynosi 5% wartości anulowanej części. Otrzymasz zwrot 95% na konto. Czy mogę anulować tylko jedną godzinę z rezerwacji na kilka godzin? Tak : użyj f",
+      "excerpt": "Dotknij ikony kalendarza na dolnym pasku nawigacji. Zobaczysz listę nadchodzących rezerwacji i treningów posortowaną wg daty. Pełny przewodnik Tak. Ekran Rezerwacje wyświetla zarówno rezerwacje obiekt...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/features",
+      "title": "Funkcje ekranu Rezerwacje",
+      "screen": "reservations",
+      "content": "Funkcje ekranu Rezerwacje Szczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezerwacjami w Spotto. Dostępne opisy - Szczegóły rezerwacji : pełny widok informacji o rezerwacji - Statusy rezerwacji : znaczenie kolorów i stanów rezerwacji - Polityka anulowania i zwrotów : zasada 48h, opłata 5%, terminy zwrotów - Częściowe anulowanie : anulowanie wybranych godzin z rezerwacji Zobacz też - Przewodniki krok po kroku : jak przeglądać, anulować, płacić - FAQ : najczęstsze pytania - Troubleshooting : rozwiązywanie problemów --- Ostatnia aktualizacja: 2026-03-28",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie zarządzania rezerwacjami w Spotto. - Szczegóły rezerwacji : pełny widok informacji o rezerwacji - Statusy rezerwacji : znaczenie kolorów i st..."
+    },
+    {
+      "slug": "reservations/features/partial-cancellation",
+      "title": "Częściowe anulowanie",
+      "screen": "reservations",
+      "content": "Częściowe anulowanie Opis Częściowe anulowanie pozwala anulować wybrane sloty czasowe z rezerwacji wielogodzinnej, zachowując pozostałe. To przydatne, gdy zmienisz plany, ale nadal chcesz skorzystać z części zarezerwowanego czasu. Kiedy jest dostępne Częściowe anulowanie jest dostępne, gdy: - Rezerwacja ma więcej niż jeden slot czasowy - Rezerwacja spełnia zasady anulowania (48h, przyszła data) - Nie anulowano jeszcze wszystkich slotów oprócz jednego Jak działa Widok slotów Po otwarciu częściowego anulowania zobaczysz listę wszystkich slotów: !IMGRES029 : Lista slotów z zaznaczeniem do anulowania | Element | Opis | |---------|------| | Godzina | Czas rozpoczęcia slotu (np. „10:00\") | | Cena | Koszt tego konkretnego slotu (łączna cena ÷ liczba slotów) | | Status | „Aktywny\" (można anulować) lub „Anulowany\" (szary, niedostępny) | | Zaznaczenie | Niebieskie obramowanie + ikona ✓ dla wybranych | Ograniczenia - Nie można anulować wszystkich slotów : do tego służy pełne anulowanie - Anulowan",
+      "excerpt": "Częściowe anulowanie pozwala anulować wybrane sloty czasowe z rezerwacji wielogodzinnej, zachowując pozostałe. To przydatne, gdy zmienisz plany, ale nadal chcesz skorzystać z części zarezerwowanego cz...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "reservations/features/refund-policy",
+      "title": "Polityka anulowania i zwrotów",
+      "screen": "reservations",
+      "content": "Polityka anulowania i zwrotów Opis Spotto umożliwia anulowanie rezerwacji ze zwrotem środków, pod warunkiem spełnienia określonych zasad. Poniżej znajdziesz kompletne informacje o polityce anulowania. Zasady anulowania Zasada 48 godzin Rezerwację można anulować nie później niż 48 godzin przed planowanym terminem wizyty. | Czas do rezerwacji | Czy można anulować? | |--------------------|---------------------| | > 48 godzin | Tak | | 24-48 godzin | Nie | | < 24 godziny | Nie | | Dziś | Nie | | Przeszłość | Nie | Kto może anulować - Anulować może tylko osoba, która dokonała rezerwacji - Rezerwacje opłacone karnetem lub voucherem nie podlegają anulowaniu - Anulowanie dotyczy rezerwacji w statusie: Potwierdzona, Oczekująca, Aktywna, Częściowa Opłata za anulowanie Za każde anulowanie (pełne lub częściowe) pobierana jest opłata: | Element | Wartość | |---------|---------| | Opłata | 5% wartości anulowanej części | | Zwrot | 95% wartości anulowanej części | Przykład: Anulowanie rezerwacji za 2",
+      "excerpt": "Spotto umożliwia anulowanie rezerwacji ze zwrotem środków, pod warunkiem spełnienia określonych zasad. Poniżej znajdziesz kompletne informacje o polityce anulowania. Rezerwację można anulować nie późn...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/features/reservation-details",
+      "title": "Szczegóły rezerwacji",
+      "screen": "reservations",
+      "content": "Szczegóły rezerwacji Opis Widok szczegółów rezerwacji to pełnoekranowy modal, który otwiera się po dotknięciu karty rezerwacji. Zawiera kompletne informacje o Twojej rezerwacji. Sekcje widoku Informacje o obiekcie | Element | Opis | |---------|------| | Zdjęcie | Avatar lub zdjęcie obiektu | | Nazwa obiektu | Oficjalna nazwa | | Lokalizacja | Pełny adres z miastem | | Kontakt | Numer telefonu i e-mail z przyciskami szybkiego kontaktu | !IMGRES017 : Sekcja informacji o obiekcie Szczegóły rezerwacji | Element | Opis | |---------|------| | Data | Pełna data w formacie polskim (np. „piątek, 28 marca 2026\") | | Godziny | Lista zarezerwowanych slotów (np. „10:00 - 11:00 ; 11:00 - 12:00\") | | Czas trwania | Łączna liczba godzin | | Cena | Łączny koszt rezerwacji | | Liczba osób | Widoczna przy rezerwacjach grupowych | Sloty czasowe Każdy zarezerwowany slot wyświetla się jako osobny chip: - Aktywny : normalny wygląd z godziną - Anulowany : przekreślony tekst, szary kolor !IMGRES018 : Sloty cza",
+      "excerpt": "Widok szczegółów rezerwacji to pełnoekranowy modal, który otwiera się po dotknięciu karty rezerwacji. Zawiera kompletne informacje o Twojej rezerwacji. | Element | Opis | |---------|------| | Zdjęcie ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/how-to-cancel-booking",
+      "title": "Jak anulować rezerwację",
+      "screen": "reservations",
+      "content": "Jak anulować rezerwację Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Przegląd Jeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot środków. Anulowanie jest dostępne dla rezerwacji z przyszłą datą, z uwzględnieniem zasady 48 godzin. --- Zanim zaczniesz - Rezerwacja musi mieć przyszłą datę (nie dziś i nie w przeszłości) - Do rozpoczęcia rezerwacji musi pozostać więcej niż 48 godzin - Rezerwacja nie może być opłacona voucherem/karnetem - Status rezerwacji musi być: potwierdzona, oczekująca, aktywna lub częściowo anulowana --- Kroki Krok 1: Otwórz szczegóły rezerwacji Na ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz anulować. !IMGRES006 : Dotknij karty rezerwacji Krok 2: Dotknij „Anuluj wszystko\" W widoku szczegółów przewiń na dół do sekcji akcji. Dotknij przycisku Anuluj wszystko. !IMGRES007 : Przycisk Anuluj wszystko > ⚠️ Ważne: Jeśli przycisk jest nieaktywny (szary), oznacza to, że rezerwacja nie kwalifikuje się do anulowania : sprawdź warunki w sekcj",
+      "excerpt": "Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Jeśli zmienisz plany, możesz anulować całą rezerwację i otrzymać zwrot środków. Anulowanie jest dostępne dla rezerwacji z przyszłą datą, z uwzględnie...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/how-to-partial-cancel",
+      "title": "Jak częściowo anulować rezerwację",
+      "screen": "reservations",
+      "content": "Jak częściowo anulować rezerwację Ekran: Rezerwacje Rola: Użytkownik Trudność: Średnia Przegląd Jeśli zarezerwowałeś/aś obiekt na kilka godzin, ale chcesz zrezygnować z części z nich, możesz anulować wybrane sloty czasowe, zachowując resztę rezerwacji. Otrzymasz zwrot proporcjonalny do anulowanych godzin. --- Zanim zaczniesz - Rezerwacja musi mieć więcej niż jeden slot czasowy - Nie możesz anulować wszystkich slotów (użyj pełnego anulowania) - Obowiązują te same zasady co przy pełnym anulowaniu (48h, przyszła data) --- Kroki Krok 1: Otwórz szczegóły rezerwacji Na ekranie Rezerwacje dotknij karty rezerwacji, którą chcesz częściowo anulować. Krok 2: Dotknij „Anuluj częściowo\" W widoku szczegółów dotknij przycisku Anuluj częściowo. Przycisk jest widoczny tylko dla rezerwacji z wieloma slotami. !IMGRES010 : Przycisk częściowego anulowania Krok 3: Wybierz sloty do anulowania Otworzy się ekran z listą wszystkich zarezerwowanych godzin. Każdy slot pokazuje: - Godzina : np. „10:00\" - Cena : ko",
+      "excerpt": "Ekran: Rezerwacje Rola: Użytkownik Trudność: Średnia Jeśli zarezerwowałeś/aś obiekt na kilka godzin, ale chcesz zrezygnować z części z nich, możesz anulować wybrane sloty czasowe, zachowując resztę re...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "reservations/how-to-pay-pending",
+      "title": "Jak dokończyć oczekującą płatność",
+      "screen": "reservations",
+      "content": "Jak dokończyć oczekującą płatność Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Przegląd Jeśli nie dokończyłeś/aś płatności za rezerwację, pojawi się ona w sekcji Oczekujące płatności na ekranie Rezerwacje. Możesz dokończyć transakcję lub ją anulować. --- Kroki Krok 1: Znajdź sekcję oczekujących płatności Na ekranie Rezerwacje u góry zobaczysz sekcję z ikoną alertu i nagłówkiem Oczekujące płatności. !IMGRES014 : Sekcja oczekujących płatności > 💡 Sekcja wyświetla się tylko wtedy, gdy masz niedokończone transakcje. Jeśli jej nie widzisz : nie masz oczekujących płatności. Krok 2: Sprawdź szczegóły płatności Każda karta oczekującej płatności zawiera: - Opis : nazwa obiektu lub treningu - Kwota : cena do zapłaty - Czas : kiedy została utworzona (np. „5 minut temu\") - Status : „Oczekuje płatności\" Krok 3: Dotknij „Płatność\" Dotknij niebieskiego przycisku Płatność na karcie. !IMGRES015 : Przycisk Płatność Krok 4: Dokończ płatność w TPay Otworzy się przeglądarka z systemem płatności TPay",
+      "excerpt": "Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Jeśli nie dokończyłeś/aś płatności za rezerwację, pojawi się ona w sekcji Oczekujące płatności na ekranie Rezerwacje. Możesz dokończyć transakcję lub...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/how-to-view-bookings",
+      "title": "Jak przeglądać rezerwacje",
+      "screen": "reservations",
+      "content": "Jak przeglądać rezerwacje Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Przegląd Ekran Rezerwacje pokazuje wszystkie Twoje nadchodzące rezerwacje obiektów sportowych oraz treningi, posortowane od najbliższych. Możesz szybko sprawdzić szczegóły każdej wizyty. --- Kroki Krok 1: Otwórz ekran Rezerwacje Dotknij ikony kalendarza na dolnym pasku nawigacji aplikacji. !IMGRES002 : Pasek nawigacji z zaznaczonym przyciskiem Rezerwacje Krok 2: Przeglądaj nadchodzące wydarzenia Na ekranie zobaczysz listę nadchodzących wydarzeń. Każda karta zawiera: - Zdjęcie : avatar obiektu lub ikona trenera - Tytuł : nazwa obiektu lub treningu - Data i godzina : sformatowana jako „Dziś\", „Jutro\" lub pełna data - Lokalizacja : adres obiektu - Czas trwania : liczba zarezerwowanych godzin - Cena : łączny koszt - Typ : plakietka „Rezerwacja\" lub „Trening\" !IMGRES003 : Lista nadchodzących rezerwacji > 💡 Wskazówka: Nowo utworzona rezerwacja pojawi się z niebieskim obramowaniem i pulsującą animacją, abyś łatwo ją",
+      "excerpt": "Ekran: Rezerwacje Rola: Użytkownik Trudność: Łatwa Ekran Rezerwacje pokazuje wszystkie Twoje nadchodzące rezerwacje obiektów sportowych oraz treningi, posortowane od najbliższych. Możesz szybko sprawd...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "reservations/troubleshooting",
+      "title": "Rozwiązywanie problemów : Ekran Rezerwacje",
+      "screen": "reservations",
+      "content": "Rozwiązywanie problemów : Ekran Rezerwacje Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwacjami w aplikacji Spotto. --- Przeglądanie rezerwacji Rezerwacja nie pojawia się po płatności Problem: Zapłaciłem/am, ale rezerwacja nie widnieje na liście. Przyczyny: - Opóźnienie w synchronizacji (aplikacja próbuje do 5 razy) - Płatność jest jeszcze przetwarzana - Sesja wygasła podczas płatności Rozwiązanie: 1. Poczekaj 10-15 sekund : aplikacja automatycznie synchronizuje nowe rezerwacje 2. Pociągnij ekran w dół, aby odświeżyć 3. Sprawdź sekcję „Oczekujące płatności\" : rezerwacja może czekać na dokończenie płatności 4. Zamknij i otwórz ponownie aplikację 5. Jeśli nie pojawi się po 15 minutach, skontaktuj się z obsługą z numerem transakcji --- Lista rezerwacji jest pusta Problem: Nie widzę żadnych rezerwacji, chociaż je mam. !IMGRES026 : Pusta lista rezerwacji Przyczyny: - Brak połączenia z internetem - Wszystkie rezerwacje są w przeszłości (wyświetlane są tylko nadcho",
+      "excerpt": "Poniżej znajdziesz rozwiązania najczęstszych problemów związanych z rezerwacjami w aplikacji Spotto. --- Problem: Zapłaciłem/am, ale rezerwacja nie widnieje na liście. Przyczyny: - Opóźnienie w synchr...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "shop",
+      "title": "Ekran Sklep - Pomoc",
+      "screen": "shop",
+      "content": "Ekran Sklep Sklep w aplikacji Spotto : kupuj karnety, pakiety i abonamenty na obiekty sportowe. Przegląd ekranu Ekran Sklep pozwala przeglądać i kupować produkty oferowane przez obiekty sportowe : karnety, pakiety wejść i abonamenty. Po zakupie produkty trafiają do zakładki „Moje zakupy\", skąd możesz je wykorzystać. !Przegląd ekranu Sklep : Screenshot #1 Co znajdziesz na ekranie Sklep | Sekcja | Opis | Więcej | |--------|------|--------| | Zakładka „Sklep\" | Przeglądanie i kupowanie produktów | Szczegóły | | Zakładka „Moje zakupy\" | Twoje kupione produkty i ich status | Szczegóły | | Wyszukiwarka produktów | Szukaj po nazwie, firmie lub mieście | Szczegóły | | Filtry i sortowanie | Zawęź wyniki wg ceny, okresu, firmy | Szczegóły | | System płatności | Bezpieczne płatności przez TPay | Szczegóły | --- Przewodniki krok po kroku Zakupy - Jak kupić produkt (karnet/pakiet) : znajdź produkt, kup i zapłać przez TPay - Jak wykorzystać zakupiony produkt : pokaż kod weryfikacyjny pracownikowi ob",
+      "excerpt": "Sklep w aplikacji Spotto : kupuj karnety, pakiety i abonamenty na obiekty sportowe. Ekran Sklep pozwala przeglądać i kupować produkty oferowane przez obiekty sportowe : karnety, pakiety wejść i abonam..."
+    },
+    {
+      "slug": "shop/faq",
+      "title": "FAQ : Ekran Sklep",
+      "screen": "shop",
+      "content": "Najczęściej zadawane pytania : Ekran Sklep Zakupy Co to jest produkt w Sklepie Spotto? Produkt to karnet, pakiet wejść lub abonament oferowany przez obiekt sportowy. Kupując produkt, otrzymujesz określoną liczbę wejść, które możesz wykorzystać w danym okresie czasu. Jakie rodzaje produktów są dostępne? Produkty różnią się okresem ważności: - Dzienne/tygodniowe : krótkoterminowe pakiety - Miesięczne : najpopularniejsze karnety - Roczne : długoterminowe abonamenty - Dożywotnie : bezterminowe karnety Czy mogę kupić produkt dla kogoś innego? Nie : produkty są przypisane do Twojego konta. Możesz jednak udostępnić link do produktu, aby inna osoba mogła go kupić dla siebie. --- Płatności Jakie metody płatności są dostępne? Płatności obsługuje system TPay. Dostępne metody to: - Karta płatnicza (Visa, Mastercard) - Szybki przelew bankowy - BLIK Czy moje dane płatnicze są bezpieczne? Tak. Płatności obsługuje certyfikowana bramka TPay. Spotto nie przechowuje danych Twojej karty : wszystkie dane t",
+      "excerpt": "Produkt to karnet, pakiet wejść lub abonament oferowany przez obiekt sportowy. Kupując produkt, otrzymujesz określoną liczbę wejść, które możesz wykorzystać w danym okresie czasu. Produkty różnią się ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/features",
+      "title": "Funkcje ekranu Sklep",
+      "screen": "shop",
+      "content": "Funkcje ekranu Sklep Szczegółowe opisy wszystkich funkcji dostępnych na ekranie Sklep. Lista funkcji - Katalog produktów : rodzaje produktów, informacje na kartach - Moje zakupy : statusy produktów, pasek postępu, wykorzystanie - Wyszukiwarka i filtry : szukanie, filtrowanie, sortowanie - Płatności : system TPay, metody płatności, potwierdzenia --- Ostatnia aktualizacja: 2026-03-29",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie Sklep. - Katalog produktów : rodzaje produktów, informacje na kartach - Moje zakupy : statusy produktów, pasek postępu, wykorzystanie - Wyszu..."
+    },
+    {
+      "slug": "shop/features/my-purchases",
+      "title": "Moje zakupy",
+      "screen": "shop",
+      "content": "Moje zakupy Opis Zakładka „Moje zakupy\" na ekranie Sklep zawiera listę wszystkich produktów, które kupiłeś/aś. Każdy zakup ma swój status, licznik wykorzystania i datę ważności. Karta zakupu Każdy zakupiony produkt wyświetla się jako karta z informacjami: | Element | Opis | |---------|------| | Tytuł i podtytuł | Nazwa zakupionego produktu | | Status | Aktywny, Wygasły lub Wykorzystany (z kolorową etykietą) | | Pasek postępu | Wizualne przedstawienie pozostałych wejść vs. całkowitych | | Data zakupu | Kiedy kupiłeś/aś produkt | | Data ważności | Do kiedy produkt jest aktywny | | Firma | Obiekt sportowy, który oferuje produkt | | Przycisk „Użyj produktu\" | Generuje kod weryfikacyjny (tylko dla aktywnych) | Statusy zakupów | Status | Kolor | Znaczenie | |--------|-------|-----------| | Aktywny (Active) | Zielony (#10B981) | Produkt jest ważny, możesz go wykorzystać | | Wygasły (Expired) | Żółty (#F59E0B) | Minął termin ważności | | Wykorzystany (Depleted) | Czerwony (#EF4444) | Zużyłeś/a",
+      "excerpt": "Zakładka „Moje zakupy\" na ekranie Sklep zawiera listę wszystkich produktów, które kupiłeś/aś. Każdy zakup ma swój status, licznik wykorzystania i datę ważności. Każdy zakupiony produkt wyświetla się j...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/features/payments",
+      "title": "Płatności w Sklepie",
+      "screen": "shop",
+      "content": "Płatności w Sklepie Opis Płatności za produkty w Sklepie Spotto obsługiwane są przez system TPay : bezpieczną bramkę płatniczą. Po potwierdzeniu zakupu zostaniesz przekierowany/a do strony TPay w przeglądarce. Dostępne metody płatności | Metoda | Opis | |--------|------| | Karta płatnicza | Visa, Mastercard i inne | | Szybki przelew | Przelew online z Twojego banku | | BLIK | Kod BLIK z aplikacji bankowej | Przebieg płatności 1. Potwierdzenie zakupu : dotykasz „Kup teraz\" i potwierdzasz w aplikacji 2. Przekierowanie do TPay : otwiera się przeglądarka z bramką płatniczą 3. Realizacja płatności : wybierasz metodę i płacisz 4. Powrót do aplikacji : po płatności wracasz automatycznie do Spotto 5. Potwierdzenie : aplikacja wyświetla komunikat o sukcesie Potwierdzenie płatności Spotto weryfikuje płatność na kilka sposobów: - Powiadomienie push : główna metoda, natychmiastowe potwierdzenie - Automatyczna weryfikacja : aplikacja sprawdza status po powrocie z przeglądarki - Odpytywanie statusu ",
+      "excerpt": "Płatności za produkty w Sklepie Spotto obsługiwane są przez system TPay : bezpieczną bramkę płatniczą. Po potwierdzeniu zakupu zostaniesz przekierowany/a do strony TPay w przeglądarce. | Metoda | Opis...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "shop/features/product-catalog",
+      "title": "Katalog produktów",
+      "screen": "shop",
+      "content": "Katalog produktów Opis Katalog produktów to główna część zakładki „Sklep\". Wyświetla produkty oferowane przez obiekty sportowe zarejestrowane w Spotto : karnety, pakiety wejść i abonamenty. Karta produktu Każdy produkt wyświetla się jako karta z następującymi informacjami: | Element | Opis | |---------|------| | Tytuł | Nazwa produktu (np. „Karnet miesięczny na siłownię\") | | Podtytuł | Dodatkowy opis (opcjonalny) | | Cena | Cena brutto (z VAT) w PLN | | Liczba użyć | Ile razy można skorzystać z produktu (np. „10 użyć\") | | Okres ważności | Jak długo produkt jest aktywny (np. „3 Miesiące\") | | Firma | Nazwa obiektu sportowego, który oferuje produkt | | Przycisk „Kup teraz\" | Rozpocznij zakup produktu | | Ikona udostępniania | Wyślij link do produktu znajomemu | !Elementy karty produktu : Screenshot #16 Rodzaje produktów Produkty różnią się okresem ważności: | Okres | Opis | Przykład | |-------|------|---------| | Dni | Ważny przez określoną liczbę dni | Karnet 7-dniowy | | Tygodnie | W",
+      "excerpt": "Katalog produktów to główna część zakładki „Sklep\". Wyświetla produkty oferowane przez obiekty sportowe zarejestrowane w Spotto : karnety, pakiety wejść i abonamenty. Każdy produkt wyświetla się jako ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/features/search-filters",
+      "title": "Wyszukiwarka i filtry produktów",
+      "screen": "shop",
+      "content": "Wyszukiwarka i filtry produktów Opis Sklep Spotto oferuje wyszukiwarkę tekstową oraz panel filtrów, które pomagają znaleźć odpowiedni produkt spośród ofert wielu obiektów sportowych. Wyszukiwarka Pole wyszukiwania na górze ekranu Sklep pozwala szukać po: - Nazwie produktu - Opisie produktu - Nazwie firmy (obiektu sportowego) - Mieście Wyniki filtrują się automatycznie po wpisaniu frazy (z krótkim opóźnieniem 0,5 sekundy). Panel filtrów Po dotknięciu ikony filtrów otwiera się panel z opcjami: | Filtr | Typ | Opis | |-------|-----|------| | Firma | Tekst | Nazwa obiektu sportowego | | Miasto | Tekst | Miasto, w którym znajduje się obiekt | | Cena minimalna | Liczba | Dolna granica ceny (PLN) | | Cena maksymalna | Liczba | Górna granica ceny (PLN) | | Okres | Wybór | Dni, Tygodnie, Miesiące, Lata, Dożywotni | Opcje sortowania | Opcja | Opis | |-------|------| | Najnowsze | Posortowane wg daty dodania (najnowsze pierwsze) | | Cena: rosnąco | Od najtańszych do najdroższych | | Cena: malejąc",
+      "excerpt": "Sklep Spotto oferuje wyszukiwarkę tekstową oraz panel filtrów, które pomagają znaleźć odpowiedni produkt spośród ofert wielu obiektów sportowych. Pole wyszukiwania na górze ekranu Sklep pozwala szukać...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/how-to-buy-pass",
+      "title": "Jak kupić produkt (karnet/pakiet)",
+      "screen": "shop",
+      "content": "Jak kupić produkt (karnet/pakiet) Ekran: Sklep Rola: Użytkownik Trudność: Średnia Przegląd W Sklepie Spotto możesz kupić karnety, pakiety wejść i abonamenty oferowane przez obiekty sportowe. Po zakupie produkt trafia do „Moje zakupy\" i możesz go wykorzystać przy wizycie w obiekcie. --- Zanim zaczniesz - Musisz mieć konto w aplikacji Spotto i być zalogowany/a - Potrzebujesz dostępu do metody płatności (karta, przelew lub BLIK przez TPay) --- Kroki Krok 1: Otwórz zakładkę Sklep Na dolnym pasku nawigacji dotknij ikony Sklep. Zobaczysz listę dostępnych produktów. !Ekran Sklep z listą produktów : Screenshot #2 Krok 2: Znajdź interesujący produkt Przeglądaj listę produktów lub użyj wyszukiwarki: - Dotknij ikony lupy na górze ekranu - Wpisz nazwę produktu, obiektu lub miasta - Wyniki filtrują się automatycznie !Wyszukiwanie produktów : Screenshot #3 > 💡 Wskazówka: Możesz też użyć filtrów, aby zawęzić wyniki wg ceny, okresu ważności lub firmy. Jak filtrować produkty Krok 3: Sprawdź szczegóły ",
+      "excerpt": "Ekran: Sklep Rola: Użytkownik Trudność: Średnia W Sklepie Spotto możesz kupić karnety, pakiety wejść i abonamenty oferowane przez obiekty sportowe. Po zakupie produkt trafia do „Moje zakupy\" i możesz ...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "shop/how-to-filter-products",
+      "title": "Jak filtrować i szukać produktów",
+      "screen": "shop",
+      "content": "Jak filtrować i szukać produktów Ekran: Sklep Rola: Użytkownik Trudność: Łatwa Przegląd Sklep Spotto oferuje wyszukiwarkę i zaawansowane filtry, które pomogą Ci szybko znaleźć odpowiedni produkt. Możesz szukać po nazwie, firmie, mieście, a także filtrować po cenie i okresie ważności. --- Kroki Krok 1: Otwórz wyszukiwarkę Na ekranie Sklep dotknij pola wyszukiwania na górze ekranu. Wpisz szukaną frazę : wyniki filtrują się automatycznie po: - Nazwie produktu - Opisie produktu - Nazwie firmy - Mieście !Wyszukiwarka produktów : Screenshot #14 Krok 2: Otwórz panel filtrów Dotknij ikony filtrów obok pola wyszukiwania. Otworzy się panel z opcjami filtrowania. !Panel filtrów : Screenshot #15 Krok 3: Ustaw filtry Dostępne filtry: | Filtr | Opis | |-------|------| | Firma | Pokaż produkty konkretnego obiektu | | Miasto | Pokaż produkty z wybranego miasta | | Cena minimalna | Produkty droższe niż podana kwota | | Cena maksymalna | Produkty tańsze niż podana kwota | | Okres ważności | Dni, Tygodni",
+      "excerpt": "Ekran: Sklep Rola: Użytkownik Trudność: Łatwa Sklep Spotto oferuje wyszukiwarkę i zaawansowane filtry, które pomogą Ci szybko znaleźć odpowiedni produkt. Możesz szukać po nazwie, firmie, mieście, a ta...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/how-to-share-product",
+      "title": "Jak udostępnić produkt znajomemu",
+      "screen": "shop",
+      "content": "Jak udostępnić produkt znajomemu Ekran: Sklep Rola: Użytkownik Trudność: Łatwa Przegląd Znalazłeś/aś świetny karnet lub pakiet wejść? Możesz udostępnić link do produktu znajomym. Osoba, która otrzyma link, będzie mogła otworzyć produkt bezpośrednio w aplikacji Spotto. --- Kroki Krok 1: Znajdź produkt w Sklepie Otwórz zakładkę Sklep i znajdź produkt, który chcesz udostępnić. Krok 2: Dotknij ikony udostępniania Na karcie produktu dotknij ikony udostępniania (strzałka w górę lub trzy połączone kropki, w zależności od systemu). !Przycisk udostępniania na karcie produktu : Screenshot #11 Krok 3: Wybierz sposób wysłania Otworzy się systemowe menu udostępniania. Możesz wysłać link przez: - SMS / wiadomość tekstową - WhatsApp, Messenger lub inny komunikator - E-mail - Kopiowanie linku do schowka Krok 4: Znajomy otwiera link Osoba, która otrzyma link: - Jeśli ma zainstalowaną aplikację Spotto : link otworzy się bezpośrednio w aplikacji na stronie produktu - Jeśli nie ma aplikacji : link otworzy",
+      "excerpt": "Ekran: Sklep Rola: Użytkownik Trudność: Łatwa Znalazłeś/aś świetny karnet lub pakiet wejść? Możesz udostępnić link do produktu znajomym. Osoba, która otrzyma link, będzie mogła otworzyć produkt bezpoś...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/how-to-use-product",
+      "title": "Jak wykorzystać zakupiony produkt",
+      "screen": "shop",
+      "content": "Jak wykorzystać zakupiony produkt Ekran: Sklep → Moje zakupy Rola: Użytkownik Trudność: Łatwa Przegląd Po zakupie produktu (karnetu, pakietu wejść) możesz go wykorzystać przy wizycie w obiekcie sportowym. Aplikacja generuje kod weryfikacyjny, który pokazujesz pracownikowi obiektu. --- Zanim zaczniesz - Musisz mieć zakupiony, aktywny produkt (status: Aktywny, zielony) - Produkt musi mieć pozostałe wejścia (licznik > 0) --- Kroki Krok 1: Otwórz „Moje zakupy\" Na ekranie Sklep dotknij zakładki Moje zakupy na górze ekranu. !Zakładka Moje zakupy : Screenshot #8 Krok 2: Znajdź aktywny produkt Na liście zakupów znajdź produkt ze statusem Aktywny (zielona etykieta). Możesz użyć filtrów: - Wszystkie : wszystkie zakupy - Aktywne : tylko aktywne produkty - Nieaktywne : wygasłe lub wykorzystane !Lista zakupów z filtrami : Screenshot #9 Krok 3: Dotknij „Użyj produktu\" Na karcie aktywnego produktu dotknij przycisku Użyj produktu. > 💡 Wskazówka: Przycisk jest dostępny tylko gdy produkt ma status „Akt",
+      "excerpt": "Ekran: Sklep → Moje zakupy Rola: Użytkownik Trudność: Łatwa Po zakupie produktu (karnetu, pakietu wejść) możesz go wykorzystać przy wizycie w obiekcie sportowym. Aplikacja generuje kod weryfikacyjny, ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/how-to-view-purchases",
+      "title": "Jak przeglądać moje zakupy",
+      "screen": "shop",
+      "content": "Jak przeglądać moje zakupy Ekran: Sklep → Moje zakupy Rola: Użytkownik Trudność: Łatwa Przegląd Zakładka „Moje zakupy\" pokazuje wszystkie produkty, które kupiłeś/aś w Sklepie. Możesz sprawdzić status każdego produktu, ile wejść Ci zostało i kiedy produkt wygasa. --- Kroki Krok 1: Otwórz zakładkę Sklep Na dolnym pasku nawigacji dotknij ikony Sklep. Krok 2: Przejdź do „Moje zakupy\" Na górze ekranu zobaczysz dwie zakładki. Dotknij Moje zakupy. !Przełączanie na Moje zakupy : Screenshot #12 Krok 3: Przeglądaj swoje zakupy Każda karta zakupu zawiera: | Informacja | Opis | |------------|------| | Nazwa produktu | Tytuł i podtytuł produktu | | Status | Aktywny (zielony), Wygasły (żółty) lub Wykorzystany (czerwony) | | Pasek postępu | Wizualne przedstawienie pozostałych wejść | | Data zakupu | Kiedy kupiłeś/aś produkt | | Data ważności | Do kiedy produkt jest aktywny | | Firma | Nazwa obiektu, który oferuje produkt | !Karta zakupu z detalami : Screenshot #13 Krok 4: Filtruj zakupy Użyj przycisk",
+      "excerpt": "Ekran: Sklep → Moje zakupy Rola: Użytkownik Trudność: Łatwa Zakładka „Moje zakupy\" pokazuje wszystkie produkty, które kupiłeś/aś w Sklepie. Możesz sprawdzić status każdego produktu, ile wejść Ci zosta...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "shop/troubleshooting",
+      "title": "Rozwiązywanie problemów : Sklep",
+      "screen": "shop",
+      "content": "Rozwiązywanie problemów : Ekran Sklep Problemy z zakupem Płatność się nie powiodła Objawy: Po przekierowaniu do TPay widzisz błąd lub zostajesz przekierowany/a z powrotem bez potwierdzenia. Rozwiązania: 1. Sprawdź połączenie z internetem 2. Upewnij się, że masz wystarczające środki na koncie 3. Wypróbuj inną metodę płatności (BLIK zamiast karty lub odwrotnie) 4. Zamknij i otwórz aplikację, a następnie spróbuj ponownie Strona TPay nie otwiera się Objawy: Po dotknięciu „Kup teraz\" nic się nie dzieje lub przeglądarka nie otwiera strony. Rozwiązania: 1. Sprawdź, czy masz zainstalowaną aktualną przeglądarkę 2. Zamknij inne aplikacje w tle (zwolnij pamięć) 3. Zrestartuj aplikację Spotto Podwójne obciążenie konta Objawy: Na koncie bankowym widzisz dwa obciążenia za ten sam produkt. Rozwiązania: 1. Sprawdź w „Moje zakupy\", czy produkt nie został kupiony dwukrotnie 2. Jedno z obciążeń może być tymczasową blokadą : zwykle znika w ciągu 24-48 godzin 3. Skontaktuj się z obsługą klienta: support@sp",
+      "excerpt": "Objawy: Po przekierowaniu do TPay widzisz błąd lub zostajesz przekierowany/a z powrotem bez potwierdzenia. Rozwiązania: 1. Sprawdź połączenie z internetem 2. Upewnij się, że masz wystarczające środki ...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "trainer",
+      "title": "Ekran Trener - Pomoc",
+      "screen": "trainer",
+      "content": "Ekran Trener Panel trenera w Spotto : twórz profil, prowadź zajęcia, nawiązuj współpracę z obiektami sportowymi. Przegląd ekranu Ekran Trener to centrum zarządzania Twoją działalnością trenerską. Możesz utworzyć profil, nawiązywać współpracę z obiektami sportowymi, tworzyć treningi i zarządzać uczestnikami. !Przegląd ekranu Trener : Screenshot #38 Co znajdziesz na ekranie Trener | Sekcja | Opis | Więcej | |--------|------|--------| | Profil trenera | Twoje dane, specjalizacje, stawki | Szczegóły | | Powiązane firmy | Lista firm, z którymi współpracujesz | Szczegóły | | Treningi | Twoje zajęcia, uczestnicy, terminy | Szczegóły | | Harmonogram | Dostępność godzinowa na każdy dzień | Szczegóły | --- Przewodniki krok po kroku Rozpoczęcie działalności - Jak utworzyć profil trenera : dane, specjalizacje, stawki, TPay - Jak nawiązać współpracę z obiektem : szukaj firm, wysyłaj prośby Prowadzenie zajęć - Jak utworzyć trening : tytuł, cena, termin, uczestnicy - Jak zarządzać uczestnikami : list",
+      "excerpt": "Panel trenera w Spotto : twórz profil, prowadź zajęcia, nawiązuj współpracę z obiektami sportowymi. Ekran Trener to centrum zarządzania Twoją działalnością trenerską. Możesz utworzyć profil, nawiązywa..."
+    },
+    {
+      "slug": "trainer/faq",
+      "title": "FAQ : Ekran Trener",
+      "screen": "trainer",
+      "content": "Najczęściej zadawane pytania : Ekran Trener Profil trenera Jaka jest różnica między trenerem niezależnym a pracownikiem? Trener niezależny prowadzi własną działalność : musi podać NIP, dane firmy i skonfigurować TPay. Może samodzielnie tworzyć treningi. Trener-pracownik pracuje dla obiektu sportowego : potrzebuje mniej danych, ale nie może samodzielnie tworzyć treningów. Zajęcia tworzy dla niego firma. Czy mogę zmienić typ z pracownika na niezależnego? Tak : edytuj profil trenera i zmień typ. Będziesz musiał/a uzupełnić dodatkowe dane wymagane dla trenerów niezależnych. Jak zmienić stawkę godzinową? Edytuj profil trenera i zaktualizuj stawkę netto lub brutto. System automatycznie przeliczy drugą wartość. Pamiętaj, że firma może ustawić własną stawkę niezależnie od Twojej. --- Współpraca z firmami Jak mogę zacząć prowadzić zajęcia w obiekcie? 1. Utwórz profil trenera 2. Wyszukaj firmę i wyślij prośbę 3. Poczekaj na akceptację właściciela 4. Po akceptacji możesz tworzyć treningi Firma od",
+      "excerpt": "Trener niezależny prowadzi własną działalność : musi podać NIP, dane firmy i skonfigurować TPay. Może samodzielnie tworzyć treningi. Trener-pracownik pracuje dla obiektu sportowego : potrzebuje mniej ...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "trainer/features",
+      "title": "Funkcje ekranu Trener",
+      "screen": "trainer",
+      "content": "Funkcje ekranu Trener Szczegółowe opisy wszystkich funkcji dostępnych na ekranie Trener. Lista funkcji - Profil trenera : typy trenerów, dane, specjalizacje - Powiązania z firmami : statusy, uprawnienia, zarządzanie - Zarządzanie treningami : sesje, ceny, uczestnicy - Harmonogram dostępności : grafik tygodniowy, konkretne daty --- Ostatnia aktualizacja: 2026-03-29",
+      "excerpt": "Szczegółowe opisy wszystkich funkcji dostępnych na ekranie Trener. - Profil trenera : typy trenerów, dane, specjalizacje - Powiązania z firmami : statusy, uprawnienia, zarządzanie - Zarządzanie trenin..."
+    },
+    {
+      "slug": "trainer/features/availability-schedule",
+      "title": "Harmonogram dostępności",
+      "screen": "trainer",
+      "content": "Harmonogram dostępności Opis Harmonogram pozwala trenerowi określić, w jakich godzinach jest dostępny do prowadzenia zajęć. Firmy mogą sprawdzić Twoją dostępność przed zaplanowaniem sesji. Harmonogram jest widoczny dla firm, z którymi masz potwierdzone powiązanie. Typy harmonogramu Grafik ogólny (tygodniowy) Powtarzający się grafik na każdy tydzień. Definiujesz go raz, a obowiązuje aż do zmiany. | Dzień | Zakres godzin | Uwagi | |-------|--------------|-------| | Poniedziałek – Piątek | 00:00 – 23:00 | Każdy dzień konfigurowany osobno | | Sobota | 00:00 – 23:00 | Osobna konfiguracja | | Niedziela | 00:00 – 23:00 | Osobna konfiguracja | Każdą godzinę (slot godzinny) możesz oznaczyć jako: - Dostępny : gotowy na zajęcia w tym czasie - Niedostępny : brak możliwości prowadzenia zajęć Aby ustawić dostępność, dotknij odpowiednich slotów na siatce tygodniowej. Sloty zmieniają kolor w zależności od statusu. Harmonogram na konkretną datę Nadpisanie grafiku ogólnego dla wybranej daty. Przydatne, ",
+      "excerpt": "Harmonogram pozwala trenerowi określić, w jakich godzinach jest dostępny do prowadzenia zajęć. Firmy mogą sprawdzić Twoją dostępność przed zaplanowaniem sesji. Harmonogram jest widoczny dla firm, z kt...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "trainer/features/business-associations",
+      "title": "Powiązania z firmami",
+      "screen": "trainer",
+      "content": "Powiązania z firmami Opis System powiązań łączy trenerów z obiektami sportowymi. Trener wysyła prośbę o współpracę, a firma ją akceptuje lub odrzuca. Po akceptacji trener może prowadzić zajęcia w obiektach firmy zgodnie z uprawnieniami nadanymi przez właściciela. Jak wygląda proces 1. Wyszukujesz firmę : szukasz po mieście i typie obiektu 2. Wysyłasz prośbę : firma otrzymuje powiadomienie 3. Czekasz na decyzję : firma akceptuje lub odrzuca 4. Współpraca aktywna : po akceptacji możesz prowadzić zajęcia Statusy powiązań | Status | Kolor | Opis | Twoje akcje | |--------|-------|------|-------------| | Oczekujące | Żółty/pomarańczowy | Prośba wysłana, firma jeszcze nie zdecydowała | Wyślij ponownie e-mail, anuluj prośbę | | Potwierdzone | Zielony | Współpraca aktywna : możesz prowadzić zajęcia | Usuń powiązanie | | Odrzucone | Czerwony | Firma odrzuciła prośbę (widoczny powód odrzucenia) | Wyślij nową prośbę | !Lista powiązań z firmami : Screenshot #63 Informacje o powiązaniu Dla każdego p",
+      "excerpt": "System powiązań łączy trenerów z obiektami sportowymi. Trener wysyła prośbę o współpracę, a firma ją akceptuje lub odrzuca. Po akceptacji trener może prowadzić zajęcia w obiektach firmy zgodnie z upra...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "trainer/features/trainer-profile",
+      "title": "Profil trenera",
+      "screen": "trainer",
+      "content": "Profil trenera Opis Profil trenera to Twoja wizytówka w Spotto. Zawiera dane kontaktowe, specjalizacje, doświadczenie i stawki godzinowe. W zależności od typu profilu (niezależny lub pracownik) wymagane są różne dane. Typy trenerów | Typ | Opis | Wymagane dane | |-----|------|---------------| | Niezależny | Prowadzisz własną działalność | Dane firmy (NIP, REGON, KRS), specjalizacje, opis, dane TPay | | Pracownik | Pracujesz dla obiektu sportowego | Dane podstawowe (imię, kontakt, miasto) | Dane profilu Dane podstawowe (obydwa typy) - Nazwa wyświetlana, e-mail, telefon - Miasto, adres, kod pocztowy - Avatar (zdjęcie profilowe) Dane firmy (tylko niezależny) - NIP (10 cyfr), nazwa firmy, REGON, KRS - Specjalizacje (wielokrotny wybór) - Opis działalności - Lata doświadczenia, certyfikaty, języki Stawka godzinowa - Stawka netto (bez VAT) - Stawka VAT (0%, 8%, 23%) - Stawka brutto (automatycznie obliczana) Dane TPay (tylko niezależny) Forma prawna, kategoria MCC, strona www, dane osoby konta",
+      "excerpt": "Profil trenera to Twoja wizytówka w Spotto. Zawiera dane kontaktowe, specjalizacje, doświadczenie i stawki godzinowe. W zależności od typu profilu (niezależny lub pracownik) wymagane są różne dane. | ...",
+      "role": "Trener",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "trainer/features/training-management",
+      "title": "Zarządzanie treningami",
+      "screen": "trainer",
+      "content": "Zarządzanie treningami Opis Treningi to zajęcia prowadzone przez trenera w obiekcie sportowym. Każdy trening może mieć wiele sesji na różne daty, cenę, limit uczestników i powiązanie z rezerwacją obiektu. Dane treningu | Pole | Opis | |------|------| | Tytuł | Nazwa treningu (3-100 znaków) | | Opis | Szczegółowy opis (10-1000 znaków) | | Specjalizacja | Dyscyplina sportowa | | Czas trwania | 15-480 minut (co 15 min) | | Maks. uczestników | 1-50 osób | | Cena netto | Maks. 10 000 PLN | | Cena brutto | Obliczana automatycznie (z VAT) | Sesje Trening może mieć wiele sesji: - Każda sesja ma osobną datę - Każda sesja ma godzinę rozpoczęcia i zakończenia - Sesje mogą być na różne dni Lista treningów Na karcie każdego treningu widzisz: - Tytuł i opis - Obiekt (nazwa i firma) - Data i godzina pierwszej sesji - Czas trwania (minuty) - Liczba uczestników (aktualna/maksymalna) - Cena brutto (lub netto, jeśli brutto niedostępna) Ograniczenia dla pracowników Trenerzy ze statusem „Pracownik\" nie mog",
+      "excerpt": "Treningi to zajęcia prowadzone przez trenera w obiekcie sportowym. Każdy trening może mieć wiele sesji na różne daty, cenę, limit uczestników i powiązanie z rezerwacją obiektu. | Pole | Opis | |------...",
+      "role": "Trener",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "trainer/how-to-associate-with-business",
+      "title": "Jak nawiązać współpracę z obiektem",
+      "screen": "trainer",
+      "content": "Jak nawiązać współpracę z obiektem sportowym Ekran: Trener Rola: Trener Trudność: Łatwa Przegląd Aby prowadzić zajęcia w obiekcie sportowym, musisz nawiązać z nim współpracę. Wyszukaj firmę, wyślij prośbę o powiązanie i czekaj na akceptację właściciela. --- Zanim zaczniesz - Musisz mieć utworzony profil trenera --- Kroki Krok 1: Otwórz wyszukiwarkę firm Na ekranie Trener przejdź do zakładki Powiązane firmy i dotknij Szukaj firm. !Wyszukiwarka firm : Screenshot #42 Krok 2: Wyszukaj firmę Wpisz miasto i ewentualnie typ obiektu: - Miasto : wpisz minimum 3 znaki, aby zobaczyć podpowiedzi - Typ obiektu : wybierz z listy (np. Strzelnica) Wyniki pokażą firmy z obiektami sportowymi w wybranym mieście. Krok 3: Wybierz firmy Możesz wysłać prośby do wielu firm jednocześnie: 1. Zaznacz firmy, z którymi chcesz współpracować 2. Dotknij Wyślij prośby !Wybór firm : Screenshot #43 > 💡 Wskazówka: Możesz wysłać prośby do wielu firm naraz. Każda firma niezależnie decyduje o akceptacji. Krok 4: Oczekuj na",
+      "excerpt": "Ekran: Trener Rola: Trener Trudność: Łatwa Aby prowadzić zajęcia w obiekcie sportowym, musisz nawiązać z nim współpracę. Wyszukaj firmę, wyślij prośbę o powiązanie i czekaj na akceptację właściciela. ...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "trainer/how-to-create-trainer-profile",
+      "title": "Jak utworzyć profil trenera",
+      "screen": "trainer",
+      "content": "Jak utworzyć profil trenera Ekran: Trener Rola: Trener Trudność: Średnia Przegląd Profil trenera to Twoja wizytówka w Spotto. Zawiera dane kontaktowe, specjalizacje, doświadczenie i stawki. Możesz działać jako trener niezależny lub jako pracownik obiektu. --- Zanim zaczniesz - Musisz mieć konto w Spotto z aktywną rolą „Trener\" (włącz ją w ustawieniach profilu) - Jeśli działasz jako trener niezależny : przygotuj NIP, REGON i dane firmy --- Kroki Krok 1: Otwórz ekran Trener Na dolnym pasku nawigacji dotknij ikony Trener. Jeśli nie masz jeszcze profilu, zobaczysz formularz tworzenia. Krok 2: Wybierz typ trenera | Typ | Opis | |-----|------| | Niezależny | Samodzielna działalność : wymagane dane firmy i TPay | | Pracownik | Pracujesz dla obiektu : uproszczony formularz | !Wybór typu trenera : Screenshot #39 > 💡 Wskazówka: Typ „Pracownik\" wymaga mniej danych, ale nie możesz samodzielnie tworzyć treningów : to robi firma. Krok 3: Wypełnij dane podstawowe | Pole | Opis | Wymagane | |------|-",
+      "excerpt": "Ekran: Trener Rola: Trener Trudność: Średnia Profil trenera to Twoja wizytówka w Spotto. Zawiera dane kontaktowe, specjalizacje, doświadczenie i stawki. Możesz działać jako trener niezależny lub jako ...",
+      "role": "Trener",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "trainer/how-to-create-training",
+      "title": "Jak utworzyć trening",
+      "screen": "trainer",
+      "content": "Jak utworzyć trening Ekran: Trener Rola: Trener Trudność: Średnia Przegląd Trening to zajęcia, które prowadzisz w obiekcie sportowym. Możesz tworzyć treningi z wieloma sesjami na różne daty, ustalać ceny, maksymalną liczbę uczestników i powiązać trening z rezerwacją obiektu. --- Zanim zaczniesz - Musisz mieć profil trenera - Musisz mieć potwierdzoną współpracę z firmą z uprawnieniem „Własne treningi\" - Potrzebujesz aktywnej rezerwacji obiektu > ⚠️ Ważne: Trenerzy ze statusem „Pracownik\" nie mogą samodzielnie tworzyć treningów : treningi tworzy firma. --- Kroki Krok 1: Otwórz zakładkę „Treningi\" Na ekranie Trener przejdź do zakładki Treningi i dotknij Utwórz trening. Krok 2: Wypełnij dane treningu | Pole | Opis | Wymagane | |------|------|----------| | Tytuł | Nazwa treningu (3-100 znaków) | Tak | | Opis | Szczegółowy opis (10-1000 znaków) | Tak | | Specjalizacja | Dyscyplina sportowa | Tak | | Czas trwania | 15-480 minut (co 15 min) | Tak | | Maks. uczestników | 1-50 osób | Tak | | Cen",
+      "excerpt": "Ekran: Trener Rola: Trener Trudność: Średnia Trening to zajęcia, które prowadzisz w obiekcie sportowym. Możesz tworzyć treningi z wieloma sesjami na różne daty, ustalać ceny, maksymalną liczbę uczestn...",
+      "role": "Trener",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "trainer/how-to-manage-participants",
+      "title": "Jak zarządzać uczestnikami treningu",
+      "screen": "trainer",
+      "content": "Jak zarządzać uczestnikami treningu Ekran: Trener Rola: Trener Trudność: Łatwa Przegląd Po utworzeniu treningu możesz przeglądać listę zapisanych uczestników, kontaktować się z nimi i w razie potrzeby usuwać ich z zajęć. --- Kroki Krok 1: Otwórz listę uczestników Na liście treningów (zakładka Treningi) znajdź trening i dotknij Zobacz uczestników. Krok 2: Przejrzyj listę Dla każdego uczestnika widzisz: - Avatar : zdjęcie lub domyślna ikona - Imię i nazwisko - E-mail - Telefon (jeśli podany) !Lista uczestników : Screenshot #47 Krok 3: Kontaktuj się z uczestnikami Dotknij danych kontaktowych uczestnika: - E-mail : otwiera aplikację pocztową - Telefon : otwiera dialer Krok 4: Usunięcie uczestnika Aby usunąć uczestnika z treningu: 1. Dotknij przycisku Usuń przy uczestnikowi 2. Potwierdź usunięcie w oknie dialogowym > ⚠️ Ważne: Usunięcie uczestnika jest nieodwracalne. Uczestnik zostanie usunięty z treningu bez dodatkowego powiadomienia. --- Powiązane tematy - Jak utworzyć trening - Zarządzan",
+      "excerpt": "Ekran: Trener Rola: Trener Trudność: Łatwa Po utworzeniu treningu możesz przeglądać listę zapisanych uczestników, kontaktować się z nimi i w razie potrzeby usuwać ich z zajęć. --- Na liście treningów ...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "trainer/how-to-set-availability",
+      "title": "Jak ustawić harmonogram dostępności",
+      "screen": "trainer",
+      "content": "Jak ustawić harmonogram dostępności Ekran: Trener Rola: Trener Trudność: Łatwa Przegląd Harmonogram dostępności informuje firmy i klientów, kiedy jesteś wolny/a. Możesz ustawić ogólny grafik tygodniowy i nadpisać go na konkretne daty. --- Kroki Krok 1: Otwórz harmonogram Na ekranie Trener znajdź sekcję Harmonogram dostępności. Krok 2: Ustaw grafik ogólny Skonfiguruj dostępność dla trzech typów dni: | Typ | Opis | |-----|------| | Dni robocze | Poniedziałek – Piątek | | Sobota | Sobota | | Niedziela | Niedziela | Zaznacz godziny (od 00:00 do 23:00), w których jesteś dostępny/a. !Grafik tygodniowy trenera : Screenshot #48 Krok 3: (Opcjonalnie) Ustaw dostępność na konkretną datę 1. Wybierz tryb Na konkretną datę 2. Wybierz datę z kalendarza 3. Zaznacz godziny dostępności Harmonogram na konkretną datę ma wyższy priorytet niż grafik ogólny. Krok 4: (Opcjonalnie) Przypisz godziny do firm Jeśli współpracujesz z wieloma firmami, możesz przypisać poszczególne godziny do konkretnych firm. Dzięki",
+      "excerpt": "Ekran: Trener Rola: Trener Trudność: Łatwa Harmonogram dostępności informuje firmy i klientów, kiedy jesteś wolny/a. Możesz ustawić ogólny grafik tygodniowy i nadpisać go na konkretne daty. --- Na ekr...",
+      "role": "Trener",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "troubleshooting",
+      "title": "Rozwiązywanie problemów - Pomoc",
+      "screen": "troubleshooting",
+      "content": "Rozwiązywanie problemów Masz problem z aplikacją Spotto? Znajdź rozwiązanie poniżej lub skontaktuj się z nami: support@spotto.pl. Kategorie problemów Logowanie i konto - Nie mogę się zalogować : błędne hasło, zablokowane konto - Zapomniałem hasła : resetowanie hasła - Konto zablokowane : odblokowanie dostępu Płatności - Płatność się nie powiodła : błędy TPay, odrzucona transakcja - Problem ze zwrotem : czas oczekiwania, status zwrotu - Błędy TPay : przekierowanie, timeout, inne błędy Rezerwacje - Rezerwacja się nie powiodła : nie można zarezerwować - Nie mogę anulować rezerwacji : zasady anulowania - Termin niedostępny : brak wolnych terminów Problemy z aplikacją - Aplikacja się zawiesza : awarie i zawieszenia - Wolne działanie : optymalizacja wydajności - Problemy z synchronizacją : dane się nie aktualizują --- Szybkie rozwiązania Zanim szukasz szczegółowego rozwiązania, wypróbuj te kroki: 1. Sprawdź połączenie z internetem : większość funkcji wymaga internetu 2. Zamknij i otwórz apli",
+      "excerpt": "Masz problem z aplikacją Spotto? Znajdź rozwiązanie poniżej lub skontaktuj się z nami: support@spotto.pl. - Nie mogę się zalogować : błędne hasło, zablokowane konto - Zapomniałem hasła : resetowanie h..."
+    },
+    {
+      "slug": "troubleshooting/app-issues/app-crash",
+      "title": "Aplikacja się zawiesza",
+      "screen": "troubleshooting",
+      "content": "Aplikacja się zawiesza Problem Aplikacja Spotto zamyka się niespodziewanie, nie odpowiada lub wyświetla pusty ekran. Rozwiązania Krok 1: Zrestartuj aplikację Zamknij aplikację Spotto (wymuś zamknięcie) i otwórz ją ponownie. Android: Przycisk wielozadaniowości → przesuń Spotto w górę iPhone: Przesuń z dołu do środka ekranu → przesuń Spotto w górę Krok 2: Zaktualizuj aplikację Sprawdź, czy masz najnowszą wersję: - Android: Google Play Store → Spotto → Aktualizuj - iPhone: App Store → Spotto → Aktualizuj Krok 3: Zrestartuj telefon Wyłącz i włącz telefon. To rozwiązuje problemy z pamięcią. Krok 4: Wyczyść cache (Android) 1. Ustawienia → Aplikacje → Spotto 2. Pamięć → Wyczyść pamięć podręczną Krok 5: Reinstalacja Jeśli problem się powtarza: 1. Odinstaluj aplikację 2. Zainstaluj ponownie ze sklepu 3. Zaloguj się swoimi danymi > 💡 Wskazówka: Twoje dane (rezerwacje, zakupy, profil) są powiązane z kontem, nie z aplikacją : nie stracisz ich po reinstalacji. --- Zgłaszanie błędów Jeśli włączyłeś",
+      "excerpt": "Aplikacja Spotto zamyka się niespodziewanie, nie odpowiada lub wyświetla pusty ekran. Zamknij aplikację Spotto (wymuś zamknięcie) i otwórz ją ponownie. Android: Przycisk wielozadaniowości → przesuń Sp...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/app-issues/slow-performance",
+      "title": "Wolne działanie aplikacji",
+      "screen": "troubleshooting",
+      "content": "Wolne działanie aplikacji Problem Aplikacja Spotto działa wolno : ekrany ładują się długo, przyciski reagują z opóźnieniem. Rozwiązania Sprawdź połączenie z internetem Wolne połączenie = wolna aplikacja. Sprawdź: - Siłę sygnału Wi-Fi - Zasięg danych mobilnych - Spróbuj przełączyć się między Wi-Fi a danymi mobilnymi Zamknij niepotrzebne aplikacje Inne aplikacje działające w tle mogą zużywać pamięć i spowalniać Spotto. Zamknij niepotrzebne aplikacje. Zrestartuj telefon Restart telefonu zwalnia pamięć i może znacząco poprawić wydajność. Zaktualizuj aplikację Nowsze wersje mogą zawierać poprawki wydajności: - Android: Google Play Store → Spotto → Aktualizuj - iPhone: App Store → Spotto → Aktualizuj Sprawdź miejsce na telefonie Brak wolnego miejsca na telefonie może spowalniać wszystkie aplikacje. Zwolnij minimum 500 MB miejsca. --- Powiązane tematy - Aplikacja się zawiesza - Problemy z synchronizacją",
+      "excerpt": "Aplikacja Spotto działa wolno : ekrany ładują się długo, przyciski reagują z opóźnieniem. Wolne połączenie = wolna aplikacja. Sprawdź: - Siłę sygnału Wi-Fi - Zasięg danych mobilnych - Spróbuj przełącz...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "troubleshooting/app-issues/sync-issues",
+      "title": "Problemy z synchronizacją",
+      "screen": "troubleshooting",
+      "content": "Problemy z synchronizacją Problem Dane w aplikacji nie aktualizują się : np. po zakupie produktu nie widzisz go w „Moje zakupy\", rezerwacja się nie pojawia lub zmiany w profilu nie są zapisane. Rozwiązania Odśwież ekran Przesuń palcem z góry na dół na liście (pull-to-refresh), aby wymusić odświeżenie danych. Przełącz się między zakładkami Przejdź do innej zakładki i wróć : to wymusza ponowne załadowanie danych. Zamknij i otwórz aplikację Zamknij aplikację całkowicie (wymuś zamknięcie) i otwórz ponownie. Sprawdź połączenie z internetem Brak stabilnego połączenia z internetem uniemożliwia synchronizację. Sprawdź: - Połączenie Wi-Fi lub dane mobilne - Spróbuj otworzyć stronę internetową w przeglądarce Wyloguj się i zaloguj ponownie W ostateczności: 1. Otwórz Ustawienia → Wyloguj się 2. Zaloguj się ponownie swoimi danymi 3. Dane powinny załadować się na nowo --- Powiadomienia push Jeśli nie otrzymujesz powiadomień o zakupach i rezerwacjach: 1. Sprawdź, czy powiadomienia push są włączone w ",
+      "excerpt": "Dane w aplikacji nie aktualizują się : np. po zakupie produktu nie widzisz go w „Moje zakupy\", rezerwacja się nie pojawia lub zmiany w profilu nie są zapisane. Przesuń palcem z góry na dół na liście (...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/authentication/account-locked",
+      "title": "Konto zablokowane",
+      "screen": "troubleshooting",
+      "content": "Konto zablokowane Problem Twoje konto zostało tymczasowo lub trwale zablokowane i nie możesz się zalogować. Najczęstsze przyczyny Zbyt wiele nieudanych prób logowania Rozwiązanie: 1. Odczekaj 15-30 minut 2. Spróbuj zalogować się ponownie 3. Jeśli nie pamiętasz hasła : zresetuj je Blokada bezpieczeństwa Jeśli system wykrył podejrzaną aktywność na Twoim koncie: 1. Sprawdź skrzynkę e-mail : powinieneś/aś otrzymać powiadomienie 2. Jeśli to nie Ty próbowałeś/aś się logować : zmień hasło natychmiast 3. Skontaktuj się z support@spotto.pl w celu odblokowania --- Kontakt z wsparciem Jeśli nie możesz odblokować konta samodzielnie: - E-mail: support@spotto.pl - Podaj adres e-mail konta i opis problemu --- Powiązane tematy - Nie mogę się zalogować - Zapomniałem hasła",
+      "excerpt": "Twoje konto zostało tymczasowo lub trwale zablokowane i nie możesz się zalogować. Rozwiązanie: 1. Odczekaj 15-30 minut 2. Spróbuj zalogować się ponownie 3. Jeśli nie pamiętasz hasła : zresetuj je Jeśl...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/authentication/forgot-password",
+      "title": "Zapomniałem hasła",
+      "screen": "troubleshooting",
+      "content": "Zapomniałem hasła Problem Nie pamiętasz hasła do konta Spotto. Rozwiązanie Krok 1: Otwórz ekran logowania Uruchom aplikację Spotto. Na ekranie logowania dotknij Zapomniałem hasła. Krok 2: Podaj adres e-mail Wpisz adres e-mail powiązany z Twoim kontem i dotknij Wyślij link. Krok 3: Sprawdź skrzynkę Na Twój adres e-mail zostanie wysłany link do resetowania hasła. Sprawdź: - Skrzynkę odbiorczą - Folder Spam / Niechciane Krok 4: Ustaw nowe hasło Otwórz link z e-maila i ustaw nowe hasło. Krok 5: Zaloguj się Wróć do aplikacji i zaloguj się nowym hasłem. --- Rozwiązywanie problemów E-mail nie przychodzi - Sprawdź folder Spam - Upewnij się, że wpisałeś/aś prawidłowy adres e-mail - Odczekaj kilka minut i spróbuj ponownie - Sprawdź, czy konto z tym adresem istnieje Link wygasł - Linki resetowania mają ograniczony czas ważności - Wygeneruj nowy link, powtarzając kroki od początku --- Powiązane tematy - Nie mogę się zalogować - Konto zablokowane",
+      "excerpt": "Nie pamiętasz hasła do konta Spotto. Uruchom aplikację Spotto. Na ekranie logowania dotknij Zapomniałem hasła. Wpisz adres e-mail powiązany z Twoim kontem i dotknij Wyślij link. Na Twój adres e-mail z...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "troubleshooting/authentication/login-failed",
+      "title": "Nie mogę się zalogować",
+      "screen": "troubleshooting",
+      "content": "Nie mogę się zalogować Problem Nie możesz zalogować się do aplikacji Spotto : widzisz błąd lub ekran logowania nie przyjmuje Twoich danych. Najczęstsze przyczyny i rozwiązania Błędne hasło Objawy: Komunikat „Nieprawidłowy e-mail lub hasło\" Rozwiązanie: 1. Sprawdź, czy nie masz włączonego Caps Lock 2. Upewnij się, że wpisujesz prawidłowy adres e-mail 3. Jeśli nie pamiętasz hasła : zresetuj je Konto nie istnieje Objawy: Komunikat o nieistniejącym koncie Rozwiązanie: 1. Sprawdź, czy rejestracja została ukończona 2. Upewnij się, że używasz tego samego adresu e-mail, co przy rejestracji 3. Jeśli konto nie istnieje, zarejestruj się ponownie Brak połączenia z internetem Objawy: Ładowanie się nie kończy, timeout Rozwiązanie: 1. Sprawdź połączenie Wi-Fi lub dane mobilne 2. Otwórz przeglądarkę i sprawdź, czy inne strony działają 3. Przełącz się między Wi-Fi a danymi mobilnymi Zbyt wiele nieudanych prób Objawy: Komunikat o tymczasowym zablokowaniu Rozwiązanie: 1. Odczekaj kilka minut i spróbuj po",
+      "excerpt": "Nie możesz zalogować się do aplikacji Spotto : widzisz błąd lub ekran logowania nie przyjmuje Twoich danych. Objawy: Komunikat „Nieprawidłowy e-mail lub hasło\" Rozwiązanie: 1. Sprawdź, czy nie masz wł...",
+      "role": "Wszystkie",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "troubleshooting/bookings/booking-failed",
+      "title": "Rezerwacja się nie powiodła",
+      "screen": "troubleshooting",
+      "content": "Rezerwacja się nie powiodła Problem Próbujesz zarezerwować obiekt sportowy, ale rezerwacja kończy się błędem. Najczęstsze przyczyny i rozwiązania Termin już zajęty Objawy: Komunikat o niedostępności terminu Rozwiązanie: Wybrany slot został zarezerwowany przez innego użytkownika. Wybierz inny termin lub dzień. Problem z płatnością Objawy: Rezerwacja nie zostaje potwierdzona po płatności Rozwiązanie: Zobacz Płatność się nie powiodła Brak połączenia z internetem Rozwiązanie: Sprawdź połączenie i spróbuj ponownie. Obiekt nie przyjmuje rezerwacji Objawy: Brak dostępnych slotów Rozwiązanie: 1. Sprawdź harmonogram obiektu : może być zamknięty w wybranym terminie 2. Spróbuj innego dnia 3. Skontaktuj się z obiektem bezpośrednio --- Oczekujące płatności Jeśli płatność została przerwana, rezerwacja trafi do sekcji Oczekujące płatności na ekranie Home. Możesz dokończyć płatność stamtąd. --- Powiązane tematy - Termin niedostępny - Płatność się nie powiodła - Jak zarezerwować obiekt",
+      "excerpt": "Próbujesz zarezerwować obiekt sportowy, ale rezerwacja kończy się błędem. Objawy: Komunikat o niedostępności terminu Rozwiązanie: Wybrany slot został zarezerwowany przez innego użytkownika. Wybierz in...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/bookings/cannot-cancel",
+      "title": "Nie mogę anulować rezerwacji",
+      "screen": "troubleshooting",
+      "content": "Nie mogę anulować rezerwacji Problem Chcesz anulować rezerwację, ale opcja nie jest dostępna lub wyświetla się błąd. Najczęstsze przyczyny Za późno na anulowanie Objawy: Przycisk „Anuluj\" jest nieaktywny lub wyświetla się komunikat Wyjaśnienie: Wiele obiektów nie pozwala na anulowanie na mniej niż 48 godzin przed terminem rezerwacji. Rozwiązanie: Skontaktuj się bezpośrednio z obiektem sportowym : dane kontaktowe znajdziesz w szczegółach rezerwacji. Rezerwacja już się rozpoczęła Wyjaśnienie: Nie można anulować rezerwacji, która już trwa lub się odbyła. Problemy techniczne Rozwiązanie: 1. Sprawdź połączenie z internetem 2. Zamknij i otwórz aplikację 3. Spróbuj ponownie --- Zasady anulowania | Czas do rezerwacji | Zwrot | |-------------------|-------| | Powyżej 48 godzin | Pełny zwrot minus 10% opłaty manipulacyjnej | | Poniżej 48 godzin | Zależy od polityki obiektu | | Po terminie | Brak zwrotu | > ⚠️ Ważne: Szczegółowe zasady anulowania mogą się różnić w zależności od obiektu sportowego",
+      "excerpt": "Chcesz anulować rezerwację, ale opcja nie jest dostępna lub wyświetla się błąd. Objawy: Przycisk „Anuluj\" jest nieaktywny lub wyświetla się komunikat Wyjaśnienie: Wiele obiektów nie pozwala na anulowa...",
+      "role": "Użytkownik",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/bookings/time-slot-unavailable",
+      "title": "Termin niedostępny",
+      "screen": "troubleshooting",
+      "content": "Termin niedostępny Problem Chcesz zarezerwować obiekt, ale wybrany termin jest niedostępny lub szary. Najczęstsze przyczyny Termin zajęty przez innego użytkownika Ktoś zarezerwował ten slot przed Tobą. Rozwiązanie: Wybierz inny termin tego samego dnia lub sprawdź dostępność w innym dniu. Obiekt zamknięty w wybranym terminie Właściciel obiektu mógł zamknąć obiekt na ten dzień (święto, przerwa techniczna itp.). Rozwiązanie: Sprawdź inny dzień. Godziny otwarcia mogą się różnić w weekendy i święta. Minimalna długość rezerwacji Niektóre obiekty wymagają rezerwacji na minimum 2 sloty (2 godziny). Rozwiązanie: Zaznacz wymaganą minimalną liczbę slotów. --- Wskazówki - Szare sloty = zajęte lub niedostępne - Zielone sloty = wolne do rezerwacji - Sprawdź kilka dni, aby znaleźć wolny termin - Popularne godziny (18:00-21:00) rezerwują się najszybciej --- Powiązane tematy - Rezerwacja się nie powiodła - Jak zarezerwować obiekt",
+      "excerpt": "Chcesz zarezerwować obiekt, ale wybrany termin jest niedostępny lub szary. Ktoś zarezerwował ten slot przed Tobą. Rozwiązanie: Wybierz inny termin tego samego dnia lub sprawdź dostępność w innym dniu....",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
+      "slug": "troubleshooting/payments/payment-failed",
+      "title": "Płatność się nie powiodła",
+      "screen": "troubleshooting",
+      "content": "Płatność się nie powiodła Problem Próbujesz zapłacić za rezerwację lub produkt, ale płatność kończy się błędem. Najczęstsze przyczyny i rozwiązania Niewystarczające środki Objawy: TPay odrzuca transakcję Rozwiązanie: Sprawdź saldo na koncie bankowym i spróbuj ponownie lub użyj innej metody płatności. Błąd karty płatniczej Objawy: Komunikat o odrzuceniu karty Rozwiązanie: 1. Sprawdź, czy dane karty są prawidłowe 2. Upewnij się, że karta nie wygasła 3. Sprawdź, czy nie osiągnąłeś/aś limitu transakcji 4. Skontaktuj się z bankiem, jeśli problem się powtarza Problem z BLIK Objawy: Kod BLIK nie jest akceptowany Rozwiązanie: 1. Upewnij się, że kod jest aktualny (BLIK jest ważny 2 minuty) 2. Wygeneruj nowy kod w aplikacji bankowej 3. Sprawdź, czy masz włączone płatności BLIK w swoim banku Przekierowanie do TPay nie działa Objawy: Przeglądarka nie otwiera strony TPay Rozwiązanie: 1. Sprawdź połączenie z internetem 2. Zamknij inne aplikacje w tle 3. Zaktualizuj aplikację Spotto 4. Spróbuj ponown",
+      "excerpt": "Próbujesz zapłacić za rezerwację lub produkt, ale płatność kończy się błędem. Objawy: TPay odrzuca transakcję Rozwiązanie: Sprawdź saldo na koncie bankowym i spróbuj ponownie lub użyj innej metody pła...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/payments/refund-issues",
+      "title": "Problem ze zwrotem",
+      "screen": "troubleshooting",
+      "content": "Problem ze zwrotem Problem Oczekujesz zwrotu pieniędzy za anulowaną rezerwację lub produkt, ale środki nie wróciły na Twoje konto. Zasady zwrotów Rezerwacje - Anulowanie rezerwacji z wyprzedzeniem powyżej 48 godzin : pełny zwrot minus opłata manipulacyjna (10%) - Anulowanie poniżej 48 godzin przed terminem : zwrot może nie przysługiwać (zależy od polityki obiektu) - Szczegóły znajdziesz w regulaminie obiektu sportowego Produkty (karnety) - Zasady zwrotów ustalane są indywidualnie przez każdy obiekt sportowy - Skontaktuj się bezpośrednio z firmą Czas oczekiwania | Metoda płatności | Czas zwrotu | |-----------------|-------------| | Karta płatnicza | 3-10 dni roboczych | | Przelew bankowy | 1-5 dni roboczych | | BLIK | 1-3 dni robocze | Co zrobić 1. Sprawdź status rezerwacji : upewnij się, że anulowanie zostało potwierdzone 2. Odczekaj : zwroty mogą trwać do 10 dni roboczych 3. Sprawdź wyciąg bankowy : zwrot może pojawić się pod inną datą 4. Skontaktuj się z obiektem : dane kontaktowe zn",
+      "excerpt": "Oczekujesz zwrotu pieniędzy za anulowaną rezerwację lub produkt, ale środki nie wróciły na Twoje konto. - Anulowanie rezerwacji z wyprzedzeniem powyżej 48 godzin : pełny zwrot minus opłata manipulacyj...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    },
+    {
+      "slug": "troubleshooting/payments/tpay-errors",
+      "title": "Błędy TPay",
+      "screen": "troubleshooting",
+      "content": "Błędy TPay Problem Podczas płatności przez TPay widzisz błąd, stronę się nie ładuje lub przekierowanie nie działa. Najczęstsze błędy Strona TPay nie ładuje się Rozwiązanie: 1. Sprawdź połączenie z internetem 2. Zamknij przeglądarkę i spróbuj ponownie 3. Wyczyść cache przeglądarki „Sesja wygasła\" na stronie TPay Rozwiązanie: 1. Wróć do aplikacji Spotto 2. Rozpocznij płatność od początku 3. Staraj się dokończyć płatność w ciągu kilku minut Błąd po pomyślnej płatności Objawy: TPay potwierdza płatność, ale aplikacja nie aktualizuje statusu Rozwiązanie: 1. Odczekaj kilka sekund : aplikacja weryfikuje płatność w tle 2. Zamknij i otwórz aplikację 3. Sprawdź zakładkę „Moje zakupy\" lub „Rezerwacje\" 4. Jeśli produkt/rezerwacja nie pojawia się po kilku minutach : skontaktuj się z support@spotto.pl Przekierowanie z TPay nie wraca do aplikacji Rozwiązanie: 1. Ręcznie otwórz aplikację Spotto 2. Sprawdź, czy rezerwacja lub produkt zostały zarejestrowane 3. Jeśli nie : poczekaj kilka minut i odśwież -",
+      "excerpt": "Podczas płatności przez TPay widzisz błąd, stronę się nie ładuje lub przekierowanie nie działa. Rozwiązanie: 1. Sprawdź połączenie z internetem 2. Zamknij przeglądarkę i spróbuj ponownie 3. Wyczyść ca...",
+      "role": "Wszystkie",
+      "difficulty": "Średnia"
+    }
+  ],
+  "stats": {
+    "totalItems": 98,
+    "lastBuilt": "2026-03-30T16:10:35.397Z"
+  }
+}

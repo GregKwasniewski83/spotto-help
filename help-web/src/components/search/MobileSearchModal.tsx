@@ -7,6 +7,8 @@ import { useRef, useEffect } from 'react';
 import { Search, X } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useSearch } from '@/hooks/useSearch';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { getScreenName } from '@/lib/i18n/translations';
 
 interface MobileSearchModalProps {
   isOpen: boolean;
@@ -16,6 +18,7 @@ interface MobileSearchModalProps {
 export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModalProps) {
   const navigate = useNavigate();
   const inputRef = useRef<HTMLInputElement>(null);
+  const { lang, t } = useLanguage();
 
   const {
     query,
@@ -27,14 +30,12 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
     clearSearch
   } = useSearch({ maxResults: 10 });
 
-  // Auto-focus when modal opens
   useEffect(() => {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 100);
     }
   }, [isOpen]);
 
-  // Handle escape key
   useEffect(() => {
     if (!isOpen) return;
 
@@ -62,13 +63,11 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
 
   return (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 bg-black/50 z-50 animate-fade-in"
         onClick={handleClose}
       />
 
-      {/* Modal */}
       <div className="fixed inset-0 z-50 flex flex-col bg-white animate-slide-up">
         {/* Header */}
         <div className="flex items-center gap-3 p-4 border-b border-gray-200">
@@ -78,14 +77,15 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Szukaj w pomocy..."
+            placeholder={t('search.placeholder')}
             className="flex-1 text-base outline-none"
+            style={{ color: '#1f2937' }}
           />
           {query.length > 0 && (
             <button
               onClick={clearSearch}
               className="p-1 text-gray-400 hover:text-gray-600 transition-colors"
-              aria-label="Wyczyść wyszukiwanie"
+              aria-label={t('search.clear')}
             >
               <X size={20} />
             </button>
@@ -94,7 +94,7 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
             onClick={handleClose}
             className="px-3 py-1 text-sm font-medium text-primary-600 hover:bg-primary-50 rounded transition-colors"
           >
-            Anuluj
+            {t('search.cancel')}
           </button>
         </div>
 
@@ -103,7 +103,7 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
           {!showResults && (
             <div className="p-6 text-center text-gray-500">
               <Search size={48} className="mx-auto mb-3 text-gray-300" />
-              <p>Zacznij pisać, aby wyszukać artykuły pomocy</p>
+              <p>{t('search.startTyping')}</p>
             </div>
           )}
 
@@ -111,17 +111,17 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
             <div className="p-4">
               {isSearching && (
                 <div className="text-center py-8 text-gray-500">
-                  Szukam...
+                  {t('search.searching')}
                 </div>
               )}
 
               {!isSearching && !hasResults && (
                 <div className="text-center py-8">
                   <p className="text-gray-600 mb-2">
-                    Brak wyników dla "<span className="font-semibold">{query}</span>"
+                    {t('search.noResults')} "<span className="font-semibold">{query}</span>"
                   </p>
                   <p className="text-sm text-gray-500">
-                    Spróbuj użyć innych słów kluczowych
+                    {t('search.tryOtherShort')}
                   </p>
                 </div>
               )}
@@ -129,21 +129,12 @@ export default function MobileSearchModal({ isOpen, onClose }: MobileSearchModal
               {!isSearching && hasResults && (
                 <div className="space-y-2">
                   <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-3">
-                    Znaleziono {results.length} {results.length === 1 ? 'wynik' : 'wyników'}
+                    {t('search.found')} {results.length} {results.length === 1 ? t('search.result') : t('search.results')}
                   </p>
 
                   {results.map((result, index) => {
                     const { item, score } = result;
-                    const screenNames: Record<string, string> = {
-                      home: 'Home',
-                      reservations: 'Rezerwacje',
-                      shop: 'Sklep',
-                      business: 'Biznes',
-                      trainer: 'Trener',
-                      profile: 'Profil',
-                      troubleshooting: 'Rozwiązywanie problemów'
-                    };
-                    const screenName = screenNames[item.screen] || item.screen;
+                    const screenName = getScreenName(item.screen, lang);
                     const matchQuality = score ? Math.round((1 - score) * 100) : 100;
 
                     return (

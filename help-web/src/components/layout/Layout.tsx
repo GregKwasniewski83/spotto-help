@@ -1,10 +1,28 @@
-import { useState } from 'react';
-import { Outlet } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+import { LanguageProvider, useLanguage } from '@/lib/i18n/LanguageContext';
+import { setContentLanguage } from '@/lib/content/loader';
 
-export default function Layout() {
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+function LanguageSync() {
+  const { lang } = useLanguage();
+  useEffect(() => {
+    setContentLanguage(lang);
+  }, [lang]);
+  return null;
+}
+
+function LayoutInner() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
@@ -12,6 +30,8 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <ScrollToTop />
+      <LanguageSync />
       <Header onMenuClick={toggleSidebar} isMobileMenuOpen={isSidebarOpen} />
 
       <div className="flex flex-1">
@@ -26,5 +46,13 @@ export default function Layout() {
 
       <Footer />
     </div>
+  );
+}
+
+export default function Layout() {
+  return (
+    <LanguageProvider>
+      <LayoutInner />
+    </LanguageProvider>
   );
 }

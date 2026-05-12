@@ -1,0 +1,853 @@
+{
+  "items": [
+    {
+      "slug": "business",
+      "title": "Business Screen - Help",
+      "screen": "business",
+      "content": "Business Screen (Management) Business management panel in Spotto: create a business profile, manage facilities, products, trainers, and payments. Screen Overview The Business screen is the management hub for your sports business. Here you'll find all the tools needed to run your business: from creating a business profile, through managing facilities and schedules, to integrating with payment and invoicing systems. !Business screen overview: Screenshot #17 What You'll Find on the Business Screen | Section | Description | More | |---------|-------------|------| | Business profile | Company data, avatar, contact details | Details | | Sports facilities | Managing facilities and schedules | Details | | Products | Passes, entry packages, subscriptions | Details | | Agents | Inviting and managing staff | Details | | Trainers | Trainer associations, rates, permissions | Details | | Child businesses | Managing branches and associated businesses | Details | | TPay Integration | Payment gateway c",
+      "excerpt": "Business management panel in Spotto: create a business profile, manage facilities, products, trainers, and payments. The Business screen is the management hub for your sports business. Here you'll fin..."
+    },
+    {
+      "slug": "business/faq",
+      "title": "FAQ: Business Screen",
+      "screen": "business",
+      "content": "Frequently Asked Questions: Business Screen Business Profile How can I change my company data? Open the Business screen and tap the profile edit button. Change the necessary data and tap Save. Guide Can I have multiple businesses on one account? Yes, but each business requires a separate business profile. If you have branches: use the child businesses system. How do I change the company logo? On the Business screen, tap the camera icon on the avatar. You can take a new photo or choose one from the gallery. --- Sports Facilities How many facilities can I add? There is no limit: you can add any number of sports facilities. How do I change the facility price? Open the facility edit form, change the net or gross price (the system will automatically calculate the other value), and save. Guide Can I temporarily close a facility? Yes: set the schedule for a specific date without any selected hours. How to configure a schedule --- Payments and Invoicing Is TPay required? TPay is required for c",
+      "excerpt": "Open the Business screen and tap the profile edit button. Change the necessary data and tap Save. Guide Yes, but each business requires a separate business profile. If you have branches: use the child...",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/features",
+      "title": "Business Screen Features",
+      "screen": "business",
+      "content": "Business Screen Features The Business screen is the management hub for your sports business in Spotto. Below you will find detailed descriptions of all available features: from basic profile configuration, through facility and staff management, to payment and invoicing system integrations. Company Configuration | Feature | Description | Difficulty | |---------|-------------|------------| | Business Profile | Company data, avatar, contact details, schedule | Medium | | Facility Management | Creating facilities, pricing, VAT, availability, floor plans | Medium | | TPay Integration | Payment gateway configuration for customers | Advanced | | KSeF Integration | Electronic invoicing (token or certificate) | Advanced | Offer and Sales | Feature | Description | Difficulty | |---------|-------------|------------| | Products | Creating passes, entry packages, and subscriptions | Medium | | Monthly Reports | Revenue, booking, and cancellation analysis | Easy | Staff and Collaboration | Feature |",
+      "excerpt": "The Business screen is the management hub for your sports business in Spotto. Below you will find detailed descriptions of all available features: from basic profile configuration, through facility an..."
+    },
+    {
+      "slug": "business/features/agent-management",
+      "title": "Agent Management",
+      "screen": "business",
+      "content": "Agent Management Description Agents are people with access to manage your business in Spotto. They can view bookings, manage facilities, and handle customers on your behalf. The system allows you to invite new agents by email, track invitation statuses, and revoke access when needed. How the Invitation System Works The entire process of adding an agent consists of four stages: 1. Invitation: you enter the email address of the person you want to invite and send the invitation 2. Pending: the invitation appears on the \"Pending Invitations\" list. An email with an acceptance link is sent to the provided address 3. Acceptance: the person clicks the link in the email and becomes an agent of your business 4. Expiration: if the invitation is not accepted within a specified time, it expires automatically !Agent section: Screenshot #56 > 💡 Tip: You can send invitations to multiple people: each will receive a separate email. Active Agents After accepting an invitation, the agent appears on the A",
+      "excerpt": "Agents are people with access to manage your business in Spotto. They can view bookings, manage facilities, and handle customers on your behalf. The system allows you to invite new agents by email, tr...",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/features/business-profile",
+      "title": "Business Profile",
+      "screen": "business",
+      "content": "Business Profile Description The business profile is your business card in the Spotto app. It contains all the data needed to run your business: from basic information, through the schedule, to payment system integration data. Profile Data Basic Data | Field | Description | |-------|-------------| | NIP | 10-digit tax identification number | | Company name | Official name from the registry | | Display name | Name visible to customers in the app | | Address | Street, number, city, postal code | | Coordinates | Location on the map (latitude/longitude) | | Email | Contact email address | | Phone | Contact phone number | Company Avatar You can add a logo or company photo. The avatar is visible: - On the company card in search results - In the Business screen header - In customers' booking details Schedule The schedule defines business opening hours: - Weekdays: Monday -- Friday - Saturday: separate schedule - Sunday: separate schedule - Specific dates: schedule override for selected days E",
+      "excerpt": "The business profile is your business card in the Spotto app. It contains all the data needed to run your business: from basic information, through the schedule, to payment system integration data. | ...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/features/child-businesses",
+      "title": "Child Businesses",
+      "screen": "business",
+      "content": "Child Businesses Description The child business system enables managing an organizational structure with a parent company and branches. A child business can use the parent company's payment configuration (TPay) and tax data (NIP), which simplifies managing multiple locations. When to Use Child Businesses Child businesses are useful when: - You have multiple locations (e.g., a gym chain) and want to manage them centrally - You want branches to use a single TPay account: no need to configure payments separately for each one - You want to issue invoices under one NIP for the entire organization How the Association Works ` Parent company (parent) ├── Child business A (Krakow branch) ├── Child business B (Warsaw branch) └── Child business C (Wroclaw branch) ` 1. Child business sends an association request to the parent company 2. Parent company accepts or rejects the request 3. After acceptance, the parent company configures permissions for the branch Permissions The parent company can gran",
+      "excerpt": "The child business system enables managing an organizational structure with a parent company and branches. A child business can use the parent company's payment configuration (TPay) and tax data (NIP)...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "business/features/facility-management",
+      "title": "Sports Facility Management",
+      "screen": "business",
+      "content": "Sports Facility Management Description Sports facilities are venues (courts, shooting ranges, gyms, etc.) that you make available to customers for booking. Each facility has its own name, type, price, capacity, and availability schedule. Facility Data | Field | Description | |-------|-------------| | Name | Facility name (e.g., \"Squash court #1\") | | Type | Facility type from a predefined list | | Description | Description visible to customers | | Address | Street, city, postal code | | Net price | Price per hour excluding VAT | | VAT rate | 0%, 5%, 8%, 23%, or EX (exempt) | | Gross price | Calculated automatically (net + VAT) | | Min. number of slots | Minimum booking length | | Max. users | Facility capacity | | Price per person | Whether the price is charged per person | Pricing and VAT The system automatically converts prices: - Enter the net price -> gross is calculated automatically - Enter the gross price -> net is calculated automatically - Changing the VAT rate automatically u",
+      "excerpt": "Sports facilities are venues (courts, shooting ranges, gyms, etc.) that you make available to customers for booking. Each facility has its own name, type, price, capacity, and availability schedule. |...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/features/ksef-integration",
+      "title": "KSeF Integration",
+      "screen": "business",
+      "content": "KSeF Integration Description KSeF (National e-Invoice System) is an electronic invoicing system operated by the Ministry of Finance. The integration allows you to automatically issue and send e-invoices directly from the Spotto app. The system supports two authorization methods: token and qualified certificate. Authorization Method Comparison | Criterion | Token | Certificate | |-----------|-------|-------------| | Ease of setup | Simple: copy and paste | Requires a .pfx/.p12 file and password | | Security level | Standard (RSA-OAEP) | Highest (cryptographic key) | | Validity period | Short: requires renewal | Long: 1-2 years (until expiration date) | | Cost | Free | Depends on the certificate provider | | Recommended use | Testing, quick start, small businesses | Production, larger businesses, higher requirements | | Source | KSeF website of the Ministry of Finance | Qualified trust service provider | --- Method 1: Configuration Using a Token An authorization token is the simplest met",
+      "excerpt": "KSeF (National e-Invoice System) is an electronic invoicing system operated by the Ministry of Finance. The integration allows you to automatically issue and send e-invoices directly from the Spotto a...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "business/features/monthly-reports",
+      "title": "Monthly Reports",
+      "screen": "business",
+      "content": "Monthly Reports Description Monthly reports give you a complete picture of your business's financial and operational performance for a selected month. You can analyze revenue, number of bookings, cancellations, and a detailed breakdown by individual sports facilities. Report Types Summary Report A quick overview of key metrics for the selected month: | Metric | Description | |--------|-------------| | Total revenue | Sum of revenue from all facilities (in PLN) | | Total number of bookings | How many bookings were completed | | Number of cancellations | How many bookings were cancelled | | Facility breakdown | Detailed data for each facility | Detailed Report Contains everything from the summary, plus detailed lists: | Section | Content | |---------|---------| | Bookings | List of individual bookings with dates, participants, and amounts | | Product purchases | Pass and package purchase transactions with prices | | Trainer sessions | List of trainer sessions with hours and rates | !Mont",
+      "excerpt": "Monthly reports give you a complete picture of your business's financial and operational performance for a selected month. You can analyze revenue, number of bookings, cancellations, and a detailed br...",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/features/products",
+      "title": "Products (Passes and Packages)",
+      "screen": "business",
+      "content": "Products (Passes and Packages) Description Products are offers that you create for customers in the Spotto Shop. They can be passes, entry packages, or subscriptions with various prices, number of uses, and validity periods. Product Properties | Property | Description | |----------|-------------| | Title | Name visible in the Shop | | Subtitle | Additional description (optional) | | Description | Detailed product description | | Net/gross price | With automatic VAT conversion | | Number of uses | How many times the customer can use it | | Period | Days, Weeks, Months, Years, Lifetime | | Number of periods | E.g., \"3\" months | | Active | Whether the product is visible in the Shop | Payment Options | Option | Description | |--------|-------------| | Payable in app | Customer uses the product to pay for a booking | | Payable at trainer | Customer uses the product to pay for a training session | Facility Assignment A product can be valid: - At all facilities of the business - At selected f",
+      "excerpt": "Products are offers that you create for customers in the Spotto Shop. They can be passes, entry packages, or subscriptions with various prices, number of uses, and validity periods. | Property | Descr...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/features/tpay-integration",
+      "title": "TPay Integration",
+      "screen": "business",
+      "content": "TPay Integration Description TPay is a certified payment gateway that enables accepting online payments from customers. TPay configuration is required for customers to be able to pay for sports facility bookings and products (passes, packages) in the Spotto app. Why TPay Is Important Without TPay configured: - Customers cannot pay for bookings in the app - Your products will not be available for purchase in the Shop - Trainers cannot collect fees for training sessions Required Data TPay configuration requires providing company registration data: | Field | Format | Description | |-------|--------|-------------| | NIP | 10 digits | Company tax identification number | | Email | address@company.pl | Company contact email | | Phone | phone number | Company contact phone number | | REGON | 9 or 14 digits | REGON number from the GUS registry | | KRS | 10 digits | National Court Register number | | Legal form | from dropdown list | Legal entity type (e.g., LLC, joint-stock company, sole propri",
+      "excerpt": "TPay is a certified payment gateway that enables accepting online payments from customers. TPay configuration is required for customers to be able to pay for sports facility bookings and products (pas...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "business/features/trainer-associations",
+      "title": "Trainer Associations",
+      "screen": "business",
+      "content": "Trainer Associations Description The trainer association system allows you to manage collaboration with trainers who conduct sessions at your sports facilities. You can accept or reject trainer requests, set hourly rates, grant permissions, and control what trainers can do at your facilities. How Collaboration Works 1. The trainer searches for your business in the app and sends a collaboration request 2. You receive the request in the \"Trainers\" section on the Business screen 3. You configure the rate and permissions before accepting 4. You accept: the trainer can conduct sessions at your facilities Association Statuses | Status | Color | Description | |--------|-------|-------------| | Pending | Yellow/orange | Trainer sent a request: waiting for your decision | | Confirmed | Green | Collaboration active: trainer conducts sessions | | Rejected | Red | Request rejected | !Trainer associations list: Screenshot #59 Hourly Rates For each trainer, you set an individual hourly rate: | Field",
+      "excerpt": "The trainer association system allows you to manage collaboration with trainers who conduct sessions at your sports facilities. You can accept or reject trainer requests, set hourly rates, grant permi...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/how-to-add-facility",
+      "title": "How to Add a Sports Facility",
+      "screen": "business",
+      "content": "How to Add a Sports Facility Screen: Business Role: Business Owner Difficulty: Medium Overview Sports facilities are the places you offer customers for booking: courts, shooting ranges, gyms, etc. Each facility has its own name, type, price, and availability schedule. --- Before You Start - You must have a business profile created --- Steps Step 1: Open the \"Facilities\" Section On the Business screen, find the Sports Facilities section and tap the Add Facility button. !Facilities section: Screenshot #21 Step 2: Fill in Facility Data Complete the facility form: | Field | Description | Required | |-------|-------------|----------| | Name | Facility name (e.g., \"Squash Court #1\") | Yes | | Type | Facility type (from dropdown list) | Yes | | Description | Facility description for customers | No | | Address | Street and number of the facility | Yes | | City | City | Yes | | Postal code | Postal code | Yes | !Facility form: Screenshot #22 Step 3: Set the Price Configure the hourly rate: - Ne",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Medium Sports facilities are the places you offer customers for booking: courts, shooting ranges, gyms, etc. Each facility has its own name, type, pri...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/how-to-create-profile",
+      "title": "How to Create a Business Profile",
+      "screen": "business",
+      "content": "How to Create a Business Profile Screen: Business Role: Business Owner Difficulty: Medium Overview The business profile is your business card in Spotto. It contains company data, address, opening hours, and contact information. Creating a profile is the first step to accepting reservations from customers. --- Before You Start - You must have a Spotto account with an active \"Business\" role (you can enable it in profile settings) - Prepare your company data: tax ID (NIP), REGON, address, contact details - If you plan to accept online payments: also prepare data for TPay configuration --- Steps Step 1: Open the Business Screen On the bottom navigation bar, tap the Business icon. If you don't have a business profile yet, you'll see the profile creation form. !Business profile creation screen: Screenshot #18 Step 2: Fill in Basic Data Complete the required fields: | Field | Description | Required | |-------|-------------|----------| | Tax ID (NIP) | Company tax identification number | Yes |",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Medium The business profile is your business card in Spotto. It contains company data, address, opening hours, and contact information. Creating a pro...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/how-to-generate-reports",
+      "title": "How to Generate Monthly Reports",
+      "screen": "business",
+      "content": "How to Generate Monthly Reports Screen: Business Role: Business Owner Difficulty: Easy Overview Monthly reports give you a full picture of your business activity: revenue, number of reservations, cancellations, and a detailed breakdown by facility. You can generate summary and detailed reports. --- Steps Step 1: Open Reports On the Business screen, tap the Monthly Reports button. Step 2: Select the Period Choose the month and year for which you want to generate the report. !Report period selection: Screenshot #35 Step 3: Choose the Report Type | Report Type | Content | |-------------|---------| | Summary | Total revenue, reservations, cancellations, breakdown by facility | | Detailed | Everything from summary + list of reservations, product purchases, trainer sessions | Step 4: Review the Report The report contains: Summary: - Total revenue (PLN) - Total number of reservations - Number of cancellations - Revenue breakdown by facility (facility name, revenue, reservations, cancellations",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Easy Monthly reports give you a full picture of your business activity: revenue, number of reservations, cancellations, and a detailed breakdown by fa...",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/how-to-manage-agents",
+      "title": "How to Manage Agents",
+      "screen": "business",
+      "content": "How to Manage Agents Screen: Business Role: Business Owner Difficulty: Easy Overview Agents are people who help you manage your business in Spotto. You can invite employees, grant them access to the management panel, and remove them from the team if needed. --- Inviting an Agent Step 1: Open the \"Agents\" Section On the Business screen, find the Agents section and tap Invite Agent. Step 2: Enter the Email Address Enter the email address of the person you want to invite. The system will send an invitation to the provided address. !Inviting an agent: Screenshot #30 Step 3: Wait for Acceptance The invitation will appear on the Pending Invitations list with information: - Email address of the invited person - Invitation date - Who sent the invitation - Validity status (invitations expire after a specified time) > Tip: If an invitation has expired, you can resend it using the Resend button. --- Managing Active Agents On the Active Agents list, you can see: - Agent's full name - Email address",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Easy Agents are people who help you manage your business in Spotto. You can invite employees, grant them access to the management panel, and remove th...",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/how-to-manage-child-businesses",
+      "title": "How to Manage Child Businesses",
+      "screen": "business",
+      "content": "How to Manage Child Businesses Screen: Business Role: Business Owner Difficulty: Advanced Overview The child business system allows parent companies to manage branches and associated businesses. A child business can use the parent business's TPay configuration and tax ID (NIP). --- Managing from the Parent Business Viewing Child Businesses In the Child Businesses section on the Business screen, you'll see: - Pending: new association requests - Confirmed: active child businesses Each child business displays: avatar, name, city, and email. !Child businesses list: Screenshot #37 Accepting a Child Business 1. Find the pending request 2. Configure permissions: | Permission | Description | |------------|-------------| | Use parent's TPay | Child business uses the parent business's payment gateway | | Use parent's tax ID for invoices | Invoices issued under the parent business's tax ID | 3. Tap Accept or Reject Changing Permissions For confirmed child businesses, you can change permissions (T",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Advanced The child business system allows parent companies to manage branches and associated businesses. A child business can use the parent business'...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "business/how-to-manage-products",
+      "title": "How to Manage Products",
+      "screen": "business",
+      "content": "How to Manage Products Screen: Business Role: Business Owner Difficulty: Medium Overview Products are passes, entry packages, and subscriptions that you offer customers in the Spotto Shop. You can create products with different prices, number of entries, and validity periods. --- Creating a Product Step 1: Open the \"Products\" Section On the Business screen, find the Products section and tap Add Product. Step 2: Fill in Product Data | Field | Description | Required | |-------|-------------|----------| | Title | Product name (e.g., \"Monthly Pass\") | Yes | | Subtitle | Additional description | No | | Description | Detailed product description | Yes | | Net price | Price without VAT (in PLN) | Yes | | VAT rate | 0%, 5%, 8%, 23%, or EX | Yes | | Gross price | Calculated automatically | : | | Number of uses | How many times the customer can use it | Yes | | Period | Days, Weeks, Months, Years, or Lifetime | Yes | | Number of periods | E.g., \"3\" months | Yes | !Product form: Screenshot #34 St",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Medium Products are passes, entry packages, and subscriptions that you offer customers in the Spotto Shop. You can create products with different pric...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/how-to-manage-schedule",
+      "title": "How to Configure a Schedule",
+      "screen": "business",
+      "content": "How to Configure a Schedule Screen: Business Role: Business Owner Difficulty: Easy Overview The schedule defines when your facilities are available for booking. You can set a general weekly schedule and override it for specific dates (e.g., holidays, special events). --- Steps Step 1: Open the Schedule On the Business screen, go to the business profile or facility edit view, then find the Schedule section. Step 2: Set the Weekly Schedule Configure opening hours for three day types: | Day Type | Description | |----------|-------------| | Weekdays | Monday - Friday | | Saturday | Saturday | | Sunday | Sunday | For each day type, select the hours (slots from 00:00 to 23:00) when the facility is available. !Weekly schedule: Screenshot #24 > Tip: Selected hour = facility available. Deselected = closed. Step 3: (Optional) Add Availability for a Specific Date To override the weekly schedule for a specific date: 1. Select the Schedule for a specific date mode 2. Choose a date from the calendar",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Easy The schedule defines when your facilities are available for booking. You can set a general weekly schedule and override it for specific dates (e....",
+      "role": "Business Owner",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "business/how-to-manage-trainers",
+      "title": "How to Manage Trainers",
+      "screen": "business",
+      "content": "How to Manage Trainers Screen: Business Role: Business Owner Difficulty: Medium Overview Trainers can conduct classes at your sports facilities. When a trainer sends a cooperation request, you'll see it on the Business screen. You can accept it, set an hourly rate, and grant permissions. --- Accepting a Trainer Step 1: Check Pending Requests On the Business screen, in the Trainers section, you'll see a list of associations with statuses: - Pending (yellow): new requests to review - Confirmed (green): accepted trainers !Trainer list: Screenshot #31 Step 2: Set the Hourly Rate Before or after acceptance, tap the trainer to open the rate panel: - Net rate: hourly rate without VAT - VAT rate: choose: 0%, 8%, or 23% - Gross rate: calculated automatically !Setting trainer rate: Screenshot #32 > Tip: You can also enter the gross rate: the net rate will be calculated automatically. Step 3: Set Permissions Configure what the trainer can do at your facility: | Permission | Description | |-------",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Medium Trainers can conduct classes at your sports facilities. When a trainer sends a cooperation request, you'll see it on the Business screen. You c...",
+      "role": "Business Owner",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "business/how-to-setup-ksef",
+      "title": "How to Set Up KSeF",
+      "screen": "business",
+      "content": "How to Set Up KSeF Screen: Business Role: Business Owner Difficulty: Advanced Overview KSeF (Krajowy System e-Faktur / National e-Invoice System) is an electronic invoicing system operated by the Ministry of Finance. Integration with KSeF enables automatic issuance and submission of e-invoices. Spotto supports two KSeF authorization methods: - Authorization token: quick setup, ideal for getting started - Qualified certificate: higher security level, recommended for production use --- Before You Start - You must have a business profile created - Choose an authorization method and prepare the appropriate data (see table below) - Decide whether you want to test the connection in a test environment first | Method | What You Need | Where to Obtain | |--------|--------------|-----------------| | Token | Authorization token (min. 20 characters) | KSeF website of the Ministry of Finance | | Certificate | Certificate file (.pfx or .p12) + password | Qualified trust service provider | > Importan",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Advanced KSeF (Krajowy System e-Faktur / National e-Invoice System) is an electronic invoicing system operated by the Ministry of Finance. Integration...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "business/how-to-setup-tpay",
+      "title": "How to Set Up TPay",
+      "screen": "business",
+      "content": "How to Set Up TPay Screen: Business Role: Business Owner Difficulty: Advanced Overview TPay is a payment gateway that enables your customers to pay for reservations and products online. TPay configuration requires providing your company's registration data. --- Before You Start - You must have a business profile created - Prepare the data: tax ID (NIP), REGON, KRS, website address - Contact person details (first name, last name) --- Steps Step 1: Open Business Profile Edit On the Business screen, tap the profile edit button. Scroll to the TPay Data section. !TPay section: Screenshot #26 Step 2: Fill in the Required Data | Field | Description | Required | |-------|-------------|----------| | Tax ID (NIP) | Tax identification number | Yes | | Email | Company email | Yes | | Phone | Contact number | Yes | | REGON | REGON number (9 or 14 digits) | Yes | | KRS | KRS number (10 digits) | Yes | | Legal form | Choose from the dropdown list | Yes | | Category (MCC) | Business activity category ",
+      "excerpt": "Screen: Business Role: Business Owner Difficulty: Advanced TPay is a payment gateway that enables your customers to pay for reservations and products online. TPay configuration requires providing your...",
+      "role": "Business Owner",
+      "difficulty": "Advanced"
+    },
+    {
+      "slug": "home",
+      "title": "Home Screen - Help",
+      "screen": "home",
+      "content": "Home Screen (Start) The main screen of the Spotto app : Your hub for searching and booking sports facilities. Screen Overview The Home screen is the first page you see when you launch the app. Here you'll find all the tools you need to find and book the perfect sports facility. !Home Screen Overview What you'll find on the Home screen | Section | Description | More | |---------|-------------|------| | Search | Search for facilities by city, date, and type | Details | | Sport categories | Browse facilities by sport discipline | Details | | Favorite facilities | Quick access to saved facilities | Details | | Nearby map | Sports facilities in your area | Details | | Upcoming reservations | Preview of your nearest bookings | Reservations | | Pending payments | Notifications about incomplete payments | How to book | | Community wall | Posts and activity from other users | Details | --- Step-by-step guides Searching and booking - How to search for a sports facility : enter a city, choose a d",
+      "excerpt": "The main screen of the Spotto app : Your hub for searching and booking sports facilities. The Home screen is the first page you see when you launch the app. Here you'll find all the tools you need to ..."
+    },
+    {
+      "slug": "home/faq",
+      "title": "FAQ : Home Screen",
+      "screen": "home",
+      "content": "Frequently Asked Questions : Home Screen Searching for facilities How can I find a sports facility near me? You have two options: 1. Search bar : type the name of a city in the search bar at the top of the Home screen and select a date. Step-by-step guide 2. Map : open the map view, which will automatically show facilities near your location. How to use the map Can I search for facilities in another city? Yes. Type any city in the search field : the app does not restrict results to your current location. Why is the search bar not showing any results? !No search results screen Most common causes: - City name spelled incorrectly : check the spelling - No facilities registered in Spotto in that city - A too-narrow facility type filter selected : remove the filter and try again - No internet connection --- Sport categories What sport categories are available? Available categories include: Shooting, Squash, Gym, Tennis, Padel, Football, Swimming pool, Badminton, Climbing, and others. The li",
+      "excerpt": "You have two options: 1. Search bar : type the name of a city in the search bar at the top of the Home screen and select a date. Step-by-step guide 2. Map : open the map view, which will automatically...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/features",
+      "title": "Home Screen Features",
+      "screen": "home",
+      "content": "Home Screen Features Detailed descriptions of all features available on the main screen of the Spotto app. Available Descriptions - Search : filters, results, location suggestions - Sport Categories : discipline carousel, category list - Favorites System : saving venues, quick access - Map View : nearby venues, markers, navigation - Community Wall : user posts, interactions See Also - Step-by-step guides : how to use individual features - FAQ : frequently asked questions - Troubleshooting : solving problems --- Last Updated: 2026-03-21",
+      "excerpt": "Detailed descriptions of all features available on the main screen of the Spotto app. - Search : filters, results, location suggestions - Sport Categories : discipline carousel, category list - Favori..."
+    },
+    {
+      "slug": "home/features/categories",
+      "title": "Sport Categories",
+      "screen": "home",
+      "content": "Sport Categories Description The sport categories section (Popular Activities) is an interactive carousel on the Home screen that lets you quickly browse venues by sporting discipline. Available Categories !Sport categories carousel on Home screen | Category | Icon | Description | |----------|------|-------------| | Shooting | 🎯 | Sports and recreational shooting ranges | | Squash | 🏸 | Squash courts | | Gym | 💪 | Weight rooms and fitness centers | | Tennis | 🎾 | Tennis courts (indoor and outdoor) | | Padel | 🏓 | Padel courts | | Football | ⚽ | Pitches (community, indoor, full-size) | | Swimming pool | 🏊 | Swimming pools and aquaparks | | Badminton | 🏸 | Badminton courts | | Table tennis | 🏓 | Table tennis tables | | Climbing | 🧗 | Climbing walls | > 💡 Note: The category list is dynamic and depends on the venues registered in the Spotto system. New categories appear automatically. How the Carousel Works - Scrolling : swipe left/right to see more categories - Selection : tap a",
+      "excerpt": "The sport categories section (Popular Activities) is an interactive carousel on the Home screen that lets you quickly browse venues by sporting discipline. !Sport categories carousel on Home screen | ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/features/community-wall",
+      "title": "Community Wall",
+      "screen": "home",
+      "content": "Community Wall Description The Community Wall is a section on the Home screen where users can browse posts and activity from the Spotto community. This is the place where you can see what is happening in the world of sport in your area. What You'll Find on the Wall !Community wall feed with posts - User posts : information about events, training sessions, and activities - Community activity : what other users are booking and recommending - Announcements : important information from sports venues Interactions From the Community Wall you can: - Browse posts : scroll down to see more content - React : like or comment on a post - Share : share an interesting post - Create posts : tap the button to create a new post Creating a Post 1. Tap the New post button on the Community Wall 2. Type the content of your post 3. Optionally add a photo or location 4. Tap Publish !Creating a new post on Community Wall > 💡 Tip: Posts are visible to other Spotto users. Please be mindful of your language and",
+      "excerpt": "The Community Wall is a section on the Home screen where users can browse posts and activity from the Spotto community. This is the place where you can see what is happening in the world of sport in y...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/features/favorites",
+      "title": "Favorites system",
+      "screen": "home",
+      "content": "Favorites system Description The favorites system allows you to save sports facilities that you regularly visit. Saved facilities are displayed as cards in the Favorites section on the Home screen. How to add to favorites You can add a facility to favorites in two ways: 1. From search results: tap the heart icon (♡) on the facility card 2. From the details page: tap the heart icon in the upper right corner Once added, the icon changes to a filled heart (♥). Favorites section on the Home screen The section appears on the Home screen after adding at least one facility. It contains: - Facility cards: mini cards with the name, address, and rating - Book button: quick booking without opening the details - Scrolling: if you have many favorites, scroll the list horizontally Managing favorites - Removing: tap the filled heart icon (♥) to remove a facility from favorites - Order: facilities are displayed in the order they were added (newest first) - Sync: favorites are linked to your account an",
+      "excerpt": "The favorites system allows you to save sports facilities that you regularly visit. Saved facilities are displayed as cards in the Favorites section on the Home screen. You can add a facility to favor...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/features/map-view",
+      "title": "Map view",
+      "screen": "home",
+      "content": "Map view Description The map view is an interactive section on the Home screen that displays sports facilities in your area. The map uses GPS location to show the nearest places on the map with markers. Map elements | Element | Description | |---------|-------------| | Blue dot | Your current location | | Colored markers | Sports facilities (pins on the map) | | Crosshair button | Centers the map on your position | | +/- buttons | Zooming in and out of the map | | Info window | Appears after tapping a marker | Navigation gestures - Panning: drag your finger across the map - Zooming in: pinch with two fingers (pinch-to-zoom) or tap + - Zooming out: spread two fingers apart or tap - - Double tap: quick zoom in Interacting with markers After tapping a marker, an info window appears with: - Facility name - Address - Distance from your location - User rating - Buttons: Details and Book Location permissions The map requires access to GPS location. Without it: - The map still works, but it wi",
+      "excerpt": "The map view is an interactive section on the Home screen that displays sports facilities in your area. The map uses GPS location to show the nearest places on the map with markers. | Element | Descri...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/features/search",
+      "title": "Facility search",
+      "screen": "home",
+      "content": "Facility search Description The search tool is the main feature of the Home screen. It is located at the top of the screen and allows you to find sports facilities based on location, date, and facility type. Available filters | Filter | Description | Required | |--------|-------------|----------| | City/location | City name or address | Yes | | Date | Booking day (default: today) | No | | Facility type | Type of facility (court, shooting range, gym...) | No | How the search works 1. Autocomplete: as you type a city name, you will see suggestions. Tap a suggestion to select it. 2. Search: after filling in the filters, tap the search button or confirm with the keyboard. 3. Results: a list of facilities sorted by relevance and distance. Result card Each search result is displayed as a card with the following information: - Facility name: the official name of the place - Address: street, number, city - Type: type of facility (e.g., \"Squash court\") - Availability: available time slots for t",
+      "excerpt": "The search tool is the main feature of the Home screen. It is located at the top of the screen and allows you to find sports facilities based on location, date, and facility type. | Filter | Descripti...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/how-to-book-facility",
+      "title": "How to Book a Sports Facility",
+      "screen": "home",
+      "content": "How to Book a Sports Facility Screen: Home Role: User Difficulty: Medium Overview From the Home screen you can book a sports facility in several ways: directly from search results, from the category list, from favorites, or from the map view. This guide walks through the full booking process step by step. --- Before You Start - You must have a Spotto account and be logged in - You need a valid payment method (card or TPay) --- Steps Step 1: Find a Facility Use one of the following methods to find a facility: - Search : enter a city and date - Categories : choose a sport type - Favorites : pick from your saved facilities - Map : find one on the map Step 2: Tap the \"Book\" Button On the facility card (in search results or in the details view) tap the Book button. !Book button > 💡 Tip: You can also use the Quick Book (QuickBook) feature, which lets you reserve a free slot with a single tap directly from search results. Step 3: Choose a Time Slot You will see a calendar with available slot",
+      "excerpt": "Screen: Home Role: User Difficulty: Medium From the Home screen you can book a sports facility in several ways: directly from search results, from the category list, from favorites, or from the map vi...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "home/how-to-browse-categories",
+      "title": "How to Browse Sport Categories",
+      "screen": "home",
+      "content": "How to Browse Sport Categories Screen: Home Role: User Difficulty: Easy Overview On the Home screen you will find a carousel of popular sport categories. Instead of typing a query into the search bar, you can quickly select a sport you are interested in and see all available facilities. --- Steps Step 1: Find the Categories Section Scroll down the Home screen until you see the Popular Activities section. It is displayed as a horizontal carousel with sport icons. !Categories carousel Step 2: Browse the Available Categories Swipe left or right on the carousel to see all available categories. Example categories: | Category | Description | |----------|-------------| | Shooting | Sport and recreational shooting ranges | | Squash | Squash courts | | Gym | Weight rooms and fitness studios | | Tennis | Tennis courts | | Padel | Padel courts | | Football | Football pitches (outdoor and indoor) | | Swimming Pool | Swimming pools and aquatic centres | | Badminton | Badminton courts | > 💡 Tip: Th",
+      "excerpt": "Screen: Home Role: User Difficulty: Easy On the Home screen you will find a carousel of popular sport categories. Instead of typing a query into the search bar, you can quickly select a sport you are ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/how-to-manage-favorites",
+      "title": "How to Manage Favourite Facilities",
+      "screen": "home",
+      "content": "How to Manage Favourite Facilities Screen: Home Role: User Difficulty: Easy Overview The favourites system lets you save the sports facilities you visit most often. This means you do not have to search for the same place every time — it is always at hand in the Home screen. --- Steps Adding a Facility to Favourites Step 1: Find a Facility Search for a sports facility using the search bar or categories. Step 2: Open the Facility Details Tap the facility card to open its details page. Step 3: Add to Favourites On the facility details page, tap the heart icon (♡) in the top-right corner. The icon will change to a filled heart (♥), confirming that the facility has been added to your favourites. !Adding to favourites > 💡 Tip: You can also add a facility to favourites directly from the search results card by tapping the heart icon there. --- Browsing Favourites on the Home Screen On the Home screen you will find the Favourites section, which displays your saved facilities as quick-access ca",
+      "excerpt": "Screen: Home Role: User Difficulty: Easy The favourites system lets you save the sports facilities you visit most often. This means you do not have to search for the same place every time — it is alwa...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/how-to-search-facilities",
+      "title": "How to Search for a Sports Facility",
+      "screen": "home",
+      "content": "How to Search for a Sports Facility Screen: Home Role: User Difficulty: Easy Overview The search bar on the Home screen lets you quickly find a sports facility in any city. You can filter results by location, date, and facility type (e.g. squash court, shooting range, gym). --- Steps Step 1: Open the Search Bar At the top of the Home screen you will see the search bar. Tap it to expand the search form. !Search bar Step 2: Enter a City or Location Type the name of the city where you are looking for a facility (e.g. \"Warsaw\", \"Krakow\", \"Gdansk\"). !Entering a city > 💡 Tip: The app suggests city names as you type — just select from the list. Step 3: Choose a Date Tap the date field to select the day on which you want to book. Today's date is set by default. !Date picker Step 4: Choose a Facility Type (Optional) If you are looking for a specific type of facility, select it from the drop-down list: - Squash court - Shooting range - Gym - Fitness studio - Football pitch - and more... > 💡 Ti",
+      "excerpt": "Screen: Home Role: User Difficulty: Easy The search bar on the Home screen lets you quickly find a sports facility in any city. You can filter results by location, date, and facility type (e.g. squash...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/how-to-use-map",
+      "title": "How to Use the Map View",
+      "screen": "home",
+      "content": "How to Use the Map View Screen: Home Role: User Difficulty: Easy Overview The map view on the Home screen lets you see sports facilities near you on an interactive map. It is the quickest way to find the nearest facility and book it. --- Before You Start - Make sure the app has access to your location (GPS) - Check that location is enabled in your phone's settings --- Steps Step 1: Open the Map View On the Home screen, find the Nearby Facilities section with the map. Tap the map to expand it to full screen. !Map section Step 2: Allow Location Access The first time you use the map, the app will ask for access to your location. Tap Allow to see facilities near you. !Location permission > ⚠️ Important: Without location access the map will not be able to show facilities in your area. You can still browse the map manually. Step 3: Browse Markers on the Map On the map you will see coloured markers (pins) indicating sports facilities. Each marker corresponds to one facility. !Map markers - Zo",
+      "excerpt": "Screen: Home Role: User Difficulty: Easy The map view on the Home screen lets you see sports facilities near you on an interactive map. It is the quickest way to find the nearest facility and book it....",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "home/troubleshooting",
+      "title": "Troubleshooting : Home Screen",
+      "screen": "home",
+      "content": "Troubleshooting : Home Screen Below you will find solutions to the most common problems with the Home screen in the Spotto app. --- Search No search results Problem: After entering a city and date, the search bar shows no facilities. !Empty search results screen Causes: - City name spelled incorrectly - No Spotto facilities in the selected city - Filters set too restrictively - No internet connection Solution: 1. Check the spelling of the city name : use autocomplete suggestions 2. Remove the facility type filter and search again 3. Change the date to today to check general availability 4. Check your internet connection (Wi-Fi/mobile data icon) 5. Close and reopen the app --- Search bar does not respond to touch Problem: The search bar does not expand when tapped. Causes: - The app has frozen - Device memory issue Solution: 1. Close the app and reopen it 2. Restart your phone 3. Make sure you have the latest version of the app --- Map Map is not loading Problem: The map section is empt",
+      "excerpt": "Below you will find solutions to the most common problems with the Home screen in the Spotto app. --- Problem: After entering a city and date, the search bar shows no facilities. !Empty search results...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "profile",
+      "title": "Profile Screen - Help",
+      "screen": "profile",
+      "content": "Profile Screen and Settings Your Spotto account: manage personal data, roles, privacy, and app settings. Screen Overview The Profile screen is your account management hub. Here you'll find your personal data, profile types (User, Business, Trainer), avatar, and access to privacy and app settings. !Profile screen overview: Screenshot #49 What You'll Find on the Profile Screen | Section | Description | More | |---------|-------------|------| | Personal data | First name, last name, date of birth, phone | Details | | Avatar | Your profile picture | Details | | Interests | Your favorite sports activities | Details | | Profile types | Roles: User, Business, Trainer | Details | | Location | Your current location | Details | What You'll Find in Settings | Section | Description | More | |---------|-------------|------| | Language | Polish / English | Details | | Privacy and security | Privacy settings, privacy policy | Details | | Help and support | Contact the support team | : | | About the a",
+      "excerpt": "Your Spotto account: manage personal data, roles, privacy, and app settings. The Profile screen is your account management hub. Here you'll find your personal data, profile types (User, Business, Trai..."
+    },
+    {
+      "slug": "profile/faq",
+      "title": "FAQ: Profile Screen",
+      "screen": "profile",
+      "content": "Frequently Asked Questions: Profile Screen and Settings Account How can I change my data? Open the Profile screen and tap Edit. You can change your first name, last name, phone number, date of birth, and interests. Guide How do I change my password? Currently, password changes are done through the \"Forgot Password\" feature on the login screen. More: Login issues Can I delete my account? The account deletion feature is under development. If needed, contact support@spotto.pl. --- Avatar How do I change my profile picture? Tap your avatar on the Profile screen. A window with available avatars will appear for you to choose from. Guide Can I upload my own photo? Currently, only predefined animal avatars are available. You can set custom photos in Business and Trainer profiles. --- Roles What are roles in Spotto? Roles (profile types) determine which features you have access to: - User: reservations, Shop (always active) - Business: company management - Trainer: conducting classes Details Ho",
+      "excerpt": "Open the Profile screen and tap Edit. You can change your first name, last name, phone number, date of birth, and interests. Guide Currently, password changes are done through the \"Forgot Password\" fe...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/features",
+      "title": "Profile Screen Features",
+      "screen": "profile",
+      "content": "Profile Screen and Settings Features Detailed descriptions of all features available on the Profile and Settings screens. Feature List - Account settings: personal data, avatar, location, language - Role management: User, Business, Trainer - Privacy settings: analytics, marketing, GDPR --- Last Updated: 2026-03-29",
+      "excerpt": "Detailed descriptions of all features available on the Profile and Settings screens. - Account settings: personal data, avatar, location, language - Role management: User, Business, Trainer - Privacy ..."
+    },
+    {
+      "slug": "profile/features/account-settings",
+      "title": "Account Settings",
+      "screen": "profile",
+      "content": "Account Settings Description Account settings allow you to manage your personal data, avatar, location, and language preferences. Personal Data | Field | Description | Editable | |-------|-------------|----------| | First name | Your first name | Yes | | Last name | Your last name | Yes | | Phone | Contact number | Yes | | Date of birth | Date of birth | Yes | | Interests | Favorite sports (multiple selection) | Yes | Avatar Spotto offers a set of animal avatars. Your avatar is visible: - In the Profile screen header - In comments and social posts - In training participant lists Location On the Profile screen, you can: - See your current location (if permission is granted) - Enable location access (button) - Location is used to display nearby facilities App Settings Language - Polski (default) - English The change is instant. Help and Support - Support email: support@spotto.pl - Complaints email: reklamacje@spotto.pl About the App - Company: SOLID LABS PSA - KRS: 0000987172 - NIP: 6751",
+      "excerpt": "Account settings allow you to manage your personal data, avatar, location, and language preferences. | Field | Description | Editable | |-------|-------------|----------| | First name | Your first nam...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/features/privacy-settings",
+      "title": "Privacy Settings",
+      "screen": "profile",
+      "content": "Privacy Settings Description Privacy settings allow you to control what data the Spotto app collects and how it is used. All settings can be changed independently. Available Settings | Setting | Description | Default | |---------|-------------|---------| | Analytics | Collection of usage data to improve the app | Enabled | | Crash reports | Automatic sending of error reports | Enabled | | Location tracking | Location data for nearby facility recommendations | Disabled | | Data sharing | Anonymous data shared with partners | Disabled | | Marketing emails | Information about promotions and updates | Disabled | | Push notifications | Notifications about reservations and updates | Enabled | Resetting Analytics The Reset analytics option deletes all collected analytics data. This operation is irreversible. Privacy Policy (GDPR) The Spotto app processes personal data in accordance with GDPR. The full privacy policy is available in Settings > Privacy and security > Privacy policy. Collected D",
+      "excerpt": "Privacy settings allow you to control what data the Spotto app collects and how it is used. All settings can be changed independently. | Setting | Description | Default | |---------|-------------|----...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/features/role-management",
+      "title": "Role Management",
+      "screen": "profile",
+      "content": "Role Management Description The role system in Spotto allows you to activate different app features depending on who you are: a user, a business owner, or a trainer. Each role unlocks a separate tab and set of features. You can have all three roles active simultaneously. Available Roles User | Property | Value | |----------|-------| | Status | Always active: cannot be disabled | | Terms | Must be accepted during registration | | Tabs | Home, Reservations, Shop, Profile | User role features: - Searching and browsing sports facilities - Booking facilities (courts, halls, shooting ranges) - Managing favorite facilities - Browsing and purchasing products in the Shop (passes, packages) - Participating in trainings conducted by trainers - Viewing reservation and purchase history Business (Business Owner) | Property | Value | |----------|-------| | Status | Optional: can be enabled/disabled | | Terms | Required when activating the role | | Tab | Business | Business role features: - Creating a",
+      "excerpt": "The role system in Spotto allows you to activate different app features depending on who you are: a user, a business owner, or a trainer. Each role unlocks a separate tab and set of features. You can ...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/how-to-change-avatar",
+      "title": "How to Change Your Avatar",
+      "screen": "profile",
+      "content": "How to Change Your Avatar Screen: Profile Role: All Difficulty: Easy Overview Your avatar is your profile picture visible in the app. Spotto offers a set of animal avatars to choose from. --- Steps Step 1: Open the Profile Screen On the bottom navigation bar, tap the Profile icon. Step 2: Tap the Avatar Tap your current avatar in the screen header. The avatar selection window will open. Step 3: Choose a New Avatar Browse the available animal avatars. Tap the one you want to select it. !Avatar selection: Screenshot #52 > 💡 Tip: The currently selected avatar is highlighted. Step 4: Confirm Your Choice Tap Save or close the window. The avatar will change immediately in the profile header. --- Related Topics - How to edit profile data - Account settings: details --- Last Updated: 2026-03-29",
+      "excerpt": "Screen: Profile Role: All Difficulty: Easy Your avatar is your profile picture visible in the app. Spotto offers a set of animal avatars to choose from. --- On the bottom navigation bar, tap the Profi...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/how-to-change-language",
+      "title": "How to Change the App Language",
+      "screen": "profile",
+      "content": "How to Change the App Language Screen: Profile > Settings Role: All Difficulty: Easy Overview Spotto is available in two languages: Polish and English. You can change the language at any time. --- Steps Step 1: Open Settings On the Profile screen, tap the Settings icon (gear icon). Step 2: Find the \"Preferences\" Section In the Preferences section, find the Language option. Step 3: Choose a Language Tap your preferred language: - Polski: default - English: English The language change is instant: the entire app interface will switch to the selected language. --- Related Topics - Account settings: details --- Last Updated: 2026-03-29",
+      "excerpt": "Screen: Profile > Settings Role: All Difficulty: Easy Spotto is available in two languages: Polish and English. You can change the language at any time. --- On the Profile screen, tap the Settings ico...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/how-to-edit-profile",
+      "title": "How to Edit Profile Data",
+      "screen": "profile",
+      "content": "How to Edit Profile Data Screen: Profile Role: All Difficulty: Easy Overview On the Profile screen, you can change your personal data: first name, last name, phone number, date of birth, and sports interests. --- Steps Step 1: Open the Profile Screen On the bottom navigation bar, tap the Profile icon. Step 2: Tap \"Edit profile\" On the personal data card, tap the Edit button. The edit form will open. !Profile editing: Screenshot #50 Step 3: Change Your Data You can change: | Field | Description | |-------|-------------| | First name | Your first name | | Last name | Your last name | | Phone | Contact number | | Date of birth | Your date of birth | | Interests | Choose your favorite sports (multiple selection) | !Sports interests: Screenshot #51 > 💡 Tip: Interests help the app tailor recommendations to your preferences. Step 4: Save Changes Tap Save. Your data will be updated immediately. --- Related Topics - How to change your avatar - Account settings: details --- Last Updated: 2026-0",
+      "excerpt": "Screen: Profile Role: All Difficulty: Easy On the Profile screen, you can change your personal data: first name, last name, phone number, date of birth, and sports interests. --- On the bottom navigat...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/how-to-manage-privacy",
+      "title": "How to Manage Privacy Settings",
+      "screen": "profile",
+      "content": "How to Manage Privacy Settings Screen: Profile > Settings > Privacy Role: All Difficulty: Easy Overview Privacy settings allow you to control what data is collected and how it is used. You can enable and disable individual options independently. --- Steps Step 1: Open Settings On the Profile screen, tap the Settings icon (gear icon) in the upper right corner. Step 2: Open \"Privacy and Security\" In the Privacy and security section, tap Privacy settings. !Privacy settings: Screenshot #54 Step 3: Adjust Settings Each setting has a toggle that you can turn on or off: | Setting | Description | |---------|-------------| | Analytics | Collection of app usage data to improve the app | | Crash reports | Automatic sending of error reports | | Location tracking | Collection of location data for recommendations | | Data sharing | Anonymous data sharing with partners | | Marketing emails | Receiving information about promotions and updates | | Push notifications | Notifications about reservations a",
+      "excerpt": "Screen: Profile > Settings > Privacy Role: All Difficulty: Easy Privacy settings allow you to control what data is collected and how it is used. You can enable and disable individual options independe...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "profile/how-to-manage-roles",
+      "title": "How to Manage Profile Roles",
+      "screen": "profile",
+      "content": "How to Manage Profile Roles Screen: Profile Role: All Difficulty: Easy Overview In Spotto, you have three profile types (roles) that you can enable and disable. Each role gives you access to different app features. --- Available Roles | Role | Description | Can be disabled? | |------|-------------|------------------| | User | Booking facilities, searching for classes, favorites | No: always active | | Business | Company, facility, and product management | Yes | | Trainer | Conducting trainings, collaborating with businesses | Yes | --- Steps Step 1: Open \"Profile Types\" On the Profile screen, find the Profile types section. !Profile types: Screenshot #53 Step 2: Enable or Disable a Role Each role has a toggle: - User: always enabled, cannot be disabled - Business: tap the toggle to enable/disable - Trainer: tap the toggle to enable/disable Step 3: Accept the Terms and Conditions When enabling a role for the first time, you must accept the corresponding terms and conditions: - Expand th",
+      "excerpt": "Screen: Profile Role: All Difficulty: Easy In Spotto, you have three profile types (roles) that you can enable and disable. Each role gives you access to different app features. --- | Role | Descripti...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "README",
+      "title": "Spotto Help Documentation",
+      "screen": "README.md",
+      "content": "Spotto Help Documentation Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen. Quick Navigation Main Screens - Home - Search facilities, browse categories, view favorites - Reservations - View and manage your bookings - Shop - Browse and purchase products - Business - Manage your business profile and facilities - Trainer - Create and manage trainings - Profile - Account settings and privacy Additional Resources - Common Topics - Getting started, navigation, glossary - Troubleshooting - Solutions to common problems --- For Content Creators Creating New Content 1. Choose the right screen directory 2. Use the appropriate template: - how-to-*.md for step-by-step guides - features/*.md for feature explanations - faq.md for quick Q&A 3. Follow the Content Guidelines 4. Add screenshots to assets/images/{screen}/ 5. Validate before committing: npm test Directory Structure Each screen directory contains: ` {screen}/ ├── ",
+      "excerpt": "Welcome to the Spotto help documentation! This directory contains all user-facing help content organized by application screen. - Home - Search facilities, browse categories, view favorites - Reservat..."
+    },
+    {
+      "slug": "reservations",
+      "title": "Reservations Screen - Help",
+      "screen": "reservations",
+      "content": "Reservations Screen Your reservation management hub: browse upcoming visits, manage payments, and cancel reservations in one place. Screen Overview The Reservations screen appears after tapping the calendar icon on the bottom navigation bar. Here you will find a complete overview of your sports activities. !IMGRES001 : Reservations screen overview What You Will Find on the Reservations Screen | Section | Description | More | |---------|-------------|------| | Upcoming events | List of reservations and trainings sorted by date | Details | | Pending payments | Unfinished transactions requiring attention | How to complete | | Reservation statuses | Color-coded reservation status indicators | Details | | Cancellation | Full or partial cancellation with refund option | Refund policy | --- Step-by-Step Guides Browsing - How to view reservations : find upcoming and past reservations Management - How to cancel a reservation : full cancellation with refund - How to partially cancel : cancel sel",
+      "excerpt": "Your reservation management hub: browse upcoming visits, manage payments, and cancel reservations in one place. The Reservations screen appears after tapping the calendar icon on the bottom navigation..."
+    },
+    {
+      "slug": "reservations/faq",
+      "title": "FAQ : Reservations Screen",
+      "screen": "reservations",
+      "content": "Frequently Asked Questions : Reservations Screen Viewing Reservations How do I check my upcoming reservations? Tap the calendar icon on the bottom navigation bar. You will see a list of upcoming reservations and trainings sorted by date. Full guide Can I also see trainings I signed up for? Yes. The Reservations screen displays both facility reservations and trainer-led trainings. Each type has a separate color-coded badge. Why doesn't my new reservation appear on the list? The app synchronizes new reservations automatically (up to 5 attempts). Wait a few seconds: the new reservation will appear with a blue border and a pulsing animation. --- Cancellation When can I cancel a reservation? You can cancel a reservation if there are more than 48 hours until it starts. Full rules How much does cancellation cost? The cancellation fee is 5% of the canceled portion's value. You will receive a 95% refund to your account. Can I cancel just one hour from a multi-hour reservation? Yes: use the part",
+      "excerpt": "Tap the calendar icon on the bottom navigation bar. You will see a list of upcoming reservations and trainings sorted by date. Full guide Yes. The Reservations screen displays both facility reservatio...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/features",
+      "title": "Reservations Screen Features",
+      "screen": "reservations",
+      "content": "Reservations Screen Features Detailed descriptions of all features available on the reservation management screen in Spotto. Available Descriptions - Reservation details : full view of reservation information - Reservation statuses : meaning of colors and reservation states - Cancellation and refund policy : 48h rule, 5% fee, refund deadlines - Partial cancellation : canceling selected hours from a reservation See Also - Step-by-step guides : how to view, cancel, pay - FAQ : frequently asked questions - Troubleshooting : solving problems --- Last updated: 2026-03-28",
+      "excerpt": "Detailed descriptions of all features available on the reservation management screen in Spotto. - Reservation details : full view of reservation information - Reservation statuses : meaning of colors ..."
+    },
+    {
+      "slug": "reservations/features/partial-cancellation",
+      "title": "Partial Cancellation",
+      "screen": "reservations",
+      "content": "Partial Cancellation Description Partial cancellation allows you to cancel selected time slots from a multi-hour reservation while keeping the rest. This is useful when your plans change but you still want to use part of the booked time. When It Is Available Partial cancellation is available when: - The reservation has more than one time slot - The reservation meets the cancellation rules (48h, future date) - Not all slots except one have already been canceled How It Works Slot View After opening partial cancellation, you will see a list of all slots: !IMGRES029 : Slot list with cancellation selection | Element | Description | |---------|-------------| | Hour | Slot start time (e.g., \"10:00\") | | Price | Cost of that specific slot (total price / number of slots) | | Status | \"Active\" (can be canceled) or \"Canceled\" (gray, unavailable) | | Selection | Blue border + checkmark icon for selected slots | Limitations - You cannot cancel all slots : use full cancellation for that - Canceled s",
+      "excerpt": "Partial cancellation allows you to cancel selected time slots from a multi-hour reservation while keeping the rest. This is useful when your plans change but you still want to use part of the booked t...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "reservations/features/refund-policy",
+      "title": "Cancellation and Refund Policy",
+      "screen": "reservations",
+      "content": "Cancellation and Refund Policy Description Spotto allows reservation cancellation with a refund, provided certain rules are met. Below you will find complete information about the cancellation policy. Cancellation Rules 48-Hour Rule A reservation can be canceled no later than 48 hours before the scheduled visit date. | Time until reservation | Can it be canceled? | |------------------------|---------------------| | > 48 hours | Yes | | 24-48 hours | No | | < 24 hours | No | | Today | No | | Past | No | Who Can Cancel - Only the person who made the reservation can cancel it - Reservations paid with a pass or voucher cannot be canceled - Cancellation applies to reservations with status: Confirmed, Pending, Active, Partial Cancellation Fee A fee is charged for each cancellation (full or partial): | Element | Value | |---------|-------| | Fee | 5% of the canceled portion's value | | Refund | 95% of the canceled portion's value | Example: Canceling a 200 PLN reservation - Fee: 10 PLN (5%) -",
+      "excerpt": "Spotto allows reservation cancellation with a refund, provided certain rules are met. Below you will find complete information about the cancellation policy. A reservation can be canceled no later tha...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/features/reservation-details",
+      "title": "Reservation Details",
+      "screen": "reservations",
+      "content": "Reservation Details Description The reservation details view is a full-screen modal that opens after tapping a reservation card. It contains complete information about your reservation. View Sections Facility Information | Element | Description | |---------|-------------| | Photo | Facility avatar or photo | | Facility name | Official name | | Location | Full address with city | | Contact | Phone number and email with quick contact buttons | !IMGRES017 : Facility information section Reservation Details | Element | Description | |---------|-------------| | Date | Full date in local format (e.g., \"Friday, March 28, 2026\") | | Hours | List of booked slots (e.g., \"10:00 - 11:00 ; 11:00 - 12:00\") | | Duration | Total number of hours | | Price | Total reservation cost | | Number of people | Visible for group reservations | Time Slots Each booked slot is displayed as a separate chip: - Active : normal appearance with time - Canceled : strikethrough text, gray color !IMGRES018 : Time slots in ",
+      "excerpt": "The reservation details view is a full-screen modal that opens after tapping a reservation card. It contains complete information about your reservation. | Element | Description | |---------|---------...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/how-to-cancel-booking",
+      "title": "How to cancel a reservation",
+      "screen": "reservations",
+      "content": "How to cancel a reservation Screen: Reservations Role: User Difficulty: Easy Overview If your plans change, you can cancel an entire reservation and receive a refund. Cancellation is available for reservations with a future date, subject to the 48-hour rule. --- Before You Start - The reservation must have a future date (not today and not in the past) - There must be more than 48 hours until the reservation starts - The reservation must not be paid with a voucher/pass - Reservation status must be: confirmed, pending, active, or partially canceled --- Steps Step 1: Open reservation details On the Reservations screen, tap the card of the reservation you want to cancel. !IMGRES006 : Tap the reservation card Step 2: Tap \"Cancel All\" In the details view, scroll down to the actions section. Tap the Cancel All button. !IMGRES007 : Cancel All button > ⚠️ Important: If the button is inactive (gray), it means the reservation does not qualify for cancellation: check the conditions in the \"Before ",
+      "excerpt": "Screen: Reservations Role: User Difficulty: Easy If your plans change, you can cancel an entire reservation and receive a refund. Cancellation is available for reservations with a future date, subject...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/how-to-partial-cancel",
+      "title": "How to partially cancel a reservation",
+      "screen": "reservations",
+      "content": "How to partially cancel a reservation Screen: Reservations Role: User Difficulty: Medium Overview If you booked a facility for several hours but want to give up some of them, you can cancel selected time slots while keeping the rest of the reservation. You will receive a refund proportional to the canceled hours. --- Before You Start - The reservation must have more than one time slot - You cannot cancel all slots (use full cancellation for that) - The same rules as full cancellation apply (48h, future date) --- Steps Step 1: Open reservation details On the Reservations screen, tap the card of the reservation you want to partially cancel. Step 2: Tap \"Cancel Partially\" In the details view, tap the Cancel Partially button. The button is only visible for reservations with multiple slots. !IMGRES010 : Partial cancellation button Step 3: Select slots to cancel A screen will open with a list of all booked hours. Each slot shows: - Hour : e.g., \"10:00\" - Price : cost of that slot - Status : ",
+      "excerpt": "Screen: Reservations Role: User Difficulty: Medium If you booked a facility for several hours but want to give up some of them, you can cancel selected time slots while keeping the rest of the reserva...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "reservations/how-to-pay-pending",
+      "title": "How to complete a pending payment",
+      "screen": "reservations",
+      "content": "How to complete a pending payment Screen: Reservations Role: User Difficulty: Easy Overview If you did not complete the payment for a reservation, it will appear in the Pending Payments section on the Reservations screen. You can complete the transaction or cancel it. --- Steps Step 1: Find the pending payments section At the top of the Reservations screen, you will see a section with an alert icon and the heading Pending Payments. !IMGRES014 : Pending payments section > 💡 The section is displayed only when you have unfinished transactions. If you don't see it: you have no pending payments. Step 2: Check payment details Each pending payment card contains: - Description : facility or training name - Amount : price to pay - Time : when it was created (e.g., \"5 minutes ago\") - Status : \"Awaiting payment\" Step 3: Tap \"Payment\" Tap the blue Payment button on the card. !IMGRES015 : Payment button Step 4: Complete payment in TPay A browser will open with the TPay payment system. Choose a pay",
+      "excerpt": "Screen: Reservations Role: User Difficulty: Easy If you did not complete the payment for a reservation, it will appear in the Pending Payments section on the Reservations screen. You can complete the ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/how-to-view-bookings",
+      "title": "How to view reservations",
+      "screen": "reservations",
+      "content": "How to view reservations Screen: Reservations Role: User Difficulty: Easy Overview The Reservations screen shows all your upcoming sports facility reservations and trainings, sorted from the nearest. You can quickly check the details of each visit. --- Steps Step 1: Open the Reservations screen Tap the calendar icon on the bottom navigation bar of the app. !IMGRES002 : Navigation bar with Reservations button highlighted Step 2: Browse upcoming events On the screen you will see a list of upcoming events. Each card contains: - Photo : facility avatar or trainer icon - Title : facility or training name - Date and time : formatted as \"Today\", \"Tomorrow\", or full date - Location : facility address - Duration : number of booked hours - Price : total cost - Type : \"Reservation\" or \"Training\" badge !IMGRES003 : Upcoming reservations list > 💡 Tip: A newly created reservation will appear with a blue border and a pulsing animation so you can easily find it. Step 3: See all reservations If you ha",
+      "excerpt": "Screen: Reservations Role: User Difficulty: Easy The Reservations screen shows all your upcoming sports facility reservations and trainings, sorted from the nearest. You can quickly check the details ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "reservations/troubleshooting",
+      "title": "Troubleshooting : Reservations Screen",
+      "screen": "reservations",
+      "content": "Troubleshooting : Reservations Screen Below you will find solutions to the most common issues related to reservations in the Spotto app. --- Viewing Reservations Reservation does not appear after payment Problem: I paid, but the reservation is not showing on the list. Causes: - Synchronization delay (the app retries up to 5 times) - Payment is still being processed - Session expired during payment Solution: 1. Wait 10-15 seconds: the app automatically synchronizes new reservations 2. Pull the screen down to refresh 3. Check the \"Pending Payments\" section: the reservation may be waiting for payment completion 4. Close and reopen the app 5. If it does not appear after 15 minutes, contact support with the transaction number --- Reservation list is empty Problem: I don't see any reservations, even though I have them. !IMGRES026 : Empty reservation list Causes: - No internet connection - All reservations are in the past (only upcoming ones are displayed) - User session issue Solution: 1. Ch",
+      "excerpt": "Below you will find solutions to the most common issues related to reservations in the Spotto app. --- Problem: I paid, but the reservation is not showing on the list. Causes: - Synchronization delay ...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "shop",
+      "title": "Shop Screen - Help",
+      "screen": "shop",
+      "content": "Shop Screen Shop in the Spotto app: buy passes, packages, and subscriptions for sports facilities. Screen Overview The Shop screen allows you to browse and purchase products offered by sports facilities: passes, entry packages, and subscriptions. After purchase, products appear in the \"My Purchases\" tab, where you can use them. !Shop screen overview: Screenshot #1 What you'll find on the Shop screen | Section | Description | More | |---------|-------------|------| | \"Shop\" tab | Browse and buy products | Details | | \"My Purchases\" tab | Your purchased products and their status | Details | | Product search | Search by name, business, or city | Details | | Filters and sorting | Narrow results by price, period, business | Details | | Payment system | Secure payments via TPay | Details | --- Step-by-Step Guides Purchasing - How to buy a product (pass/package): find a product, buy it, and pay via TPay - How to use a purchased product: show the verification code to facility staff - How to sh",
+      "excerpt": "Shop in the Spotto app: buy passes, packages, and subscriptions for sports facilities. The Shop screen allows you to browse and purchase products offered by sports facilities: passes, entry packages, ..."
+    },
+    {
+      "slug": "shop/faq",
+      "title": "FAQ: Shop Screen",
+      "screen": "shop",
+      "content": "Frequently Asked Questions: Shop Screen Purchasing What is a product in the Spotto Shop? A product is a pass, entry package, or subscription offered by a sports facility. When you buy a product, you receive a specific number of entries that you can use within a given time period. What types of products are available? Products vary by validity period: - Daily/weekly: short-term packages - Monthly: the most popular passes - Annual: long-term subscriptions - Lifetime: unlimited-duration passes Can I buy a product for someone else? No: products are linked to your account. However, you can share a product link so another person can buy it for themselves. --- Payments What payment methods are available? Payments are handled by the TPay system. Available methods include: - Credit/debit card (Visa, Mastercard) - Instant bank transfer - BLIK Is my payment information secure? Yes. Payments are processed by the certified TPay gateway. Spotto does not store your card details: all data goes directl",
+      "excerpt": "A product is a pass, entry package, or subscription offered by a sports facility. When you buy a product, you receive a specific number of entries that you can use within a given time period. Products...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/features",
+      "title": "Shop Screen Features",
+      "screen": "shop",
+      "content": "Shop Screen Features Detailed descriptions of all features available on the Shop screen. Feature List - Product Catalog: product types, card information - My Purchases: product statuses, progress bar, usage - Search and Filters: searching, filtering, sorting - Payments: TPay system, payment methods, confirmations --- Last updated: 2026-03-29",
+      "excerpt": "Detailed descriptions of all features available on the Shop screen. - Product Catalog: product types, card information - My Purchases: product statuses, progress bar, usage - Search and Filters: searc..."
+    },
+    {
+      "slug": "shop/features/my-purchases",
+      "title": "My Purchases",
+      "screen": "shop",
+      "content": "My Purchases Description The \"My Purchases\" tab on the Shop screen contains a list of all products you've bought. Each purchase has its own status, usage counter, and expiration date. Purchase Card Each purchased product is displayed as a card with the following information: | Element | Description | |---------|-------------| | Title and subtitle | Name of the purchased product | | Status | Active, Expired, or Used Up (with colored label) | | Progress bar | Visual representation of remaining entries vs. total | | Purchase date | When you bought the product | | Expiration date | Until when the product is active | | Business | Sports facility offering the product | | \"Use Product\" button | Generates a verification code (active products only) | Purchase Statuses | Status | Color | Meaning | |--------|-------|---------| | Active | Green (#10B981) | Product is valid, you can use it | | Expired | Yellow (#F59E0B) | Validity period has passed | | Used Up (Depleted) | Red (#EF4444) | All entri",
+      "excerpt": "The \"My Purchases\" tab on the Shop screen contains a list of all products you've bought. Each purchase has its own status, usage counter, and expiration date. Each purchased product is displayed as a ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/features/payments",
+      "title": "Shop Payments",
+      "screen": "shop",
+      "content": "Shop Payments Description Payments for products in the Spotto Shop are handled by the TPay system: a secure payment gateway. After confirming a purchase, you'll be redirected to the TPay page in your browser. Available Payment Methods | Method | Description | |--------|-------------| | Credit/debit card | Visa, Mastercard, and others | | Instant bank transfer | Online transfer from your bank | | BLIK | BLIK code from your banking app | Payment Flow 1. Purchase confirmation: tap \"Buy Now\" and confirm in the app 2. Redirect to TPay: your browser opens with the payment gateway 3. Complete payment: choose a method and pay 4. Return to app: after payment, you automatically return to Spotto 5. Confirmation: the app displays a success message Payment Confirmation Spotto verifies the payment in several ways: - Push notification: primary method, instant confirmation - Automatic verification: the app checks the status after returning from the browser - Status polling: in case of delay, the app c",
+      "excerpt": "Payments for products in the Spotto Shop are handled by the TPay system: a secure payment gateway. After confirming a purchase, you'll be redirected to the TPay page in your browser. | Method | Descri...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "shop/features/product-catalog",
+      "title": "Product Catalog",
+      "screen": "shop",
+      "content": "Product Catalog Description The Product Catalog is the main part of the \"Shop\" tab. It displays products offered by sports facilities registered in Spotto: passes, entry packages, and subscriptions. Product Card Each product is displayed as a card with the following information: | Element | Description | |---------|-------------| | Title | Product name (e.g., \"Monthly gym pass\") | | Subtitle | Additional description (optional) | | Price | Gross price (including VAT) in PLN | | Number of uses | How many times you can use the product (e.g., \"10 uses\") | | Validity period | How long the product is active (e.g., \"3 Months\") | | Business | Name of the sports facility offering the product | | \"Buy Now\" button | Start the product purchase | | Share icon | Send a product link to a friend | !Product card elements: Screenshot #16 Product Types Products vary by validity period: | Period | Description | Example | |--------|-------------|---------| | Days | Valid for a specific number of days | 7-d",
+      "excerpt": "The Product Catalog is the main part of the \"Shop\" tab. It displays products offered by sports facilities registered in Spotto: passes, entry packages, and subscriptions. Each product is displayed as ...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/features/search-filters",
+      "title": "Product Search and Filters",
+      "screen": "shop",
+      "content": "Product Search and Filters Description The Spotto Shop offers a text search bar and a filter panel to help you find the right product among offerings from many sports facilities. Search Bar The search field at the top of the Shop screen lets you search by: - Product name - Product description - Business name (sports facility) - City Results filter automatically after typing a phrase (with a short 0.5-second delay). Filter Panel After tapping the filter icon, a panel opens with options: | Filter | Type | Description | |--------|------|-------------| | Business | Text | Sports facility name | | City | Text | City where the facility is located | | Minimum price | Number | Lower price limit (PLN) | | Maximum price | Number | Upper price limit (PLN) | | Period | Selection | Days, Weeks, Months, Years, Lifetime | Sorting Options | Option | Description | |--------|-------------| | Newest | Sorted by date added (newest first) | | Price: ascending | From cheapest to most expensive | | Price: de",
+      "excerpt": "The Spotto Shop offers a text search bar and a filter panel to help you find the right product among offerings from many sports facilities. The search field at the top of the Shop screen lets you sear...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/how-to-buy-pass",
+      "title": "How to Buy a Product (Pass/Package)",
+      "screen": "shop",
+      "content": "How to Buy a Product (Pass/Package) Screen: Shop Role: User Difficulty: Medium Overview In the Spotto Shop, you can buy passes, entry packages, and subscriptions offered by sports facilities. After purchase, the product goes to \"My Purchases\" and you can use it when visiting the facility. --- Before You Start - You must have a Spotto account and be logged in - You need access to a payment method (card, bank transfer, or BLIK via TPay) --- Steps Step 1: Open the Shop tab On the bottom navigation bar, tap the Shop icon. You'll see a list of available products. !Shop screen with product list: Screenshot #2 Step 2: Find the product you're interested in Browse the product list or use the search: - Tap the magnifying glass icon at the top of the screen - Type the product name, facility name, or city - Results filter automatically !Product search: Screenshot #3 > 💡 Tip: You can also use filters to narrow results by price, validity period, or business. How to filter products Step 3: Review pr",
+      "excerpt": "Screen: Shop Role: User Difficulty: Medium In the Spotto Shop, you can buy passes, entry packages, and subscriptions offered by sports facilities. After purchase, the product goes to \"My Purchases\" an...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "shop/how-to-filter-products",
+      "title": "How to Filter and Search Products",
+      "screen": "shop",
+      "content": "How to Filter and Search Products Screen: Shop Role: User Difficulty: Easy Overview The Spotto Shop offers a search bar and advanced filters to help you quickly find the right product. You can search by name, business, city, and also filter by price and validity period. --- Steps Step 1: Open the search bar On the Shop screen, tap the search field at the top of the screen. Type your search phrase: results filter automatically by: - Product name - Product description - Business name - City !Product search bar: Screenshot #14 Step 2: Open the filter panel Tap the filter icon next to the search field. The filter panel will open with filtering options. !Filter panel: Screenshot #15 Step 3: Set filters Available filters: | Filter | Description | |--------|-------------| | Business | Show products from a specific facility | | City | Show products from a selected city | | Minimum price | Products more expensive than the specified amount | | Maximum price | Products cheaper than the specified ",
+      "excerpt": "Screen: Shop Role: User Difficulty: Easy The Spotto Shop offers a search bar and advanced filters to help you quickly find the right product. You can search by name, business, city, and also filter by...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/how-to-share-product",
+      "title": "How to Share a Product with a Friend",
+      "screen": "shop",
+      "content": "How to Share a Product with a Friend Screen: Shop Role: User Difficulty: Easy Overview Found a great pass or entry package? You can share a product link with friends. The person who receives the link will be able to open the product directly in the Spotto app. --- Steps Step 1: Find the product in the Shop Open the Shop tab and find the product you want to share. Step 2: Tap the share icon On the product card, tap the share icon (upward arrow or three connected dots, depending on your system). !Share button on product card: Screenshot #11 Step 3: Choose how to send The system share menu will open. You can send the link via: - SMS / text message - WhatsApp, Messenger, or another messaging app - Email - Copy link to clipboard Step 4: Friend opens the link The person who receives the link: - If they have the Spotto app installed: the link will open directly in the app on the product page - If they don't have the app: the link will open a web page with product information --- Related Topic",
+      "excerpt": "Screen: Shop Role: User Difficulty: Easy Found a great pass or entry package? You can share a product link with friends. The person who receives the link will be able to open the product directly in t...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/how-to-use-product",
+      "title": "How to Use a Purchased Product",
+      "screen": "shop",
+      "content": "How to Use a Purchased Product Screen: Shop → My Purchases Role: User Difficulty: Easy Overview After purchasing a product (pass, entry package), you can use it when visiting a sports facility. The app generates a verification code that you show to facility staff. --- Before You Start - You must have a purchased, active product (status: Active, green) - The product must have remaining entries (counter > 0) --- Steps Step 1: Open \"My Purchases\" On the Shop screen, tap the My Purchases tab at the top of the screen. !My Purchases tab: Screenshot #8 Step 2: Find the active product In the purchases list, find the product with Active status (green label). You can use the filters: - All: all purchases - Active: only active products - Inactive: expired or used up !Purchases list with filters: Screenshot #9 Step 3: Tap \"Use Product\" On the active product card, tap the Use Product button. > 💡 Tip: The button is only available when the product has \"Active\" status and remaining entries. Step 4: S",
+      "excerpt": "Screen: Shop → My Purchases Role: User Difficulty: Easy After purchasing a product (pass, entry package), you can use it when visiting a sports facility. The app generates a verification code that you...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/how-to-view-purchases",
+      "title": "How to View My Purchases",
+      "screen": "shop",
+      "content": "How to View My Purchases Screen: Shop → My Purchases Role: User Difficulty: Easy Overview The \"My Purchases\" tab shows all products you've bought in the Shop. You can check the status of each product, how many entries you have left, and when the product expires. --- Steps Step 1: Open the Shop tab On the bottom navigation bar, tap the Shop icon. Step 2: Go to \"My Purchases\" At the top of the screen, you'll see two tabs. Tap My Purchases. !Switching to My Purchases: Screenshot #12 Step 3: Browse your purchases Each purchase card contains: | Information | Description | |-------------|-------------| | Product name | Product title and subtitle | | Status | Active (green), Expired (yellow), or Used Up (red) | | Progress bar | Visual representation of remaining entries | | Purchase date | When you bought the product | | Expiration date | Until when the product is active | | Business | Name of the facility offering the product | !Purchase card with details: Screenshot #13 Step 4: Filter purch",
+      "excerpt": "Screen: Shop → My Purchases Role: User Difficulty: Easy The \"My Purchases\" tab shows all products you've bought in the Shop. You can check the status of each product, how many entries you have left, a...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "shop/troubleshooting",
+      "title": "Troubleshooting: Shop",
+      "screen": "shop",
+      "content": "Troubleshooting: Shop Screen Purchase Issues Payment failed Symptoms: After being redirected to TPay, you see an error or are redirected back without confirmation. Solutions: 1. Check your internet connection 2. Make sure you have sufficient funds in your account 3. Try a different payment method (BLIK instead of card or vice versa) 4. Close and reopen the app, then try again TPay page doesn't open Symptoms: After tapping \"Buy Now\", nothing happens or the browser doesn't open the page. Solutions: 1. Make sure you have an up-to-date browser installed 2. Close other background apps (free up memory) 3. Restart the Spotto app Double charge on account Symptoms: You see two charges for the same product in your bank account. Solutions: 1. Check in \"My Purchases\" whether the product was purchased twice 2. One of the charges may be a temporary hold: it usually disappears within 24-48 hours 3. Contact customer support: support@spotto.pl --- Product Issues Product doesn't appear after purchase Sy",
+      "excerpt": "Symptoms: After being redirected to TPay, you see an error or are redirected back without confirmation. Solutions: 1. Check your internet connection 2. Make sure you have sufficient funds in your acco...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "trainer",
+      "title": "Trainer Screen - Help",
+      "screen": "trainer",
+      "content": "Trainer Screen Trainer panel in Spotto: create your profile, conduct sessions, establish partnerships with sports facilities. Screen Overview The Trainer screen is the hub for managing your coaching activity. You can create a profile, establish partnerships with sports facilities, create trainings, and manage participants. !Trainer screen overview: Screenshot #38 What You'll Find on the Trainer Screen | Section | Description | More | |---------|-------------|------| | Trainer profile | Your details, specializations, rates | Details | | Associated businesses | List of businesses you work with | Details | | Trainings | Your sessions, participants, schedules | Details | | Schedule | Hourly availability for each day | Details | --- Step-by-Step Guides Getting Started - How to create a trainer profile: details, specializations, rates, TPay - How to establish a partnership with a facility: search businesses, send requests Conducting Sessions - How to create a training: title, price, schedule",
+      "excerpt": "Trainer panel in Spotto: create your profile, conduct sessions, establish partnerships with sports facilities. The Trainer screen is the hub for managing your coaching activity. You can create a profi..."
+    },
+    {
+      "slug": "trainer/faq",
+      "title": "FAQ: Trainer Screen",
+      "screen": "trainer",
+      "content": "Frequently Asked Questions: Trainer Screen Trainer Profile What is the difference between an independent trainer and an employee? An independent trainer runs their own business: they must provide a tax ID (NIP), business details, and configure TPay. They can create trainings on their own. A trainer-employee works for a sports facility: they need fewer details, but cannot create trainings on their own. Sessions are created for them by the business. Can I change my type from employee to independent? Yes: edit your trainer profile and change the type. You will need to fill in the additional data required for independent trainers. How do I change my hourly rate? Edit your trainer profile and update the net or gross rate. The system will automatically calculate the other value. Note that a business may set its own rate for you independently of yours. --- Business Partnerships How can I start conducting sessions at a facility? 1. Create a trainer profile 2. Search for a business and send a r",
+      "excerpt": "An independent trainer runs their own business: they must provide a tax ID (NIP), business details, and configure TPay. They can create trainings on their own. A trainer-employee works for a sports fa...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "trainer/features",
+      "title": "Trainer Screen Features",
+      "screen": "trainer",
+      "content": "Trainer Screen Features Detailed descriptions of all features available on the Trainer screen. Feature List - Trainer profile: trainer types, details, specializations - Business associations: statuses, permissions, management - Training management: sessions, pricing, participants - Availability schedule: weekly schedule, specific dates --- Last updated: 2026-03-29",
+      "excerpt": "Detailed descriptions of all features available on the Trainer screen. - Trainer profile: trainer types, details, specializations - Business associations: statuses, permissions, management - Training ..."
+    },
+    {
+      "slug": "trainer/features/availability-schedule",
+      "title": "Availability Schedule",
+      "screen": "trainer",
+      "content": "Availability Schedule Description The schedule allows a trainer to specify the hours they are available for conducting sessions. Businesses can check your availability before scheduling a session. The schedule is visible to businesses with which you have a confirmed association. Schedule Types General Schedule (Weekly) A recurring schedule for each week. You define it once, and it applies until changed. | Day | Hour Range | Notes | |-----|-----------|-------| | Monday through Friday | 00:00 - 23:00 | Each day configured separately | | Saturday | 00:00 - 23:00 | Separate configuration | | Sunday | 00:00 - 23:00 | Separate configuration | Each hour (hourly slot) can be marked as: - Available: ready for sessions during this time - Unavailable: cannot conduct sessions To set availability, tap the appropriate slots on the weekly grid. Slots change color depending on the status. Specific Date Schedule An override of the general schedule for a selected date. Useful when: - You have a day off ",
+      "excerpt": "The schedule allows a trainer to specify the hours they are available for conducting sessions. Businesses can check your availability before scheduling a session. The schedule is visible to businesses...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "trainer/features/business-associations",
+      "title": "Business Associations",
+      "screen": "trainer",
+      "content": "Business Associations Description The association system connects trainers with sports facilities. A trainer sends a partnership request, and the business accepts or rejects it. Once accepted, the trainer can conduct sessions at the business's facilities according to the permissions granted by the owner. How the Process Works 1. You search for a business: search by city and facility type 2. You send a request: the business receives a notification 3. You wait for a decision: the business accepts or rejects 4. Partnership active: after acceptance, you can conduct sessions Association Statuses | Status | Color | Description | Your Actions | |--------|-------|-------------|--------------| | Pending | Yellow/orange | Request sent, business hasn't decided yet | Resend email, cancel request | | Confirmed | Green | Partnership active: you can conduct sessions | Remove association | | Rejected | Red | Business rejected the request (rejection reason visible) | Send a new request | !Business asso",
+      "excerpt": "The association system connects trainers with sports facilities. A trainer sends a partnership request, and the business accepts or rejects it. Once accepted, the trainer can conduct sessions at the b...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "trainer/features/trainer-profile",
+      "title": "Trainer Profile",
+      "screen": "trainer",
+      "content": "Trainer Profile Description The trainer profile is your business card in Spotto. It contains contact details, specializations, experience, and hourly rates. Depending on the profile type (independent or employee), different data is required. Trainer Types | Type | Description | Required Data | |------|-------------|---------------| | Independent | You run your own business | Business details (NIP, REGON, KRS), specializations, description, TPay data | | Employee | You work for a sports facility | Basic details (name, contact, city) | Profile Data Basic Details (both types) - Display name, email, phone - City, address, postal code - Avatar (profile photo) Business Details (independent only) - NIP (10 digits), company name, REGON, KRS - Specializations (multiple selection) - Business description - Years of experience, certificates, languages Hourly Rate - Net rate (excluding VAT) - VAT rate (0%, 8%, 23%) - Gross rate (calculated automatically) TPay Data (independent only) Legal form, MCC",
+      "excerpt": "The trainer profile is your business card in Spotto. It contains contact details, specializations, experience, and hourly rates. Depending on the profile type (independent or employee), different data...",
+      "role": "Trainer",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "trainer/features/training-management",
+      "title": "Training Management",
+      "screen": "trainer",
+      "content": "Training Management Description Trainings are sessions conducted by a trainer at a sports facility. Each training can have multiple sessions on different dates, a price, a participant limit, and an association with a facility reservation. Training Data | Field | Description | |-------|-------------| | Title | Training name (3-100 characters) | | Description | Detailed description (10-1000 characters) | | Specialization | Sport discipline | | Duration | 15-480 minutes (in 15-min increments) | | Max. participants | 1-50 people | | Net price | Max 10,000 PLN | | Gross price | Calculated automatically (with VAT) | Sessions A training can have multiple sessions: - Each session has a separate date - Each session has a start and end time - Sessions can be on different days Training List On each training card, you can see: - Title and description - Facility (name and business) - Date and time of the first session - Duration (minutes) - Number of participants (current/maximum) - Gross price (or",
+      "excerpt": "Trainings are sessions conducted by a trainer at a sports facility. Each training can have multiple sessions on different dates, a price, a participant limit, and an association with a facility reserv...",
+      "role": "Trainer",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "trainer/how-to-associate-with-business",
+      "title": "How to Establish a Partnership with a Facility",
+      "screen": "trainer",
+      "content": "How to Establish a Partnership with a Sports Facility Screen: Trainer Role: Trainer Difficulty: Easy Overview To conduct sessions at a sports facility, you need to establish a partnership with it. Search for a business, send an association request, and wait for the owner's approval. --- Before You Start - You must have a trainer profile created --- Steps Step 1: Open the Business Search On the Trainer screen, go to the Associated Businesses tab and tap Search businesses. !Business search: Screenshot #42 Step 2: Search for a Business Enter a city and optionally a facility type: - City: type at least 3 characters to see suggestions - Facility type: select from the list (e.g., Shooting range) Results will show businesses with sports facilities in the selected city. Step 3: Select Businesses You can send requests to multiple businesses at once: 1. Check the businesses you want to partner with 2. Tap Send requests !Business selection: Screenshot #43 > 💡 Tip: You can send requests to multip",
+      "excerpt": "Screen: Trainer Role: Trainer Difficulty: Easy To conduct sessions at a sports facility, you need to establish a partnership with it. Search for a business, send an association request, and wait for t...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "trainer/how-to-create-trainer-profile",
+      "title": "How to Create a Trainer Profile",
+      "screen": "trainer",
+      "content": "How to Create a Trainer Profile Screen: Trainer Role: Trainer Difficulty: Medium Overview Your trainer profile is your business card in Spotto. It contains contact details, specializations, experience, and rates. You can operate as an independent trainer or as a facility employee. --- Before You Start - You must have a Spotto account with the \"Trainer\" role enabled (turn it on in profile settings) - If you operate as an independent trainer: prepare your tax ID (NIP), REGON, and business details --- Steps Step 1: Open the Trainer Screen On the bottom navigation bar, tap the Trainer icon. If you don't have a profile yet, you will see the creation form. Step 2: Choose Your Trainer Type | Type | Description | |------|-------------| | Independent | Self-employed: business details and TPay required | | Employee | Working for a facility: simplified form | !Trainer type selection: Screenshot #39 > 💡 Tip: The \"Employee\" type requires less data, but you cannot create trainings on your own: the ",
+      "excerpt": "Screen: Trainer Role: Trainer Difficulty: Medium Your trainer profile is your business card in Spotto. It contains contact details, specializations, experience, and rates. You can operate as an indepe...",
+      "role": "Trainer",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "trainer/how-to-create-training",
+      "title": "How to Create a Training",
+      "screen": "trainer",
+      "content": "How to Create a Training Screen: Trainer Role: Trainer Difficulty: Medium Overview A training is a session that you conduct at a sports facility. You can create trainings with multiple sessions on different dates, set prices, maximum participant count, and link the training to a facility reservation. --- Before You Start - You must have a trainer profile - You must have a confirmed business partnership with the \"Own trainings\" permission - You need an active facility reservation > ⚠️ Important: Trainers with \"Employee\" status cannot create trainings on their own: trainings are created by the business. --- Steps Step 1: Open the \"Trainings\" Tab On the Trainer screen, go to the Trainings tab and tap Create training. Step 2: Fill in Training Details | Field | Description | Required | |-------|-------------|----------| | Title | Training name (3-100 characters) | Yes | | Description | Detailed description (10-1000 characters) | Yes | | Specialization | Sport discipline | Yes | | Duration |",
+      "excerpt": "Screen: Trainer Role: Trainer Difficulty: Medium A training is a session that you conduct at a sports facility. You can create trainings with multiple sessions on different dates, set prices, maximum ...",
+      "role": "Trainer",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "trainer/how-to-manage-participants",
+      "title": "How to Manage Training Participants",
+      "screen": "trainer",
+      "content": "How to Manage Training Participants Screen: Trainer Role: Trainer Difficulty: Easy Overview After creating a training, you can view the list of enrolled participants, contact them, and remove them from the session if needed. --- Steps Step 1: Open the Participant List On the trainings list (Trainings tab), find the training and tap View participants. Step 2: Review the List For each participant, you can see: - Avatar: photo or default icon - Full name - Email - Phone (if provided) !Participant list: Screenshot #47 Step 3: Contact Participants Tap a participant's contact details: - Email: opens the email app - Phone: opens the dialer Step 4: Remove a Participant To remove a participant from the training: 1. Tap the Remove button next to the participant 2. Confirm the removal in the dialog box > ⚠️ Important: Removing a participant is irreversible. The participant will be removed from the training without additional notification. --- Related Topics - How to create a training - Training m",
+      "excerpt": "Screen: Trainer Role: Trainer Difficulty: Easy After creating a training, you can view the list of enrolled participants, contact them, and remove them from the session if needed. --- On the trainings...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "trainer/how-to-set-availability",
+      "title": "How to Set Up an Availability Schedule",
+      "screen": "trainer",
+      "content": "How to Set Up an Availability Schedule Screen: Trainer Role: Trainer Difficulty: Easy Overview The availability schedule informs businesses and clients when you are free. You can set a general weekly schedule and override it for specific dates. --- Steps Step 1: Open the Schedule On the Trainer screen, find the Availability Schedule section. Step 2: Set the General Schedule Configure availability for three day types: | Type | Description | |------|-------------| | Weekdays | Monday through Friday | | Saturday | Saturday | | Sunday | Sunday | Select the hours (from 00:00 to 23:00) during which you are available. !Trainer weekly schedule: Screenshot #48 Step 3: (Optional) Set Availability for a Specific Date 1. Select the Specific date mode 2. Choose a date from the calendar 3. Select the availability hours A schedule for a specific date has higher priority than the general schedule. Step 4: (Optional) Assign Hours to Businesses If you work with multiple businesses, you can assign specif",
+      "excerpt": "Screen: Trainer Role: Trainer Difficulty: Easy The availability schedule informs businesses and clients when you are free. You can set a general weekly schedule and override it for specific dates. ---...",
+      "role": "Trainer",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "troubleshooting",
+      "title": "Troubleshooting - Help",
+      "screen": "troubleshooting",
+      "content": "Troubleshooting Having trouble with the Spotto app? Find a solution below or contact us at: support@spotto.pl. Problem Categories Login & Account - I can't log in : wrong password, locked account - I forgot my password : password reset - Account locked : unlocking access Payments - Payment failed : TPay errors, rejected transaction - Refund issues : waiting time, refund status - TPay errors : redirect, timeout, other errors Bookings - Booking failed : unable to book - I can't cancel a booking : cancellation policy - Time slot unavailable : no available slots App Issues - App crashes : crashes and freezes - Slow performance : performance optimization - Sync issues : data not updating --- Quick Fixes Before looking for a detailed solution, try these steps: 1. Check your internet connection : most features require internet 2. Close and reopen the app : fixes many temporary issues 3. Update the app : make sure you have the latest version 4. Restart your phone : helps with memory issues ---",
+      "excerpt": "Having trouble with the Spotto app? Find a solution below or contact us at: support@spotto.pl. - I can't log in : wrong password, locked account - I forgot my password : password reset - Account locke..."
+    },
+    {
+      "slug": "troubleshooting/app-issues/app-crash",
+      "title": "App Crashes",
+      "screen": "troubleshooting",
+      "content": "App Crashes Problem The Spotto app closes unexpectedly, becomes unresponsive, or displays a blank screen. Solutions Step 1: Restart the app Close the Spotto app (force close) and reopen it. Android: Multitask button → swipe Spotto up iPhone: Swipe up from the bottom to the middle of the screen → swipe Spotto up Step 2: Update the app Make sure you have the latest version: - Android: Google Play Store → Spotto → Update - iPhone: App Store → Spotto → Update Step 3: Restart your phone Turn your phone off and on again. This resolves memory issues. Step 4: Clear cache (Android) 1. Settings → Apps → Spotto 2. Storage → Clear cache Step 5: Reinstall If the problem persists: 1. Uninstall the app 2. Reinstall from the store 3. Log in with your credentials > 💡 Tip: Your data (bookings, purchases, profile) is linked to your account, not the app : you won't lose it after reinstalling. --- Reporting Bugs If you enabled Crash Reports in privacy settings, the app will automatically send a crash repo",
+      "excerpt": "The Spotto app closes unexpectedly, becomes unresponsive, or displays a blank screen. Close the Spotto app (force close) and reopen it. Android: Multitask button → swipe Spotto up iPhone: Swipe up fro...",
+      "role": "All",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/app-issues/slow-performance",
+      "title": "Slow App Performance",
+      "screen": "troubleshooting",
+      "content": "Slow App Performance Problem The Spotto app runs slowly : screens take a long time to load, buttons respond with a delay. Solutions Check your internet connection Slow connection = slow app. Check: - Wi-Fi signal strength - Mobile data coverage - Try switching between Wi-Fi and mobile data Close unnecessary apps Other apps running in the background can use up memory and slow down Spotto. Close unnecessary apps. Restart your phone Restarting your phone frees up memory and can significantly improve performance. Update the app Newer versions may contain performance improvements: - Android: Google Play Store → Spotto → Update - iPhone: App Store → Spotto → Update Check phone storage Lack of free space on your phone can slow down all apps. Free up at least 500 MB of space. --- Related Topics - App crashes - Sync issues",
+      "excerpt": "The Spotto app runs slowly : screens take a long time to load, buttons respond with a delay. Slow connection = slow app. Check: - Wi-Fi signal strength - Mobile data coverage - Try switching between W...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "troubleshooting/app-issues/sync-issues",
+      "title": "Sync Issues",
+      "screen": "troubleshooting",
+      "content": "Sync Issues Problem Data in the app is not updating : e.g., after purchasing a product you don't see it in \"My Purchases\", a booking doesn't appear, or profile changes are not saved. Solutions Refresh the screen Swipe down from the top of the list (pull-to-refresh) to force a data refresh. Switch between tabs Go to a different tab and come back : this forces the data to reload. Close and reopen the app Close the app completely (force close) and reopen it. Check your internet connection An unstable internet connection prevents synchronization. Check: - Wi-Fi or mobile data connection - Try opening a website in your browser Log out and log back in As a last resort: 1. Open Settings → Log out 2. Log back in with your credentials 3. Data should reload fresh --- Push Notifications If you're not receiving notifications about purchases and bookings: 1. Check that push notifications are enabled in privacy settings 2. Check your phone's system settings : make sure Spotto has permission to send ",
+      "excerpt": "Data in the app is not updating : e.g., after purchasing a product you don't see it in \"My Purchases\", a booking doesn't appear, or profile changes are not saved. Swipe down from the top of the list (...",
+      "role": "All",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/authentication/account-locked",
+      "title": "Account Locked",
+      "screen": "troubleshooting",
+      "content": "Account Locked Problem Your account has been temporarily or permanently locked and you cannot log in. Most Common Causes Too many failed login attempts Solution: 1. Wait 15-30 minutes 2. Try logging in again 3. If you don't remember your password : reset it Security lock If the system detected suspicious activity on your account: 1. Check your email inbox : you should have received a notification 2. If it wasn't you trying to log in : change your password immediately 3. Contact support@spotto.pl to unlock your account --- Contact Support If you cannot unlock your account on your own: - Email: support@spotto.pl - Provide your account email address and a description of the problem --- Related Topics - I can't log in - I forgot my password",
+      "excerpt": "Your account has been temporarily or permanently locked and you cannot log in. Solution: 1. Wait 15-30 minutes 2. Try logging in again 3. If you don't remember your password : reset it If the system d...",
+      "role": "All",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/authentication/forgot-password",
+      "title": "I Forgot My Password",
+      "screen": "troubleshooting",
+      "content": "I Forgot My Password Problem You don't remember your Spotto account password. Solution Step 1: Open the login screen Launch the Spotto app. On the login screen, tap Forgot password. Step 2: Enter your email address Type the email address associated with your account and tap Send link. Step 3: Check your inbox A password reset link will be sent to your email address. Check: - Your inbox - Spam / Junk folder Step 4: Set a new password Open the link from the email and set a new password. Step 5: Log in Return to the app and log in with your new password. --- Troubleshooting Email doesn't arrive - Check your Spam folder - Make sure you entered the correct email address - Wait a few minutes and try again - Check if an account with that email exists Link expired - Reset links have a limited validity period - Generate a new link by repeating the steps from the beginning --- Related Topics - I can't log in - Account locked",
+      "excerpt": "You don't remember your Spotto account password. Launch the Spotto app. On the login screen, tap Forgot password. Type the email address associated with your account and tap Send link. A password rese...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "troubleshooting/authentication/login-failed",
+      "title": "I Can't Log In",
+      "screen": "troubleshooting",
+      "content": "I Can't Log In Problem You cannot log in to the Spotto app : you see an error or the login screen doesn't accept your credentials. Most Common Causes and Solutions Wrong password Symptoms: Message \"Invalid email or password\" Solution: 1. Check that Caps Lock is not enabled 2. Make sure you are entering the correct email address 3. If you don't remember your password : reset it Account doesn't exist Symptoms: Message about a non-existent account Solution: 1. Check if the registration was completed 2. Make sure you are using the same email address as during registration 3. If the account doesn't exist, register again No internet connection Symptoms: Loading never finishes, timeout Solution: 1. Check Wi-Fi or mobile data connection 2. Open a browser and check if other websites work 3. Switch between Wi-Fi and mobile data Too many failed attempts Symptoms: Message about temporary lock Solution: 1. Wait a few minutes and try again 2. If the problem persists : reset your password --- Next St",
+      "excerpt": "You cannot log in to the Spotto app : you see an error or the login screen doesn't accept your credentials. Symptoms: Message \"Invalid email or password\" Solution: 1. Check that Caps Lock is not enabl...",
+      "role": "All",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "troubleshooting/bookings/booking-failed",
+      "title": "Booking Failed",
+      "screen": "troubleshooting",
+      "content": "Booking Failed Problem You are trying to book a sports facility, but the booking ends with an error. Most Common Causes and Solutions Time slot already taken Symptoms: Message about slot unavailability Solution: The selected slot was booked by another user. Choose a different time or day. Payment issue Symptoms: Booking is not confirmed after payment Solution: See Payment failed No internet connection Solution: Check your connection and try again. Facility not accepting bookings Symptoms: No available slots Solution: 1. Check the facility's schedule : it may be closed on the selected date 2. Try a different day 3. Contact the facility directly --- Pending Payments If the payment was interrupted, the booking will go to the Pending Payments section on the Home screen. You can complete the payment from there. --- Related Topics - Time slot unavailable - Payment failed - How to book a facility",
+      "excerpt": "You are trying to book a sports facility, but the booking ends with an error. Symptoms: Message about slot unavailability Solution: The selected slot was booked by another user. Choose a different tim...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/bookings/cannot-cancel",
+      "title": "I Can't Cancel a Booking",
+      "screen": "troubleshooting",
+      "content": "I Can't Cancel a Booking Problem You want to cancel a booking, but the option is not available or an error is displayed. Most Common Causes Too late to cancel Symptoms: The \"Cancel\" button is inactive or a message is displayed Explanation: Many facilities do not allow cancellation less than 48 hours before the booking time. Solution: Contact the sports facility directly : you can find the contact details in the booking details. Booking has already started Explanation: You cannot cancel a booking that is already in progress or has already taken place. Technical issues Solution: 1. Check your internet connection 2. Close and reopen the app 3. Try again --- Cancellation Policy | Time until booking | Refund | |-------------------|--------| | More than 48 hours | Full refund minus 10% processing fee | | Less than 48 hours | Depends on the facility's policy | | After the booking time | No refund | > ⚠️ Important: Specific cancellation policies may vary depending on the sports facility. --- R",
+      "excerpt": "You want to cancel a booking, but the option is not available or an error is displayed. Symptoms: The \"Cancel\" button is inactive or a message is displayed Explanation: Many facilities do not allow ca...",
+      "role": "User",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/bookings/time-slot-unavailable",
+      "title": "Time Slot Unavailable",
+      "screen": "troubleshooting",
+      "content": "Time Slot Unavailable Problem You want to book a facility, but the selected time slot is unavailable or grayed out. Most Common Causes Time slot taken by another user Someone booked this slot before you. Solution: Choose a different time on the same day or check availability on another day. Facility closed at the selected time The facility owner may have closed the facility for that day (holiday, maintenance break, etc.). Solution: Check a different day. Opening hours may vary on weekends and holidays. Minimum booking length Some facilities require a minimum booking of 2 slots (2 hours). Solution: Select the required minimum number of slots. --- Tips - Gray slots = taken or unavailable - Green slots = available for booking - Check several days to find an available slot - Peak hours (6:00 PM - 9:00 PM) get booked the fastest --- Related Topics - Booking failed - How to book a facility",
+      "excerpt": "You want to book a facility, but the selected time slot is unavailable or grayed out. Someone booked this slot before you. Solution: Choose a different time on the same day or check availability on an...",
+      "role": "User",
+      "difficulty": "Easy"
+    },
+    {
+      "slug": "troubleshooting/payments/payment-failed",
+      "title": "Payment Failed",
+      "screen": "troubleshooting",
+      "content": "Payment Failed Problem You are trying to pay for a booking or product, but the payment ends with an error. Most Common Causes and Solutions Insufficient funds Symptoms: TPay rejects the transaction Solution: Check your bank account balance and try again or use a different payment method. Payment card error Symptoms: Message about card rejection Solution: 1. Check that the card details are correct 2. Make sure the card has not expired 3. Check if you have reached your transaction limit 4. Contact your bank if the problem persists BLIK issue Symptoms: BLIK code is not accepted Solution: 1. Make sure the code is current (BLIK is valid for 2 minutes) 2. Generate a new code in your banking app 3. Check if you have BLIK payments enabled at your bank Redirect to TPay not working Symptoms: Browser does not open the TPay page Solution: 1. Check your internet connection 2. Close other apps in the background 3. Update the Spotto app 4. Try again Timeout / time expired Symptoms: Payment session ex",
+      "excerpt": "You are trying to pay for a booking or product, but the payment ends with an error. Symptoms: TPay rejects the transaction Solution: Check your bank account balance and try again or use a different pa...",
+      "role": "All",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/payments/refund-issues",
+      "title": "Refund Issues",
+      "screen": "troubleshooting",
+      "content": "Refund Issues Problem You are expecting a refund for a canceled booking or product, but the funds have not returned to your account. Refund Policy Bookings - Canceling a booking more than 48 hours in advance : full refund minus processing fee (10%) - Canceling less than 48 hours before the booking : refund may not apply (depends on the facility's policy) - Details can be found in the sports facility's terms and conditions Products (passes) - Refund policies are set individually by each sports facility - Contact the business directly Waiting Time | Payment method | Refund time | |---------------|-------------| | Payment card | 3-10 business days | | Bank transfer | 1-5 business days | | BLIK | 1-3 business days | What To Do 1. Check the booking status : make sure the cancellation was confirmed 2. Wait : refunds can take up to 10 business days 3. Check your bank statement : the refund may appear under a different date 4. Contact the facility : you can find the contact details in the book",
+      "excerpt": "You are expecting a refund for a canceled booking or product, but the funds have not returned to your account. - Canceling a booking more than 48 hours in advance : full refund minus processing fee (1...",
+      "role": "All",
+      "difficulty": "Medium"
+    },
+    {
+      "slug": "troubleshooting/payments/tpay-errors",
+      "title": "TPay Errors",
+      "screen": "troubleshooting",
+      "content": "TPay Errors Problem During payment via TPay, you see an error, the page doesn't load, or the redirect doesn't work. Most Common Errors TPay page doesn't load Solution: 1. Check your internet connection 2. Close the browser and try again 3. Clear your browser cache \"Session expired\" on the TPay page Solution: 1. Return to the Spotto app 2. Start the payment from the beginning 3. Try to complete the payment within a few minutes Error after successful payment Symptoms: TPay confirms the payment, but the app doesn't update the status Solution: 1. Wait a few seconds : the app verifies the payment in the background 2. Close and reopen the app 3. Check the \"My Purchases\" or \"Bookings\" tab 4. If the product/booking doesn't appear after a few minutes : contact support@spotto.pl Redirect from TPay doesn't return to the app Solution: 1. Manually open the Spotto app 2. Check if the booking or product was registered 3. If not : wait a few minutes and refresh --- Information for Support If you conta",
+      "excerpt": "During payment via TPay, you see an error, the page doesn't load, or the redirect doesn't work. Solution: 1. Check your internet connection 2. Close the browser and try again 3. Clear your browser cac...",
+      "role": "All",
+      "difficulty": "Medium"
+    }
+  ],
+  "stats": {
+    "totalItems": 98,
+    "lastBuilt": "2026-03-30T16:10:35.430Z"
+  }
+}
