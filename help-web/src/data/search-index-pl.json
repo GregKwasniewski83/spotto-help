@@ -227,6 +227,15 @@
       "difficulty": "Łatwa"
     },
     {
+      "slug": "home/features/community-wall",
+      "title": "Tablica społeczności",
+      "screen": "home",
+      "content": "Tablica społeczności Opis Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie sportu w Twojej okolicy. Co znajdziesz na tablicy !Feed tablicy społeczności z postami - Posty użytkowników : informacje o wydarzeniach, treningach i aktywnościach - Aktywność społeczności : co inni użytkownicy rezerwują i polecają - Ogłoszenia : ważne informacje od obiektów sportowych Interakcje Z tablicy społeczności możesz: - Przeglądać posty : przewiń w dół, aby zobaczyć więcej treści - Reagować : polub lub skomentuj post - Udostępniać : podziel się interesującym postem - Tworzyć posty : dotknij przycisku tworzenia nowego posta Tworzenie posta 1. Dotknij przycisku Nowy post na tablicy społeczności 2. Wpisz treść posta 3. Opcjonalnie dodaj zdjęcie lub lokalizację 4. Dotknij Opublikuj !Tworzenie nowego posta na tablicy społeczności > 💡 Wskazówka: Posty są widoc",
+      "excerpt": "Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie ...",
+      "role": "Użytkownik",
+      "difficulty": "Łatwa"
+    },
+    {
       "slug": "home/features/favorites",
       "title": "System ulubionych",
       "screen": "home",
@@ -847,7 +856,7 @@
     }
   ],
   "stats": {
-    "totalItems": 97,
-    "lastBuilt": "2026-05-12T18:02:23.522Z"
+    "totalItems": 98,
+    "lastBuilt": "2026-05-12T18:34:28.007Z"
   }
 }

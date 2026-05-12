@@ -1984,6 +1984,58 @@
       "excerpt": "Sekcja kategorii sportowych (Popularne aktywności) to interaktywna karuzela na ekranie Home, która pozwala szybko przeglądać obiekty według dyscypliny sportowej. !Karuzela kategorii sportowych na ekra..."
     },
     {
+      "slug": "home/features/community-wall",
+      "title": "Tablica społeczności",
+      "screen": "home",
+      "content": "\n# Tablica społeczności\n\n## Opis\n\nTablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie sportu w Twojej okolicy.\n\n## Co znajdziesz na tablicy\n\n![Feed tablicy społeczności z postami](/assets/images/home/feat-community-wall-feed.png)\n\n- **Posty użytkowników** : informacje o wydarzeniach, treningach i aktywnościach\n- **Aktywność społeczności** : co inni użytkownicy rezerwują i polecają\n- **Ogłoszenia** : ważne informacje od obiektów sportowych\n\n## Interakcje\n\nZ tablicy społeczności możesz:\n- **Przeglądać posty** : przewiń w dół, aby zobaczyć więcej treści\n- **Reagować** : polub lub skomentuj post\n- **Udostępniać** : podziel się interesującym postem\n- **Tworzyć posty** : dotknij przycisku tworzenia nowego posta\n\n## Tworzenie posta\n\n1. Dotknij przycisku **Nowy post** na tablicy społeczności\n2. Wpisz treść posta\n3. Opcjonalnie dodaj zdjęcie lub lokalizację\n4. Dotknij **Opublikuj**\n\n![Tworzenie nowego posta na tablicy społeczności](/assets/images/home/feat-community-wall-new-post.png)\n\n> 💡 **Wskazówka**: Posty są widoczne dla innych użytkowników Spotto. Pamiętaj o kulturze wypowiedzi.\n\n## Wymagania\n\n- Musisz być zalogowany/a, aby przeglądać i tworzyć posty\n- Tworzenie postów wymaga uzupełnionego profilu\n\n## Powiązane\n\n- [Ekran Home : przegląd](../README.md)\n- [Jak edytować profil](../../profile/how-to-edit-profile.md)\n\n---\n\n**Ostatnia aktualizacja**: 2026-03-21\n",
+      "isIndex": false,
+      "metadata": {
+        "screen": "home",
+        "role": "Użytkownik",
+        "difficulty": "Łatwa",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Tablica społeczności",
+          "id": "tablica-społeczności"
+        },
+        {
+          "level": 2,
+          "text": "Opis",
+          "id": "opis"
+        },
+        {
+          "level": 2,
+          "text": "Co znajdziesz na tablicy",
+          "id": "co-znajdziesz-na-tablicy"
+        },
+        {
+          "level": 2,
+          "text": "Interakcje",
+          "id": "interakcje"
+        },
+        {
+          "level": 2,
+          "text": "Tworzenie posta",
+          "id": "tworzenie-posta"
+        },
+        {
+          "level": 2,
+          "text": "Wymagania",
+          "id": "wymagania"
+        },
+        {
+          "level": 2,
+          "text": "Powiązane",
+          "id": "powiązane"
+        }
+      ],
+      "excerpt": "Tablica społeczności (Community Wall) to sekcja na ekranie Home, gdzie użytkownicy mogą przeglądać posty i aktywność społeczności Spotto. To miejsce, w którym możesz zobaczyć, co dzieje się w świecie ..."
+    },
+    {
       "slug": "home/features/favorites",
       "title": "System ulubionych",
       "screen": "home",
@@ -3449,7 +3501,7 @@
       "isIndex": true,
       "metadata": {
         "screen": "README.md",
-        "lastUpdated": "2026-05-12T18:02:18.848Z",
+        "lastUpdated": "2026-05-12T18:34:27.153Z",
         "prerequisites": []
       },
       "headings": [
@@ -6924,7 +6976,7 @@
     },
     {
       "screen": "home",
-      "articleCount": 13,
+      "articleCount": 14,
       "statuses": {
         "completed": 0,
         "inProgress": 0,
@@ -6978,8 +7030,8 @@
     }
   ],
   "stats": {
-    "totalArticles": 97,
+    "totalArticles": 98,
     "totalScreens": 8,
-    "lastBuilt": "2026-05-12T18:02:19.402Z"
+    "lastBuilt": "2026-05-12T18:34:27.250Z"
   }
 }
