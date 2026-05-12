@@ -3,6 +3,7 @@ import { Home, Calendar, ShoppingBag, Briefcase, User, Settings, AlertCircle } f
 import { clsx } from 'clsx';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { getScreenName, getScreenDescription } from '@/lib/i18n/translations';
+import { colors } from '@/lib/theme';
 
 interface Screen {
   slug: string;
@@ -45,15 +46,20 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
       {/* Sidebar */}
       <aside
         className={clsx(
-          'fixed lg:sticky top-16 left-0 h-[calc(100vh-4rem)] w-64 bg-white border-r border-gray-200 z-40 transition-transform duration-300 ease-in-out overflow-y-auto',
+          'fixed lg:sticky left-0 w-64 z-40 transition-transform duration-300 ease-in-out overflow-y-auto',
+          'top-[72px] h-[calc(100vh-72px)]',
           {
             'translate-x-0': isOpen,
             '-translate-x-full lg:translate-x-0': !isOpen,
           }
         )}
+        style={{
+          backgroundColor: colors.card,
+          borderRight: `1px solid ${colors.border}`,
+        }}
       >
         <nav className="p-4">
-          <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
+          <h2 className="text-xs font-semibold uppercase tracking-wider mb-4" style={{ color: colors.textSecondary }}>
             {t('sidebar.screens')}
           </h2>
           <ul className="space-y-1">
@@ -66,35 +72,31 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                   <Link
                     to={`/screen/${screen.slug}`}
                     onClick={() => onClose()}
-                    className={clsx(
-                      'flex items-start gap-3 px-3 py-3 rounded-lg transition-colors group',
-                      {
-                        'bg-primary-50 text-primary-700': isActive,
-                        'text-gray-700 hover:bg-gray-50': !isActive,
-                      }
-                    )}
+                    className="flex items-start gap-3 px-3 py-3 rounded-lg transition-colors group"
+                    style={{
+                      backgroundColor: isActive ? 'rgba(77, 99, 172, 0.10)' : 'transparent',
+                      color: isActive ? colors.primary : colors.textPrimary,
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!isActive) e.currentTarget.style.backgroundColor = 'rgba(77, 99, 172, 0.05)';
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!isActive) e.currentTarget.style.backgroundColor = 'transparent';
+                    }}
                   >
                     <Icon
                       size={20}
-                      className={clsx(
-                        'mt-0.5 flex-shrink-0',
-                        {
-                          'text-primary-600': isActive,
-                          'text-gray-500 group-hover:text-primary-500': !isActive,
-                        }
-                      )}
+                      className="mt-0.5 flex-shrink-0"
+                      style={{ color: isActive ? colors.primary : colors.textSecondary }}
                     />
                     <div className="flex-1 min-w-0">
-                      <div className={clsx(
-                        'font-medium text-sm',
-                        {
-                          'text-primary-700': isActive,
-                          'text-gray-900': !isActive,
-                        }
-                      )}>
+                      <div
+                        className="font-medium text-sm"
+                        style={{ color: isActive ? colors.primary : colors.textPrimary }}
+                      >
                         {getScreenName(screen.slug, lang)}
                       </div>
-                      <p className="text-xs text-gray-500 mt-0.5 line-clamp-2">
+                      <p className="text-xs mt-0.5 line-clamp-2" style={{ color: colors.textSecondary, opacity: 0.75 }}>
                         {getScreenDescription(screen.slug, lang)}
                       </p>
                     </div>
@@ -104,15 +106,18 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             })}
           </ul>
 
-          <div className="mt-8 pt-6 border-t border-gray-200">
-            <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
+          <div className="mt-8 pt-6" style={{ borderTop: `1px solid ${colors.border}` }}>
+            <h2 className="text-xs font-semibold uppercase tracking-wider mb-4" style={{ color: colors.textSecondary }}>
               {t('sidebar.resources')}
             </h2>
             <ul className="space-y-1">
               <li>
                 <Link
                   to="/getting-started"
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors text-sm"
+                  className="flex items-center gap-3 px-3 py-2 rounded-lg transition-colors text-sm"
+                  style={{ color: colors.textPrimary }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(77, 99, 172, 0.05)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
                 >
                   {t('sidebar.gettingStarted')}
                 </Link>
@@ -120,7 +125,10 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               <li>
                 <Link
                   to="/glossary"
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors text-sm"
+                  className="flex items-center gap-3 px-3 py-2 rounded-lg transition-colors text-sm"
+                  style={{ color: colors.textPrimary }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(77, 99, 172, 0.05)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; }}
                 >
                   {t('sidebar.glossary')}
                 </Link>

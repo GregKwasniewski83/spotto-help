@@ -48,7 +48,6 @@ You can send requests to multiple businesses at once:
 1. Check the businesses you want to partner with
 2. Tap **Send requests**
 
-![Business selection: Screenshot #43](../../assets/images/trainer/select-businesses.png)
 
 > 💡 **Tip**: You can send requests to multiple businesses at once. Each business independently decides on approval.
 

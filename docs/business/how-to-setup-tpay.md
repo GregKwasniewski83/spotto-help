@@ -34,7 +34,6 @@ TPay to bramka płatnicza, która umożliwia Twoim klientom płacenie za rezerwa
 
 Na ekranie Biznes dotknij przycisku edycji profilu. Przewiń do sekcji **Dane TPay**.
 
-![Sekcja TPay : Screenshot #26](../../assets/images/business/tpay-section.png)
 
 ### Krok 2: Wypełnij wymagane dane
 

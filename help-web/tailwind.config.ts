@@ -8,52 +8,66 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Spotto design system (source: packages/mobile/constants/Colors.ts)
         primary: {
-          50: '#e3f2fd',
-          100: '#bbdefb',
-          200: '#90caf9',
-          300: '#64b5f6',
-          400: '#42a5f5',
-          500: '#1E88E5',  // Main blue (matching mobile app)
-          600: '#1976D2',
-          700: '#1565C0',
-          800: '#0d47a1',
-          900: '#0a3a85'
+          50: '#eef0f7',
+          100: '#d3d8eb',
+          200: '#a8b1d6',
+          300: '#7c8ac1',
+          400: '#5f70b6',
+          500: '#4d63ac',  // brand primary
+          600: '#3f5391',
+          700: '#35435d',  // primaryLight (dark accent)
+          800: '#293450',
+          900: '#1e2638'
         },
         accent: {
-          50: '#fff3e0',
-          100: '#ffe0b2',
-          200: '#ffcc80',
-          300: '#ffb74d',
-          400: '#ffa726',
-          500: '#FFA726',  // Orange accent
-          600: '#fb8c00',
-          700: '#f57c00',
-          800: '#ef6c00',
-          900: '#e65100'
+          50: '#ffece5',
+          100: '#ffcdb8',
+          200: '#ffae8a',
+          300: '#ff8e5c',
+          400: '#ff762f',
+          500: '#ff5622',  // accent CTA
+          600: '#e64718',
+          700: '#bf3812',
+          800: '#982a0d',
+          900: '#721d08'
         },
-        background: {
-          DEFAULT: '#F9FAFB',
-          dark: '#1a1a1a'
+        dark: {
+          DEFAULT: '#23262B',
+          50: '#3a3f47',
+          100: '#33373e',
+          900: '#1a1d21'
+        },
+        spotto: {
+          background: '#F0F4F7',
+          card: '#FFFFFF',
+          border: '#E5E7EB',
+          book: '#5FA78A',
+          success: '#5FA78A',
+          warning: '#ff5622',
+          error: '#006A7A',
+          unavailable: '#c06f57'
         }
+      },
+      fontFamily: {
+        brand: ['Poppins', 'system-ui', 'sans-serif'],
+        body: ['Roboto', 'system-ui', 'sans-serif'],
+        sans: ['Roboto', 'system-ui', 'sans-serif']
       },
       typography: {
         DEFAULT: {
           css: {
             maxWidth: 'none',
-            color: '#1f2937',
+            color: '#23262B',
             a: {
-              color: '#1E88E5',
+              color: '#4d63ac',
               '&:hover': {
-                color: '#1565C0',
+                color: '#35435d',
               },
             },
-            'code::before': {
-              content: '""'
-            },
-            'code::after': {
-              content: '""'
-            },
+            'code::before': { content: '""' },
+            'code::after': { content: '""' },
           },
         },
       },

@@ -1,79 +1,15 @@
 import { useState } from 'react';
-import { Menu, BarChart3, Search, Home, ChevronRight, Globe } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import { Menu, BarChart3, Search, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import SearchBar from '../search/SearchBar';
 import MobileSearchModal from '../search/MobileSearchModal';
 import spottoLogo from '../../assets/spotto-logo.png';
-import { getArticleBySlug } from '@/lib/content/loader';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
-import { getScreenName } from '@/lib/i18n/translations';
+import { colors, fonts } from '@/lib/theme';
 
 interface HeaderProps {
   onMenuClick: () => void;
   isMobileMenuOpen: boolean;
-}
-
-function Breadcrumbs() {
-  const location = useLocation();
-  const { lang, t } = useLanguage();
-  const path = location.pathname;
-
-  const crumbs: { label: string; to?: string }[] = [
-    { label: t('breadcrumb.home'), to: '/' }
-  ];
-
-  // /screen/:screen
-  const screenMatch = path.match(/^\/screen\/([^/]+)/);
-  if (screenMatch) {
-    const screen = screenMatch[1];
-    crumbs.push({ label: getScreenName(screen, lang) });
-  }
-
-  // /article/...slug
-  const articleMatch = path.match(/^\/article\/(.+)/);
-  if (articleMatch) {
-    const slug = articleMatch[1];
-    const article = getArticleBySlug(slug, lang);
-    if (article) {
-      crumbs.push({
-        label: getScreenName(article.screen, lang),
-        to: `/screen/${article.screen}`
-      });
-      crumbs.push({ label: article.title });
-    }
-  }
-
-  // /dashboard
-  if (path === '/dashboard') {
-    crumbs.push({ label: 'Dashboard' });
-  }
-
-  if (crumbs.length <= 1) return null;
-
-  return (
-    <div className="border-t border-white/10">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center justify-center gap-1.5 py-2 text-sm overflow-x-auto scrollbar-hide">
-          {crumbs.map((crumb, i) => (
-            <span key={i} className="flex items-center gap-1.5 whitespace-nowrap">
-              {i > 0 && <ChevronRight size={14} className="text-gray-500 flex-shrink-0" />}
-              {crumb.to ? (
-                <Link
-                  to={crumb.to}
-                  className="text-gray-400 hover:text-white transition-colors flex items-center gap-1"
-                >
-                  {i === 0 && <Home size={14} />}
-                  {crumb.label}
-                </Link>
-              ) : (
-                <span className="text-white font-medium">{crumb.label}</span>
-              )}
-            </span>
-          ))}
-        </nav>
-      </div>
-    </div>
-  );
 }
 
 export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
@@ -85,12 +21,18 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
   };
 
   return (
-    <header className="bg-[#23262B] sticky top-0 z-50">
+    <header
+      className="sticky top-0 z-50"
+      style={{
+        backgroundColor: colors.dark,
+        borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+      }}
+    >
       {/* Top row: Logo, Search, Dashboard */}
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14">
-          {/* Left: Logo and mobile menu */}
-          <div className="flex items-center gap-3">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="flex items-center justify-between py-4 gap-4">
+          {/* Left: Logo + Spotto brand + Help Center label */}
+          <div className="flex items-center gap-3 min-w-0">
             <button
               onClick={onMenuClick}
               className="lg:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
@@ -99,15 +41,52 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
               <Menu size={22} className="text-white" />
             </button>
 
-            <Link to="/" className="flex items-center">
-              <div className="flex items-center gap-2">
-                <img src={spottoLogo} alt="Spotto" className="w-8 h-8 object-contain" />
-                <div className="hidden sm:block">
-                  <h1 className="font-bold text-white leading-tight" style={{ fontSize: '2rem' }}>{t('header.title')}</h1>
-                  <p className="text-[11px] text-gray-400 leading-tight">{t('header.subtitle')}</p>
-                </div>
-              </div>
+            {/* Brand mark — matches spotto.pl exactly */}
+            <Link to="/" className="flex items-center gap-2 shrink-0">
+              <img
+                src={spottoLogo}
+                alt="Spotto"
+                className="h-10 w-10 rounded-full logo-glow object-cover"
+              />
+              <span
+                style={{
+                  fontFamily: fonts.display,
+                  fontSize: '1.4rem',
+                  fontWeight: 300,
+                  letterSpacing: '-0.025em',
+                  color: '#f0f4f7',
+                  lineHeight: 1,
+                }}
+              >
+                Spotto
+              </span>
             </Link>
+
+            {/* Help Center label — separate from brand mark */}
+            <span
+              className="hidden md:inline-flex items-center"
+              aria-hidden="true"
+              style={{
+                color: 'rgba(255,255,255,0.18)',
+                fontSize: '1.25rem',
+                fontWeight: 200,
+                margin: '0 2px',
+              }}
+            >
+              /
+            </span>
+            <span
+              className="hidden md:inline-flex truncate"
+              style={{
+                fontFamily: fonts.display,
+                fontSize: '0.95rem',
+                fontWeight: 400,
+                color: '#9aa3b2',
+                letterSpacing: '0.01em',
+              }}
+            >
+              {t('header.helpCenter')}
+            </span>
           </div>
 
           {/* Right: Search, Language, Dashboard */}
@@ -153,9 +132,6 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
           </div>
         </div>
       </div>
-
-      {/* Breadcrumbs row */}
-      <Breadcrumbs />
 
       {/* Mobile Search Modal */}
       <MobileSearchModal

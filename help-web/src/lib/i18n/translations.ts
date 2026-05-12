@@ -4,6 +4,7 @@ export const translations = {
   // Header
   'header.title': { pl: 'Spotto Pomoc', en: 'Spotto Help' },
   'header.subtitle': { pl: 'Centrum pomocy i dokumentacji', en: 'Help & Documentation Center' },
+  'header.helpCenter': { pl: 'Centrum pomocy Spotto', en: 'Spotto Help Center' },
   'header.search': { pl: 'Szukaj', en: 'Search' },
   'header.openMenu': { pl: 'Otwórz menu', en: 'Open menu' },
   'header.closeMenu': { pl: 'Zamknij menu', en: 'Close menu' },

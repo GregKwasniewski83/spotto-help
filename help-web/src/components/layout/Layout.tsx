@@ -29,7 +29,7 @@ function LayoutInner() {
   const closeSidebar = () => setIsSidebarOpen(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--spotto-background)' }}>
       <ScrollToTop />
       <LanguageSync />
       <Header onMenuClick={toggleSidebar} isMobileMenuOpen={isSidebarOpen} />

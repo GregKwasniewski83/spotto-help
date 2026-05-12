@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useSearch } from '@/hooks/useSearch';
 import SearchResults from './SearchResults';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
+import { colors } from '@/lib/theme';
 
 interface SearchBarProps {
   className?: string;
@@ -69,8 +70,20 @@ export default function SearchBar({ className = '' }: SearchBarProps) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={t('search.placeholder')}
-          className="w-full pl-10 pr-10 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all"
-          style={{ backgroundColor: '#f3f4f6', color: '#1f2937', border: '1px solid #d1d5db' }}
+          className="w-full pl-10 pr-10 py-2 rounded-lg focus:outline-none transition-all"
+          style={{
+            backgroundColor: '#ffffff',
+            color: colors.textPrimary,
+            border: `1px solid ${colors.border}`,
+          }}
+          onFocus={(e) => {
+            e.currentTarget.style.borderColor = colors.primary;
+            e.currentTarget.style.boxShadow = `0 0 0 3px rgba(77, 99, 172, 0.20)`;
+          }}
+          onBlur={(e) => {
+            e.currentTarget.style.borderColor = colors.border;
+            e.currentTarget.style.boxShadow = 'none';
+          }}
           aria-label={t('search.ariaLabel')}
         />
 

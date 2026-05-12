@@ -35,7 +35,6 @@ Dotknij karty obiektu, aby otworzyć jego stronę szczegółów.
 
 Na stronie szczegółów obiektu dotknij ikony serca (♡) w prawym górnym rogu. Ikona zmieni się na wypełnione serce (♥), potwierdzając dodanie do ulubionych.
 
-![Dodawanie do ulubionych](../../assets/images/home/add-to-favorites.png)
 
 > 💡 **Wskazówka**: Możesz też dodać obiekt do ulubionych bezpośrednio z karty wyników wyszukiwania, dotykając ikony serca.
 
