@@ -3449,7 +3449,7 @@
       "isIndex": true,
       "metadata": {
         "screen": "README.md",
-        "lastUpdated": "2026-05-12T15:17:56.340Z",
+        "lastUpdated": "2026-05-12T18:02:19.461Z",
         "prerequisites": []
       },
       "headings": [
@@ -6980,6 +6980,6 @@
   "stats": {
     "totalArticles": 97,
     "totalScreens": 8,
-    "lastBuilt": "2026-05-12T15:17:56.828Z"
+    "lastBuilt": "2026-05-12T18:02:19.990Z"
   }
 }

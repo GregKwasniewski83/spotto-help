@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, BarChart3, Search, Globe } from 'lucide-react';
+import { BarChart3, Search, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SearchBar from '../search/SearchBar';
 import MobileSearchModal from '../search/MobileSearchModal';
@@ -7,12 +7,7 @@ import spottoLogo from '../../assets/spotto-logo.png';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { colors, fonts } from '@/lib/theme';
 
-interface HeaderProps {
-  onMenuClick: () => void;
-  isMobileMenuOpen: boolean;
-}
-
-export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
+export default function Header() {
   const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
   const { lang, setLang, t } = useLanguage();
 
@@ -33,14 +28,6 @@ export default function Header({ onMenuClick, isMobileMenuOpen }: HeaderProps) {
         <div className="flex items-center justify-between py-4 gap-4">
           {/* Left: Logo + Spotto brand + Help Center label */}
           <div className="flex items-center gap-3 min-w-0">
-            <button
-              onClick={onMenuClick}
-              className="lg:hidden p-2 rounded-md hover:bg-white/10 transition-colors"
-              aria-label={isMobileMenuOpen ? t('header.closeMenu') : t('header.openMenu')}
-            >
-              <Menu size={22} className="text-white" />
-            </button>
-
             {/* Brand mark — matches spotto.pl exactly */}
             <Link to="/" className="flex items-center gap-2 shrink-0">
               <img

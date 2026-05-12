@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Github, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { colors, fonts } from '@/lib/theme';
 import spottoLogo from '../../assets/spotto-logo.png';
@@ -89,20 +89,6 @@ export default function Footer() {
                 >
                   <Mail size={16} />
                   support@spotto.pl
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/GregKwasniewski83/spotto-help"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sm"
-                  style={linkStyle}
-                  onMouseEnter={linkHover}
-                  onMouseLeave={linkLeave}
-                >
-                  <Github size={16} />
-                  {t('footer.docsRepo')}
                 </a>
               </li>
             </ul>
