@@ -6,6 +6,27 @@ import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import 'highlight.js/styles/github.css';
 import { Link } from 'react-router-dom';
+import { colors, fonts } from '@/lib/theme';
+
+const linkStyle: React.CSSProperties = {
+  color: colors.primary,
+  textDecoration: 'none',
+  fontWeight: 500,
+};
+const onLinkEnter = (e: React.MouseEvent<HTMLElement>) => {
+  (e.currentTarget as HTMLElement).style.textDecoration = 'underline';
+  (e.currentTarget as HTMLElement).style.color = colors.primaryLight;
+};
+const onLinkLeave = (e: React.MouseEvent<HTMLElement>) => {
+  (e.currentTarget as HTMLElement).style.textDecoration = 'none';
+  (e.currentTarget as HTMLElement).style.color = colors.primary;
+};
+const headingStyle = (size: string): React.CSSProperties => ({
+  fontFamily: fonts.brand,
+  fontWeight: 700,
+  color: colors.dark,
+  fontSize: size,
+});
 
 /**
  * If a list item's text content contains " : ", bold the part before it.
@@ -93,12 +114,17 @@ function groupContentBySections(content: string): string[] {
 }
 
 function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: string; articleSlug?: string; isIndex?: boolean; isCard: boolean }) {
-  const wrapperClass = isCard
-    ? 'bg-white rounded-lg border border-gray-200 p-6 mb-4'
-    : 'mb-4';
+  const wrapperClass = isCard ? 'p-6 mb-4' : 'mb-4';
+  const wrapperStyle: React.CSSProperties = isCard
+    ? {
+        backgroundColor: colors.card,
+        border: `1px solid ${colors.border}`,
+        borderRadius: '12px',
+      }
+    : {};
 
   return (
-    <div className={wrapperClass}>
+    <div className={wrapperClass} style={wrapperStyle}>
       <div className="prose-content">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
@@ -116,6 +142,10 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
                   className="rounded-lg shadow-md"
                   style={{ width: '250px', height: 'auto' }}
                   loading="lazy"
+                  onError={(e) => {
+                    const wrapper = (e.currentTarget as HTMLImageElement).parentElement;
+                    if (wrapper) wrapper.style.display = 'none';
+                  }}
                 />
               </div>
             ),
@@ -126,7 +156,9 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary-600 hover:text-primary-700 hover:underline"
+                    style={linkStyle}
+                    onMouseEnter={onLinkEnter}
+                    onMouseLeave={onLinkLeave}
                   >
                     {children}
                   </a>
@@ -134,20 +166,14 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
               }
               if (href?.startsWith('/')) {
                 return (
-                  <Link
-                    to={href}
-                    className="text-primary-600 hover:text-primary-700 hover:underline"
-                  >
+                  <Link to={href} style={linkStyle} onMouseEnter={onLinkEnter} onMouseLeave={onLinkLeave}>
                     {children}
                   </Link>
                 );
               }
               if (href?.startsWith('#')) {
                 return (
-                  <a
-                    href={href}
-                    className="text-primary-600 hover:text-primary-700 hover:underline"
-                  >
+                  <a href={href} style={linkStyle} onMouseEnter={onLinkEnter} onMouseLeave={onLinkLeave}>
                     {children}
                   </a>
                 );
@@ -157,16 +183,13 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
                   ? resolveRelativePath(href, articleSlug, isIndex)
                   : href.replace(/\.md$/, '').replace(/^\.\//, '');
                 return (
-                  <Link
-                    to={`/article/${resolved}`}
-                    className="text-primary-600 hover:text-primary-700 hover:underline"
-                  >
+                  <Link to={`/article/${resolved}`} style={linkStyle} onMouseEnter={onLinkEnter} onMouseLeave={onLinkLeave}>
                     {children}
                   </Link>
                 );
               }
               return (
-                <a href={href} className="text-primary-600 hover:text-primary-700 hover:underline">
+                <a href={href} style={linkStyle} onMouseEnter={onLinkEnter} onMouseLeave={onLinkLeave}>
                   {children}
                 </a>
               );
@@ -183,22 +206,22 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
               );
             },
             h1: ({ children, id }) => (
-              <h1 id={id} className="text-2xl font-bold text-gray-900 mb-3">
+              <h1 id={id} className="mb-3" style={headingStyle('1.5rem')}>
                 {children}
               </h1>
             ),
             h2: ({ children, id }) => (
-              <h2 id={id} className="text-xl font-bold text-gray-900 mb-3">
+              <h2 id={id} className="mb-3" style={headingStyle('1.25rem')}>
                 {children}
               </h2>
             ),
             h3: ({ children, id }) => (
-              <h3 id={id} className="text-lg font-semibold text-gray-900 mt-5 mb-2">
+              <h3 id={id} className="mt-5 mb-2" style={{ ...headingStyle('1.125rem'), fontWeight: 600 }}>
                 {children}
               </h3>
             ),
             h4: ({ children, id }) => (
-              <h4 id={id} className="text-base font-semibold text-gray-900 mt-4 mb-2">
+              <h4 id={id} className="mt-4 mb-2" style={{ ...headingStyle('1rem'), fontWeight: 600 }}>
                 {children}
               </h4>
             ),
@@ -227,7 +250,17 @@ function MarkdownSection({ content, articleSlug, isIndex, isCard }: { content: s
               </ol>
             ),
             blockquote: ({ children }) => (
-              <blockquote className="border-l-4 border-primary-500 pl-4 py-2 my-4 bg-primary-50 rounded-r-lg text-gray-700 text-sm" style={{ lineHeight: '1.65' }}>
+              <blockquote
+                className="pl-4 py-2 my-4 text-sm"
+                style={{
+                  borderLeft: `4px solid ${colors.primary}`,
+                  backgroundColor: 'rgba(77,99,172,0.06)',
+                  borderTopRightRadius: '8px',
+                  borderBottomRightRadius: '8px',
+                  color: colors.textPrimary,
+                  lineHeight: '1.65',
+                }}
+              >
                 {children}
               </blockquote>
             ),

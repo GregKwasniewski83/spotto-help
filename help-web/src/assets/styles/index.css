@@ -1,30 +1,74 @@
 @import "tailwindcss";
 
+/* Spotto brand fonts */
+@import "@fontsource/poppins/100.css";
+@import "@fontsource/poppins/300.css";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+@import "@fontsource/poppins/900.css";
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+:root {
+  --spotto-primary: #4d63ac;
+  --spotto-primary-light: #35435d;
+  --spotto-accent: #ff5622;
+  --spotto-dark: #23262B;
+  --spotto-background: #F0F4F7;
+  --spotto-card: #FFFFFF;
+  --spotto-border: #E5E7EB;
+  --spotto-book: #5FA78A;
+  --spotto-success: #5FA78A;
+  --spotto-warning: #ff5622;
+  --spotto-error: #006A7A;
+  --spotto-text-primary: #23262B;
+  --spotto-text-secondary: #35435d;
+  --font-brand: "Poppins", system-ui, sans-serif;
+  --font-body: "Roboto", system-ui, sans-serif;
+}
+
+html, body {
+  background-color: var(--spotto-background);
+  color: var(--spotto-text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(77, 99, 172, 0.25);
+  color: var(--spotto-dark);
+}
+
 @layer base {
   header input[type="text"] {
     background-color: #ffffff;
-    border-color: #d1d5db;
-    color: #1f2937;
+    border-color: var(--spotto-border);
+    color: var(--spotto-text-primary);
   }
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar — Spotto palette */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #e5eaf0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #a8b1d6;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--spotto-primary);
 }
 
 /* Hide scrollbar for nav */
@@ -41,13 +85,27 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Dark mode variables */
-[data-theme="dark"] {
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2d2d2d;
-  --text-primary: #f5f5f5;
-  --text-secondary: #b0b0b0;
-  --border-color: #404040;
+/* Focus outline using brand color */
+:focus-visible {
+  outline: 2px solid var(--spotto-primary);
+  outline-offset: 2px;
+}
+
+/* Spotto logo glow — parity with spotto.pl landing */
+.logo-glow {
+  box-shadow:
+    0 0 0 1px rgba(77, 99, 172, 0.22),
+    0 0 18px rgba(77, 99, 172, 0.28),
+    0 2px 8px rgba(0, 0, 0, 0.35);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.logo-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(77, 99, 172, 0.35),
+    0 0 24px rgba(77, 99, 172, 0.40),
+    0 2px 10px rgba(0, 0, 0, 0.40);
+  transform: scale(1.04);
 }
 
 /* Loading spinner animation */

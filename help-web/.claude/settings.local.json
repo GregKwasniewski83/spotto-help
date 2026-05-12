@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//mnt/c/Users/tadeu/Repo/**)",
+      "Read(//mnt/c/Users/tadeu/Repo/spotto-monorepo/**)"
+    ]
+  }
+}

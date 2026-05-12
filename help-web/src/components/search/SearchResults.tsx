@@ -134,7 +134,11 @@ function highlightMatch(text: string, query: string): React.ReactNode {
 
   return parts.map((part, index) =>
     part.toLowerCase() === query.toLowerCase() ? (
-      <mark key={index} className="bg-yellow-200 font-semibold">
+      <mark
+        key={index}
+        className="font-semibold"
+        style={{ backgroundColor: 'rgba(255, 86, 34, 0.20)', color: '#23262B' }}
+      >
         {part}
       </mark>
     ) : (

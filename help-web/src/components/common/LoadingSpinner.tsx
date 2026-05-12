@@ -4,6 +4,7 @@
  */
 
 import { Loader2 } from 'lucide-react';
+import { colors } from '@/lib/theme';
 
 interface LoadingSpinnerProps {
   size?: 'small' | 'medium' | 'large';
@@ -20,9 +21,9 @@ const sizeClasses = {
 export default function LoadingSpinner({ size = 'medium', text, className = '' }: LoadingSpinnerProps) {
   return (
     <div className={`flex flex-col items-center justify-center gap-3 ${className}`}>
-      <Loader2 className={`${sizeClasses[size]} text-primary-500 animate-spin`} />
+      <Loader2 className={`${sizeClasses[size]} animate-spin`} style={{ color: colors.primary }} />
       {text && (
-        <p className="text-sm text-gray-600">{text}</p>
+        <p className="text-sm" style={{ color: colors.textSecondary }}>{text}</p>
       )}
     </div>
   );
