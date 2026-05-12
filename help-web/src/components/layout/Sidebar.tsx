@@ -7,7 +7,7 @@ import { colors } from '@/lib/theme';
 
 interface Screen {
   slug: string;
-  icon: React.ComponentType<{ size?: number; className?: string }>;
+  icon: React.ComponentType<{ size?: number; className?: string; style?: React.CSSProperties }>;
 }
 
 const screens: Screen[] = [

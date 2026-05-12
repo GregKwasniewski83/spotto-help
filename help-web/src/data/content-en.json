@@ -1984,6 +1984,58 @@
       "excerpt": "The sport categories section (Popular Activities) is an interactive carousel on the Home screen that lets you quickly browse venues by sporting discipline. !Sport categories carousel on Home screen | ..."
     },
     {
+      "slug": "home/features/community-wall",
+      "title": "Community Wall",
+      "screen": "home",
+      "content": "\n# Community Wall\n\n## Description\n\nThe Community Wall is a section on the Home screen where users can browse posts and activity from the Spotto community. This is the place where you can see what is happening in the world of sport in your area.\n\n## What You'll Find on the Wall\n\n![Community wall feed with posts](/assets/images/home/feat-community-wall-feed.png)\n\n- **User posts** : information about events, training sessions, and activities\n- **Community activity** : what other users are booking and recommending\n- **Announcements** : important information from sports venues\n\n## Interactions\n\nFrom the Community Wall you can:\n- **Browse posts** : scroll down to see more content\n- **React** : like or comment on a post\n- **Share** : share an interesting post\n- **Create posts** : tap the button to create a new post\n\n## Creating a Post\n\n1. Tap the **New post** button on the Community Wall\n2. Type the content of your post\n3. Optionally add a photo or location\n4. Tap **Publish**\n\n![Creating a new post on Community Wall](/assets/images/home/feat-community-wall-new-post.png)\n\n> 💡 **Tip**: Posts are visible to other Spotto users. Please be mindful of your language and tone.\n\n## Requirements\n\n- You must be logged in to browse and create posts\n- Creating posts requires a completed profile\n\n## Related\n\n- [Home screen : overview](../README.md)\n- [How to edit your profile](../../profile/how-to-edit-profile.md)\n\n---\n\n**Last Updated**: 2026-03-21\n",
+      "isIndex": false,
+      "metadata": {
+        "screen": "home",
+        "role": "User",
+        "difficulty": "Easy",
+        "lastUpdated": "2026-03-21",
+        "prerequisites": []
+      },
+      "headings": [
+        {
+          "level": 1,
+          "text": "Community Wall",
+          "id": "community-wall"
+        },
+        {
+          "level": 2,
+          "text": "Description",
+          "id": "description"
+        },
+        {
+          "level": 2,
+          "text": "What You'll Find on the Wall",
+          "id": "what-youll-find-on-the-wall"
+        },
+        {
+          "level": 2,
+          "text": "Interactions",
+          "id": "interactions"
+        },
+        {
+          "level": 2,
+          "text": "Creating a Post",
+          "id": "creating-a-post"
+        },
+        {
+          "level": 2,
+          "text": "Requirements",
+          "id": "requirements"
+        },
+        {
+          "level": 2,
+          "text": "Related",
+          "id": "related"
+        }
+      ],
+      "excerpt": "The Community Wall is a section on the Home screen where users can browse posts and activity from the Spotto community. This is the place where you can see what is happening in the world of sport in y..."
+    },
+    {
       "slug": "home/features/favorites",
       "title": "Favorites system",
       "screen": "home",
@@ -3449,7 +3501,7 @@
       "isIndex": true,
       "metadata": {
         "screen": "README.md",
-        "lastUpdated": "2026-05-12T18:02:19.461Z",
+        "lastUpdated": "2026-05-12T18:34:27.260Z",
         "prerequisites": []
       },
       "headings": [
@@ -6924,7 +6976,7 @@
     },
     {
       "screen": "home",
-      "articleCount": 13,
+      "articleCount": 14,
       "statuses": {
         "completed": 0,
         "inProgress": 0,
@@ -6978,8 +7030,8 @@
     }
   ],
   "stats": {
-    "totalArticles": 97,
+    "totalArticles": 98,
     "totalScreens": 8,
-    "lastBuilt": "2026-05-12T18:02:19.990Z"
+    "lastBuilt": "2026-05-12T18:34:27.304Z"
   }
 }
